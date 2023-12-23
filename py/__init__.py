@@ -8,7 +8,18 @@ from PIL import Image
 # === Jovimetrix Cleanup Support ===
 # =============================================================================
 
-def mergePNGMeta(root: str, target: str) -> None:
+def merge_metadata(fn: str, out: str, data: dict) -> None:
+    with Image.open(fn) as image:
+        metadata = PngInfo()
+        for i in image.text:
+            if i == 'workflow':
+                continue
+            metadata.add_text(i, str(image.text[i]))
+        metadata.add_text("workflow", data.encode('utf-8'))
+        image.save(out, pnginfo=metadata)
+        print(f"{fn} ==> {out}")
+
+def merge_all_metadata(root: str, target: str) -> None:
     for r, _, fs in os.walk(root):
         for f in fs:
             f, ext = os.path.splitext(f)
@@ -24,19 +35,12 @@ def mergePNGMeta(root: str, target: str) -> None:
                 data = out.read()
 
             out = f"{target}/{f}.png"
-            with Image.open(img) as image:
-                metadata = PngInfo()
-                for i in image.text:
-                    if i == 'workflow':
-                        continue
-                    metadata.add_text(i, str(image.text[i]))
-                metadata.add_text("workflow", data.encode('utf-8'))
-                image.save(out, pnginfo=metadata)
-                Logger.info(f"{f} ==> {out}")
+            # merge_metadata(img, out, data)
+            print(img, out, len(data))
 
 # =============================================================================
 # === ASILE 5 ===
 # =============================================================================
 
 if __name__ == "__main__":
-    mergePNGMeta('../../pysssss-workflows', './flow')
+    merge_all_metadata('.')

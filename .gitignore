@@ -2,3 +2,4 @@ _*/*
 *.code-workspace
 .venv/*
 ..json
+.vscode/*

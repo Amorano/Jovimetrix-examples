@@ -1,0 +1,74 @@
+{
+    "last_node_id": 2,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 2,
+            "type": "⚗️ Blend (jov)",
+            "pos": [
+                1860,
+                810
+            ],
+            "size": [
+                210,
+                270
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixelA",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "pixelB",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "mask",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "⚗️ Blend (jov)"
+            },
+            "widgets_values": [
+                "NORMAL",
+                1,
+                false,
+                256,
+                256,
+                "NONE",
+                "LANCZOS4",
+                0
+            ]
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "ab46aa72-ccd0-453c-8dc2-d6609929fab0"
+        }
+    },
+    "version": 0.4
+}

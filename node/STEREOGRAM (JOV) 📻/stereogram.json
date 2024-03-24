@@ -1,0 +1,60 @@
+{
+    "last_node_id": 3,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 3,
+            "type": "STEREOGRAM (JOV) 📻",
+            "pos": [
+                1840,
+                780
+            ],
+            "size": [
+                210,
+                150
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "DEPTH",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "STEREOGRAM (JOV) 📻"
+            },
+            "widgets_values": [
+                8,
+                0.33,
+                0.33,
+                1
+            ],
+            "color": "#1F991FFF"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "63322cc7-3a15-438d-8728-7c18efddc30d"
+        }
+    },
+    "version": 0.4
+}

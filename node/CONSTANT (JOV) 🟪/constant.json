@@ -1,0 +1,60 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "CONSTANT (JOV) 🟪",
+            "pos": [
+                1830,
+                790
+            ],
+            "size": [
+                210,
+                100
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CONSTANT (JOV) 🟪"
+            },
+            "widgets_values": [
+                [
+                    512,
+                    512
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    255
+                ]
+            ],
+            "color": "#1F991FFF"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "f71a3c0d-c8f9-4a7c-aa9f-a8aec0e6b6d5"
+        }
+    },
+    "version": 0.4
+}

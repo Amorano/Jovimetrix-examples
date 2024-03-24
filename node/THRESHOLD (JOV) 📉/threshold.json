@@ -1,0 +1,67 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "📉 Threshold (jov)",
+            "pos": [
+                780,
+                420
+            ],
+            "size": {
+                "0": 210,
+                "1": 270
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixels",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "📉 Threshold (jov)"
+            },
+            "widgets_values": [
+                "BINARY",
+                "ADAPT_NONE",
+                0.5,
+                3,
+                0,
+                256,
+                256,
+                "NONE",
+                0
+            ],
+            "color": "#223",
+            "bgcolor": "#335"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "ddcebddc-9be7-4680-9b4b-7153b1b35d86"
+        }
+    },
+    "version": 0.4
+}

@@ -1,0 +1,67 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "🕛 Tick (jov)",
+            "pos": [
+                787.4060318405902,
+                541.038816825248
+            ],
+            "size": [
+                210,
+                190
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🧮",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🛟",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🕛",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🔺🕛",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🕛 Tick (jov)"
+            },
+            "widgets_values": [
+                0,
+                false,
+                false,
+                false
+            ],
+            "color": "#332922",
+            "bgcolor": "#593930"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "2dd45ff4-6b36-4de1-a888-da30aa24d1e1"
+        }
+    },
+    "version": 0.4
+}

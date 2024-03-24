@@ -1,0 +1,256 @@
+{
+    "last_node_id": 20,
+    "last_link_id": 27,
+    "nodes": [
+        {
+            "id": 8,
+            "type": "PreviewImage",
+            "pos": [
+                963.2653870244507,
+                303.1056428433509
+            ],
+            "size": {
+                "0": 330,
+                "1": 280
+            },
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 26
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PreviewImage"
+            },
+            "color": "#222",
+            "bgcolor": "#000"
+        },
+        {
+            "id": 19,
+            "type": "PreviewImage",
+            "pos": [
+                963.2653870244507,
+                633.1056428433506
+            ],
+            "size": {
+                "0": 330,
+                "1": 280
+            },
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 25
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PreviewImage"
+            },
+            "color": "#222",
+            "bgcolor": "#000"
+        },
+        {
+            "id": 16,
+            "type": "🌈 HSV (jov)",
+            "pos": [
+                723.2653870244491,
+                633.1056428433506
+            ],
+            "size": {
+                "0": 210,
+                "1": 222
+            },
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "link": 21,
+                    "slot_index": 0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": [
+                        25
+                    ],
+                    "shape": 3,
+                    "slot_index": 0
+                },
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🌈 HSV (jov)"
+            },
+            "widgets_values": [
+                0.5,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "color": "#223",
+            "bgcolor": "#335"
+        },
+        {
+            "id": 15,
+            "type": "🔰 Mirror (jov)",
+            "pos": [
+                723.2653870244491,
+                423.10564284335095
+            ],
+            "size": {
+                "0": 210,
+                "1": 150
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixels",
+                    "type": "*",
+                    "link": 27,
+                    "slot_index": 0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": [
+                        21
+                    ],
+                    "shape": 3,
+                    "slot_index": 0
+                },
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🔰 Mirror (jov)"
+            },
+            "widgets_values": [
+                0.5,
+                0.5,
+                "XY",
+                0
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        },
+        {
+            "id": 20,
+            "type": "📺 StreamReader (jov)",
+            "pos": [
+                490,
+                305
+            ],
+            "size": [
+                210,
+                270
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": [
+                        26,
+                        27
+                    ],
+                    "shape": 3,
+                    "slot_index": 0
+                },
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "📺 StreamReader (jov)"
+            },
+            "widgets_values": [
+                0,
+                "",
+                60,
+                false,
+                256,
+                256,
+                "NONE",
+                0,
+                "NORMAL"
+            ],
+            "color": "#322",
+            "bgcolor": "#533"
+        }
+    ],
+    "links": [
+        [
+            21,
+            15,
+            0,
+            16,
+            0,
+            "IMAGE"
+        ],
+        [
+            25,
+            16,
+            0,
+            19,
+            0,
+            "IMAGE"
+        ],
+        [
+            26,
+            20,
+            0,
+            8,
+            0,
+            "IMAGE"
+        ],
+        [
+            27,
+            20,
+            0,
+            15,
+            0,
+            "*"
+        ]
+    ],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "896dd138-cb41-4dda-9f93-cb697569ae98"
+        }
+    },
+    "version": 0.4
+}

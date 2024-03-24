@@ -1,0 +1,75 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "🫱🏿‍🫲🏼 Pixel Merge (jov)",
+            "pos": [
+                721.5298498208977,
+                504.9802750881531
+            ],
+            "size": [
+                225,
+                195
+            ],
+            "flags": {
+                "pinned": true
+            },
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "R",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "G",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "B",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🫱🏿‍🫲🏼 Pixel Merge (jov)"
+            },
+            "widgets_values": [
+                512,
+                512,
+                "NONE",
+                "LANCZOS",
+                0
+            ],
+            "color": "#323",
+            "bgcolor": "#535"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "7e64000f-7d6f-4a1c-81f2-06a124f89c9d"
+        }
+    },
+    "version": 0.4
+}

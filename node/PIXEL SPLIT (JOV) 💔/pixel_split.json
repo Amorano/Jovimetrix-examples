@@ -1,0 +1,80 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "💔 Pixel Split (jov)",
+            "pos": [
+                781.8585638810371,
+                656.1487769859739
+            ],
+            "size": [
+                170,
+                125
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixels",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "❤️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "🟥",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "💚",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "🟩",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "💙",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "🟦",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "💔 Pixel Split (jov)"
+            },
+            "color": "#323",
+            "bgcolor": "#535"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "f33cd79b-0b90-43b3-9eec-d635e6182c71"
+        }
+    },
+    "version": 0.4
+}

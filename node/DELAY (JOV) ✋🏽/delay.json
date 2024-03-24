@@ -1,0 +1,51 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "🚌 Route (jov)",
+            "pos": [
+                745,
+                510
+            ],
+            "size": {
+                "0": 170,
+                "1": 26
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "o",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🚌",
+                    "type": "*",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🚌 Route (jov)"
+            },
+            "color": "#222",
+            "bgcolor": "#000",
+            "shape": 1
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "a90cad1a-ea7a-4960-a0b8-90e613a95e9a"
+        }
+    },
+    "version": 0.4
+}

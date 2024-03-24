@@ -1,0 +1,60 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "🕸️ Adjust (jov)",
+            "pos": [
+                1950,
+                810
+            ],
+            "size": {
+                "0": 210,
+                "1": 150
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixels",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🕸️ Adjust (jov)"
+            },
+            "widgets_values": [
+                "BLUR",
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "f9ce73a8-0576-4b2e-9ee1-61392e6d411e"
+        }
+    },
+    "version": 0.4
+}

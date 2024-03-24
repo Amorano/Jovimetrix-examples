@@ -1,1 +1,2214 @@
-{"last_node_id": 191, "last_link_id": 286, "nodes": [{"id": 62, "type": "ADJUST (JOV) \ud83d\udd78\ufe0f", "pos": [775.0449868624492, 1783.9400026866065], "size": [210, 150], "flags": {}, "order": 0, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}, {"name": "\ud83d\ude37", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "ADJUST (JOV) \ud83d\udd78\ufe0f"}, "widgets_values": ["BLUR", 3, 1, [0, 1], [0, 0.5, 1], [0, 1, 1], 0, 1, "NONE", 0], "color": "#958100FF"}, {"id": 53, "type": "THRESHOLD (JOV) \ud83d\udcc9", "pos": [775.0449868624492, 1973.9400026866053], "size": {"0": 210, "1": 154}, "flags": {}, "order": 1, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "THRESHOLD (JOV) \ud83d\udcc9"}, "widgets_values": ["ADAPT_NONE", "BINARY", 0.75, 3, 0], "color": "#958100FF"}, {"id": 31, "type": "GLSL (JOV) \ud83c\udf69", "pos": [1772.8912525994322, 1455.0661205504266], "size": {"0": 210, "1": 270}, "flags": {}, "order": 2, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "GLSL (JOV) \ud83c\udf69"}, "widgets_values": [452.3407714000059, 0, 1, false, false, [512, 512], "void main() {\n    vec4 texColor = texture(iChannel0, fragCoord);\n    vec4 color = vec4(fragCoord, abs(sin(iTime)), 1.0);\n    fragColor = vec4((texColor.xyz + color.xyz) / 2.0, 1.0);\n}", ""], "color": "#1F991FFF"}, {"id": 1, "type": "CONSTANT (JOV) \ud83d\udfea", "pos": [1772.8912525994322, 1765.0661205504266], "size": {"0": 210, "1": 102}, "flags": {}, "order": 3, "mode": 0, "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 3, "slot_index": 0}, {"name": "\ud83d\ude37", "type": "MASK", "links": [], "shape": 3, "slot_index": 1}], "properties": {"Node name for S&R": "CONSTANT (JOV) \ud83d\udfea"}, "widgets_values": [[512, 512], {"0": 0, "1": 255, "2": 0, "3": 128}], "color": "#1F991FFF"}, {"id": 186, "type": "TRANSFORM (JOV) \ud83c\udfdd\ufe0f", "pos": [1290.0000000000011, 879.999694824219], "size": [210, 290], "flags": {}, "order": 4, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83d\ude37", "type": "MASK", "links": [], "shape": 6, "slot_index": 1}], "properties": {"Node name for S&R": "TRANSFORM (JOV) \ud83c\udfdd\ufe0f"}, "widgets_values": [[0, 0], 22.000000000000004, {"0": 0.75, "1": 0.75}, {"0": 2, "1": 2}, "WRAP", "FLIP_XY", [0.5, 0.5], "NORMAL", [0, 0, 1, 0], [0, 1, 1, 1], 1, {"0": 0, "1": 128, "2": 0}, 0], "color": "#5C1F9AFF"}, {"id": 122, "type": "HOLD VALUE (JOV) \ud83e\udef4\ud83c\udffd", "pos": [304.747992762071, 1863.2226480857107], "size": {"0": 210, "1": 60}, "flags": {}, "order": 5, "mode": 0, "inputs": [{"name": "\ud83d\udce5", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\ude8c", "type": "*", "links": null, "shape": 3}], "properties": {"Node name for S&R": "HOLD VALUE (JOV) \ud83e\udef4\ud83c\udffd"}, "widgets_values": [false], "color": "#991F1FFF"}, {"id": 135, "type": "SELECT (JOV) \ud83e\udd0f\ud83c\udffd", "pos": [304.747992762071, 1963.2226480857103], "size": {"0": 210, "1": 142}, "flags": {}, "order": 6, "mode": 0, "inputs": [{"name": "\u2754_1", "type": "*", "link": null}], "outputs": [{"name": "*", "type": "*", "links": null, "shape": 3}, {"name": "Q", "type": "STRING", "links": null, "shape": 3}, {"name": "#\ufe0f\u20e3", "type": "INT", "links": null, "shape": 3}, {"name": "TOTAL", "type": "INT", "links": null, "shape": 3}], "properties": {"Node name for S&R": "SELECT (JOV) \ud83e\udd0f\ud83c\udffd"}, "widgets_values": [1, false], "color": "#991F1FFF"}, {"id": 119, "type": "WAVE GENERATOR (JOV) \ud83c\udf0a", "pos": [1014.0909257368606, 879.9998779296876], "size": {"0": 220, "1": 174}, "flags": {}, "order": 7, "mode": 0, "inputs": [{"name": "\ud83d\udd5b", "type": "FLOAT", "link": null, "widget": {"name": "\ud83d\udd5b"}}], "outputs": [{"name": "\ud83d\udedf", "type": "FLOAT", "links": [], "shape": 3, "slot_index": 0}, {"name": "\ud83d\udd1f", "type": "INT", "links": [], "shape": 3, "slot_index": 1}], "properties": {"Node name for S&R": "WAVE GENERATOR (JOV) \ud83c\udf0a"}, "widgets_values": ["SIN", 1, 1, 0, 0, 0], "color": "#1F1F98FF"}, {"id": 134, "type": "QUEUE (JOV) \ud83d\uddc3", "pos": [783.9736465056807, 1319.1629109802568], "size": {"0": 210, "1": 370.00006103515625}, "flags": {}, "order": 8, "mode": 0, "outputs": [{"name": "*", "type": "*", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83d\ude37", "type": "MASK", "links": null, "shape": 6}, {"name": "Q", "type": "*", "links": null, "shape": 6}, {"name": "\u2139\ufe0f", "type": "STRING", "links": null, "shape": 6}, {"name": "#\ufe0f\u20e3", "type": "INT", "links": null, "shape": 6}, {"name": "TOTAL", "type": "INT", "links": null, "shape": 6}], "properties": {"Node name for S&R": "QUEUE (JOV) \ud83d\uddc3"}, "widgets_values": ["", 0, false, 1, true, false, false, "[1 / 1] "], "color": "#0A0A0AFF"}, {"id": 131, "type": "VALUE GRAPH (JOV) \ud83d\udcc8", "pos": [1013.9736465056807, 1319.1629109802568], "size": {"0": 210, "1": 110}, "flags": {}, "order": 9, "mode": 0, "inputs": [{"name": "\u2754_1", "type": "*", "link": null, "label": "\u2754_1"}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": null, "shape": 3}], "properties": {"Node name for S&R": "VALUE GRAPH (JOV) \ud83d\udcc8"}, "widgets_values": [true, 500, [512, 512]], "color": "#0A0A0AFF"}, {"id": 132, "type": "AKASHIC (JOV) \ud83d\udcd3", "pos": [1013.9736465056807, 1479.1629109802568], "size": {"0": 210, "1": 50}, "flags": {}, "order": 10, "mode": 0, "inputs": [{"name": "\ud83d\udce5", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\udce4", "type": "*", "links": null, "shape": 3}, {"name": "\ud83d\udccb", "type": "AKASHIC", "links": null, "shape": 3}], "properties": {"Node name for S&R": "AKASHIC (JOV) \ud83d\udcd3"}, "color": "#0A0A0AFF"}, {"id": 138, "type": "RE-ROUTE (JOV) \ud83d\ude8c", "pos": [1013.9736465056807, 1579.1629109802568], "size": {"0": 210, "1": 26}, "flags": {}, "order": 11, "mode": 0, "inputs": [{"name": "\ud83d\udce5", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\udce4", "type": "*", "links": null, "shape": 6}], "properties": {"Node name for S&R": "RE-ROUTE (JOV) \ud83d\ude8c"}, "color": "#0A0A0AFF"}, {"id": 124, "type": "MIDI READER (JOV) \ud83c\udfb9", "pos": [56.710993386229184, 1330.145359108664], "size": {"0": 210, "1": 180}, "flags": {}, "order": 12, "mode": 0, "outputs": [{"name": "\ud83c\udf9b\ufe0f", "type": "JMIDIMSG", "links": null, "shape": 3}, {"name": "\ud83d\udd1b", "type": "BOOLEAN", "links": null, "shape": 3}, {"name": "CHAN", "type": "INT", "links": null, "shape": 3}, {"name": "\ud83c\udf9a\ufe0f", "type": "INT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6", "type": "INT", "links": null, "shape": 3}, {"name": "#\ufe0f\u20e3", "type": "FLOAT", "links": null, "shape": 3}, {"name": "0-1", "type": "FLOAT", "links": null, "shape": 3}], "properties": {"Node name for S&R": "MIDI READER (JOV) \ud83c\udfb9"}, "widgets_values": [null], "color": "#1F9999FF"}, {"id": 191, "type": "STREAM READER (JOV) \ud83d\udcfa", "pos": [515.1189924287409, 1330.145359108664], "size": [220, 250], "flags": {}, "order": 13, "mode": 0, "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": null, "shape": 6}, {"name": "\ud83d\ude37", "type": "MASK", "links": null, "shape": 6}], "properties": {"Node name for S&R": "STREAM READER (JOV) \ud83d\udcfa"}, "widgets_values": ["URL", "", "0 - 640x480", "0 - 3840x2160", "ComfyUI \u2014 Mozilla Firefox - 67090", true, [0, 0, 1, 1], 30, false, [1, 30], "NONE", [512, 512], "LANCZOS4", [0, 0, 0], "NORMAL", 0], "color": "#1F9999FF"}, {"id": 126, "type": "MIDI FILTER \u2733\ufe0f", "pos": [55.11899242874018, 1570.145359108664], "size": {"0": 210, "1": 200}, "flags": {}, "order": 14, "mode": 0, "inputs": [{"name": "\ud83c\udf9b\ufe0f", "type": "JMIDIMSG", "link": null}], "outputs": [{"name": "\ud83c\udf9b\ufe0f", "type": "JMIDIMSG", "links": null, "shape": 3}, {"name": "\u26a1", "type": "BOOLEAN", "links": null, "shape": 3}], "properties": {"Node name for S&R": "MIDI FILTER \u2733\ufe0f"}, "widgets_values": ["IGNORE", "", "", "", "", ""], "color": "#1F9999FF"}, {"id": 127, "type": "MIDI FILTER EZ \u2747\ufe0f", "pos": [285.1189924287404, 1570.145359108664], "size": {"0": 210, "1": 200}, "flags": {}, "order": 15, "mode": 0, "inputs": [{"name": "\ud83c\udf9b\ufe0f", "type": "JMIDIMSG", "link": null}], "outputs": [{"name": "\ud83c\udf9b\ufe0f", "type": "JMIDIMSG", "links": null, "shape": 3}, {"name": "\u26a1", "type": "BOOLEAN", "links": null, "shape": 3}], "properties": {"Node name for S&R": "MIDI FILTER EZ \u2747\ufe0f"}, "widgets_values": ["IGNORE", -1, -1, -1, -1, -1], "color": "#1F9999FF"}, {"id": 32, "type": "COLOR MATCH (JOV) \ud83d\udc9e", "pos": [1036.5084704507308, 1781.9902336412931], "size": {"0": 210, "1": 174}, "flags": {}, "order": 16, "mode": 0, "inputs": [{"name": "\ud83d\udc7eA", "type": "*", "link": null}, {"name": "\ud83d\udc7eB", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "COLOR MATCH (JOV) \ud83d\udc9e"}, "widgets_values": ["NONE", 0, 3, false, 0], "color": "#958100FF"}, {"id": 120, "type": "COMPARISON (JOV) \ud83d\udd75\ud83c\udffd", "pos": [527.5309328036219, 1997.6403865411937], "size": {"0": 210, "1": 102}, "flags": {}, "order": 17, "mode": 0, "inputs": [{"name": "\ud83c\udd70\ufe0f", "type": "*", "link": null}, {"name": "\ud83c\udd71\ufe0f", "type": "*", "link": null}], "outputs": [{"name": "\u2754", "type": "BOOLEAN", "links": null, "shape": 6}], "properties": {"Node name for S&R": "COMPARISON (JOV) \ud83d\udd75\ud83c\udffd"}, "widgets_values": ["EQUAL", false], "color": "#991F1FFF"}, {"id": 121, "type": "DELAY (JOV) \u270b\ud83c\udffd", "pos": [527.5309328036219, 1867.6403865411937], "size": {"0": 210, "1": 82}, "flags": {}, "order": 18, "mode": 0, "inputs": [{"name": "\ud83d\udce5", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\ude8c", "type": "*", "links": null, "shape": 3}], "properties": {"Node name for S&R": "DELAY (JOV) \u270b\ud83c\udffd"}, "widgets_values": [0, false], "color": "#991F1FFF"}, {"id": 125, "type": "MIDI MESSAGE (JOV) \ud83c\udf9b\ufe0f", "pos": [289.21816836270455, 1340.145359108664], "size": {"0": 200, "1": 150}, "flags": {}, "order": 19, "mode": 0, "inputs": [{"name": "\ud83c\udf9b\ufe0f", "type": "JMIDIMSG", "link": null}], "outputs": [{"name": "\ud83c\udf9b\ufe0f", "type": "JMIDIMSG", "links": null, "shape": 3}, {"name": "\ud83d\udd1b", "type": "BOOLEAN", "links": null, "shape": 3}, {"name": "CHAN", "type": "INT", "links": null, "shape": 3}, {"name": "\ud83c\udf9a\ufe0f", "type": "INT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6", "type": "INT", "links": null, "shape": 3}, {"name": "#\ufe0f\u20e3", "type": "FLOAT", "links": null, "shape": 3}, {"name": "0-1", "type": "FLOAT", "links": null, "shape": 3, "slot_index": 6}], "properties": {"Node name for S&R": "MIDI MESSAGE (JOV) \ud83c\udf9b\ufe0f"}, "color": "#1F9999FF"}, {"id": 174, "type": "STACK (JOV) \u2795", "pos": [1290.0000000000011, 1209.9996948242178], "size": [210, 150], "flags": {}, "order": 20, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83d\ude37", "type": "MASK", "links": [], "shape": 6, "slot_index": 1}], "properties": {"Node name for S&R": "STACK (JOV) \u2795"}, "widgets_values": ["GRID", 0, "NONE", [512, 512], "LANCZOS4", [0, 0, 0]], "color": "#5C1F9AFF"}, {"id": 187, "type": "BLEND (JOV) \u2697\ufe0f", "pos": [1520.0000000000011, 879.999694824219], "size": [210, 220], "flags": {}, "order": 21, "mode": 0, "inputs": [{"name": "\ud83d\udc7eA", "type": "*", "link": null}, {"name": "\ud83d\udc7eB", "type": "*", "link": null}, {"name": "\ud83d\ude37", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "BLEND (JOV) \u2697\ufe0f"}, "widgets_values": ["NORMAL", 0.5, false, "NONE", [512, 512], "LANCZOS4", [0, 0, 0], 0], "color": "#5C1F9AFF"}, {"id": 140, "type": "CROP (JOV) \u2702\ufe0f", "pos": [1520.0000000000011, 1149.9996948242178], "size": [240, 130], "flags": {}, "order": 22, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83d\ude37", "type": "MASK", "links": [], "shape": 6, "slot_index": 1}], "properties": {"Node name for S&R": "CROP (JOV) \u2702\ufe0f"}, "widgets_values": ["CENTER", {"0": 0, "1": 0}, {"0": 128, "1": 128}, [0, "0.49000", 0, 1], [1, 0, 1, 1], {"0": 0, "1": 0, "2": 255}], "color": "#5C1F9AFF"}, {"id": 69, "type": "COLOR THEORY (JOV) \ud83d\udede", "pos": [1760.0000000000011, 879.999694824219], "size": {"0": 220, "1": 190}, "flags": {}, "order": 23, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\udd35", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83d\udfe1", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 1}, {"name": "\ud83d\udfe3", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 2}, {"name": "\u26ab\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 3}, {"name": "\u26aa", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 4}], "properties": {"Node name for S&R": "COLOR THEORY (JOV) \ud83d\udede"}, "widgets_values": ["ANALOGOUS", 45, 0], "color": "#5C1F9AFF"}, {"id": 65, "type": "PIXEL SPLIT (JOV) \ud83d\udc94", "pos": [1800.0000000000011, 1119.9996948242178], "size": {"0": 180, "1": 90}, "flags": {}, "order": 24, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "outputs": [{"name": "\u2764\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83d\udc9a", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 1}, {"name": "\ud83d\udc99", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 2}, {"name": "\ud83e\udd0d", "type": "MASK", "links": [], "shape": 6, "slot_index": 3}], "properties": {"Node name for S&R": "PIXEL SPLIT (JOV) \ud83d\udc94"}, "color": "#5C1F9AFF"}, {"id": 172, "type": "PIXEL MERGE (JOV) \ud83e\udec2", "pos": [1790.0000000000011, 1259.9996948242178], "size": {"0": 190, "1": 90}, "flags": {}, "order": 25, "mode": 0, "inputs": [{"name": "\ud83d\udfe5", "type": "*", "link": null}, {"name": "\ud83d\udfe9", "type": "*", "link": null}, {"name": "\ud83d\udfe6", "type": "*", "link": null}, {"name": "\u2b1c", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83d\ude37", "type": "MASK", "links": [], "shape": 6, "slot_index": 1}], "properties": {"Node name for S&R": "PIXEL MERGE (JOV) \ud83e\udec2"}, "color": "#5C1F9AFF"}, {"id": 5, "type": "SHAPE GENERATOR (JOV) \u2728", "pos": [1531.636419122869, 1453.2727161754256], "size": {"0": 220, "1": 270}, "flags": {}, "order": 26, "mode": 0, "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 3, "slot_index": 0}, {"name": "\ud83d\ude37", "type": "MASK", "links": [], "shape": 3}], "properties": {"Node name for S&R": "SHAPE GENERATOR (JOV) \u2728"}, "widgets_values": ["SQUARE", 3, {"0": 255, "1": 0, "2": 255}, {"0": 128, "1": 0, "2": 0}, {"0": 512, "1": 256}, 45.00000000000001, {"0": 0.5, "1": 1}, "WRAP", 0], "color": "#1F991FFF"}, {"id": 15, "type": "TEXT GENERATOR (JOV) \ud83d\udcdd", "pos": [1291.636419122869, 1453.2727161754256], "size": [220, 407.9999885559082], "flags": {}, "order": 27, "mode": 0, "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6}, {"name": "\ud83d\ude37", "type": "MASK", "links": [], "shape": 6, "slot_index": 1}], "properties": {"Node name for S&R": "TEXT GENERATOR (JOV) \ud83d\udcdd"}, "widgets_values": ["SOMEONE\nHAD TO\nDO IT", "Almendra", 100, [255, 255, 255], [0, 0, 0], false, "CENTER", "CENTER", 0, 25, [512, 512], 0, "CLIP", 0], "color": "#1F991FFF"}, {"id": 9, "type": "STEREOGRAM (JOV) \ud83d\udcfb", "pos": [1531.636419122869, 1763.2727161754256], "size": {"0": 210, "1": 150}, "flags": {}, "order": 28, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}, {"name": "DEPTH", "type": "*", "link": null}], "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "STEREOGRAM (JOV) \ud83d\udcfb"}, "widgets_values": [8, 0.5, 0.5, 1.5], "color": "#1F991FFF"}, {"id": 115, "type": "CALC OP UNARY (JOV) \ud83c\udfb2", "pos": [292.69094404740787, 1009.9998168945312], "size": {"0": 210, "1": 60}, "flags": {}, "order": 29, "mode": 0, "inputs": [{"name": "\ud83c\udd70\ufe0f", "type": "*", "link": null}], "outputs": [{"name": "\u2754", "type": "*", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "CALC OP UNARY (JOV) \ud83c\udfb2"}, "widgets_values": ["SQRT"], "color": "#993838FF"}, {"id": 114, "type": "CONVERT (JOV) \ud83e\uddec", "pos": [292.69094404740787, 1119.9998168945308], "size": {"0": 210, "1": 60}, "flags": {}, "order": 30, "mode": 0, "inputs": [{"name": "*", "type": "*", "link": null}], "outputs": [{"name": "\ud83c\uddfd\ud83c\uddfe", "type": "VEC2", "links": null, "shape": 3}], "properties": {"Node name for S&R": "CONVERT (JOV) \ud83e\uddec"}, "widgets_values": ["VEC2"], "color": "#993838FF"}, {"id": 117, "type": "LERP (JOV) \ud83d\udd30", "pos": [512.6909440474078, 879.999816894531], "size": {"0": 230, "1": 130}, "flags": {}, "order": 31, "mode": 0, "inputs": [{"name": "A", "type": "*", "link": null}, {"name": "B", "type": "*", "link": null}], "outputs": [{"name": "*", "type": "*", "links": null, "shape": 6}], "properties": {"Node name for S&R": "LERP (JOV) \ud83d\udd30"}, "widgets_values": [0, "QUARTIC_IN_OUT", "FLOAT"], "color": "#993838FF"}, {"id": 116, "type": "CALC OP BINARY (JOV) \ud83c\udf1f", "pos": [522.6909440474078, 1049.9998168945308], "size": {"0": 210, "1": 102}, "flags": {}, "order": 32, "mode": 0, "inputs": [{"name": "\ud83c\udd70\ufe0f", "type": "*", "link": null}, {"name": "\ud83c\udd71\ufe0f", "type": "*", "link": null}], "outputs": [{"name": "\u2754", "type": "*", "links": [], "shape": 6, "slot_index": 0}], "properties": {"Node name for S&R": "CALC OP BINARY (JOV) \ud83c\udf1f"}, "widgets_values": ["MULTIPLY", false], "color": "#993838FF"}, {"id": 113, "type": "VALUE (JOV) #\ufe0f\u20e3", "pos": [292.69094404740787, 879.999816894531], "size": [210, 80], "flags": {}, "order": 33, "mode": 0, "outputs": [{"name": "\ud83d\udedf", "type": "FLOAT", "links": null, "shape": 3}], "properties": {"Node name for S&R": "VALUE (JOV) #\ufe0f\u20e3"}, "widgets_values": ["FLOAT", 4], "color": "#993838FF"}, {"id": 118, "type": "TICK (JOV) \u23f1", "pos": [784.0909257368606, 879.9998779296876], "size": {"0": 210, "1": 350}, "flags": {}, "order": 34, "mode": 0, "outputs": [{"name": "#\ufe0f\u20e3", "type": "INT", "links": null, "shape": 3}, {"name": "\ud83d\udedf", "type": "FLOAT", "links": [], "shape": 3, "slot_index": 1}, {"name": "\ud83d\udd5b", "type": "FLOAT", "links": [], "shape": 3, "slot_index": 2}, {"name": "\ud83d\udd3a", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_128", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_64", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_32", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_16", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_08", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_04", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_02", "type": "FLOAT", "links": null, "shape": 3}, {"name": "\ud83c\udfb6_01", "type": "FLOAT", "links": null, "shape": 3}], "properties": {"Node name for S&R": "TICK (JOV) \u23f1"}, "widgets_values": [120, 0, false, false], "color": "#1F1F98FF"}, {"id": 129, "type": "STREAM WRITER (JOV) \ud83c\udf9e\ufe0f", "pos": [508.3999931335451, 1622.6000488281247], "size": {"0": 230, "1": 154}, "flags": {"collapsed": false}, "order": 35, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "properties": {"Node name for S&R": "STREAM WRITER (JOV) \ud83c\udf9e\ufe0f"}, "widgets_values": ["/stream", [640, 480], "NONE", "LANCZOS4", 0], "color": "#1F9999FF"}, {"id": 130, "type": "GRAPH WAVE (JOV) \u25b6 \u0131l\u0131\u0131l\u0131", "pos": [50, 930], "size": {"0": 210, "1": 194}, "flags": {"collapsed": false}, "order": 36, "mode": 0, "outputs": [{"name": "\ud83d\uddbc\ufe0f", "type": "IMAGE", "links": null, "shape": 3}, {"name": "\ud83d\ude37", "type": "MASK", "links": null, "shape": 3}, {"name": "\u2652", "type": "WAVE", "links": null, "shape": 6}], "properties": {"Node name for S&R": "GRAPH WAVE (JOV) \u25b6 \u0131l\u0131\u0131l\u0131"}, "widgets_values": ["", 100, [512, 512], [0, 0, 0, 255], [0, 0, 0, 255]], "color": "#991E5DFF"}, {"id": 96, "type": "EXPORT (JOV) \ud83d\udcfd", "pos": [60, 2040], "size": [210, 130], "flags": {}, "order": 37, "mode": 0, "inputs": [{"name": "\ud83d\udc7e", "type": "*", "link": null}], "properties": {"Node name for S&R": "EXPORT (JOV) \ud83d\udcfd"}, "widgets_values": ["jov-test_diff", "C:\\dev\\ComfyUI\\ComfyUI\\output", true, "png", false, 90, 100, 20, 0], "color": "#707B16FF"}, {"id": 97, "type": "IMAGE DIFF (JOV) \ud83d\udccf", "pos": [60, 1860], "size": {"0": 210, "1": 140}, "flags": {}, "order": 38, "mode": 0, "inputs": [{"name": "\ud83d\udc7eA", "type": "*", "link": null}, {"name": "\ud83d\udc7eB", "type": "*", "link": null}], "outputs": [{"name": "\ud83c\udd70\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 0}, {"name": "\ud83c\udd71\ufe0f", "type": "IMAGE", "links": [], "shape": 6, "slot_index": 1}, {"name": "DIFF", "type": "MASK", "links": [], "shape": 6, "slot_index": 2}, {"name": "\ud83d\udcc9", "type": "MASK", "links": [], "shape": 6, "slot_index": 3}, {"name": "\ud83d\udedf", "type": "FLOAT", "links": null, "shape": 6}], "properties": {"Node name for S&R": "IMAGE DIFF (JOV) \ud83d\udccf"}, "widgets_values": [0], "color": "#707B16FF"}], "links": [], "groups": [{"title": "CREATE", "bounding": [1284, 1382, 718, 547], "color": "#2cba2f", "font_size": 24, "locked": false}, {"title": "ADJUST", "bounding": [765, 1712, 512, 472], "color": "#caad39", "font_size": 24, "locked": false}, {"title": "COMP", "bounding": [1283, 801, 717, 571], "color": "#a1309b", "font_size": 24, "locked": false}, {"title": "IMAGE", "bounding": [42, 1788, 246, 395], "color": "#a8ae2f", "font_size": 24, "locked": false}, {"title": "ANIM", "bounding": [766, 801, 510, 443], "color": "#3744dd", "font_size": 24, "locked": false}, {"title": "UTILITY", "bounding": [766, 1250, 510, 457], "color": "#848484", "font_size": 24, "locked": false}, {"title": "CALC", "bounding": [284, 802, 476, 441], "color": "#cb4144", "font_size": 24, "locked": false}, {"title": "FLOW", "bounding": [296, 1788, 462, 397], "color": "#f20000", "font_size": 24, "locked": false}, {"title": "DEVICE", "bounding": [41, 1249, 717, 531], "color": "#52bdc2", "font_size": 24, "locked": false}, {"title": "AUDIO", "bounding": [40, 802, 236, 440], "color": "#d71e96", "font_size": 24, "locked": false}], "config": {}, "extra": {}, "version": 0.4}
+{
+    "last_node_id": 191,
+    "last_link_id": 286,
+    "nodes": [
+        {
+            "id": 62,
+            "type": "ADJUST (JOV) 🕸️",
+            "pos": [
+                775.0449868624492,
+                1783.9400026866065
+            ],
+            "size": [
+                210,
+                150
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "😷",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ADJUST (JOV) 🕸️"
+            },
+            "widgets_values": [
+                "BLUR",
+                3,
+                1,
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    0.5,
+                    1
+                ],
+                [
+                    0,
+                    1,
+                    1
+                ],
+                0,
+                1,
+                "NONE",
+                0
+            ],
+            "color": "#958100FF"
+        },
+        {
+            "id": 53,
+            "type": "THRESHOLD (JOV) 📉",
+            "pos": [
+                775.0449868624492,
+                1973.9400026866053
+            ],
+            "size": {
+                "0": 210,
+                "1": 154
+            },
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "THRESHOLD (JOV) 📉"
+            },
+            "widgets_values": [
+                "ADAPT_NONE",
+                "BINARY",
+                0.75,
+                3,
+                0
+            ],
+            "color": "#958100FF"
+        },
+        {
+            "id": 31,
+            "type": "GLSL (JOV) 🍩",
+            "pos": [
+                1772.8912525994322,
+                1455.0661205504266
+            ],
+            "size": {
+                "0": 210,
+                "1": 270
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "GLSL (JOV) 🍩"
+            },
+            "widgets_values": [
+                452.3407714000059,
+                0,
+                1,
+                false,
+                false,
+                [
+                    512,
+                    512
+                ],
+                "void main() {\n    vec4 texColor = texture(iChannel0, fragCoord);\n    vec4 color = vec4(fragCoord, abs(sin(iTime)), 1.0);\n    fragColor = vec4((texColor.xyz + color.xyz) / 2.0, 1.0);\n}",
+                ""
+            ],
+            "color": "#1F991FFF"
+        },
+        {
+            "id": 1,
+            "type": "CONSTANT (JOV) 🟪",
+            "pos": [
+                1772.8912525994322,
+                1765.0661205504266
+            ],
+            "size": {
+                "0": 210,
+                "1": 102
+            },
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 3,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 3,
+                    "slot_index": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CONSTANT (JOV) 🟪"
+            },
+            "widgets_values": [
+                [
+                    512,
+                    512
+                ],
+                {
+                    "0": 0,
+                    "1": 255,
+                    "2": 0,
+                    "3": 128
+                }
+            ],
+            "color": "#1F991FFF"
+        },
+        {
+            "id": 186,
+            "type": "TRANSFORM (JOV) 🏝️",
+            "pos": [
+                1290.0000000000011,
+                879.999694824219
+            ],
+            "size": [
+                210,
+                290
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "TRANSFORM (JOV) 🏝️"
+            },
+            "widgets_values": [
+                [
+                    0,
+                    0
+                ],
+                22.000000000000004,
+                {
+                    "0": 0.75,
+                    "1": 0.75
+                },
+                {
+                    "0": 2,
+                    "1": 2
+                },
+                "WRAP",
+                "FLIP_XY",
+                [
+                    0.5,
+                    0.5
+                ],
+                "NORMAL",
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                1,
+                {
+                    "0": 0,
+                    "1": 128,
+                    "2": 0
+                },
+                0
+            ],
+            "color": "#5C1F9AFF"
+        },
+        {
+            "id": 122,
+            "type": "HOLD VALUE (JOV) 🫴🏽",
+            "pos": [
+                304.747992762071,
+                1863.2226480857107
+            ],
+            "size": {
+                "0": 210,
+                "1": 60
+            },
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "📥",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🚌",
+                    "type": "*",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "HOLD VALUE (JOV) 🫴🏽"
+            },
+            "widgets_values": [
+                false
+            ],
+            "color": "#991F1FFF"
+        },
+        {
+            "id": 135,
+            "type": "SELECT (JOV) 🤏🏽",
+            "pos": [
+                304.747992762071,
+                1963.2226480857103
+            ],
+            "size": {
+                "0": 210,
+                "1": 142
+            },
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "❔_1",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "*",
+                    "type": "*",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "Q",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "#️⃣",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "TOTAL",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "SELECT (JOV) 🤏🏽"
+            },
+            "widgets_values": [
+                1,
+                false
+            ],
+            "color": "#991F1FFF"
+        },
+        {
+            "id": 119,
+            "type": "WAVE GENERATOR (JOV) 🌊",
+            "pos": [
+                1014.0909257368606,
+                879.9998779296876
+            ],
+            "size": {
+                "0": 220,
+                "1": 174
+            },
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🕛",
+                    "type": "FLOAT",
+                    "link": null,
+                    "widget": {
+                        "name": "🕛"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🛟",
+                    "type": "FLOAT",
+                    "links": [],
+                    "shape": 3,
+                    "slot_index": 0
+                },
+                {
+                    "name": "🔟",
+                    "type": "INT",
+                    "links": [],
+                    "shape": 3,
+                    "slot_index": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "WAVE GENERATOR (JOV) 🌊"
+            },
+            "widgets_values": [
+                "SIN",
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "color": "#1F1F98FF"
+        },
+        {
+            "id": 134,
+            "type": "QUEUE (JOV) 🗃",
+            "pos": [
+                783.9736465056807,
+                1319.1629109802568
+            ],
+            "size": {
+                "0": 210,
+                "1": 370.00006103515625
+            },
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "*",
+                    "type": "*",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "Q",
+                    "type": "*",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "ℹ️",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "#️⃣",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "TOTAL",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "QUEUE (JOV) 🗃"
+            },
+            "widgets_values": [
+                "",
+                0,
+                false,
+                1,
+                true,
+                false,
+                false,
+                "[1 / 1] "
+            ],
+            "color": "#0A0A0AFF"
+        },
+        {
+            "id": 131,
+            "type": "VALUE GRAPH (JOV) 📈",
+            "pos": [
+                1013.9736465056807,
+                1319.1629109802568
+            ],
+            "size": {
+                "0": 210,
+                "1": 110
+            },
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "❔_1",
+                    "type": "*",
+                    "link": null,
+                    "label": "❔_1"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "VALUE GRAPH (JOV) 📈"
+            },
+            "widgets_values": [
+                true,
+                500,
+                [
+                    512,
+                    512
+                ]
+            ],
+            "color": "#0A0A0AFF"
+        },
+        {
+            "id": 132,
+            "type": "AKASHIC (JOV) 📓",
+            "pos": [
+                1013.9736465056807,
+                1479.1629109802568
+            ],
+            "size": {
+                "0": 210,
+                "1": 50
+            },
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "📥",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "📤",
+                    "type": "*",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "📋",
+                    "type": "AKASHIC",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "AKASHIC (JOV) 📓"
+            },
+            "color": "#0A0A0AFF"
+        },
+        {
+            "id": 138,
+            "type": "RE-ROUTE (JOV) 🚌",
+            "pos": [
+                1013.9736465056807,
+                1579.1629109802568
+            ],
+            "size": {
+                "0": 210,
+                "1": 26
+            },
+            "flags": {},
+            "order": 11,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "📥",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "📤",
+                    "type": "*",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "RE-ROUTE (JOV) 🚌"
+            },
+            "color": "#0A0A0AFF"
+        },
+        {
+            "id": 124,
+            "type": "MIDI READER (JOV) 🎹",
+            "pos": [
+                56.710993386229184,
+                1330.145359108664
+            ],
+            "size": {
+                "0": 210,
+                "1": 180
+            },
+            "flags": {},
+            "order": 12,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🎛️",
+                    "type": "JMIDIMSG",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🔛",
+                    "type": "BOOLEAN",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "CHAN",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎚️",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "#️⃣",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "0-1",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "MIDI READER (JOV) 🎹"
+            },
+            "widgets_values": [
+                null
+            ],
+            "color": "#1F9999FF"
+        },
+        {
+            "id": 191,
+            "type": "STREAM READER (JOV) 📺",
+            "pos": [
+                515.1189924287409,
+                1330.145359108664
+            ],
+            "size": [
+                220,
+                250
+            ],
+            "flags": {},
+            "order": 13,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "STREAM READER (JOV) 📺"
+            },
+            "widgets_values": [
+                "URL",
+                "",
+                "0 - 640x480",
+                "0 - 3840x2160",
+                "ComfyUI — Mozilla Firefox - 67090",
+                true,
+                [
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                30,
+                false,
+                [
+                    1,
+                    30
+                ],
+                "NONE",
+                [
+                    512,
+                    512
+                ],
+                "LANCZOS4",
+                [
+                    0,
+                    0,
+                    0
+                ],
+                "NORMAL",
+                0
+            ],
+            "color": "#1F9999FF"
+        },
+        {
+            "id": 126,
+            "type": "MIDI FILTER ✳️",
+            "pos": [
+                55.11899242874018,
+                1570.145359108664
+            ],
+            "size": {
+                "0": 210,
+                "1": 200
+            },
+            "flags": {},
+            "order": 14,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🎛️",
+                    "type": "JMIDIMSG",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🎛️",
+                    "type": "JMIDIMSG",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "⚡",
+                    "type": "BOOLEAN",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "MIDI FILTER ✳️"
+            },
+            "widgets_values": [
+                "IGNORE",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "color": "#1F9999FF"
+        },
+        {
+            "id": 127,
+            "type": "MIDI FILTER EZ ❇️",
+            "pos": [
+                285.1189924287404,
+                1570.145359108664
+            ],
+            "size": {
+                "0": 210,
+                "1": 200
+            },
+            "flags": {},
+            "order": 15,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🎛️",
+                    "type": "JMIDIMSG",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🎛️",
+                    "type": "JMIDIMSG",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "⚡",
+                    "type": "BOOLEAN",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "MIDI FILTER EZ ❇️"
+            },
+            "widgets_values": [
+                "IGNORE",
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+            ],
+            "color": "#1F9999FF"
+        },
+        {
+            "id": 32,
+            "type": "COLOR MATCH (JOV) 💞",
+            "pos": [
+                1036.5084704507308,
+                1781.9902336412931
+            ],
+            "size": {
+                "0": 210,
+                "1": 174
+            },
+            "flags": {},
+            "order": 16,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾A",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "👾B",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "COLOR MATCH (JOV) 💞"
+            },
+            "widgets_values": [
+                "NONE",
+                0,
+                3,
+                false,
+                0
+            ],
+            "color": "#958100FF"
+        },
+        {
+            "id": 120,
+            "type": "COMPARISON (JOV) 🕵🏽",
+            "pos": [
+                527.5309328036219,
+                1997.6403865411937
+            ],
+            "size": {
+                "0": 210,
+                "1": 102
+            },
+            "flags": {},
+            "order": 17,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🅰️",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "🅱️",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "❔",
+                    "type": "BOOLEAN",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "COMPARISON (JOV) 🕵🏽"
+            },
+            "widgets_values": [
+                "EQUAL",
+                false
+            ],
+            "color": "#991F1FFF"
+        },
+        {
+            "id": 121,
+            "type": "DELAY (JOV) ✋🏽",
+            "pos": [
+                527.5309328036219,
+                1867.6403865411937
+            ],
+            "size": {
+                "0": 210,
+                "1": 82
+            },
+            "flags": {},
+            "order": 18,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "📥",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🚌",
+                    "type": "*",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "DELAY (JOV) ✋🏽"
+            },
+            "widgets_values": [
+                0,
+                false
+            ],
+            "color": "#991F1FFF"
+        },
+        {
+            "id": 125,
+            "type": "MIDI MESSAGE (JOV) 🎛️",
+            "pos": [
+                289.21816836270455,
+                1340.145359108664
+            ],
+            "size": {
+                "0": 200,
+                "1": 150
+            },
+            "flags": {},
+            "order": 19,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🎛️",
+                    "type": "JMIDIMSG",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🎛️",
+                    "type": "JMIDIMSG",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🔛",
+                    "type": "BOOLEAN",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "CHAN",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎚️",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "#️⃣",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "0-1",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3,
+                    "slot_index": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "MIDI MESSAGE (JOV) 🎛️"
+            },
+            "color": "#1F9999FF"
+        },
+        {
+            "id": 174,
+            "type": "STACK (JOV) ➕",
+            "pos": [
+                1290.0000000000011,
+                1209.9996948242178
+            ],
+            "size": [
+                210,
+                150
+            ],
+            "flags": {},
+            "order": 20,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "STACK (JOV) ➕"
+            },
+            "widgets_values": [
+                "GRID",
+                0,
+                "NONE",
+                [
+                    512,
+                    512
+                ],
+                "LANCZOS4",
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "color": "#5C1F9AFF"
+        },
+        {
+            "id": 187,
+            "type": "BLEND (JOV) ⚗️",
+            "pos": [
+                1520.0000000000011,
+                879.999694824219
+            ],
+            "size": [
+                210,
+                220
+            ],
+            "flags": {},
+            "order": 21,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾A",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "👾B",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "😷",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "BLEND (JOV) ⚗️"
+            },
+            "widgets_values": [
+                "NORMAL",
+                0.5,
+                false,
+                "NONE",
+                [
+                    512,
+                    512
+                ],
+                "LANCZOS4",
+                [
+                    0,
+                    0,
+                    0
+                ],
+                0
+            ],
+            "color": "#5C1F9AFF"
+        },
+        {
+            "id": 140,
+            "type": "CROP (JOV) ✂️",
+            "pos": [
+                1520.0000000000011,
+                1149.9996948242178
+            ],
+            "size": [
+                240,
+                130
+            ],
+            "flags": {},
+            "order": 22,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CROP (JOV) ✂️"
+            },
+            "widgets_values": [
+                "CENTER",
+                {
+                    "0": 0,
+                    "1": 0
+                },
+                {
+                    "0": 128,
+                    "1": 128
+                },
+                [
+                    0,
+                    "0.49000",
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1
+                ],
+                {
+                    "0": 0,
+                    "1": 0,
+                    "2": 255
+                }
+            ],
+            "color": "#5C1F9AFF"
+        },
+        {
+            "id": 69,
+            "type": "COLOR THEORY (JOV) 🛞",
+            "pos": [
+                1760.0000000000011,
+                879.999694824219
+            ],
+            "size": {
+                "0": 220,
+                "1": 190
+            },
+            "flags": {},
+            "order": 23,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🔵",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "🟡",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                },
+                {
+                    "name": "🟣",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 2
+                },
+                {
+                    "name": "⚫️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 3
+                },
+                {
+                    "name": "⚪",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 4
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "COLOR THEORY (JOV) 🛞"
+            },
+            "widgets_values": [
+                "ANALOGOUS",
+                45,
+                0
+            ],
+            "color": "#5C1F9AFF"
+        },
+        {
+            "id": 65,
+            "type": "PIXEL SPLIT (JOV) 💔",
+            "pos": [
+                1800.0000000000011,
+                1119.9996948242178
+            ],
+            "size": {
+                "0": 180,
+                "1": 90
+            },
+            "flags": {},
+            "order": 24,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "❤️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "💚",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                },
+                {
+                    "name": "💙",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 2
+                },
+                {
+                    "name": "🤍",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PIXEL SPLIT (JOV) 💔"
+            },
+            "color": "#5C1F9AFF"
+        },
+        {
+            "id": 172,
+            "type": "PIXEL MERGE (JOV) 🫂",
+            "pos": [
+                1790.0000000000011,
+                1259.9996948242178
+            ],
+            "size": {
+                "0": 190,
+                "1": 90
+            },
+            "flags": {},
+            "order": 25,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🟥",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "🟩",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "🟦",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "⬜",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PIXEL MERGE (JOV) 🫂"
+            },
+            "color": "#5C1F9AFF"
+        },
+        {
+            "id": 5,
+            "type": "SHAPE GENERATOR (JOV) ✨",
+            "pos": [
+                1531.636419122869,
+                1453.2727161754256
+            ],
+            "size": {
+                "0": 220,
+                "1": 270
+            },
+            "flags": {},
+            "order": 26,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 3,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "SHAPE GENERATOR (JOV) ✨"
+            },
+            "widgets_values": [
+                "SQUARE",
+                3,
+                {
+                    "0": 255,
+                    "1": 0,
+                    "2": 255
+                },
+                {
+                    "0": 128,
+                    "1": 0,
+                    "2": 0
+                },
+                {
+                    "0": 512,
+                    "1": 256
+                },
+                45.00000000000001,
+                {
+                    "0": 0.5,
+                    "1": 1
+                },
+                "WRAP",
+                0
+            ],
+            "color": "#1F991FFF"
+        },
+        {
+            "id": 15,
+            "type": "TEXT GENERATOR (JOV) 📝",
+            "pos": [
+                1291.636419122869,
+                1453.2727161754256
+            ],
+            "size": [
+                220,
+                407.9999885559082
+            ],
+            "flags": {},
+            "order": 27,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "TEXT GENERATOR (JOV) 📝"
+            },
+            "widgets_values": [
+                "SOMEONE\nHAD TO\nDO IT",
+                "Almendra",
+                100,
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                false,
+                "CENTER",
+                "CENTER",
+                0,
+                25,
+                [
+                    512,
+                    512
+                ],
+                0,
+                "CLIP",
+                0
+            ],
+            "color": "#1F991FFF"
+        },
+        {
+            "id": 9,
+            "type": "STEREOGRAM (JOV) 📻",
+            "pos": [
+                1531.636419122869,
+                1763.2727161754256
+            ],
+            "size": {
+                "0": 210,
+                "1": 150
+            },
+            "flags": {},
+            "order": 28,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "DEPTH",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "STEREOGRAM (JOV) 📻"
+            },
+            "widgets_values": [
+                8,
+                0.5,
+                0.5,
+                1.5
+            ],
+            "color": "#1F991FFF"
+        },
+        {
+            "id": 115,
+            "type": "CALC OP UNARY (JOV) 🎲",
+            "pos": [
+                292.69094404740787,
+                1009.9998168945312
+            ],
+            "size": {
+                "0": 210,
+                "1": 60
+            },
+            "flags": {},
+            "order": 29,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🅰️",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "❔",
+                    "type": "*",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CALC OP UNARY (JOV) 🎲"
+            },
+            "widgets_values": [
+                "SQRT"
+            ],
+            "color": "#993838FF"
+        },
+        {
+            "id": 114,
+            "type": "CONVERT (JOV) 🧬",
+            "pos": [
+                292.69094404740787,
+                1119.9998168945308
+            ],
+            "size": {
+                "0": 210,
+                "1": 60
+            },
+            "flags": {},
+            "order": 30,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "*",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🇽🇾",
+                    "type": "VEC2",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CONVERT (JOV) 🧬"
+            },
+            "widgets_values": [
+                "VEC2"
+            ],
+            "color": "#993838FF"
+        },
+        {
+            "id": 117,
+            "type": "LERP (JOV) 🔰",
+            "pos": [
+                512.6909440474078,
+                879.999816894531
+            ],
+            "size": {
+                "0": 230,
+                "1": 130
+            },
+            "flags": {},
+            "order": 31,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "A",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "B",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "*",
+                    "type": "*",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "LERP (JOV) 🔰"
+            },
+            "widgets_values": [
+                0,
+                "QUARTIC_IN_OUT",
+                "FLOAT"
+            ],
+            "color": "#993838FF"
+        },
+        {
+            "id": 116,
+            "type": "CALC OP BINARY (JOV) 🌟",
+            "pos": [
+                522.6909440474078,
+                1049.9998168945308
+            ],
+            "size": {
+                "0": 210,
+                "1": 102
+            },
+            "flags": {},
+            "order": 32,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "🅰️",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "🅱️",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "❔",
+                    "type": "*",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CALC OP BINARY (JOV) 🌟"
+            },
+            "widgets_values": [
+                "MULTIPLY",
+                false
+            ],
+            "color": "#993838FF"
+        },
+        {
+            "id": 113,
+            "type": "VALUE (JOV) #️⃣",
+            "pos": [
+                292.69094404740787,
+                879.999816894531
+            ],
+            "size": [
+                210,
+                80
+            ],
+            "flags": {},
+            "order": 33,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🛟",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "VALUE (JOV) #️⃣"
+            },
+            "widgets_values": [
+                "FLOAT",
+                4
+            ],
+            "color": "#993838FF"
+        },
+        {
+            "id": 118,
+            "type": "TICK (JOV) ⏱",
+            "pos": [
+                784.0909257368606,
+                879.9998779296876
+            ],
+            "size": {
+                "0": 210,
+                "1": 350
+            },
+            "flags": {},
+            "order": 34,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "#️⃣",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🛟",
+                    "type": "FLOAT",
+                    "links": [],
+                    "shape": 3,
+                    "slot_index": 1
+                },
+                {
+                    "name": "🕛",
+                    "type": "FLOAT",
+                    "links": [],
+                    "shape": 3,
+                    "slot_index": 2
+                },
+                {
+                    "name": "🔺",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_128",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_64",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_32",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_16",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_08",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_04",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_02",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "🎶_01",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "TICK (JOV) ⏱"
+            },
+            "widgets_values": [
+                120,
+                0,
+                false,
+                false
+            ],
+            "color": "#1F1F98FF"
+        },
+        {
+            "id": 129,
+            "type": "STREAM WRITER (JOV) 🎞️",
+            "pos": [
+                508.3999931335451,
+                1622.6000488281247
+            ],
+            "size": {
+                "0": 230,
+                "1": 154
+            },
+            "flags": {
+                "collapsed": false
+            },
+            "order": 35,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "STREAM WRITER (JOV) 🎞️"
+            },
+            "widgets_values": [
+                "/stream",
+                [
+                    640,
+                    480
+                ],
+                "NONE",
+                "LANCZOS4",
+                0
+            ],
+            "color": "#1F9999FF"
+        },
+        {
+            "id": 130,
+            "type": "GRAPH WAVE (JOV) ▶ ılıılı",
+            "pos": [
+                50,
+                930
+            ],
+            "size": {
+                "0": 210,
+                "1": 194
+            },
+            "flags": {
+                "collapsed": false
+            },
+            "order": 36,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "♒",
+                    "type": "WAVE",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "GRAPH WAVE (JOV) ▶ ılıılı"
+            },
+            "widgets_values": [
+                "",
+                100,
+                [
+                    512,
+                    512
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    255
+                ]
+            ],
+            "color": "#991E5DFF"
+        },
+        {
+            "id": 96,
+            "type": "EXPORT (JOV) 📽",
+            "pos": [
+                60,
+                2040
+            ],
+            "size": [
+                210,
+                130
+            ],
+            "flags": {},
+            "order": 37,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "EXPORT (JOV) 📽"
+            },
+            "widgets_values": [
+                "jov-test_diff",
+                "C:\\dev\\ComfyUI\\ComfyUI\\output",
+                true,
+                "png",
+                false,
+                90,
+                100,
+                20,
+                0
+            ],
+            "color": "#707B16FF"
+        },
+        {
+            "id": 97,
+            "type": "IMAGE DIFF (JOV) 📏",
+            "pos": [
+                60,
+                1860
+            ],
+            "size": {
+                "0": 210,
+                "1": 140
+            },
+            "flags": {},
+            "order": 38,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾A",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "👾B",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🅰️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "🅱️",
+                    "type": "IMAGE",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                },
+                {
+                    "name": "DIFF",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 2
+                },
+                {
+                    "name": "📉",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 3
+                },
+                {
+                    "name": "🛟",
+                    "type": "FLOAT",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "IMAGE DIFF (JOV) 📏"
+            },
+            "widgets_values": [
+                0
+            ],
+            "color": "#707B16FF"
+        }
+    ],
+    "links": [],
+    "groups": [
+        {
+            "title": "CREATE",
+            "bounding": [
+                1284,
+                1382,
+                718,
+                547
+            ],
+            "color": "#2cba2f",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "ADJUST",
+            "bounding": [
+                765,
+                1712,
+                512,
+                472
+            ],
+            "color": "#caad39",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "COMP",
+            "bounding": [
+                1283,
+                801,
+                717,
+                571
+            ],
+            "color": "#a1309b",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "IMAGE",
+            "bounding": [
+                42,
+                1788,
+                246,
+                395
+            ],
+            "color": "#a8ae2f",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "ANIM",
+            "bounding": [
+                766,
+                801,
+                510,
+                443
+            ],
+            "color": "#3744dd",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "UTILITY",
+            "bounding": [
+                766,
+                1250,
+                510,
+                457
+            ],
+            "color": "#848484",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "CALC",
+            "bounding": [
+                284,
+                802,
+                476,
+                441
+            ],
+            "color": "#cb4144",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "FLOW",
+            "bounding": [
+                296,
+                1788,
+                462,
+                397
+            ],
+            "color": "#f20000",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "DEVICE",
+            "bounding": [
+                41,
+                1249,
+                717,
+                531
+            ],
+            "color": "#52bdc2",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "AUDIO",
+            "bounding": [
+                40,
+                802,
+                236,
+                440
+            ],
+            "color": "#d71e96",
+            "font_size": 24,
+            "locked": false
+        }
+    ],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "9ae7bd11-a881-4dbc-9955-7a45c17928c8"
+        }
+    },
+    "version": 0.4
+}

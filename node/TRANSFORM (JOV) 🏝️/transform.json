@@ -1,0 +1,67 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "🌱 Transform (jov)",
+            "pos": [
+                735,
+                395
+            ],
+            "size": {
+                "0": 210,
+                "1": 270
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixels",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🌱 Transform (jov)"
+            },
+            "widgets_values": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                "CLIP",
+                256,
+                256,
+                "NONE"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "0e5a23fa-23dd-4c20-9523-39321e001834"
+        }
+    },
+    "version": 0.4
+}

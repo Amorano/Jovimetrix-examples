@@ -1,0 +1,445 @@
+{
+    "last_node_id": 29,
+    "last_link_id": 76,
+    "nodes": [
+        {
+            "id": 9,
+            "type": "PreviewImage",
+            "pos": [
+                830,
+                510
+            ],
+            "size": {
+                "0": 210,
+                "1": 250
+            },
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 70
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PreviewImage"
+            }
+        },
+        {
+            "id": 8,
+            "type": "MaskToImage",
+            "pos": [
+                600,
+                540
+            ],
+            "size": {
+                "0": 180,
+                "1": 30
+            },
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "link": 76,
+                    "slot_index": 0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "links": [
+                        70
+                    ],
+                    "shape": 3,
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "MaskToImage"
+            }
+        },
+        {
+            "id": 7,
+            "type": "PreviewImage",
+            "pos": [
+                1050,
+                380
+            ],
+            "size": {
+                "0": 210,
+                "1": 250
+            },
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 75
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PreviewImage"
+            }
+        },
+        {
+            "id": 28,
+            "type": "PreviewImage",
+            "pos": [
+                580,
+                630
+            ],
+            "size": {
+                "0": 210,
+                "1": 250
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 71
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PreviewImage"
+            }
+        },
+        {
+            "id": 29,
+            "type": "ADJUST (JOV) 🕸️",
+            "pos": [
+                580,
+                280
+            ],
+            "size": [
+                210,
+                220
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "👾",
+                    "type": "*",
+                    "link": 72
+                },
+                {
+                    "name": "😷",
+                    "type": "*",
+                    "link": 73
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": [
+                        74
+                    ],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "🌈",
+                    "type": "IMAGE",
+                    "links": [
+                        75
+                    ],
+                    "shape": 6,
+                    "slot_index": 1
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [
+                        76
+                    ],
+                    "shape": 6,
+                    "slot_index": 2
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ADJUST (JOV) 🕸️"
+            },
+            "widgets_values": [
+                "HSV",
+                3,
+                1,
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    0.5,
+                    1
+                ],
+                [
+                    0,
+                    1,
+                    1
+                ],
+                0,
+                1,
+                [
+                    0,
+                    0,
+                    0
+                ],
+                false,
+                null
+            ],
+            "color": "#958100FF"
+        },
+        {
+            "id": 19,
+            "type": "QUEUE (JOV) 🗃",
+            "pos": [
+                380,
+                500
+            ],
+            "size": {
+                "0": 210,
+                "1": 374
+            },
+            "flags": {
+                "collapsed": true
+            },
+            "order": 1,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "*",
+                    "type": "*",
+                    "links": [
+                        71,
+                        73
+                    ],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": [],
+                    "shape": 6,
+                    "slot_index": 1
+                },
+                {
+                    "name": "Q",
+                    "type": "*",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "ℹ️",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "#️⃣",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "TOTAL",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "QUEUE (JOV) 🗃"
+            },
+            "widgets_values": [
+                "./res/img/mask-a.png",
+                0,
+                false,
+                1,
+                false,
+                false,
+                false,
+                null,
+                "[1 / 1] C:\\dev\\ComfyUI\\ComfyUI\\custom_nodes\\Jovimetrix\\res\\img\\mask-a.png"
+            ],
+            "color": "#0A0A0AFF"
+        },
+        {
+            "id": 15,
+            "type": "QUEUE (JOV) 🗃",
+            "pos": [
+                380,
+                290
+            ],
+            "size": {
+                "0": 210,
+                "1": 374
+            },
+            "flags": {
+                "collapsed": true
+            },
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "*",
+                    "type": "*",
+                    "links": [
+                        72
+                    ],
+                    "shape": 6,
+                    "slot_index": 0
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "Q",
+                    "type": "*",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "ℹ️",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "#️⃣",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "TOTAL",
+                    "type": "INT",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "QUEUE (JOV) 🗃"
+            },
+            "widgets_values": [
+                "./res/img/test-a.png",
+                0,
+                false,
+                1,
+                true,
+                false,
+                false,
+                null,
+                "[1 / 1] C:\\dev\\ComfyUI\\ComfyUI\\custom_nodes\\Jovimetrix\\res\\img\\test-a.png"
+            ],
+            "color": "#0A0A0AFF"
+        },
+        {
+            "id": 3,
+            "type": "PreviewImage",
+            "pos": [
+                830,
+                230
+            ],
+            "size": {
+                "0": 210,
+                "1": 250
+            },
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 74
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PreviewImage"
+            }
+        }
+    ],
+    "links": [
+        [
+            70,
+            8,
+            0,
+            9,
+            0,
+            "IMAGE"
+        ],
+        [
+            71,
+            19,
+            0,
+            28,
+            0,
+            "IMAGE"
+        ],
+        [
+            72,
+            15,
+            0,
+            29,
+            0,
+            "*"
+        ],
+        [
+            73,
+            19,
+            0,
+            29,
+            1,
+            "*"
+        ],
+        [
+            74,
+            29,
+            0,
+            3,
+            0,
+            "IMAGE"
+        ],
+        [
+            75,
+            29,
+            1,
+            7,
+            0,
+            "IMAGE"
+        ],
+        [
+            76,
+            29,
+            2,
+            8,
+            0,
+            "MASK"
+        ]
+    ],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "e00a7fd5-bf21-43fb-807d-8ac27be80094"
+        }
+    },
+    "version": 0.4
+}

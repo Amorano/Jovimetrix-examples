@@ -1,0 +1,67 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "🎶 Graph Audio Wave (jov)",
+            "pos": [
+                838.720110466456,
+                556.2943537140188
+            ],
+            "size": [
+                210,
+                315
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 3
+                },
+                {
+                    "name": "〰️",
+                    "type": "WAVE",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🎶 Graph Audio Wave (jov)"
+            },
+            "widgets_values": [
+                "",
+                100,
+                1024,
+                256,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "c6bcdf9a-1be1-446d-afd3-5858d854149a"
+        }
+    },
+    "version": 0.4
+}

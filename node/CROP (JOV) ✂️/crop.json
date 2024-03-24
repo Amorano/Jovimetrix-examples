@@ -1,0 +1,69 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "✂️ Crop (jov)",
+            "pos": [
+                720,
+                420
+            ],
+            "size": [
+                210,
+                320
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixels",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "✂️ Crop (jov)"
+            },
+            "widgets_values": [
+                0,
+                0,
+                1,
+                1,
+                512,
+                512,
+                false,
+                1,
+                1,
+                1,
+                0
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "58fa3565-5359-471c-8e17-136a45b56945"
+        }
+    },
+    "version": 0.4
+}

@@ -1,0 +1,51 @@
+{
+    "last_node_id": 2,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 2,
+            "type": "🎞️ StreamWriter (jov)",
+            "pos": [
+                670,
+                425
+            ],
+            "size": [
+                210,
+                200
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "link": null
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "🎞️ StreamWriter (jov)"
+            },
+            "widgets_values": [
+                "/stream",
+                false,
+                256,
+                256,
+                "NONE",
+                0,
+                "NORMAL"
+            ],
+            "color": "#322",
+            "bgcolor": "#533"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "69695cd8-4866-41b2-87c7-9df351c8f7b0"
+        }
+    },
+    "version": 0.4
+}

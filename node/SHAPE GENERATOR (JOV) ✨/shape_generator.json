@@ -1,0 +1,73 @@
+{
+    "last_node_id": 2,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 2,
+            "type": "SHAPE GENERATOR (JOV) ✨",
+            "pos": [
+                1810,
+                720
+            ],
+            "size": [
+                230,
+                270
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "SHAPE GENERATOR (JOV) ✨"
+            },
+            "widgets_values": [
+                "CIRCLE",
+                3,
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    512,
+                    512
+                ],
+                0,
+                [
+                    1,
+                    1
+                ],
+                "CLIP",
+                0
+            ],
+            "color": "#1F991FFF"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "4ffc9443-a5b0-4729-8510-171c84e8d281"
+        }
+    },
+    "version": 0.4
+}

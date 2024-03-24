@@ -1,0 +1,70 @@
+{
+    "last_node_id": 1,
+    "last_link_id": 0,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "➕ Merge (jov)",
+            "pos": [
+                761.0555590327132,
+                538.9585163404156
+            ],
+            "size": [
+                210,
+                220
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "pixelA",
+                    "type": "*",
+                    "link": null
+                },
+                {
+                    "name": "pixelB",
+                    "type": "*",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "🖼️",
+                    "type": "IMAGE",
+                    "links": null,
+                    "shape": 6
+                },
+                {
+                    "name": "😷",
+                    "type": "MASK",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "➕ Merge (jov)"
+            },
+            "widgets_values": [
+                "GRID",
+                5,
+                false,
+                512,
+                512,
+                "NONE",
+                "LANCZOS"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        }
+    ],
+    "links": [],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "workspace_info": {
+            "id": "15e0ccb7-c366-472b-9a7c-026c7d603440"
+        }
+    },
+    "version": 0.4
+}

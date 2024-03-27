@@ -1,10 +1,8 @@
-!NAME! || !CAT!
-
-The Blend node merges two input sources using a defined Blend Mode and an optional Opacity mask.
-
-The Blend Mode determines how attributes from each layer interact, influencing the resulting composite. Additionally, the Opacity mask allows for precise control over transparency, enhancing blending effects.
-
-WIKI: !URL!
+<h2>BLEND (JOV) ⚗️</h2>
+<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+<p>The Blend node merges two input sources using a defined Blend Mode and an optional Opacity mask.</p>
+<p>Mode determines how attributes from each layer interact, influencing the resulting composite. Additionally, the Opacity mask allows for precise control over transparency, enhancing blending effects.
+</p>
 
 MODE|EXPECTED|DESCRIPTION
 ---|---|---
@@ -40,4 +38,6 @@ SRCATOP | ![](https://raw.githubusercontent.com/FHPythonUtils/BlendModes/master/
 DESTATOP | ![](https://raw.githubusercontent.com/FHPythonUtils/BlendModes/master/tests/data/additive_expected.png) | Place the layer below above the 'layer above' in places where the 'layer above' exists, where 'layer below' does not exist, but 'layer above' does, place 'layer-above'.
 <img width=150/>|<img width=200/>|<img width=250/>
 
-!URL_VID!
+![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TICK/TICK.gif)
+
+help system powered by [MelMass](https://github.com/melMass) and the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

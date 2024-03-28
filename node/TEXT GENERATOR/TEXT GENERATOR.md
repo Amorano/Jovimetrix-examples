@@ -1,6 +1,6 @@
 
-<h2>TEXT GENERATOR (JOV) 📝</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/CREATE</h3>
+# TEXT GENERATOR (JOV) 📝
+## JOVIMETRIX 🔺🟩🔵/CREATE
 <p>Use any system font with auto-fit or manual placement.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TEXT%20GENERATOR/TEXT%20GENERATOR.gif)

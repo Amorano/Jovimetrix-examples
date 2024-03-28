@@ -1,6 +1,6 @@
 
-<h2>SHAPE GENERATOR (JOV) ✨</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/CREATE</h3>
+# SHAPE GENERATOR (JOV) ✨
+## JOVIMETRIX 🔺🟩🔵/CREATE
 <p>Generate polyhedra for masking or texture work.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SHAPE%20GENERATOR/SHAPE%20GENERATOR.gif)

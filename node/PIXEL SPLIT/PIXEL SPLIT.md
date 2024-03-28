@@ -1,6 +1,6 @@
 
-<h2>PIXEL SPLIT (JOV) 💔</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+# PIXEL SPLIT (JOV) 💔
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 <p>Splits images into constituent R, G and B and A channels.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20SPLIT/PIXEL%20SPLIT.gif)

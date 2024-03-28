@@ -1,6 +1,6 @@
 
-<h2>GLSL (JOV) 🍩</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/JOVIMETRIX GLSL 🔺🟩🔵</h3>
+# GLSL (JOV) 🍩
+## JOVIMETRIX 🔺🟩🔵/JOVIMETRIX GLSL 🔺🟩🔵
 <p></p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL/GLSL.gif)

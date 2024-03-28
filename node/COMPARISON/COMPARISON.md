@@ -1,6 +1,6 @@
 
-<h2>COMPARISON (JOV) 🕵🏽</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/FLOW</h3>
+# COMPARISON (JOV) 🕵🏽
+## JOVIMETRIX 🔺🟩🔵/FLOW
 <p></p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COMPARISON/COMPARISON.gif)

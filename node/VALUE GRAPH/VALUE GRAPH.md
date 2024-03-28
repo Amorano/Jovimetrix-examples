@@ -1,6 +1,6 @@
 
-<h2>VALUE GRAPH (JOV) 📈</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/UTILITY</h3>
+# VALUE GRAPH (JOV) 📈
+## JOVIMETRIX 🔺🟩🔵/UTILITY
 <p>Graphs historical execution run values.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VALUE%20GRAPH/VALUE%20GRAPH.gif)

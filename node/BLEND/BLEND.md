@@ -1,6 +1,6 @@
 
-<h2>BLEND (JOV) ⚗️</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+# BLEND (JOV) ⚗️
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 <p>Applies selected operation to 2 inputs with optional mask using a linear blend (alpha).</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/BLEND/BLEND.gif)

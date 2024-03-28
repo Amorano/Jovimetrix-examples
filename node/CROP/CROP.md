@@ -1,6 +1,6 @@
 
-<h2>CROP (JOV) ✂️</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+# CROP (JOV) ✂️
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 <p>Clip away sections of an image and backfill with optional color matte.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CROP/CROP.gif)

@@ -1,6 +1,6 @@
 
-<h2>MIDI FILTER (JOV) ✳️</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/DEVICE</h3>
+# MIDI FILTER (JOV) ✳️
+## JOVIMETRIX 🔺🟩🔵/DEVICE
 <p>Filter MIDI messages by channel, message type or value.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/MIDI%20FILTER/MIDI%20FILTER.gif)

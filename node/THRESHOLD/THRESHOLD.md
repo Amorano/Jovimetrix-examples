@@ -1,6 +1,6 @@
 
-<h2>THRESHOLD (JOV) 📉</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/ADJUST</h3>
+# THRESHOLD (JOV) 📉
+## JOVIMETRIX 🔺🟩🔵/ADJUST
 <p>Clip an input based on a mid point value.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/THRESHOLD/THRESHOLD.gif)

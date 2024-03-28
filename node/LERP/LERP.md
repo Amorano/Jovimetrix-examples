@@ -1,6 +1,6 @@
 
-<h2>LERP (JOV) 🔰</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
+# LERP (JOV) 🔰
+## JOVIMETRIX 🔺🟩🔵/CALC
 <p>Interpolate between two values with or without a smoothing.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/LERP/LERP.gif)

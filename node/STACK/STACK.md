@@ -1,6 +1,6 @@
 
-<h2>STACK (JOV) ➕</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+# STACK (JOV) ➕
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 <p>Union multiple images horizontal, vertical or in a grid.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STACK/STACK.gif)

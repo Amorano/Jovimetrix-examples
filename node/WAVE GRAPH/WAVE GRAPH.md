@@ -1,6 +1,6 @@
 
-<h2>WAVE GRAPH (JOV) ▶ ılıılı</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/AUDIO</h3>
+# WAVE GRAPH (JOV) ▶ ılıılı
+## JOVIMETRIX 🔺🟩🔵/AUDIO
 <p>Display audio waveform data as a linear bar graph</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/WAVE%20GRAPH/WAVE%20GRAPH.gif)

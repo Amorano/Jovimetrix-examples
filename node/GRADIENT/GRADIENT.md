@@ -1,6 +1,6 @@
 
-<h2>GRADIENT (JOV) 🍧</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/CREATE</h3>
+# GRADIENT (JOV) 🍧
+## JOVIMETRIX 🔺🟩🔵/CREATE
 <p>Make a gradient mapped to a linear or polar coordinate system.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GRADIENT/GRADIENT.gif)

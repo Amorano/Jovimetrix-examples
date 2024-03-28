@@ -1,6 +1,6 @@
 
-<h2>TRANSFORM (JOV) 🏝️</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+# TRANSFORM (JOV) 🏝️
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 <p>Translate, Rotate, Scale, Tile, Mirror, Re-project and invert an input.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TRANSFORM/TRANSFORM.gif)

@@ -1,6 +1,6 @@
 
-<h2>PIXEL SWAP (JOV) 🔃</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+# PIXEL SWAP (JOV) 🔃
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 <p>Swap inputs of one image with another or fill its channels with solids.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20SWAP/PIXEL%20SWAP.gif)

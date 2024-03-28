@@ -1,6 +1,6 @@
 
-<h2>VALUE (JOV) 🧬</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
+# VALUE (JOV) 🧬
+## JOVIMETRIX 🔺🟩🔵/CALC
 <p>Create a value for most types; also universal constants.</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VALUE/VALUE.gif)

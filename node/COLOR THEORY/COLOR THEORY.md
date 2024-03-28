@@ -1,6 +1,6 @@
 
-<h2>COLOR THEORY (JOV) 🛞</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+# COLOR THEORY (JOV) 🛞
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 <p>Generate Complimentary, Triadic and Tetradic color sets</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20THEORY/COLOR%20THEORY.gif)

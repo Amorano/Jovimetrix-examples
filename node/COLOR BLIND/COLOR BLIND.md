@@ -1,6 +1,6 @@
 
-<h2>COLOR BLIND (JOV) 👁‍🗨</h2>
-<h3>JOVIMETRIX 🔺🟩🔵/ADJUST</h3>
+# COLOR BLIND (JOV) 👁‍🗨
+## JOVIMETRIX 🔺🟩🔵/ADJUST
 <p>Transform an image into specific color blind color space</p>
 
 ![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20BLIND/COLOR%20BLIND.gif)

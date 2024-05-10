@@ -39,4 +39,4 @@ SRCATOP | ![](https://raw.githubusercontent.com/FHPythonUtils/BlendModes/master/
 DESTATOP | ![](https://raw.githubusercontent.com/FHPythonUtils/BlendModes/master/tests/data/additive_expected.png) | Place the layer below above the 'layer above' in places where the 'layer above' exists, where 'layer below' does not exist, but 'layer above' does, place 'layer-above'.
 <img width=150/>|<img width=200/>|<img width=250/>
 
-help system powered by [MelMass](https://github.com/melMass) and the [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

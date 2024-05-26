@@ -12,14 +12,14 @@ The Audio Device node allows you to interact with audio input devices to capture
 
 name|type|desc|default|meta
 :---:|:---:|---|---|---
-📟|COMBO[STRING]|device|Microsoft Sound Mapper - Input|Microsoft Sound Mapper - Input, Microphone (Logitech USB<br>Microp, Microsoft Sound Mapper - Output, Speakers (High<br>Definition Audio, Sceptre Z27 (NVIDIA High Defini, Primary<br>Sound Capture Driver, Microphone (Logitech USB Microphone),<br>Primary Sound Driver, Speakers (High Definition Audio<br>Device), Sceptre Z27 (NVIDIA High Definition Audio), Output<br>(NVIDIA High Definition Audio), SPDIF Out (HD Audio SPDIF<br>out), Speakers (HD Audio Headphone/Speakers), Microphone<br>(Logitech StreamCam)
+📟|COMBO[STRING]|device|Microsoft Sound Mapper - Input|Microsoft Sound Mapper - Input, Microphone<br>(Logitech USB Microp, Microsoft Sound Mapper<br>- Output, Speakers (High Definition Audio,<br>Sceptre Z27 (NVIDIA High Defini, Primary<br>Sound Capture Driver, Microphone (Logitech<br>USB Microphone), Primary Sound Driver,<br>Speakers (High Definition Audio Device),<br>Sceptre Z27 (NVIDIA High Definition Audio),<br>Output (NVIDIA High Definition Audio), SPDIF<br>Out (HD Audio SPDIF out), Speakers (HD Audio<br>Headphone/Speakers), Microphone (Logitech<br>StreamCam)
 ⚡|BOOLEAN|trigger|True|
-⏺|BOOLEAN|arm record capture from selected device|True|
+⏺|BOOLEAN|arm record capture from selected<br>device|True|
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-♒|Wave Function|WAVE
+♒|WAVE|Wave Function
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

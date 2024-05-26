@@ -13,15 +13,15 @@ The Text Generation node generates images containing text based on user-defined 
 name|type|desc|default|meta
 :---:|:---:|---|---|---
 📝|STRING|string entry||
-FONT|COMBO[STRING]|available system fonts|Almendra|Almendra, Arial, Bahnschrift, Caladea, Calibri, Cambria,<br>Candara, Carlito, Cascadia Code, Cascadia Mono, Comic Sans<br>MS, Consolas, Constantia, Corbel, Courier New, DejaVu Sans,<br>DejaVu Sans Display, DejaVu Sans Mono, DejaVu Serif, DejaVu<br>Serif Display, Ebrima, Franklin Gothic Medium, Gabriola,<br>Gadugi, Gentium Basic, Gentium Book Basic, Georgia, HoloLens<br>MDL2 Assets, Impact, Ink Free, IntelOne Mono, Javanese Text,<br>JetBrains Mono, JetBrains Mono NL, Leelawadee UI, Lora,<br>Lucida Console, Lucida Sans Unicode, MS Gothic, MV Boli,<br>Malgun Gothic, Microsoft Himalaya, Microsoft JhengHei,<br>Microsoft New Tai Lue, Microsoft PhagsPa, Microsoft Sans<br>Serif, Microsoft Tai Le, Microsoft YaHei, Microsoft Yi<br>Baiti, MingLiU-ExtB, Mongolian Baiti, Montserrat, Myanmar<br>Text, Nirmala UI, OpenSymbol, Palatino Linotype, Raleway,<br>STIXGeneral, STIXNonUnicode, STIXSizeFiveSym,<br>STIXSizeFourSym, STIXSizeOneSym, STIXSizeThreeSym,<br>STIXSizeTwoSym, Segoe MDL2 Assets, Segoe Print, Segoe<br>Script, Segoe UI, Segoe UI Emoji, Segoe UI Historic, Segoe<br>UI Symbol, SimSun, SimSun-ExtB, Sitka Small, Sylfaen,<br>Symbol, Tahoma, Times New Roman, Trebuchet MS, Verdana,<br>Webdings, Wingdings, Yu Gothic, cmb10, cmex10, cmmi10,<br>cmr10, cmss10, cmsy10, cmtt10
-LETTER|BOOLEAN|if each letter be generated and output<br>in a batch|False|
+FONT|COMBO[STRING]|available system fonts|Almendra|Almendra, Arial, Bahnschrift, Caladea,<br>Calibri, Cambria, Candara, Carlito, Cascadia<br>Code, Cascadia Mono, Comic Sans MS, Consolas,<br>Constantia, Corbel, Courier New, DejaVu Sans,<br>DejaVu Sans Display, DejaVu Sans Mono, DejaVu<br>Serif, DejaVu Serif Display, Ebrima, Franklin<br>Gothic Medium, Gabriola, Gadugi, Gentium<br>Basic, Gentium Book Basic, Georgia, HoloLens<br>MDL2 Assets, Impact, Ink Free, IntelOne Mono,<br>Javanese Text, JetBrains Mono, JetBrains Mono<br>NL, Leelawadee UI, Lora, Lucida Console,<br>Lucida Sans Unicode, MS Gothic, MV Boli,<br>Malgun Gothic, Microsoft Himalaya, Microsoft<br>JhengHei, Microsoft New Tai Lue, Microsoft<br>PhagsPa, Microsoft Sans Serif, Microsoft Tai<br>Le, Microsoft YaHei, Microsoft Yi Baiti,<br>MingLiU-ExtB, Mongolian Baiti, Montserrat,<br>Myanmar Text, Nirmala UI, OpenSymbol,<br>Palatino Linotype, Raleway, STIXGeneral,<br>STIXNonUnicode, STIXSizeFiveSym,<br>STIXSizeFourSym, STIXSizeOneSym,<br>STIXSizeThreeSym, STIXSizeTwoSym, Segoe MDL2<br>Assets, Segoe Print, Segoe Script, Segoe UI,<br>Segoe UI Emoji, Segoe UI Historic, Segoe UI<br>Symbol, SimSun, SimSun-ExtB, Sitka Small,<br>Sylfaen, Symbol, Tahoma, Times New Roman,<br>Trebuchet MS, Verdana, Webdings, Wingdings,<br>Yu Gothic, cmb10, cmex10, cmmi10, cmr10,<br>cmss10, cmsy10, cmtt10
+LETTER|BOOLEAN|if each letter be generated and<br>output in a batch|False|
 AUTOSIZE|BOOLEAN|scale based on width & height|False|
 🌈A|VEC3|rgb with alpha color|(255, 255, 255, 255)|
 MATTE|VEC3|background color|(0, 0, 0)|
-COLS|INT|0 = auto-fit, >0 = fit into n columns|0|
+COLS|INT|0 = auto-fit, >0 = fit into n<br>columns|0|
 SIZE|INT|text size|16|
 ALIGN|COMBO[STRING]|top, center or bottom alignment|CENTER|TOP, CENTER, BOTTOM
-JUSTIFY|COMBO[STRING]|how to align the text to the side<br>margins of the canvas: left, right, or<br>centered|CENTER|LEFT, CENTER, RIGHT
+JUSTIFY|COMBO[STRING]|how to align the text to the side<br>margins of the canvas: left, right,<br>or centered|CENTER|LEFT, CENTER, RIGHT
 MARGIN|INT|whitespace padding around canvas|0|
 SPACING|INT|line spacing between text lines|25|
 🇼🇭|VEC2|width and height|(32, 32)|
@@ -34,8 +34,8 @@ EDGE|COMBO[STRING]|clip or wrap the canvas edge|CLIP|CLIP, WRAP, WRAPX, WRAPY
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
-🌈|RGB (no alpha) Color|IMAGE
-😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
+🖼️|IMAGE|Image
+🌈|IMAGE|RGB (no alpha) Color
+😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -27,8 +27,8 @@ BLUR|FLOAT|blur|0|
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
-🌈|RGB (no alpha) Color|IMAGE
-😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
+🖼️|IMAGE|Image
+🌈|IMAGE|RGB (no alpha) Color
+😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

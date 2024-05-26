@@ -19,8 +19,8 @@ complex image transformations.
 name|type|desc|default|meta
 :---:|:---:|---|---|---
 👾|*|pixel data (rgba, rgb or grayscale)||
-😷|*|mask or image to use as mask to control<br>where adjustments are applied||
-⚒️|COMBO[STRING]|function|BLUR|BLUR, STACK_BLUR, GAUSSIAN_BLUR, MEDIAN_BLUR, SHARPEN,<br>EMBOSS, INVERT, HSV, LEVELS, EQUALIZE, PIXELATE, QUANTIZE,<br>POSTERIZE, FIND_EDGES, OUTLINE, DILATE, ERODE, OPEN, CLOSE
+😷|*|mask or image to use as mask to<br>control where adjustments are<br>applied||
+⚒️|COMBO[STRING]|function|BLUR|BLUR, STACK_BLUR, GAUSSIAN_BLUR, MEDIAN_BLUR,<br>SHARPEN, EMBOSS, INVERT, HSV, LEVELS,<br>EQUALIZE, PIXELATE, QUANTIZE, POSTERIZE,<br>FIND_EDGES, OUTLINE, DILATE, ERODE, OPEN,<br>CLOSE
 🅡|INT|radius|3|
 #️⃣|FLOAT|value|1|
 LoHi|VEC2|low and high|(0, 1)|
@@ -35,8 +35,8 @@ MATTE|VEC4|background color|(0, 0, 0, 255)|
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
-🌈|RGB (no alpha) Color|IMAGE
-😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
+🖼️|IMAGE|Image
+🌈|IMAGE|RGB (no alpha) Color
+😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

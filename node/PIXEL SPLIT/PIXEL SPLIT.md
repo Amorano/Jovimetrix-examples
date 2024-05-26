@@ -18,9 +18,9 @@ name|type|desc|default|meta
 
 name|type|desc
 :---:|:---:|---
-❤️|Red Channel|MASK
-💚|Green Channel|MASK
-💙|Blue Channel|MASK
-🤍|Alpha Channel|MASK
+❤️|MASK|Red Channel
+💚|MASK|Green Channel
+💙|MASK|Blue Channel
+🤍|MASK|Alpha Channel
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

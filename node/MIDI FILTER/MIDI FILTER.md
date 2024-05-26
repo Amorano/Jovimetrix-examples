@@ -24,7 +24,7 @@ CHAN|STRING|channel||
 
 name|type|desc
 :---:|:---:|---
-🎛️|Midi|JMIDIMSG
-⚡|Trigger|BOOLEAN
+🎛️|JMIDIMSG|Midi
+⚡|BOOLEAN|Trigger
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

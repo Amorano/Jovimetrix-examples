@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
-
+The Queue node manages a queue of items, such as file paths or data. It supports various formats including images, videos, text files, and JSON files. Users can specify the current index for the queue item, enable pausing the queue, or reset it back to the first index. The node outputs the current item in the queue, the entire queue, the current index, and the total number of items in the queue.
 
 #### OUTPUT NODE?: `False`
 
@@ -21,10 +21,10 @@ RESET|BOOLEAN|reset|False|
 
 name|type|desc
 :---:|:---:|---
-🔮|Any Type|*
-Q|Queue|*
-CURRENT|Current|STRING
-INDEX|Current item index in the Queue list|INT
-TOTAL|Total items in the current Queue List|INT
+🔮|*|Any Type
+Q|*|Queue
+CURRENT|STRING|Current
+INDEX|INT|Current item index in the Queue list
+TOTAL|INT|Total items in the current Queue List
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

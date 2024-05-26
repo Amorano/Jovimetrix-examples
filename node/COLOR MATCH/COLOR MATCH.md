@@ -15,10 +15,10 @@ name|type|desc|default|meta
 👾A|*|pixel data (rgba, rgb or grayscale)||
 👾B|*|pixel data (rgba, rgb or grayscale)||
 MODE|COMBO[STRING]|scaling mode|REINHARD|REINHARD, LUT, HISTOGRAM
-MAP|COMBO[STRING]|custom image that will be transformed<br>into a lut or a built-in cv2 lut|USER_MAP|USER_MAP, PRESET_MAP
-🇸🇨|COMBO[STRING]|one of two dozen cv2 built-in colormap<br>lut (look up table) presets|HSV|AUTUMN, BONE, JET, WINTER, RAINBOW, OCEAN, SUMMER, SPRING,<br>COOL, HSV, PINK, HOT, PARULA, MAGMA, INFERNO, PLASMA,<br>VIRIDIS, CIVIDIS, TWILIGHT, TWILIGHT_SHIFTED, TURBO,<br>DEEPGREEN
+MAP|COMBO[STRING]|custom image that will be<br>transformed into a lut or a built-<br>in cv2 lut|USER_MAP|USER_MAP, PRESET_MAP
+🇸🇨|COMBO[STRING]|one of two dozen cv2 built-in<br>colormap lut (look up table)<br>presets|HSV|AUTUMN, BONE, JET, WINTER, RAINBOW, OCEAN,<br>SUMMER, SPRING, COOL, HSV, PINK, HOT, PARULA,<br>MAGMA, INFERNO, PLASMA, VIRIDIS, CIVIDIS,<br>TWILIGHT, TWILIGHT_SHIFTED, TURBO, DEEPGREEN
 #️⃣|INT|value|255|
-🙃|BOOLEAN|flip input a and input b with each other|False|
+🙃|BOOLEAN|flip input a and input b with each<br>other|False|
 🔳|BOOLEAN|color inversion|False|
 MATTE|VEC4|background color|(0, 0, 0, 255)|
 
@@ -26,8 +26,8 @@ MATTE|VEC4|background color|(0, 0, 0, 255)|
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
-🌈|RGB (no alpha) Color|IMAGE
-😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
+🖼️|IMAGE|Image
+🌈|IMAGE|RGB (no alpha) Color
+😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

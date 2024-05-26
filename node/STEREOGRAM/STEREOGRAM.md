@@ -13,7 +13,7 @@ The Stereogram node creates stereograms, generating 3D images from 2D input. Set
 name|type|desc|default|meta
 :---:|:---:|---|---|---
 👾|*|pixel data (rgba, rgb or grayscale)||
-DEPTH|*|grayscale image representing a depth map||
+DEPTH|*|grayscale image representing a<br>depth map||
 TILE|INT|title|8|
 NOISE|FLOAT|noise|0.33|
 🔆|FLOAT|gamma|0.33|
@@ -23,8 +23,8 @@ SHIFT|FLOAT|shift|1.0|
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
-🌈|RGB (no alpha) Color|IMAGE
-😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
+🖼️|IMAGE|Image
+🌈|IMAGE|RGB (no alpha) Color
+😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

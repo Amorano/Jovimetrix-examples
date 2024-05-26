@@ -18,23 +18,23 @@ name|type|desc|default|meta
 📏|VEC2|scalar by which to scale the input|(1.0, 1.0)|
 TILE|VEC2|title|(1.0, 1.0)|
 EDGE|COMBO[STRING]|clip or wrap the canvas edge|CLIP|CLIP, WRAP, WRAPX, WRAPY
-🪞|COMBO[STRING]|mirror|NONE|NONE, X, FLIP_X, Y, FLIP_Y, XY, X_FLIP_Y, FLIP_XY,<br>FLIP_X_FLIP_Y
+🪞|COMBO[STRING]|mirror|NONE|NONE, X, FLIP_X, Y, FLIP_Y, XY, X_FLIP_Y,<br>FLIP_XY, FLIP_X_FLIP_Y
 PIVOT|VEC2|pivot|(0.5, 0.5)|
-PROJ|COMBO[STRING]|projection|NORMAL|NORMAL, POLAR, SPHERICAL, FISHEYE, PERSPECTIVE
+PROJ|COMBO[STRING]|projection|NORMAL|NORMAL, POLAR, SPHERICAL, FISHEYE,<br>PERSPECTIVE
 TL-TR|VEC4|top left - top right|(0, 0, 1, 0)|
 BL-BR|VEC4|bottom left - bottom right|(0, 1, 1, 1)|
 💪🏽|FLOAT|strength|1|
 MODE|COMBO[STRING]|scaling mode|NONE|NONE, CROP, MATTE, FIT, ASPECT, ASPECT_SHORT
 🇼🇭|VEC2|width and height|(32, 32)|
-🎞️|COMBO[STRING]|sampling method to apply when rescaling|LANCZOS4|NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR_EXACT,<br>NEAREST_EXACT
+🎞️|COMBO[STRING]|sampling method to apply when<br>rescaling|LANCZOS4|NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR_EXACT, NEAREST_EXACT
 MATTE|VEC4|background color|(0, 0, 0, 255)|
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
-🌈|RGB (no alpha) Color|IMAGE
-😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
+🖼️|IMAGE|Image
+🌈|IMAGE|RGB (no alpha) Color
+😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -12,7 +12,7 @@ The `Wave Generator` node produces waveforms like sine, square, or sawtooth with
 
 name|type|desc|default|meta
 :---:|:---:|---|---|---
-♒|COMBO[STRING]|wave function|SIN|SIN, COS, TAN, SAWTOOTH, TRIANGLE, SQUARE, PULSE, RAMP,<br>STEP, EXPONENTIAL, LOGARITHMIC, NOISE, HAVERSINE,<br>RECTANGULAR_PULSE, GAUSSIAN, CHIRP
+♒|COMBO[STRING]|wave function|SIN|SIN, COS, TAN, SAWTOOTH, TRIANGLE, SQUARE,<br>PULSE, RAMP, STEP, EXPONENTIAL, LOGARITHMIC,<br>NOISE, HAVERSINE, RECTANGULAR_PULSE,<br>GAUSSIAN, CHIRP
 FREQ|FLOAT|frequency|1|
 🔊|FLOAT|amplitude|1|
 PHASE|FLOAT|phase|0|
@@ -24,7 +24,7 @@ OFFSET|FLOAT|offset|0|
 
 name|type|desc
 :---:|:---:|---
-🛟|Linear|FLOAT
-🔟|Integer|INT
+🛟|FLOAT|Linear
+🔟|INT|Integer
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

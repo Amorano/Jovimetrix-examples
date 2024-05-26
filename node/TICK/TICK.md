@@ -26,9 +26,9 @@ BATCH|INT|process multiple images|1|
 
 name|type|desc
 :---:|:---:|---
-#️⃣|Value|INT
-🛟|Linear|FLOAT
-🏎️|Frames per second|FLOAT
-🔮|Any Type|*
+#️⃣|INT|Value
+🛟|FLOAT|Linear
+🏎️|FLOAT|Frames per second
+🔮|*|Any Type
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

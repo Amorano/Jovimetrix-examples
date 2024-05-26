@@ -20,6 +20,6 @@ name|type|desc|default|meta
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
+🖼️|IMAGE|Image
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

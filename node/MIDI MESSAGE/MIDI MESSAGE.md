@@ -18,12 +18,12 @@ name|type|desc|default|meta
 
 name|type|desc
 :---:|:---:|---
-🎛️|Midi|JMIDIMSG
-🔛|On|BOOLEAN
-CHAN|Channel|INT
-🎚️|Control|INT
-🎶|Note|INT
-#️⃣|Value|FLOAT
-0-1|Normalize|FLOAT
+🎛️|JMIDIMSG|Midi
+🔛|BOOLEAN|On
+CHAN|INT|Channel
+🎚️|INT|Control
+🎶|INT|Note
+#️⃣|FLOAT|Value
+0-1|FLOAT|Normalize
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

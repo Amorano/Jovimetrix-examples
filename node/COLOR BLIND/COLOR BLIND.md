@@ -14,15 +14,15 @@ name|type|desc|default|meta
 :---:|:---:|---|---|---
 👾|*|pixel data (rgba, rgb or grayscale)||
 MODE|COMBO[STRING]|scaling mode|PROTAN|DEUTAN, PROTAN, TRITAN
-MAP|COMBO[STRING]|custom image that will be transformed<br>into a lut or a built-in cv2 lut|AUTOSELECT|AUTOSELECT, BRETTEL1997, COBLISV1, COBLISV2, MACHADO2009,<br>VIENOT1999, VISCHECK
+MAP|COMBO[STRING]|custom image that will be<br>transformed into a lut or a built-<br>in cv2 lut|AUTOSELECT|AUTOSELECT, BRETTEL1997, COBLISV1, COBLISV2,<br>MACHADO2009, VIENOT1999, VISCHECK
 #️⃣|FLOAT|value|1|
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
-🌈|RGB (no alpha) Color|IMAGE
-😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
+🖼️|IMAGE|Image
+🌈|IMAGE|RGB (no alpha) Color
+😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

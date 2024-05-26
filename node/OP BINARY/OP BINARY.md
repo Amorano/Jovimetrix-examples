@@ -14,9 +14,9 @@ name|type|desc|default|meta
 :---:|:---:|---|---|---
 🅰️|*|input a||
 🅱️|*|input b||
-⚒️|COMBO[STRING]|function|ADD|ADD, SUBTRACT, MULTIPLY, DIVIDE, DIVIDE_FLOOR, MODULUS,<br>POWER, MAXIMUM, MINIMUM, DOT_PRODUCT, CROSS_PRODUCT,<br>BIT_AND, BIT_NAND, BIT_OR, BIT_NOR, BIT_XOR, BIT_XNOR,<br>BIT_LSHIFT, BIT_RSHIFT, UNION, INTERSECTION, DIFFERENCE
-❓|COMBO[STRING]|type|INT|BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT
-🙃|BOOLEAN|flip input a and input b with each other|False|
+⚒️|COMBO[STRING]|function|ADD|ADD, SUBTRACT, MULTIPLY, DIVIDE,<br>DIVIDE_FLOOR, MODULUS, POWER, MAXIMUM,<br>MINIMUM, DOT_PRODUCT, CROSS_PRODUCT, BIT_AND,<br>BIT_NAND, BIT_OR, BIT_NOR, BIT_XOR, BIT_XNOR,<br>BIT_LSHIFT, BIT_RSHIFT, UNION, INTERSECTION,<br>DIFFERENCE
+❓|COMBO[STRING]|type|INT|BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3,<br>VEC3INT, VEC4, VEC4INT
+🙃|BOOLEAN|flip input a and input b with each<br>other|False|
 🇽|FLOAT|x|0|
 🅰️2|VEC2|2-value vector|(0, 0)|
 🅰️3|VEC3|3-value vector|(0, 0, 0)|
@@ -30,6 +30,6 @@ name|type|desc|default|meta
 
 name|type|desc
 :---:|:---:|---
-❔|Unknown|*
+❔|*|Unknown
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

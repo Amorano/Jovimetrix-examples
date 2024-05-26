@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
-
+The Graph node visualizes a series of data points over time. It accepts a dynamic number of values to graph and display, with options to reset the graph or specify the number of values. The output is an image displaying the graph, allowing users to analyze trends and patterns.
 
 #### OUTPUT NODE?: `True`
 
@@ -20,6 +20,6 @@ RESET|BOOLEAN|reset|False|
 
 name|type|desc
 :---:|:---:|---
-🖼️|Image|IMAGE
+🖼️|IMAGE|Image
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

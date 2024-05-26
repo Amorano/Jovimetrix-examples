@@ -16,27 +16,27 @@ complex image transformations.
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾| * | pixel data (rgba, rgb or grayscale) |  | 
-😷| * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
-⚒️| COMBO[STRING] | function | BLUR | BLUR, STACK BLUR, GAUSSIAN BLUR, MEDIAN BLUR,<br>SHARPEN, EMBOSS, INVERT, HSV, LEVELS,<br>EQUALIZE, PIXELATE, QUANTIZE, POSTERIZE, FIND<br>EDGES, OUTLINE, DILATE, ERODE, OPEN, CLOSE
-🅡| INT | radius | 3 | 
-VALUE| FLOAT | value | 1 | 
-LoHi| VEC2 | low and high | (0, 1) | 
-LMH| VEC3 | low, middle, high | (0, 0.5, 1) | 
-🇭🇸‌🇻| VEC3 | hue, saturation and value | (0, 1, 1) | 
-🌓| FLOAT | contrast | 0 | 
-🔆| FLOAT | gamma | 1 | 
-MATTE| VEC4 | background color | (0, 0, 0, 255) | 
-🔳| BOOLEAN | color inversion | False | 
+👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+😷 | * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
+⚒️ | COMBO[STRING] | function | BLUR | BLUR, STACK BLUR, GAUSSIAN BLUR,<br>MEDIAN BLUR, SHARPEN, EMBOSS,<br>INVERT, HSV, LEVELS, EQUALIZE,<br>PIXELATE, QUANTIZE, POSTERIZE,<br>FIND EDGES, OUTLINE, DILATE,<br>ERODE, OPEN, CLOSE
+🅡 | INT | radius | 3 | 
+VALUE | FLOAT | value | 1 | 
+LoHi | VEC2 | low and high | (0, 1) | 
+LMH | VEC3 | low, middle, high | (0, 0.5, 1) | 
+🇭🇸‌🇻 | VEC3 | hue, saturation and value | (0, 1, 1) | 
+🌓 | FLOAT | contrast | 0 | 
+🔆 | FLOAT | gamma | 1 | 
+MATTE | VEC4 | background color | (0, 0, 0, 255) | 
+🔳 | BOOLEAN | color inversion | False | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
-🌈| IMAGE | RGB (no alpha) Color 
-😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+🖼️ | IMAGE | Image 
+🌈 | IMAGE | RGB (no alpha) Color 
+😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

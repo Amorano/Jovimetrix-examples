@@ -20,7 +20,7 @@ name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 👾| * | pixel data (rgba, rgb or grayscale) |  | 
 😷| * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
-⚒️| COMBO[STRING] | function | BLUR | BLUR, STACK_BLUR, GAUSSIAN_BLUR, MEDIAN_BLUR,<br>SHARPEN, EMBOSS, INVERT, HSV, LEVELS,<br>EQUALIZE, PIXELATE, QUANTIZE, POSTERIZE,<br>FIND_EDGES, OUTLINE, DILATE, ERODE, OPEN,<br>CLOSE
+⚒️| COMBO[STRING] | function | BLUR | BLUR, STACK BLUR, GAUSSIAN BLUR, MEDIAN BLUR,<br>SHARPEN, EMBOSS, INVERT, HSV, LEVELS,<br>EQUALIZE, PIXELATE, QUANTIZE, POSTERIZE, FIND<br>EDGES, OUTLINE, DILATE, ERODE, OPEN, CLOSE
 🅡| INT | radius | 3 | 
 VALUE| FLOAT | value | 1 | 
 LoHi| VEC2 | low and high | (0, 1) | 

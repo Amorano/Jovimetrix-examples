@@ -16,7 +16,7 @@ name|type|desc|default|meta
 🅱️| * | input b |  | 
 😍| * | pass this data on a successful<br>condition |  | 
 🥵| * | pass this data on a failure<br>condition |  | 
-🕵🏽‍♀️| COMBO[STRING] | comparison function. will pass the<br>data in 😍 on successful comparison | EQUAL | EQUAL, NOT_EQUAL, LESS_THAN, LESS_THAN_EQUAL,<br>GREATER_THAN, GREATER_THAN_EQUAL, AND, NAND,<br>OR, NOR, XOR, XNOR, IS, IS_NOT, IN, NOT_IN
+🕵🏽‍♀️| COMBO[STRING] | comparison function. will pass the<br>data in 😍 on successful comparison | EQUAL | EQUAL, NOT EQUAL, LESS THAN, LESS THAN EQUAL,<br>GREATER THAN, GREATER THAN EQUAL, AND, NAND,<br>OR, NOR, XOR, XNOR, IS, IS NOT, IN, NOT IN
 🙃| BOOLEAN | flip input a and input b with each<br>other | False | 
 
 ### OUTPUT

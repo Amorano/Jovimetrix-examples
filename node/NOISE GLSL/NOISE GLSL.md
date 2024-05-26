@@ -12,7 +12,7 @@ The NOISE GLSL (JOV) node generates noise using GLSL shaders, providing various 
 
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
-❓| COMBO[STRING] | type | VALUE | BROWNIAN, VALUE, GRADIENT, MOSAIC, PERLIN_2D,<br>SIMPLEX_2D
+❓| COMBO[STRING] | type | VALUE | BROWNIAN, VALUE, GRADIENT, MOSAIC, PERLIN 2D,<br>SIMPLEX 2D
 SEED| INT | seed | 0 | 
 🇼🇭| VEC2 | width and height | (32, 32) | 
 

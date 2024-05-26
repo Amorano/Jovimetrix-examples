@@ -13,7 +13,7 @@ The MIDI Filter EZ node allows you to filter MIDI messages based on various crit
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 🎛️| JMIDIMSG | midi |  | 
-MODE| COMBO[STRING] | scaling mode | IGNORE | NOTE_OFF, NOTE_ON, IGNORE
+MODE| COMBO[STRING] | scaling mode | IGNORE | NOTE OFF, NOTE ON, IGNORE
 CHAN| INT | channel | -1 | 
 🎚️| INT | control | -1 | 
 🎶| INT | note | -1 | 

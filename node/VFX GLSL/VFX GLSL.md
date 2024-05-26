@@ -14,7 +14,7 @@ name|type|desc|default|meta
 radius| FLOAT |  | 2.0 | 
 strength| FLOAT |  | 1.0 | 
 center| VEC2 |  | (0.5, 0.5) | 
-❓| COMBO[STRING] | type | BULGE | BULGE, CHROMATIC, CROSS_STITCH, CROSS_HATCH,<br>CRT, FILM_GRAIN, FROSTED, PIXELATION, SEPIA,<br>VHS
+❓| COMBO[STRING] | type | BULGE | BULGE, CHROMATIC, CROSS STITCH, CROSS HATCH,<br>CRT, FILM GRAIN, FROSTED, PIXELATION, SEPIA,<br>VHS
 
 ### OUTPUT
 

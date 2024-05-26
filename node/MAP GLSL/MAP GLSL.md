@@ -13,7 +13,7 @@ The MAP GLSL (JOV) node applies mapping transformations to input images using GL
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 👾A| * | pixel data (rgba, rgb or grayscale) |  | 
-❓| COMBO[STRING] | type | POLAR | MERCATOR, POLAR, RECT_EQUAL
+❓| COMBO[STRING] | type | POLAR | MERCATOR, POLAR, RECT EQUAL
 🙃| BOOLEAN | flip input a and input b with each<br>other | False | 
 
 ### OUTPUT

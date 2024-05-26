@@ -18,15 +18,15 @@ name|type|desc|default|meta
 📏| VEC2 | scalar by which to scale the input | (1.0, 1.0) | 
 TILE| VEC2 | title | (1.0, 1.0) | 
 EDGE| COMBO[STRING] | clip or wrap the canvas edge | CLIP | CLIP, WRAP, WRAPX, WRAPY
-🪞| COMBO[STRING] | mirror | NONE | NONE, X, FLIP_X, Y, FLIP_Y, XY, X_FLIP_Y,<br>FLIP_XY, FLIP_X_FLIP_Y
+🪞| COMBO[STRING] | mirror | NONE | NONE, X, FLIP X, Y, FLIP Y, XY, X FLIP Y,<br>FLIP XY, FLIP X FLIP Y
 PIVOT| VEC2 | pivot | (0.5, 0.5) | 
 PROJ| COMBO[STRING] | projection | NORMAL | NORMAL, POLAR, SPHERICAL, FISHEYE,<br>PERSPECTIVE
 TL-TR| VEC4 | top left - top right | (0, 0, 1, 0) | 
 BL-BR| VEC4 | bottom left - bottom right | (0, 1, 1, 1) | 
 💪🏽| FLOAT | strength | 1 | 
-MODE| COMBO[STRING] | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT_SHORT
+MODE| COMBO[STRING] | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT SHORT
 🇼🇭| VEC2 | width and height | (32, 32) | 
-🎞️| COMBO[STRING] | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR_EXACT, NEAREST_EXACT
+🎞️| COMBO[STRING] | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
 MATTE| VEC4 | background color | (0, 0, 0, 255) | 
 
 ### OUTPUT

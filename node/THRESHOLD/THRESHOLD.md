@@ -13,7 +13,7 @@ The `Threshold` node enables you to apply thresholding techniques to images, use
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 👾| * | pixel data (rgba, rgb or grayscale) |  | 
-🧬| COMBO[STRING] | x-men | ADAPT_NONE | ADAPT_NONE, ADAPT_MEAN, ADAPT_GAUSS
+🧬| COMBO[STRING] | x-men | ADAPT_NONE | ADAPT NONE, ADAPT MEAN, ADAPT GAUSS
 ⚒️| COMBO[STRING] | function | BINARY | BINARY, TRUNC, TOZERO
 📉| FLOAT | threshold | 0.5 | 
 📏| INT | scalar by which to scale the input | 3 | 

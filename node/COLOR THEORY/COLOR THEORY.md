@@ -13,7 +13,7 @@ The Color Theory Node applies various color harmony schemes to an input image, g
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 👾| * | pixel data (rgba, rgb or grayscale) |  | 
-SCHEME| COMBO[STRING] | scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC,<br>SPLIT_COMPLIMENTARY, ANALOGOUS, TRIADIC,<br>SQUARE, COMPOUND, CUSTOM_TETRAD
+SCHEME| COMBO[STRING] | scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC, SPLIT<br>COMPLIMENTARY, ANALOGOUS, TRIADIC, SQUARE,<br>COMPOUND, CUSTOM TETRAD
 VALUE| INT | value | 45 | 
 🔳| BOOLEAN | color inversion | False | 
 

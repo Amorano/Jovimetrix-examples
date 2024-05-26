@@ -13,7 +13,7 @@ The MIDI Filter node provides advanced filtering capabilities for MIDI messages 
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 🎛️| JMIDIMSG | midi |  | 
-🔛| COMBO[STRING] | on | IGNORE | NOTE_OFF, NOTE_ON, IGNORE
+🔛| COMBO[STRING] | on | IGNORE | NOTE OFF, NOTE ON, IGNORE
 CHAN| STRING | channel |  | 
 🎚️| STRING | control |  | 
 🎶| STRING | note |  | 

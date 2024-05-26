@@ -12,7 +12,7 @@ Processes a batch of data based on the selected mode, such as merging, picking, 
 
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
-MODE| COMBO[STRING] | scaling mode | MERGE | MERGE, PICK, SLICE, INDEX_LIST, RANDOM
+MODE| COMBO[STRING] | scaling mode | MERGE | MERGE, PICK, SLICE, INDEX LIST, RANDOM
 INDEX| INT | current item index in the queue<br>list | 0 | 
 RANGE| VEC3 | start index, ending index (0 means<br>full length) and how many items to<br>skip per step | (0, 0, 1) | 
 📝| STRING | string entry |  | 

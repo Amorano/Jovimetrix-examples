@@ -14,9 +14,9 @@ name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 AXIS| COMBO[STRING] | axis | GRID | HORIZONTAL, VERTICAL, GRID
 🦶🏽| INT | step | 1 | 
-MODE| COMBO[STRING] | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT_SHORT
+MODE| COMBO[STRING] | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT SHORT
 🇼🇭| VEC2 | width and height | (32, 32) | 
-🎞️| COMBO[STRING] | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR_EXACT, NEAREST_EXACT
+🎞️| COMBO[STRING] | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
 MATTE| VEC4 | background color | (0, 0, 0, 255) | 
 
 ### OUTPUT

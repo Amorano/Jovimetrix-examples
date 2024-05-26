@@ -13,7 +13,7 @@ The Unary Operation node performs unary operations like absolute value, mean, me
 name|type|desc|default|meta
 :---:|:---:|---|:---:|---
 🅰️| * | input a |  | 
-⚒️| COMBO[STRING] | function | ABS | ABS, FLOOR, CEIL, SQRT, SQUARE, LOG, LOG10,<br>SIN, COS, TAN, NEGATE, RECIPROCAL, FACTORIAL,<br>EXP, MINIMUM, MAXIMUM, MEAN, MEDIAN, MODE,<br>MAGNITUDE, NORMALIZE, NOT, BIT_NOT, COS_H,<br>SIN_H, TAN_H, RADIANS, DEGREES, GAMMA,<br>IS_EVEN, IS_ODD
+⚒️| COMBO[STRING] | function | ABS | ABS, FLOOR, CEIL, SQRT, SQUARE, LOG, LOG10,<br>SIN, COS, TAN, NEGATE, RECIPROCAL, FACTORIAL,<br>EXP, MINIMUM, MAXIMUM, MEAN, MEDIAN, MODE,<br>MAGNITUDE, NORMALIZE, NOT, BIT NOT, COS H,<br>SIN H, TAN H, RADIANS, DEGREES, GAMMA, IS<br>EVEN, IS ODD
 
 ### OUTPUT
 

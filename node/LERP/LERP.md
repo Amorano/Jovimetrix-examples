@@ -1,8 +1,27 @@
-
 # LERP (JOV) 🔰
-## JOVIMETRIX 🔺🟩🔵/CALC
-<p>Interpolate between two values with or without a smoothing.</p>
 
-![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/LERP/LERP.gif)
+## JOVIMETRIX 🔺🟩🔵/CALC
+
+The Lerp Node performs linear interpolation between two values or vectors based on a blending factor. It supports easing functions for smoother transitions and outputs the result as either floats or integers.
+
+#### OUTPUT NODE?: `False`
+
+### INPUT
+
+#### OPTIONAL
+
+name|type|desc|default|meta
+:---:|:---:|---|---|---
+🅰️|*|input a||
+🅱️|*|input b||
+🛟|FLOAT|linear|0.0|
+EASE|COMBO[STRING]|easing function|NONE|NONE, QUAD_IN, QUAD_OUT, QUAD_IN_OUT, CUBIC_IN, CUBIC_OUT,<br>CUBIC_IN_OUT, QUARTIC_IN, QUARTIC_OUT, QUARTIC_IN_OUT,<br>QUINTIC_IN, QUINTIC_OUT, QUINTIC_IN_OUT, SIN_IN, SIN_OUT,<br>SIN_IN_OUT, CIRCULAR_IN, CIRCULAR_OUT, CIRCULAR_IN_OUT,<br>EXPONENTIAL_IN, EXPONENTIAL_OUT, EXPONENTIAL_IN_OUT,<br>ELASTIC_IN, ELASTIC_OUT, ELASTIC_IN_OUT, BACK_IN, BACK_OUT,<br>BACK_IN_OUT, BOUNCE_IN, BOUNCE_OUT, BOUNCE_IN_OUT
+❓|COMBO[STRING]|type|FLOAT|INT, FLOAT
+
+### OUTPUT
+
+name|type|desc
+:---:|:---:|---
+🔮|Any Type|*
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

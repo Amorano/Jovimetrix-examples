@@ -1,8 +1,8 @@
-# STACK (JOV) ➕
+# FLATTEN (JOV) ⬇️
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
-The Stack Node combines multiple input images into a single output image along a specified axis. It stacks the images together, optionally with a specified stride, to create a new image. This node is useful for creating composite images or preparing data for further processing.
+The Flatten Node combines multiple input images into a single image by summing their pixel values. This operation is useful for merging multiple layers or images into one composite image, such as combining different elements of a design or merging masks. Users can specify the blending mode and interpolation method to control how the images are combined. Additionally, a matte can be applied to adjust the transparency of the final composite image.
 
 #### OUTPUT NODE?: `False`
 
@@ -12,8 +12,6 @@ The Stack Node combines multiple input images into a single output image along a
 
 name|type|desc|default|meta
 :---:|:---:|---|---|---
-AXIS|COMBO[STRING]|axis|GRID|HORIZONTAL, VERTICAL, GRID
-🦶🏽|INT|step|1|
 MODE|COMBO[STRING]|scaling mode|NONE|NONE, CROP, MATTE, FIT, ASPECT, ASPECT_SHORT
 🇼🇭|VEC2|width and height|(32, 32)|
 🎞️|COMBO[STRING]|sampling method to apply when rescaling|LANCZOS4|NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR_EXACT,<br>NEAREST_EXACT

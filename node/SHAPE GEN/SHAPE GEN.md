@@ -1,8 +1,34 @@
+# SHAPE GEN (JOV) ✨
 
-# SHAPE GENERATOR (JOV) ✨
 ## JOVIMETRIX 🔺🟩🔵/CREATE
-<p>Generate polyhedra for masking or texture work.</p>
 
-![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SHAPE%20GENERATOR/SHAPE%20GENERATOR.gif)
+The Shape Generation node creates images representing various shapes such as circles, squares, rectangles, ellipses, and polygons. These shapes can be customized by adjusting parameters such as size, color, position, rotation angle, and edge blur. The node provides options to specify the shape type, the number of sides for polygons, the RGBA color value for the main shape, and the RGBA color value for the background. Additionally, you can control the width and height of the output images, the position offset, and the amount of edge blur applied to the shapes.
+
+#### OUTPUT NODE?: `False`
+
+### INPUT
+
+#### OPTIONAL
+
+name|type|desc|default|meta
+:---:|:---:|---|---|---
+🇸🇴|COMBO[STRING]|circle, square or polygonal forms|CIRCLE|CIRCLE, SQUARE, ELLIPSE, RECTANGLE, POLYGON
+♾️|INT|number of sides polygon has (3-100)|3|
+🌈A|VEC4|rgb with alpha color|(255, 255, 255, 255)|
+MATTE|VEC4|background color|(0, 0, 0, 255)|
+🇼🇭|VEC2|width and height|(32, 32)|
+🇽🇾|VEC2|x and y|(0, 0)|
+📐|FLOAT|rotation angle|0|
+📏|VEC2|scalar by which to scale the input|(1.0, 1.0)|
+EDGE|COMBO[STRING]|clip or wrap the canvas edge|CLIP|CLIP, WRAP, WRAPX, WRAPY
+BLUR|FLOAT|blur|0|
+
+### OUTPUT
+
+name|type|desc
+:---:|:---:|---
+🖼️|Image|IMAGE
+🌈|RGB (no alpha) Color|IMAGE
+😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

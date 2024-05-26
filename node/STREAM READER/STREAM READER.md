@@ -1,8 +1,40 @@
-
 # STREAM READER (JOV) 📺
-## JOVIMETRIX 🔺🟩🔵/DEVICE
-<p>Connect system media devices and remote streams into ComfyUI workflows.</p>
 
-![](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STREAM%20READER/STREAM%20READER.gif)
+## JOVIMETRIX 🔺🟩🔵/DEVICE
+
+The Stream Reader node captures frames from various sources such as URLs, cameras, monitors, windows, or Spout streams. It supports batch processing, allowing multiple frames to be captured simultaneously. The node provides options for configuring the source, resolution, frame rate, zoom, orientation, and interpolation method. Additionally, it supports capturing frames from multiple monitors or windows simultaneously. The captured frames are returned as tensors, enabling further processing downstream.
+
+#### OUTPUT NODE?: `False`
+
+### INPUT
+
+#### OPTIONAL
+
+name|type|desc|default|meta
+:---:|:---:|---|---|---
+SRC|COMBO[STRING]|source|URL|URL, CAMERA, MONITOR, WINDOW, SPOUT
+🌐|STRING|url||
+📹|COMBO[STRING]|camera|NONE|
+🖥|COMBO[STRING]|monitor|0 - 3840x2160|0 - 3840x2160, 1 - 1600x1200, 2 - 3840x2160
+🪟|COMBO[STRING]|window|Mozilla Firefox - 329170|Mozilla Firefox - 329170, MatisseTec - Twitch — Mozilla<br>Firefox - 10487644, @matisse - Discord - 131392, lexicon.py<br>- jovimetrix (Workspace) - Visual Studio Code - 5048306,<br>COMFYUI - 8914476,<br>C:\dev\ComfyUI\ComfyUI\custom_nodes\Jovimetrix\_md -<br>1311414, ADJUST.md - jovimetrix-examples (Workspace) -<br>Visual Studio Code - 2295304
+DPI|BOOLEAN|use dpi mode from os|True|
+🔲|VEC4|bounding box|(0, 0, 1, 1)|
+🏎️|INT|frames per second|30|
+✋🏽|BOOLEAN|wait|False|
+BATCH|VEC2|process multiple images|(1, 30)|
+🧭|COMBO[STRING]|orientation|NORMAL|NORMAL, FLIPX, FLIPY, FLIPXY
+🔎|FLOAT|zoom|0|
+MODE|COMBO[STRING]|scaling mode|NONE|NONE, CROP, MATTE, FIT, ASPECT, ASPECT_SHORT
+🇼🇭|VEC2|width and height|(32, 32)|
+🎞️|COMBO[STRING]|sampling method to apply when rescaling|LANCZOS4|NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR_EXACT,<br>NEAREST_EXACT
+MATTE|VEC4|background color|(0, 0, 0, 255)|
+
+### OUTPUT
+
+name|type|desc
+:---:|:---:|---
+🖼️|Image|IMAGE
+🌈|RGB (no alpha) Color|IMAGE
+😷|Mask or Image to use as Mask to control<br>where adjustments are applied|MASK
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

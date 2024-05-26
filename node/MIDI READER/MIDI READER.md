@@ -11,19 +11,19 @@ The MIDI Reader node captures MIDI messages from an external MIDI device or cont
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-📟|COMBO[STRING]|device|MPKmini2 0|MPKmini2 0
+:---:|:---:|---|:---:|---
+📟| COMBO[STRING] | device | MPKmini2 0 | MPKmini2 0
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🎛️|JMIDIMSG|Midi
-🔛|BOOLEAN|On
-CHAN|INT|Channel
-🎚️|INT|Control
-🎶|INT|Note
-#️⃣|FLOAT|Value
-0-1|FLOAT|Normalize
+🎛️| JMIDIMSG | Midi 
+🔛| BOOLEAN | On 
+CHAN| INT | Channel 
+🎚️| INT | Control 
+🎶| INT | Note 
+VALUE| FLOAT | Value 
+0-1| FLOAT | Normalize 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -11,14 +11,14 @@ Delay node used to introduce pauses in the workflow. It accepts an optional inpu
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-📥|*|pass in||
-⏱|INT|timer|0|
+:---:|:---:|---|:---:|---
+📥| * | pass in |  | 
+⏱| INT | timer | 0 | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🚌|*|Route
+🚌| * | Route 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

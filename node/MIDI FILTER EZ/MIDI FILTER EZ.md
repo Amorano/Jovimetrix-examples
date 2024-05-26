@@ -11,20 +11,20 @@ The MIDI Filter EZ node allows you to filter MIDI messages based on various crit
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-🎛️|JMIDIMSG|midi||
-MODE|COMBO[STRING]|scaling mode|IGNORE|NOTE_OFF, NOTE_ON, IGNORE
-CHAN|INT|channel|-1|
-🎚️|INT|control|-1|
-🎶|INT|note|-1|
-#️⃣|INT|value|-1|
-0-1|FLOAT|normalize|-1|
+:---:|:---:|---|:---:|---
+🎛️| JMIDIMSG | midi |  | 
+MODE| COMBO[STRING] | scaling mode | IGNORE | NOTE_OFF, NOTE_ON, IGNORE
+CHAN| INT | channel | -1 | 
+🎚️| INT | control | -1 | 
+🎶| INT | note | -1 | 
+VALUE| INT | value | -1 | 
+0-1| FLOAT | normalize | -1 | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🎛️|JMIDIMSG|Midi
-⚡|BOOLEAN|Trigger
+🎛️| JMIDIMSG | Midi 
+⚡| BOOLEAN | Trigger 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

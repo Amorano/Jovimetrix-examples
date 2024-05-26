@@ -11,24 +11,24 @@ The `Tick` node acts as a timer and frame counter, emitting pulses or signals ba
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-🔮|*|any type||
-#️⃣|INT|value|0|
-🔄|INT|loop|0|
-🏎️|INT|frames per second|24|
-BPM|FLOAT|the number of beats per minute|120|
-🎶|INT|note|4|
-✋🏽|BOOLEAN|wait|False|
-RESET|BOOLEAN|reset|False|
-BATCH|INT|process multiple images|1|
+:---:|:---:|---|:---:|---
+🔮| * | any type |  | 
+VALUE| INT | value | 0 | 
+🔄| INT | loop | 0 | 
+🏎️| INT | frames per second | 24 | 
+BPM| FLOAT | the number of beats per minute | 120 | 
+🎶| INT | note | 4 | 
+✋🏽| BOOLEAN | wait | False | 
+RESET| BOOLEAN | reset | False | 
+BATCH| INT | process multiple images | 1 | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-#️⃣|INT|Value
-🛟|FLOAT|Linear
-🏎️|FLOAT|Frames per second
-🔮|*|Any Type
+VALUE| INT | Value 
+🛟| FLOAT | Linear 
+🏎️| FLOAT | Frames per second 
+🔮| * | Any Type 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -11,17 +11,17 @@ The PATTERN GLSL (JOV) node generates patterns using GLSL shaders, providing a v
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-❓|COMBO[STRING]|type|CHECKER|CHECKER
-TILE|VEC2|title|(1, 1)|
-🇼🇭|VEC2|width and height|(32, 32)|
+:---:|:---:|---|:---:|---
+❓| COMBO[STRING] | type | CHECKER | CHECKER
+TILE| VEC2 | title | (1, 1) | 
+🇼🇭| VEC2 | width and height | (32, 32) | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🖼️|IMAGE|Image
-🌈|IMAGE|RGB (no alpha) Color
-😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
+🖼️| IMAGE | Image 
+🌈| IMAGE | RGB (no alpha) Color 
+😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

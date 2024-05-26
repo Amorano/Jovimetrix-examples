@@ -11,20 +11,20 @@ The `Threshold` node enables you to apply thresholding techniques to images, use
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-👾|*|pixel data (rgba, rgb or grayscale)||
-🧬|COMBO[STRING]|x-men|ADAPT_NONE|ADAPT_NONE, ADAPT_MEAN, ADAPT_GAUSS
-⚒️|COMBO[STRING]|function|BINARY|BINARY, TRUNC, TOZERO
-📉|FLOAT|threshold|0.5|
-📏|INT|scalar by which to scale the input|3|
-🔳|BOOLEAN|color inversion|False|
+:---:|:---:|---|:---:|---
+👾| * | pixel data (rgba, rgb or grayscale) |  | 
+🧬| COMBO[STRING] | x-men | ADAPT_NONE | ADAPT_NONE, ADAPT_MEAN, ADAPT_GAUSS
+⚒️| COMBO[STRING] | function | BINARY | BINARY, TRUNC, TOZERO
+📉| FLOAT | threshold | 0.5 | 
+📏| INT | scalar by which to scale the input | 3 | 
+🔳| BOOLEAN | color inversion | False | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🖼️|IMAGE|Image
-🌈|IMAGE|RGB (no alpha) Color
-😷|MASK|Mask or Image to use as Mask to control<br>where adjustments are applied
+🖼️| IMAGE | Image 
+🌈| IMAGE | RGB (no alpha) Color 
+😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

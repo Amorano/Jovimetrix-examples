@@ -11,20 +11,20 @@ The MIDI Filter node provides advanced filtering capabilities for MIDI messages 
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-🎛️|JMIDIMSG|midi||
-🔛|COMBO[STRING]|on|IGNORE|NOTE_OFF, NOTE_ON, IGNORE
-CHAN|STRING|channel||
-🎚️|STRING|control||
-🎶|STRING|note||
-#️⃣|STRING|value||
-0-1|STRING|normalize||
+:---:|:---:|---|:---:|---
+🎛️| JMIDIMSG | midi |  | 
+🔛| COMBO[STRING] | on | IGNORE | NOTE_OFF, NOTE_ON, IGNORE
+CHAN| STRING | channel |  | 
+🎚️| STRING | control |  | 
+🎶| STRING | note |  | 
+VALUE| STRING | value |  | 
+0-1| STRING | normalize |  | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🎛️|JMIDIMSG|Midi
-⚡|BOOLEAN|Trigger
+🎛️| JMIDIMSG | Midi 
+⚡| BOOLEAN | Trigger 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

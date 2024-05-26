@@ -11,19 +11,19 @@ The MIDI Message node processes MIDI messages received from an external MIDI con
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-🎛️|JMIDIMSG|midi||
+:---:|:---:|---|:---:|---
+🎛️| JMIDIMSG | midi |  | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-🎛️|JMIDIMSG|Midi
-🔛|BOOLEAN|On
-CHAN|INT|Channel
-🎚️|INT|Control
-🎶|INT|Note
-#️⃣|FLOAT|Value
-0-1|FLOAT|Normalize
+🎛️| JMIDIMSG | Midi 
+🔛| BOOLEAN | On 
+CHAN| INT | Channel 
+🎚️| INT | Control 
+🎶| INT | Note 
+VALUE| FLOAT | Value 
+0-1| FLOAT | Normalize 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

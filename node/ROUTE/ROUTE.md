@@ -11,13 +11,13 @@ Routes the input data from the optional input ports to the output port, preservi
 #### OPTIONAL
 
 name|type|desc|default|meta
-:---:|:---:|---|---|---
-📥|*|pass in||
+:---:|:---:|---|:---:|---
+📥| * | pass in |  | 
 
 ### OUTPUT
 
 name|type|desc
 :---:|:---:|---
-*|*|
+*| * |  
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

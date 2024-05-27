@@ -10,19 +10,19 @@ The `Color Blind` node facilitates the simulation of color blindness effects on 
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾| * | pixel data (rgba, rgb or grayscale) |  | 
-MODE| COMBO[STRING] | scaling mode | PROTAN | DEUTAN, PROTAN, TRITAN
-MAP| COMBO[STRING] | custom image that will be<br>transformed into a lut or a built-<br>in cv2 lut | AUTOSELECT | AUTOSELECT, BRETTEL1997, COBLISV1, COBLISV2,<br>MACHADO2009, VIENOT1999, VISCHECK
-VALUE| FLOAT | value | 1 | 
+👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+MODE | STRING | scaling mode | PROTAN | DEUTAN, PROTAN, TRITAN
+MAP | STRING | custom image that will be<br>transformed into a lut or a<br>built-in cv2 lut | AUTOSELECT | AUTOSELECT, BRETTEL1997,<br>COBLISV1, COBLISV2, MACHADO2009,<br>VIENOT1999, VISCHECK
+\# | FLOAT | value | 1 | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
-🌈| IMAGE | RGB (no alpha) Color 
-😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+🖼️ | IMAGE | Image 
+🌈 | IMAGE | RGB (no alpha) Color 
+😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

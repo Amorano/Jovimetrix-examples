@@ -10,18 +10,18 @@ The NOISE GLSL (JOV) node generates noise using GLSL shaders, providing various 
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-❓| COMBO[STRING] | type | VALUE | BROWNIAN, VALUE, GRADIENT, MOSAIC, PERLIN 2D,<br>SIMPLEX 2D
-SEED| INT | seed | 0 | 
-🇼🇭| VEC2 | width and height | (32, 32) | 
+❓ | STRING | type | VALUE | BROWNIAN, VALUE, GRADIENT,<br>MOSAIC, PERLIN 2D, SIMPLEX 2D
+SEED | INT | random generator's initial value | 0 | 
+🇼🇭 | VEC2 | width and height | (32, 32) | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
-🌈| IMAGE | RGB (no alpha) Color 
-😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+🖼️ | IMAGE | Image 
+🌈 | IMAGE | RGB (no alpha) Color 
+😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

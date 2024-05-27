@@ -10,25 +10,25 @@ The Shape Generation node creates images representing various shapes such as cir
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🇸🇴| COMBO[STRING] | circle, square or polygonal forms | CIRCLE | CIRCLE, SQUARE, ELLIPSE, RECTANGLE, POLYGON
-♾️| INT | number of sides polygon has (3-100) | 3 | 
-🌈A| VEC4 | rgb with alpha color | (255, 255, 255, 255) | 
-MATTE| VEC4 | background color | (0, 0, 0, 255) | 
-🇼🇭| VEC2 | width and height | (32, 32) | 
-🇽🇾| VEC2 | x and y | (0, 0) | 
-📐| FLOAT | rotation angle | 0 | 
-📏| VEC2 | scalar by which to scale the input | (1.0, 1.0) | 
-EDGE| COMBO[STRING] | clip or wrap the canvas edge | CLIP | CLIP, WRAP, WRAPX, WRAPY
-BLUR| FLOAT | blur | 0 | 
+🇸🇴 | STRING | circle, square or polygonal<br>forms | CIRCLE | CIRCLE, SQUARE, ELLIPSE,<br>RECTANGLE, POLYGON
+♾️ | INT | number of sides polygon has<br>(3-100) | 3 | 
+🌈A | VEC4 | rgb with alpha color | (255, 255, 255, 255) | 
+MATTE | VEC4 | background color | (0, 0, 0, 255) | 
+🇼🇭 | VEC2 | width and height | (32, 32) | 
+🇽🇾 | VEC2 | x and y | (0, 0) | 
+📐 | FLOAT | rotation angle | 0 | 
+📏 | VEC2 | scalar by which to scale the<br>input | (1.0, 1.0) | 
+EDGE | STRING | clip or wrap the canvas edge | CLIP | CLIP, WRAP, WRAPX, WRAPY
+BLUR | FLOAT | blur | 0 | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
-🌈| IMAGE | RGB (no alpha) Color 
-😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+🖼️ | IMAGE | Image 
+🌈 | IMAGE | RGB (no alpha) Color 
+😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

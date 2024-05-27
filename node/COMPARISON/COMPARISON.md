@@ -10,20 +10,20 @@ The Comparison node evaluates two inputs based on a specified comparison operati
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🅰️| * | input a |  | 
-🅱️| * | input b |  | 
-😍| * | pass this data on a successful<br>condition |  | 
-🥵| * | pass this data on a failure<br>condition |  | 
-🕵🏽‍♀️| COMBO[STRING] | comparison function. will pass the<br>data in 😍 on successful comparison | EQUAL | EQUAL, NOT EQUAL, LESS THAN, LESS THAN EQUAL,<br>GREATER THAN, GREATER THAN EQUAL, AND, NAND,<br>OR, NOR, XOR, XNOR, IS, IS NOT, IN, NOT IN
-🙃| BOOLEAN | flip input a and input b with each<br>other | False | 
+🅰️ | * | input a |  | 
+🅱️ | * | input b |  | 
+😍 | * | pass this data on a successful<br>condition |  | 
+🥵 | * | pass this data on a failure<br>condition |  | 
+🕵🏽‍♀️ | STRING | comparison function. will pass<br>the data in 😍 on successful<br>comparison | EQUAL | EQUAL, NOT EQUAL, LESS THAN,<br>LESS THAN EQUAL, GREATER THAN,<br>GREATER THAN EQUAL, AND, NAND,<br>OR, NOR, XOR, XNOR, IS, IS NOT,<br>IN, NOT IN
+🙃 | BOOLEAN | flip input a and input b with<br>each other | False | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🔮| * | Any Type 
-VECTOR| * | Compound value of type float, vec2, vec3<br>or vec4 
+🔮 | * | Any Type 
+VECTOR | * | Compound value of type float, vec2, vec3<br>or vec4 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -10,16 +10,16 @@ The Stereoscopic node simulates depth perception in images by generating stereos
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾| * | pixel data (rgba, rgb or grayscale) |  | 
-🔟| FLOAT | integer | 0.1 | 
-VALUE| FLOAT | value | 500 | 
+👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+🔟 | FLOAT | integer | 0.1 | 
+\# | FLOAT | value | 500 | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
+🖼️ | IMAGE | Image 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

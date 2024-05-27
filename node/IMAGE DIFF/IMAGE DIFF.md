@@ -10,19 +10,19 @@ The Image Diff node compares two input images pixel by pixel to identify differe
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A| * | pixel data (rgba, rgb or grayscale) |  | 
-👾B| * | pixel data (rgba, rgb or grayscale) |  | 
-📉| FLOAT | threshold | 0.5 | 
+👾A | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+👾B | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+📉 | FLOAT | threshold | 0.5 | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🅰️| IMAGE | Input A 
-🅱️| IMAGE | Input B 
-DIFF| MASK | Difference 
-📉| MASK | Threshold 
+🅰️ | IMAGE | Input A 
+🅱️ | IMAGE | Input B 
+DIFF | MASK | Difference 
+📉 | MASK | Threshold 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -10,16 +10,16 @@ The Graph node visualizes a series of data points over time. It accepts a dynami
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-RESET| BOOLEAN | reset | False | 
-VALUE| INT | value | 60 | 
-🇼🇭| VEC2 | width and height | (32, 32) | 
+RESET | BOOLEAN | reset | False | 
+\# | INT | value | 60 | 
+🇼🇭 | VEC2 | width and height | (32, 32) | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
+🖼️ | IMAGE | Image 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

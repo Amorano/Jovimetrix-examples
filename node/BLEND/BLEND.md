@@ -10,26 +10,26 @@ The Blend Node combines two input images using various blending modes, such as n
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A| * | pixel data (rgba, rgb or grayscale) |  | 
-👾B| * | pixel data (rgba, rgb or grayscale) |  | 
-😷| * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
-⚒️| COMBO[STRING] | function | NORMAL | NORMAL, ADDITIVE, NEGATION, DIFFERENCE,<br>MULTIPLY, DIVIDE, LIGHTEN, DARKEN, SCREEN,<br>BURN, DODGE, OVERLAY, HUE, SATURATION,<br>LUMINOSITY, COLOR, SOFT, HARD, PIN, VIVID,<br>EXCLUSION, REFLECT, GLOW, XOR, EXTRACT,<br>MERGE, DESTIN, DESTOUT, SRCATOP, DESTATOP
-⬜| FLOAT | alpha | 1 | 
-🙃| BOOLEAN | flip input a and input b with each<br>other | False | 
-🔳| BOOLEAN | color inversion | False | 
-MODE| COMBO[STRING] | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT SHORT
-🇼🇭| VEC2 | width and height | (32, 32) | 
-🎞️| COMBO[STRING] | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
-MATTE| VEC4 | background color | (0, 0, 0, 255) | 
+👾A | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+👾B | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+😷 | * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
+⚒️ | STRING | function | NORMAL | NORMAL, ADDITIVE, NEGATION,<br>DIFFERENCE, MULTIPLY, DIVIDE,<br>LIGHTEN, DARKEN, SCREEN, BURN,<br>DODGE, OVERLAY, HUE, SATURATION,<br>LUMINOSITY, COLOR, SOFT, HARD,<br>PIN, VIVID, EXCLUSION, REFLECT,<br>GLOW, XOR, EXTRACT, MERGE,<br>DESTIN, DESTOUT, SRCATOP,<br>DESTATOP
+⬜ | FLOAT | alpha | 1 | 
+🙃 | BOOLEAN | flip input a and input b with<br>each other | False | 
+🔳 | BOOLEAN | color inversion | False | 
+MODE | STRING | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT,<br>ASPECT SHORT
+🇼🇭 | VEC2 | width and height | (32, 32) | 
+🎞️ | STRING | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA,<br>LANCZOS4, LINEAR EXACT, NEAREST<br>EXACT
+MATTE | VEC4 | background color | (0, 0, 0, 255) | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
-🌈| IMAGE | RGB (no alpha) Color 
-😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+🖼️ | IMAGE | Image 
+🌈 | IMAGE | RGB (no alpha) Color 
+😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

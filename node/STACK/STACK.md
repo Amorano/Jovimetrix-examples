@@ -10,21 +10,21 @@ The Stack Node combines multiple input images into a single output image along a
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-AXIS| COMBO[STRING] | axis | GRID | HORIZONTAL, VERTICAL, GRID
-🦶🏽| INT | step | 1 | 
-MODE| COMBO[STRING] | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT SHORT
-🇼🇭| VEC2 | width and height | (32, 32) | 
-🎞️| COMBO[STRING] | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
-MATTE| VEC4 | background color | (0, 0, 0, 255) | 
+AXIS | STRING | axis | GRID | HORIZONTAL, VERTICAL, GRID
+🦶🏽 | INT | step | 1 | 
+MODE | STRING | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT,<br>ASPECT SHORT
+🇼🇭 | VEC2 | width and height | (32, 32) | 
+🎞️ | STRING | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA,<br>LANCZOS4, LINEAR EXACT, NEAREST<br>EXACT
+MATTE | VEC4 | background color | (0, 0, 0, 255) | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
-🌈| IMAGE | RGB (no alpha) Color 
-😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+🖼️ | IMAGE | Image 
+🌈 | IMAGE | RGB (no alpha) Color 
+😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -10,14 +10,14 @@ The Load Wave node imports audio files, converting them to waveforms. Specify th
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-💾| STRING | file name |  | 
+💾 | STRING | file name |  | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-♒| WAVE | Wave Function 
+♒ | WAVE | Wave Function 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

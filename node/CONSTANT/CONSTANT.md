@@ -10,18 +10,18 @@ The Constant node generates constant images or masks of a specified size and col
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾| * | pixel data (rgba, rgb or grayscale) |  | 
-🌈A| VEC4 | rgb with alpha color | (0, 0, 0, 255) | 
-🇼🇭| VEC2 | width and height | (512, 512) | 
+👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
+🌈A | VEC4 | rgb with alpha color | (0, 0, 0, 255) | 
+🇼🇭 | VEC2 | width and height | (512, 512) | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🖼️| IMAGE | Image 
-🌈| IMAGE | RGB (no alpha) Color 
-😷| MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+🖼️ | IMAGE | Image 
+🌈 | IMAGE | RGB (no alpha) Color 
+😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

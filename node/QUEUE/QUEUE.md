@@ -10,21 +10,21 @@ The Queue node manages a queue of items, such as file paths or data. It supports
 
 #### OPTIONAL
 
-name|type|desc|default|meta
+name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-Q| STRING | queue |  | 
-VALUE| INT | value | 0 | 
-✋🏽| BOOLEAN | wait | False | 
-RESET| BOOLEAN | reset | False | 
+Q | STRING | queue |  | 
+\# | INT | value | 0 | 
+✋🏽 | BOOLEAN | wait | False | 
+RESET | BOOLEAN | reset | False | 
 
 ### OUTPUT
 
-name|type|desc
+name | type | desc
 :---:|:---:|---
-🔮| * | Any Type 
-Q| * | Queue 
-CURRENT| STRING | Current 
-INDEX| INT | Current item index in the Queue list 
-TOTAL| INT | Total items in the current Queue List 
+🔮 | * | Any Type 
+Q | * | Queue 
+CURRENT | STRING | Current 
+INDEX | INT | Current item index in the Queue list 
+TOTAL | INT | Total items in the current Queue List 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

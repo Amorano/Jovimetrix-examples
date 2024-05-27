@@ -12,7 +12,7 @@ The Audio Device node allows you to interact with audio input devices to capture
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-📟 | STRING | device | Microsoft Sound Mapper - Input | Microsoft Sound Mapper - Input,<br>Microphone (Logitech USB Microp,<br>Microsoft Sound Mapper - Output,<br>Speakers (High Definition Audio,<br>Sceptre Z27 (NVIDIA High Defini,<br>Primary Sound Capture Driver,<br>Microphone (Logitech USB<br>Microphone), Primary Sound<br>Driver, Speakers (High<br>Definition Audio Device),<br>Sceptre Z27 (NVIDIA High<br>Definition Audio), Output<br>(NVIDIA High Definition Audio),<br>Output (), SPDIF Out (HD Audio<br>SPDIF out), Speakers (HD Audio<br>Headphone/Speakers), Microphone<br>(Logitech StreamCam)
+📟 | STRING | device | dynamic | system list of audio devices
 ⚡ | BOOLEAN | trigger | True | 
 ⏺ | BOOLEAN | arm record capture from selected<br>device | True | 
 

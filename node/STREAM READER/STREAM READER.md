@@ -14,9 +14,9 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 SRC | STRING | source | URL | URL, CAMERA, MONITOR, WINDOW,<br>SPOUT
 🌐 | STRING | url |  | 
-📹 | STRING | camera | NONE | 
-🖥 | STRING | monitor | 0 - 3840x2160 | 0 - 3840x2160, 1 - 1600x1200, 2<br>- 3840x2160
-🪟 | STRING | window | 500 Internal Server Error — Mozilla Firefox - 723094 | 500 Internal Server Error —<br>Mozilla Firefox - 723094,<br>COMFYUI - 7669176, lexicon.py -<br>jovimetrix (Workspace) - Visual<br>Studio Code - 656876, Preview<br>ADJUST.md - jovimetrix-examples<br>(Workspace) - Visual Studio Code<br>- 984236, #apes | ☢ MORANOLAND ☢<br>- Discord - 263998, Jovimetrix-<br>examples/wf/texture/texture.md<br>at master · Amorano/Jovimetrix-<br>examples — Mozilla Firefox -<br>1377846, MatisseTec - Twitch —<br>Mozilla Firefox - 3737110
+📹 | STRING | camera | dynamic | list of system streaming devices
+🖥 | STRING | monitor | dynamic | list of system monitor devices
+🪟 | STRING | window | dynamic | list of available system windows
 DPI | BOOLEAN | use dpi mode from os | True | 
 🔲 | VEC4 | bounding box | (0, 0, 1, 1) | 
 🏎️ | INT | frames per second | 30 | 

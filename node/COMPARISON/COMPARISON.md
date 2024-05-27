@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/FLOW
 
-The Comparison node evaluates two inputs based on a specified comparison operation. It accepts two inputs (A and B), comparison operators, and optional values for successful and failed comparisons. The node performs the specified comparison operation element-wise between corresponding elements of A and B. If the comparison is successful for all elements, it returns the success value; otherwise, it returns the failure value. The node supports various comparison operators such as EQUAL, GREATER_THAN, LESS_THAN, AND, OR, IS, IN, etc.
+The Comparison node evaluates two inputs based on a specified operation. It accepts two inputs (A and B), comparison operators, and optional values for successful and failed comparisons. The node performs the specified operation element-wise between corresponding elements of A and B. If the comparison is successful for all elements, it returns the success value; otherwise, it returns the failure value. The node supports various comparison operators such as EQUAL, GREATER_THAN, LESS_THAN, AND, OR, IS, IN, etc.
 
 #### OUTPUT NODE?: `False`
 

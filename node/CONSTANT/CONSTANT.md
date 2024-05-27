@@ -15,6 +15,8 @@ name | type | desc | default | meta
 👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 🌈A | VEC4 | rgb with alpha color | (0, 0, 0, 255) | 
 🇼🇭 | VEC2 | width and height | (512, 512) | 
+MODE | STRING | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT,<br>ASPECT SHORT
+🎞️ | STRING | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA,<br>LANCZOS4, LINEAR EXACT, NEAREST<br>EXACT
 
 ### OUTPUT
 

@@ -4,6 +4,8 @@
 
 The Text Generation node generates images containing text based on user-defined parameters such as font, size, alignment, color, and position. Users can input custom text messages, select fonts from a list of available options, adjust font size, and specify the alignment and justification of the text. Additionally, the node provides options for auto-sizing text to fit within specified dimensions, controlling letter-by-letter rendering, and applying edge effects such as clipping and inversion.
 
+![TEXT GEN](./TEXT%20GEN.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

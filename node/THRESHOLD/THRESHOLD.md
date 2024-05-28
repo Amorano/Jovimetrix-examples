@@ -4,6 +4,8 @@
 
 The `Threshold` node enables you to define a range and apply it to an image, useful for segmentation and feature extraction. It offers various threshold modes such as binary and adaptive, along with options to adjust the threshold value and block size. Additionally, you can invert the resulting mask if needed, making it versatile for image processing tasks.
 
+![THRESHOLD](./THRESHOLD.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

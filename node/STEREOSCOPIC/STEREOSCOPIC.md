@@ -4,6 +4,8 @@
 
 The Stereoscopic node simulates depth perception in images by generating stereoscopic views. It accepts an optional input image for color matte. Adjust baseline and focal length for customized depth effects.
 
+![STEREOSCOPIC](./STEREOSCOPIC.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

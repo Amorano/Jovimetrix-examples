@@ -4,6 +4,8 @@
 
 The Audio Device node allows you to interact with audio input devices to capture audio data. It provides options to select the audio input device, control automatic recording triggered by the Q system, and manually adjust the recording state. This node enables integration with external audio hardware and facilitates audio data acquisition for processing within the JOVIMETRIX environment.
 
+![AUDIO DEVICE](./AUDIO%20DEVICE.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

@@ -2,6 +2,10 @@
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 
+Applies a kaleidoscope effect to an image using GLSL. Allows for adjusting various parameters such as segments, radius, zoom, offset, rotation, size, and skip to create intricate patterns.
+
+![KALEIDOSCOPE GLSL](./KALEIDOSCOPE%20GLSL.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

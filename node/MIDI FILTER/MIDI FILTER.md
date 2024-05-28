@@ -4,6 +4,8 @@
 
 The MIDI Filter node provides advanced filtering capabilities for MIDI messages based on various criteria, including MIDI mode (such as note on or note off), MIDI channel, control number, note number, value, and normalized value. It allows you to filter out unwanted MIDI events and selectively process only the desired ones. This node offers flexibility in MIDI data processing, enabling precise control over which MIDI messages are passed through for further processing.
 
+![MIDI FILTER](./MIDI%20FILTER.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

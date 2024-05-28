@@ -4,6 +4,8 @@
 
 The MAP GLSL (JOV) node applies mapping transformations to input images using GLSL shaders. It offers various mapping types such as polar mapping, Mercator projection, and rectangular equal-area projection. Users can choose the desired mapping type and optionally flip the output image. GLSL shaders corresponding to different mapping transformations are dynamically loaded, enabling efficient image mapping operations within the image processing pipeline.
 
+![MAP GLSL](./MAP%20GLSL.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

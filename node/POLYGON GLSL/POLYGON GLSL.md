@@ -4,6 +4,8 @@
 
 The POLYGON GLSL (JOV) node generates polygonal shapes using GLSL shaders. Users can specify the number of sides for the polygon and its radius, allowing for the creation of various polygonal shapes such as triangles, squares, pentagons, and more. The generated shapes can be further processed within the image processing pipeline. GLSL shaders corresponding to polygon generation are dynamically loaded, enabling efficient shape generation and manipulation.
 
+![POLYGON GLSL](./POLYGON%20GLSL.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

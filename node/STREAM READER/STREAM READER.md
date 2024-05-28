@@ -4,6 +4,8 @@
 
 The Stream Reader node captures frames from various sources such as URLs, cameras, monitors, windows, or Spout streams. It supports batch processing, allowing multiple frames to be captured simultaneously. The node provides options for configuring the source, resolution, frame rate, zoom, orientation, and interpolation method. Additionally, it supports capturing frames from multiple monitors or windows simultaneously. The captured frames are returned as tensors, enabling further processing downstream.
 
+![STREAM READER](./STREAM%20READER.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

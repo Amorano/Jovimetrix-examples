@@ -2,6 +2,10 @@
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 
+Applies a tiling effect to an image using GLSL. Allows for setting the number of tiles in the x and y directions.
+
+![TILER GLSL](./TILER%20GLSL.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

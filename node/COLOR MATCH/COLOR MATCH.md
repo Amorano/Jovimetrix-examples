@@ -4,6 +4,8 @@
 
 The `Color Match` node allows you to adjust the color scheme of one image to match another using various methods. You can choose from different color matching modes such as LUT, Histogram, and Reinhard. Additionally, you can specify options like color maps, the number of colors, and whether to flip or invert the images. This node supports the creation of seamless and cohesive visuals by matching colors accurately, making it ideal for texture work or masking in motion graphics and design projects.
 
+![COLOR MATCH](./COLOR%20MATCH.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

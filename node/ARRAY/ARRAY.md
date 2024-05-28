@@ -4,6 +4,8 @@
 
 Processes a batch of data based on the selected mode, such as merging, picking, slicing, random selection, or indexing. Allows for flipping the order of processed items and dividing the data into chunks.
 
+![ARRAY](./ARRAY.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

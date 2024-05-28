@@ -4,6 +4,8 @@
 
 The Lerp Node performs linear interpolation between two values or vectors based on a blending factor. It supports easing functions for smoother transitions and outputs the result as either floats or integers.
 
+![LERP](./LERP.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

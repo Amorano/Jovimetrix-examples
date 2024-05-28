@@ -4,6 +4,8 @@
 
 The Pixel Split Node takes an input image and splits it into its individual color channels (red, green, blue), along with a mask channel. This node is useful for separating different color components of an image for further processing or analysis.
 
+![PIXEL SPLIT](./PIXEL%20SPLIT.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

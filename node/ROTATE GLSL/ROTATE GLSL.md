@@ -2,6 +2,10 @@
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 
+Applies a rotation transformation to an image using GLSL. Allows for setting the angle of rotation and the pivot point.
+
+![ROTATE GLSL](./ROTATE%20GLSL.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

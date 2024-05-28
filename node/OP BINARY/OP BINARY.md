@@ -4,6 +4,8 @@
 
 The Binary Operation node executes binary operations like addition, subtraction, multiplication, division, and bitwise operations on input values, supporting various data types and vector sizes.
 
+![OP BINARY](./OP%20BINARY.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

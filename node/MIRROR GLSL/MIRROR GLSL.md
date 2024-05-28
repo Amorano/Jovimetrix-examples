@@ -2,6 +2,10 @@
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 
+Applies a mirror transformation to an image using GLSL. Allows for setting the angle of mirroring and the pivot point.
+
+![MIRROR GLSL](./MIRROR%20GLSL.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

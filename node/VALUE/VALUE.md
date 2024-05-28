@@ -4,6 +4,8 @@
 
 The Value Node supplies raw or default values for various data types, supporting vector input with components for X, Y, Z, and W. It also provides a string input option.
 
+![VALUE](./VALUE.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

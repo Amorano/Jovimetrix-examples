@@ -4,6 +4,8 @@
 
 The Load Wave node imports audio files, converting them to waveforms. Specify the file path to load the audio data.
 
+![LOAD WAVE](./LOAD%20WAVE.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

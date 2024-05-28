@@ -4,6 +4,8 @@
 
 The Stack Node combines multiple input images into a single output image along a specified axis. It stacks the images together, optionally with a specified stride, to create a new image. This node is useful for creating composite images or preparing data for further processing.
 
+![STACK](./STACK.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

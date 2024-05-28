@@ -4,6 +4,8 @@
 
 The Pixel Merge Node combines individual color channels (red, green, blue) along with an optional mask channel to create a composite image. This node is useful for merging separate color components into a single image for visualization or further processing.
 
+![PIXEL MERGE](./PIXEL%20MERGE.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

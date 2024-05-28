@@ -4,6 +4,8 @@
 
 The SELECT RANGE GLSL (JOV) node applies a GLSL shader to select a specific range of colors within the input image. This node allows users to define the start and end points of the color range using RGB values, providing precise control over color selection. The GLSL shader used for this operation is loaded from the specified fragment file, enabling customizable color range selection for various image processing tasks.
 
+![SELECT RANGE GLSL](./SELECT%20RANGE%20GLSL.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

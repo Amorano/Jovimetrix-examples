@@ -4,6 +4,8 @@
 
 The Blend Node combines two input images using various blending modes, such as normal, screen, multiply, overlay, etc. It also supports alpha blending and masking to achieve complex compositing effects. This node is essential for creating layered compositions and adding visual richness to images.
 
+![BLEND](./BLEND.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

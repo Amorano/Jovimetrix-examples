@@ -4,6 +4,8 @@
 
 The `Color Blind` node facilitates the simulation of color blindness effects on images, aiding in accessibility testing and design adjustments. It offers options to simulate various types of color deficiencies, adjust the severity of the effect, and apply the simulation using different simulators. This node is valuable for ensuring inclusivity in visual content and design processes.
 
+![COLOR BLIND](./COLOR%20BLIND.png)
+
 #### OUTPUT NODE?: `False`
 
 ### INPUT

@@ -4,7 +4,7 @@
 
 The Flatten Node combines multiple input images into a single image by summing their pixel values. This operation is useful for merging multiple layers or images into one composite image, such as combining different elements of a design or merging masks. Users can specify the blending mode and interpolation method to control how the images are combined. Additionally, a matte can be applied to adjust the transparency of the final composite image.
 
-![FLATTEN](./FLATTEN.png)
+![FLATTEN](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FLATTEN/FLATTEN.png)
 
 #### OUTPUT NODE?: `False`
 

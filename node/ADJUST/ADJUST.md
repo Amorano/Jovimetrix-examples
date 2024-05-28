@@ -10,7 +10,7 @@ morphological operations like dilation and erosion. Handle transparency easily,
 ensuring seamless blending of effects. Perfect for simple adjustments and
 complex image transformations.
 
-![ADJUST](./ADJUST.png)
+![ADJUST](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ADJUST/ADJUST.png)
 
 #### OUTPUT NODE?: `False`
 

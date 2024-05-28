@@ -4,7 +4,7 @@
 
 The PATTERN GLSL (JOV) node generates patterns using GLSL shaders, providing a variety of pattern types for image processing tasks. Users can select from different pattern types, including the checkerboard pattern. The generated patterns can be customized further by specifying parameters such as tile size and image dimensions. GLSL shaders corresponding to each pattern type are loaded dynamically based on the user's selection, enabling flexible and efficient pattern generation in the image processing pipeline.
 
-![PATTERN GLSL](./PATTERN%20GLSL.png)
+![PATTERN GLSL](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PATTERN%20GLSL/PATTERN%20GLSL.png)
 
 #### OUTPUT NODE?: `False`
 

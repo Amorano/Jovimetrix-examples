@@ -4,7 +4,7 @@
 
 Applies a rotation transformation to an image using GLSL. Allows for setting the angle of rotation and the pivot point.
 
-![ROTATE GLSL](./ROTATE%20GLSL.png)
+![ROTATE GLSL](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ROTATE%20GLSL/ROTATE%20GLSL.png)
 
 #### OUTPUT NODE?: `False`
 

@@ -4,7 +4,7 @@
 
 The Pixel Swap Node swaps pixel values between two input images based on the specified channel swizzle operations. Each channel of the output image is determined by a separate swizzle operation, allowing for flexible pixel manipulation and composition.
 
-![PIXEL SWAP](./PIXEL%20SWAP.png)
+![PIXEL SWAP](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20SWAP/PIXEL%20SWAP.png)
 
 #### OUTPUT NODE?: `False`
 

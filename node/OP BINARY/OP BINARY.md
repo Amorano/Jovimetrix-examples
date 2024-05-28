@@ -4,7 +4,7 @@
 
 The Binary Operation node executes binary operations like addition, subtraction, multiplication, division, and bitwise operations on input values, supporting various data types and vector sizes.
 
-![OP BINARY](./OP%20BINARY.png)
+![OP BINARY](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/OP%20BINARY/OP%20BINARY.png)
 
 #### OUTPUT NODE?: `False`
 

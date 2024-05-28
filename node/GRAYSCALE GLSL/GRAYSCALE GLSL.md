@@ -4,7 +4,7 @@
 
 The GRAYSCALE GLSL (JOV) node converts the input image to grayscale using a GLSL shader. This node applies a customizable grayscale conversion formula to each pixel of the input image, allowing users to specify the RGB weights for the conversion. The GLSL shader used for this operation is loaded from the specified fragment file, providing flexibility in grayscale conversion methods for different image processing requirements.
 
-![GRAYSCALE GLSL](./GRAYSCALE%20GLSL.png)
+![GRAYSCALE GLSL](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GRAYSCALE%20GLSL/GRAYSCALE%20GLSL.png)
 
 #### OUTPUT NODE?: `False`
 

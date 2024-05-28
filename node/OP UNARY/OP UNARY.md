@@ -4,7 +4,7 @@
 
 The Unary Operation node performs unary operations like absolute value, mean, median, mode, magnitude, normalization, maximum, or minimum on input values.
 
-![OP UNARY](./OP%20UNARY.png)
+![OP UNARY](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/OP%20UNARY/OP%20UNARY.png)
 
 #### OUTPUT NODE?: `False`
 

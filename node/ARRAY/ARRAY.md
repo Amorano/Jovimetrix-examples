@@ -4,7 +4,7 @@
 
 Processes a batch of data based on the selected mode, such as merging, picking, slicing, random selection, or indexing. Allows for flipping the order of processed items and dividing the data into chunks.
 
-![ARRAY](./ARRAY.png)
+![ARRAY](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ARRAY/ARRAY.png)
 
 #### OUTPUT NODE?: `False`
 

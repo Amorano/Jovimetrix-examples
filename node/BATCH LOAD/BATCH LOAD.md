@@ -4,7 +4,7 @@
 
     Process multiple image or video files into a single batch.
     
-![BATCH LOAD](./BATCH%20LOAD.png)
+![BATCH LOAD](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/BATCH%20LOAD/BATCH%20LOAD.png)
 
 #### OUTPUT NODE?: `False`
 

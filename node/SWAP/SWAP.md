@@ -4,7 +4,7 @@
 
 The Swap Node swaps components between two vectors based on specified swizzle patterns and values. It provides flexibility in rearranging vector elements dynamically.
 
-![SWAP](./SWAP.png)
+![SWAP](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SWAP/SWAP.png)
 
 #### OUTPUT NODE?: `False`
 

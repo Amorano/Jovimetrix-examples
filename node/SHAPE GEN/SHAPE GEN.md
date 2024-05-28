@@ -4,7 +4,7 @@
 
 The Shape Generation node creates images representing various shapes such as circles, squares, rectangles, ellipses, and polygons. These shapes can be customized by adjusting parameters such as size, color, position, rotation angle, and edge blur. The node provides options to specify the shape type, the number of sides for polygons, the RGBA color value for the main shape, and the RGBA color value for the background. Additionally, you can control the width and height of the output images, the position offset, and the amount of edge blur applied to the shapes.
 
-![SHAPE GEN](./SHAPE%20GEN.png)
+![SHAPE GEN](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SHAPE%20GEN/SHAPE%20GEN.png)
 
 #### OUTPUT NODE?: `False`
 

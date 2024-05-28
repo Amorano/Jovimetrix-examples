@@ -4,7 +4,7 @@
 
 The Stereoscopic node simulates depth perception in images by generating stereoscopic views. It accepts an optional input image for color matte. Adjust baseline and focal length for customized depth effects.
 
-![STEREOSCOPIC](./STEREOSCOPIC.png)
+![STEREOSCOPIC](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STEREOSCOPIC/STEREOSCOPIC.png)
 
 #### OUTPUT NODE?: `False`
 

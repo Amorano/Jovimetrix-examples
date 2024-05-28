@@ -4,7 +4,7 @@
 
 The Crop Node extracts a portion of an input image or resizes it to a specified size. It supports various cropping modes, including center cropping, custom XY cropping, and freeform polygonal cropping. This node is useful for preparing image data for specific tasks or extracting regions of interest.
 
-![CROP](./CROP.png)
+![CROP](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CROP/CROP.png)
 
 #### OUTPUT NODE?: `False`
 

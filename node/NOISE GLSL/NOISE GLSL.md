@@ -4,7 +4,7 @@
 
 The NOISE GLSL (JOV) node generates noise using GLSL shaders, providing various types of noise patterns for image processing applications. Users can select from different noise types, including Brownian, Gradient, Mosaic, Perlin 2D, Simplex 2D, and Value noise. The generated noise patterns can be customized further by specifying parameters such as seed and image dimensions. GLSL shaders corresponding to each noise type are loaded dynamically based on the user's selection, allowing for flexible and efficient noise generation in the image processing pipeline.
 
-![NOISE GLSL](./NOISE%20GLSL.png)
+![NOISE GLSL](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/NOISE%20GLSL/NOISE%20GLSL.png)
 
 #### OUTPUT NODE?: `False`
 

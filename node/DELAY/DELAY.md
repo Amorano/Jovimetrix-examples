@@ -4,7 +4,7 @@
 
 Delay node used to introduce pauses in the workflow. It accepts an optional input to pass through and a timer parameter to specify the duration of the delay. If no timer is provided, it defaults to a maximum delay. During the delay, it periodically checks for messages to interrupt the delay. Once the delay is completed, it returns the input passed to it.
 
-![DELAY](./DELAY.png)
+![DELAY](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/DELAY/DELAY.png)
 
 #### OUTPUT NODE?: `False`
 

@@ -4,7 +4,7 @@
 
 Applies various visual effects to an image using GLSL. The effects include bulge, chromatic aberration, cross-hatch, CRT, film grain, frosted glass, pixelation, sepia, and VHS. Each effect can be customized with parameters such as radius, strength, and center.
 
-![VFX GLSL](./VFX%20GLSL.png)
+![VFX GLSL](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VFX%20GLSL/VFX%20GLSL.png)
 
 #### OUTPUT NODE?: `False`
 

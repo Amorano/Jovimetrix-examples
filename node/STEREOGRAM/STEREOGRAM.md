@@ -4,7 +4,7 @@
 
 The Stereogram node creates stereograms, generating 3D images from 2D input. Set tile divisions, noise, gamma, and shift parameters to control the stereogram's appearance.
 
-![STEREOGRAM](./STEREOGRAM.png)
+![STEREOGRAM](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STEREOGRAM/STEREOGRAM.png)
 
 #### OUTPUT NODE?: `False`
 

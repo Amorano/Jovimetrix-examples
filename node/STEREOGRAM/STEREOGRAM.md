@@ -20,6 +20,7 @@ TILE | INT | title | 8 |
 NOISE | FLOAT | noise | 0.33 | 
 🔆 | FLOAT | gamma | 0.33 | 
 SHIFT | FLOAT | shift | 1.0 | 
+🔳 | BOOLEAN | color inversion | False | 
 
 ### OUTPUT
 

@@ -2,6 +2,8 @@
 
 ## JOVIMETRIX 🔺🟩🔵/AUDIO
 
+☣️💣☣️💣☣️💣☣️💣 THIS NODE IS A WORK IN PROGRESS ☣️💣☣️💣☣️💣☣️💣
+
 The Load Wave node imports audio files, converting them to waveforms. Specify the file path to load the audio data.
 
 ![LOAD WAVE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/LOAD%20WAVE/LOAD%20WAVE.png)

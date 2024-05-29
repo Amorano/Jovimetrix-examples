@@ -2,6 +2,8 @@
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
+☣️💣☣️💣☣️💣☣️💣 THIS NODE IS A WORK IN PROGRESS ☣️💣☣️💣☣️💣☣️💣
+
 The Image Diff node compares two input images pixel by pixel to identify differences between them. It takes two images as input, labeled as Image A and Image B. The node then calculates the absolute difference between the two images, producing two additional outputs: a difference mask and a threshold mask. The threshold parameter determines the sensitivity of the comparison, with higher values indicating more tolerance for differences. The node returns Image A, Image B, the difference mask, and the threshold mask.
 
 ![IMAGE DIFF](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/IMAGE%20DIFF/IMAGE%20DIFF.png)

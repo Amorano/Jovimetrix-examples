@@ -19,7 +19,7 @@ name | type | desc | default | meta
 MODE | STRING | scaling mode | REINHARD | REINHARD, LUT, HISTOGRAM
 MAP | STRING | custom image that will be<br>transformed into a lut or a<br>built-in cv2 lut | USER_MAP | USER MAP, PRESET MAP
 🇸🇨 | STRING | one of two dozen cv2 built-in<br>colormap lut (look up table)<br>presets | HSV | AUTUMN, BONE, JET, WINTER,<br>RAINBOW, OCEAN, SUMMER, SPRING,<br>COOL, HSV, PINK, HOT, PARULA,<br>MAGMA, INFERNO, PLASMA, VIRIDIS,<br>CIVIDIS, TWILIGHT, TWILIGHT<br>SHIFTED, TURBO, DEEPGREEN
-\# | INT | value | 255 | 
+VAL | INT | value | 255 | 
 🙃 | BOOLEAN | flip input a and input b with<br>each other | False | 
 🔳 | BOOLEAN | color inversion | False | 
 MATTE | VEC4 | background color | (0, 0, 0, 255) | 

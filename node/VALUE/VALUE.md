@@ -21,6 +21,10 @@ name | type | desc | default | meta
 🇿 | FLOAT | z | 0 | 
 🇼 | FLOAT | width | 0 | 
 📝 | STRING | string entry |  | 
+X | FLOAT |  | 0 | 
+Y | FLOAT |  | 0 | 
+Z | FLOAT |  | 0 | 
+W | FLOAT |  | 0 | 
 
 ### OUTPUT
 

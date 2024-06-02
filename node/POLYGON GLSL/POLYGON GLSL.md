@@ -14,7 +14,7 @@ The POLYGON GLSL (JOV) node generates polygonal shapes using GLSL shaders. Users
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-\# | INT | value | 3 | 
+VAL | INT | value | 3 | 
 🅡 | FLOAT | radius | 1 | 
 🇼🇭 | VEC2 | width and height | (32, 32) | 
 

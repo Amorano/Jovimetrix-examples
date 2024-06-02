@@ -17,7 +17,7 @@ name | type | desc | default | meta
 👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 DEFICIENCY | STRING | type of color deficiency: red<br>(protanopia), green<br>(deuteranopia), blue<br>(tritanopia) | PROTAN | PROTAN, DEUTAN, TRITAN
 SIMULATOR | STRING | solver to use when translating<br>to new color space | AUTOSELECT | AUTOSELECT, BRETTEL1997,<br>COBLISV1, COBLISV2, MACHADO2009,<br>VIENOT1999, VISCHECK
-\# | FLOAT | value | 1 | 
+VAL | FLOAT | value | 1 | 
 
 ### OUTPUT
 

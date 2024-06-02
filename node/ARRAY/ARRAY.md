@@ -26,7 +26,7 @@ CHUNK | INT | how many items to put per<br>output. default (0) is all items | 0 
 
 name | type | desc
 :---:|:---:|---
-\# | INT | Value 
+VAL | INT | Value 
 🔮 | * | Any Type 
 🧾 | * | List 
 

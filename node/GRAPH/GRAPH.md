@@ -15,7 +15,7 @@ The Graph node visualizes a series of data points over time. It accepts a dynami
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 RESET | BOOLEAN | reset | False | 
-\# | INT | value | 60 | 
+VAL | INT | value | 60 | 
 🇼🇭 | VEC2 | width and height | (32, 32) | 
 
 ### OUTPUT

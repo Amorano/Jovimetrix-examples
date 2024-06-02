@@ -25,7 +25,7 @@ name | type | desc
 CHAN | INT | Channel 
 🎚️ | INT | Control 
 🎶 | INT | Note 
-\# | FLOAT | Value 
+VAL | FLOAT | Value 
 0-1 | FLOAT | Normalize 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

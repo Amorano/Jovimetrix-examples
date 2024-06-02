@@ -16,7 +16,7 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 🔟 | FLOAT | integer | 0.1 | 
-\# | FLOAT | value | 500 | 
+VAL | FLOAT | value | 500 | 
 
 ### OUTPUT
 

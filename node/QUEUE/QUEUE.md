@@ -15,7 +15,7 @@ The Queue node manages a queue of items, such as file paths or data. It supports
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 Q | STRING | queue | ./res/img/test-a.png | 
-\# | INT | value | 0 | 
+VAL | INT | value | 0 | 
 ✋🏽 | BOOLEAN | wait | False | 
 RESET | BOOLEAN | reset | False | 
 

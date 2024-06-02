@@ -24,7 +24,7 @@ name | type | desc | default | meta
 😷 | * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
 ⚒️ | STRING | function | BLUR | BLUR, STACK BLUR, GAUSSIAN BLUR,<br>MEDIAN BLUR, SHARPEN, EMBOSS,<br>INVERT, HSV, LEVELS, EQUALIZE,<br>PIXELATE, QUANTIZE, POSTERIZE,<br>FIND EDGES, OUTLINE, DILATE,<br>ERODE, OPEN, CLOSE
 🅡 | INT | radius | 3 | 
-\# | FLOAT | value | 1 | 
+VAL | FLOAT | value | 1 | 
 LoHi | VEC2 | low and high | (0, 1) | 
 LMH | VEC3 | low, middle, high | (0, 0.5, 1) | 
 🇭🇸‌🇻 | VEC3 | hue, saturation and value | (0, 1, 1) | 

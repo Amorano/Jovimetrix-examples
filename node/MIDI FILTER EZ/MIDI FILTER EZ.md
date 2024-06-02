@@ -19,7 +19,7 @@ MODE | STRING | scaling mode | IGNORE | NOTE OFF, NOTE ON, IGNORE
 CHAN | INT | channel | -1 | 
 🎚️ | INT | control | -1 | 
 🎶 | INT | note | -1 | 
-\# | INT | value | -1 | 
+VAL | INT | value | -1 | 
 0-1 | FLOAT | normalize | -1 | 
 
 ### OUTPUT

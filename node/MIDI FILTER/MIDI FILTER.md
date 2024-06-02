@@ -19,7 +19,7 @@ name | type | desc | default | meta
 CHAN | STRING | channel |  | 
 🎚️ | STRING | control |  | 
 🎶 | STRING | note |  | 
-\# | STRING | value |  | 
+VAL | STRING | value |  | 
 0-1 | STRING | normalize |  | 
 
 ### OUTPUT

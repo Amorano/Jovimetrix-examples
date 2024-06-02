@@ -15,7 +15,7 @@ The `Tick` node acts as a timer and frame counter, emitting pulses or signals ba
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🔮 | * | any type |  | 
-\# | INT | value | 0 | 
+VAL | INT | value | 0 | 
 🔄 | INT | loop | 0 | 
 🏎️ | INT | frames per second | 24 | 
 BPM | FLOAT | the number of beats per minute | 120 | 
@@ -28,7 +28,7 @@ BATCH | INT | process multiple images | 1 |
 
 name | type | desc
 :---:|:---:|---
-\# | INT | Value 
+VAL | INT | Value 
 🛟 | FLOAT | Linear 
 🏎️ | FLOAT | Frames per second 
 🔮 | * | Any Type 

@@ -16,7 +16,7 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 SCHEME | STRING | scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC,<br>SPLIT COMPLIMENTARY, ANALOGOUS,<br>TRIADIC, SQUARE, COMPOUND,<br>CUSTOM TETRAD
-\# | INT | value | 45 | 
+VAL | INT | value | 45 | 
 🔳 | BOOLEAN | color inversion | False | 
 
 ### OUTPUT

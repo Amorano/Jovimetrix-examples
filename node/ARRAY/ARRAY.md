@@ -27,7 +27,7 @@ CHUNK | INT | how many items to put per<br>output. default (0) is all items | 0 
 name | type | desc
 :---:|:---:|---
 VAL | INT | Value 
-🔮 | * | Any Type 
+🦄 | * | Any Type 
 🧾 | * | List 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

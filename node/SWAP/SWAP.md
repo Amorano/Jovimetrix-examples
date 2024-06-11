@@ -29,6 +29,6 @@ SWAP W | STRING | replace input w channel with<br>target channel or constant | A
 
 name | type | desc
 :---:|:---:|---
-🔮 | * | Any Type 
+🦄 | * | Any Type 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

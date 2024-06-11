@@ -15,16 +15,14 @@ The Value Node supplies raw or default values for various data types, supporting
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🅰️ | * | input a |  | 
-❓ | STRING | type | BOOLEAN | BOOLEAN, FLOAT, INT, VEC2,<br>VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, STRING, LIST, DICT,<br>COORD2D, ANY, MASK
-🇽 | FLOAT | x | 0 | 
-🇾 | FLOAT | y | 0 | 
-🇿 | FLOAT | z | 0 | 
-🇼 | FLOAT | width | 0 | 
+❓ | STRING | type | BOOLEAN | BOOLEAN, FLOAT, INT, VEC2,<br>VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, STRING, LIST, DICT,<br>COORD2D
+🇽 | * | x | 0 | 
+🇾 | * | y | 0 | 
+🇿 | * | z | 0 | 
+🇼 | * | width | 0 | 
+X | FLOAT | x | 0 | 
+🅰️4 | VEC4 | 4-value vector | (0, 0, 0, 0) | 
 📝 | STRING | string entry |  | 
-X | FLOAT |  | 0 | 
-Y | FLOAT |  | 0 | 
-Z | FLOAT |  | 0 | 
-W | FLOAT |  | 0 | 
 
 ### OUTPUT
 

@@ -14,7 +14,7 @@ The `Tick` node acts as a timer and frame counter, emitting pulses or signals ba
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🔮 | * | any type |  | 
+⚡ | * | trigger |  | 
 VAL | INT | value | 0 | 
 🔄 | INT | loop | 0 | 
 🏎️ | INT | frames per second | 24 | 
@@ -23,14 +23,15 @@ BPM | FLOAT | the number of beats per minute | 120 |
 ✋🏽 | BOOLEAN | wait | False | 
 RESET | BOOLEAN | reset | False | 
 BATCH | INT | process multiple images | 1 | 
+🦶🏽 | INT | step | 0 | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-VAL | INT | Value 
+VAL | * | Value 
 🛟 | FLOAT | Linear 
 🏎️ | FLOAT | Frames per second 
-🔮 | * | Any Type 
+⚡ | * | Trigger 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

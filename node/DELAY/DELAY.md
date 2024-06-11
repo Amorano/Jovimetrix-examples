@@ -21,6 +21,6 @@ name | type | desc | default | meta
 
 name | type | desc
 :---:|:---:|---
-🚌 | * | Route 
+📤 | * | Pass Out 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

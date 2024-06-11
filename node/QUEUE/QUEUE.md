@@ -23,7 +23,7 @@ RESET | BOOLEAN | reset | False |
 
 name | type | desc
 :---:|:---:|---
-🔮 | * | Any Type 
+🦄 | * | Any Type 
 Q | * | Queue 
 CURRENT | STRING | Current 
 INDEX | INT | Current item index in the Queue list 

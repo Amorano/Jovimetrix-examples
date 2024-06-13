@@ -1,6 +1,6 @@
 # WAVE GRAPH (JOV) ▶ ılıılı
 
-## JOVIMETRIX 🔺🟩🔵/AUDIO
+## JOVIMETRIX 🔺🟩🔵/CREATE
 
 The Wave Graph node visualizes audio waveforms as bars. Adjust parameters like the number of bars, bar thickness, and colors.
 

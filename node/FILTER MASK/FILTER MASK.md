@@ -17,8 +17,8 @@ name | type | desc | default | meta
 👾A | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 START | VEC3 | start of the range | (128, 128, 128) | 
 🇴 | BOOLEAN | boolean | False | 
-END | VEC3 | end of the range | (255, 255, 255) | 
-🛟 | FLOAT | linear | 0.5 | 
+END | VEC3 | end of the range | (128, 128, 128) | 
+🛟 | VEC3 | linear | (0.5, 0.5, 0.5) | 
 MATTE | VEC4 | background color | (0, 0, 0, 255) | 
 
 ### OUTPUT

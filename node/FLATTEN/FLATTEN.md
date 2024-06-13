@@ -15,7 +15,6 @@ The Flatten Node combines multiple input images into a single image by summing t
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 MODE | STRING | scaling mode | NONE | NONE, CROP, MATTE, FIT, ASPECT,<br>ASPECT SHORT
-🇼🇭 | VEC2 | width and height | (32, 32) | 
 🎞️ | STRING | sampling method to apply when<br>rescaling | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA,<br>LANCZOS4, LINEAR EXACT, NEAREST<br>EXACT
 MATTE | VEC4 | background color | (0, 0, 0, 255) | 
 

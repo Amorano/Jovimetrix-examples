@@ -16,7 +16,7 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 ❓ | STRING | type | VALUE | BROWNIAN, VALUE, GRADIENT,<br>MOSAIC, PERLIN 2D, SIMPLEX 2D
 SEED | INT | random generator's initial value | 0 | 
-🇼🇭 | VEC2 | width and height | (32, 32) | 
+🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (32, 32) | 
 
 ### OUTPUT
 

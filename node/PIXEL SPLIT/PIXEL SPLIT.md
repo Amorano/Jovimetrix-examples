@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
-The Pixel Split Node takes an input image and splits it into its individual color channels (red, green, blue), along with a mask channel. This node is useful for separating different color components of an image for further processing or analysis.
+Takes an input image and splits it into its individual color channels (red, green, blue), along with a mask channel. This node is useful for separating different color components of an image for further processing or analysis.
 
 ![PIXEL SPLIT](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20SPLIT/PIXEL%20SPLIT.png)
 

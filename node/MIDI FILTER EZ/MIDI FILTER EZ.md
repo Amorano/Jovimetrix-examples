@@ -15,7 +15,7 @@ The MIDI Filter EZ node allows you to filter MIDI messages based on various crit
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🎛️ | JMIDIMSG | midi |  | 
-MODE | STRING | scaling mode | IGNORE | NOTE OFF, NOTE ON, IGNORE
+MODE | STRING | decide whether the images should<br>be resized to fit a specific<br>dimension. available modes<br>include scaling to fit within<br>given dimensions or keeping the<br>original size | IGNORE | NOTE OFF, NOTE ON, IGNORE
 CHAN | INT | channel | -1 | 
 🎚️ | INT | control | -1 | 
 🎶 | INT | note | -1 | 

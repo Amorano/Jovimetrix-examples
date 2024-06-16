@@ -2,13 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/ADJUST
 
-The `Adjust Node` lets you enhance and modify images with various effects.
-You can apply blurring, sharpening, color tweaks, and edge detection.
-Customize parameters like radius, value, and contrast, and use masks for
-selective effects. Advanced options include pixelation, quantization, and
-morphological operations like dilation and erosion. Handle transparency easily,
-ensuring seamless blending of effects. Perfect for simple adjustments and
-complex image transformations.
+Enhance and modify images with various effects using the Adjust Node. Apply effects such as blurring, sharpening, color tweaks, and edge detection. Customize parameters like radius, value, and contrast, and use masks for selective effects. Advanced options include pixelation, quantization, and morphological operations like dilation and erosion. Handle transparency effortlessly to ensure seamless blending of effects. This node is ideal for simple adjustments and complex image transformations.
 
 ![ADJUST](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ADJUST/ADJUST.png)
 
@@ -30,7 +24,7 @@ LMH | VEC3 | low, middle, high | (0, 0.5, 1) |
 🇭🇸‌🇻 | VEC3 | hue, saturation and value | (0, 1, 1) | 
 🌓 | FLOAT | contrast | 0 | 
 🔆 | FLOAT | gamma | 1 | 
-MATTE | VEC4 | background color | (0, 0, 0, 255) | 
+MATTE | VEC4 | define a background color for<br>padding, if necessary. this is<br>useful when images do not fit<br>perfectly into the designated<br>area and need a filler color | (0, 0, 0, 255) | 
 🔳 | BOOLEAN | color inversion | False | 
 
 ### OUTPUT

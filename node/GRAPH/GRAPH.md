@@ -16,7 +16,7 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 RESET | BOOLEAN | reset | False | 
 VAL | INT | value | 60 | 
-🇼🇭 | VEC2 | width and height | (32, 32) | 
+🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (32, 32) | 
 
 ### OUTPUT
 

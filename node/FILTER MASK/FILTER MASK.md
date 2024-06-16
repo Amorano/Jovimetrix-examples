@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/ADJUST
 
-The `Filter Mask` node allows you to create masks based on color ranges within an image, ideal for selective filtering and masking tasks. You can specify the color range using start and end values along with an optional fuzziness factor to adjust the range. This node provides flexibility in defining precise color-based masks for various image processing applications.
+Create masks based on specific color ranges within an image. Specify the color range using start and end values and an optional fuzziness factor to adjust the range. This node allows for precise color-based mask creation, ideal for tasks like object isolation, background removal, or targeted color adjustments.
 
 ![FILTER MASK](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FILTER%20MASK/FILTER%20MASK.png)
 
@@ -19,7 +19,7 @@ START | VEC3 | start of the range | (128, 128, 128) |
 🇴 | BOOLEAN | boolean | False | 
 END | VEC3 | end of the range | (128, 128, 128) | 
 🛟 | VEC3 | linear | (0.5, 0.5, 0.5) | 
-MATTE | VEC4 | background color | (0, 0, 0, 255) | 
+MATTE | VEC4 | define a background color for<br>padding, if necessary. this is<br>useful when images do not fit<br>perfectly into the designated<br>area and need a filler color | (0, 0, 0, 255) | 
 
 ### OUTPUT
 

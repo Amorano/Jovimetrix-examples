@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
-The Crop Node extracts a portion of an input image or resizes it to a specified size. It supports various cropping modes, including center cropping, custom XY cropping, and freeform polygonal cropping. This node is useful for preparing image data for specific tasks or extracting regions of interest.
+Extract a portion of an input image or resize it. It supports various cropping modes, including center cropping, custom XY cropping, and freeform polygonal cropping. This node is useful for preparing image data for specific tasks or extracting regions of interest.
 
 ![CROP](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CROP/CROP.png)
 
@@ -17,7 +17,7 @@ name | type | desc | default | meta
 👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 ⚒️ | STRING | function | CENTER | CENTER, XY, FREE
 🇽🇾 | VEC2 | x and y | (0, 0) | 
-🇼🇭 | VEC2 | width and height | (512, 512) | 
+🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (512, 512) | 
 TL-TR | VEC4 | top left - top right | (0, 0, 0, 1) | 
 BL-BR | VEC4 | bottom left - bottom right | (1, 0, 1, 1) | 
 🌈 | VEC3 | rgb (no alpha) color | (0, 0, 0) | 

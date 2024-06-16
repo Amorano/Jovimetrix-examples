@@ -21,14 +21,14 @@ FONT | STRING | available system fonts | Almendra | Almendra, Alphabutt Base A,<
 LETTER | BOOLEAN | if each letter be generated and<br>output in a batch | False | 
 AUTOSIZE | BOOLEAN | scale based on width & height | False | 
 🌈A | VEC3 | rgb with alpha color | (255, 255, 255, 255) | 
-MATTE | VEC3 | background color | (0, 0, 0) | 
+MATTE | VEC3 | define a background color for<br>padding, if necessary. this is<br>useful when images do not fit<br>perfectly into the designated<br>area and need a filler color | (0, 0, 0) | 
 COLS | INT | 0 = auto-fit, >0 = fit into n<br>columns | 0 | 
 SIZE | INT | text size | 16 | 
 ALIGN | STRING | top, center or bottom alignment | CENTER | TOP, CENTER, BOTTOM
 JUSTIFY | STRING | how to align the text to the<br>side margins of the canvas:<br>left, right, or centered | CENTER | LEFT, CENTER, RIGHT
 MARGIN | INT | whitespace padding around canvas | 0 | 
 SPACING | INT | line spacing between text lines | 25 | 
-🇼🇭 | VEC2 | width and height | (32, 32) | 
+🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (32, 32) | 
 🇽🇾 | VEC2 | x and y | (0, 0) | 
 📐 | FLOAT | rotation angle | 0 | 
 EDGE | STRING | clip or wrap the canvas edge | CLIP | CLIP, WRAP, WRAPX, WRAPY

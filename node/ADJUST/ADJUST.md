@@ -1,6 +1,6 @@
 # ADJUST (JOV) 🕸️
 
-## JOVIMETRIX 🔺🟩🔵/ADJUST
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
 Enhance and modify images with various effects using the Adjust Node. Apply effects such as blurring, sharpening, color tweaks, and edge detection. Customize parameters like radius, value, and contrast, and use masks for selective effects. Advanced options include pixelation, quantization, and morphological operations like dilation and erosion. Handle transparency effortlessly to ensure seamless blending of effects. This node is ideal for simple adjustments and complex image transformations.
 

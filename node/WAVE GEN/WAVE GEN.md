@@ -1,6 +1,6 @@
 # WAVE GEN (JOV) 🌊
 
-## JOVIMETRIX 🔺🟩🔵/ANIMATE
+## JOVIMETRIX 🔺🟩🔵/CALC
 
 The `Wave Generator` node produces waveforms like sine, square, or sawtooth with adjustable frequency, amplitude, phase, and offset. It's handy for creating oscillating patterns or controlling animation dynamics. This node emits both continuous floating-point values and integer representations of the generated waves.
 

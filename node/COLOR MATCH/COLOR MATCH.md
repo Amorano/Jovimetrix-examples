@@ -1,6 +1,6 @@
 # COLOR MATCH (JOV) 💞
 
-## JOVIMETRIX 🔺🟩🔵/ADJUST
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
 Adjust the color scheme of one image to match another with the Color Match Node. Choose from various color matching modes, including LUT, Histogram, and Reinhard. You can specify options like color maps, the number of colors, and whether to flip or invert the images. This node allows for the creation of seamless and cohesive visuals, making it ideal for texture work or masking in motion graphics and design projects.
 

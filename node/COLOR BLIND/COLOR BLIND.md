@@ -1,6 +1,6 @@
 # COLOR BLIND (JOV) 👁‍🗨
 
-## JOVIMETRIX 🔺🟩🔵/ADJUST
+## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
 Use the Color Blind Node to simulate color blindness effects on images. You can select various types of color deficiencies, adjust the severity of the effect, and apply the simulation using different simulators. This node is ideal for accessibility testing and design adjustments, ensuring inclusivity in your visual content.
 

@@ -14,7 +14,7 @@ Processes a batch of data based on the selected mode, such as merging, picking, 
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-MODE | STRING | decide whether the images should<br>be resized to fit a specific<br>dimension. available modes<br>include scaling to fit within<br>given dimensions or keeping the<br>original size | MERGE | MERGE, PICK, SLICE, INDEX LIST,<br>RANDOM
+MODE | STRING | decide whether the images should<br>be resized to fit a specific<br>dimension. available modes<br>include scaling to fit within<br>given dimensions or keeping the<br>original size | MERGE | MERGE, PICK, SLICE, INDEX LIST,<br>RANDOM, CARTESIAN
 INDEX | INT | current item index in the queue<br>list | 0 | 
 RANGE | VEC3 | start index, ending index (0<br>means full length) and how many<br>items to skip per step | (0, 0, 1) | 
 📝 | STRING | string entry |  | 

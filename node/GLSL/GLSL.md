@@ -16,7 +16,7 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 🕛 | FLOAT | time | 0 | 
-BATCH | VEC2 | process multiple images | (1, 30) | 
+BATCH | VEC2 | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | (1, 30) | 
 ✋🏽 | BOOLEAN | wait | False | 
 RESET | BOOLEAN | reset | False | 
 🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (32, 32) | 

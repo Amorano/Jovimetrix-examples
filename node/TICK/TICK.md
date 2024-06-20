@@ -22,7 +22,7 @@ BPM | FLOAT | the number of beats per minute | 120 |
 🎶 | INT | note | 4 | 
 ✋🏽 | BOOLEAN | wait | False | 
 RESET | BOOLEAN | reset | False | 
-BATCH | INT | process multiple images | 1 | 
+BATCH | INT | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | 1 | 
 🦶🏽 | INT | step | 0 | 
 
 ### OUTPUT

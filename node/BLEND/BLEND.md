@@ -17,7 +17,7 @@ name | type | desc | default | meta
 👾A | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 👾B | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 😷 | * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
-⚒️ | STRING | function | NORMAL | NORMAL, ADDITIVE, NEGATION,<br>DIFFERENCE, MULTIPLY, DIVIDE,<br>LIGHTEN, DARKEN, SCREEN, BURN,<br>DODGE, OVERLAY, HUE, SATURATION,<br>LUMINOSITY, COLOR, SOFT, HARD,<br>PIN, VIVID, EXCLUSION, REFLECT,<br>GLOW, XOR, EXTRACT, MERGE,<br>DESTIN, DESTOUT, SRCATOP,<br>DESTATOP
+⚒️ | STRING | function | NORMAL | NORMAL, ADDITIVE, NEGATION,<br>DIFFERENCE, MULTIPLY, DIVIDE,<br>LIGHTEN, DARKEN, SCREEN, BURN,<br>DODGE, OVERLAY, HUE, SATURATION,<br>LUMINOSITY, COLOR, SOFT, HARD,<br>PIN, VIVID, EXCLUSION, REFLECT,<br>GLOW, XOR, EXTRACT
 ⬜ | FLOAT | alpha | 1 | 
 🙃 | BOOLEAN | flip input a and input b with<br>each other | False | 
 🔳 | BOOLEAN | color inversion | False | 

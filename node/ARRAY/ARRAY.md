@@ -19,6 +19,7 @@ INDEX | INT | current item index in the queue<br>list | 0 |
 RANGE | VEC3 | start index, ending index (0<br>means full length) and how many<br>items to skip per step | (0, 0, 1) | 
 📝 | STRING | string entry |  | 
 seed | INT | random generator's initial value | 0 | 
+COUNT | INT | number of things | 1 | 
 🙃 | BOOLEAN | flip input a and input b with<br>each other | False | 
 CHUNK | INT | how many items to put per<br>output. default (0) is all items | 0 | 
 
@@ -26,8 +27,8 @@ CHUNK | INT | how many items to put per<br>output. default (0) is all items | 0 
 
 name | type | desc
 :---:|:---:|---
-VAL | INT | Value 
 🦄 | * | Any Type 
 🧾 | * | List 
+VAL | INT | Value 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

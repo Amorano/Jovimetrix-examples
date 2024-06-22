@@ -17,7 +17,7 @@ name | type | desc | default | meta
 ♒ | AUDIO | wave function |  | 
 VAL | INT | value | 100 | 
 THICK | FLOAT | thickness | 0.72 | 
-🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (32, 32) | 
+🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (256, 256) | 
 🌈A | VEC4 | rgb with alpha color | (128, 128, 0, 255) | 
 MATTE | VEC4 | define a background color for<br>padding, if necessary. this is<br>useful when images do not fit<br>perfectly into the designated<br>area and need a filler color | (0, 128, 128, 255) | 
 

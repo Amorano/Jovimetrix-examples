@@ -20,15 +20,9 @@ name | type | desc | default | meta
 🇾 | * | y | 0 | 
 🇿 | * | z | 0 | 
 🇼 | * | width | 0 | 
-X | FLOAT | x | 0 | 
-🅰️4 | VEC4 | 4-value vector | (0, 0, 0, 0) | 
-🅰️2 | VEC2 | 2-value vector | (0, 0) | 
-🅰️3 | VEC3 | 3-value vector | (0, 0, 0) | 
+🅰️🅰️ | VEC4 | default value vector for a | (0, 0, 0, 0) | 
 seed | INT | random generator's initial value | 0 | 
-Y | FLOAT | y | 0 | 
-🅱️2 | VEC2 | 2-value vector | (0, 0) | 
-🅱️3 | VEC3 | 3-value vector | (0, 0, 0) | 
-🅱️4 | VEC4 | 4-value vector | (0, 0, 0, 0) | 
+🅱️🅱️ | VEC4 | default value vector for b | (0, 0, 0, 0) | 
 📝 | STRING | string entry |  | 
 
 ### OUTPUT

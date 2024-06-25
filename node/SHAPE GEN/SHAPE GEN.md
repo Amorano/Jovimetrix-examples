@@ -14,8 +14,8 @@ The Shape Generation node creates images representing various shapes such as cir
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🇸🇴 | STRING | circle, square or polygonal<br>forms | CIRCLE | CIRCLE, SQUARE, ELLIPSE,<br>RECTANGLE, POLYGON
-♾️ | INT | number of sides polygon has<br>(3-100) | 3 | 
+SHAPE | STRING | circle, square or polygonal<br>forms | CIRCLE | CIRCLE, SQUARE, ELLIPSE,<br>RECTANGLE, POLYGON
+SIDES | INT | number of sides polygon has<br>(3-100) | 3 | 
 🌈A | VEC4 | rgb with alpha color | (255, 255, 255, 255) | 
 MATTE | VEC4 | define a background color for<br>padding, if necessary. this is<br>useful when images do not fit<br>perfectly into the designated<br>area and need a filler color | (0, 0, 0, 255) | 
 🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (256, 256) | 

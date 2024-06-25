@@ -18,6 +18,7 @@ Q | STRING | queue | ./res/img/test-a.png |
 VAL | INT | value | 0 | 
 ✋🏽 | BOOLEAN | wait | False | 
 RESET | BOOLEAN | reset | False | 
+BATCH | BOOLEAN | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | False | 
 
 ### OUTPUT
 

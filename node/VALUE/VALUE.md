@@ -22,7 +22,7 @@ name | type | desc | default | meta
 🇼 | * | width | 0 | 
 🅰️🅰️ | VEC4 | default value vector for a | (0, 0, 0, 0) | 
 seed | INT | random generator's initial value | 0 | 
-🅱️🅱️ | VEC4 | default value vector for b | (0, 0, 0, 0) | 
+🅱️🅱️ | VEC4 | default value vector for b | (1, 1, 1, 1) | 
 📝 | STRING | string entry |  | 
 
 ### OUTPUT

@@ -26,7 +26,7 @@ name | type | desc
 :---:|:---:|---
 🦄 | * | Any Type 
 Q | * | Queue 
-CURRENT | STRING | Current 
+CURRENT | * | Current 
 INDEX | INT | Current item index in the Queue list 
 TOTAL | INT | Total items in the current Queue List 
 

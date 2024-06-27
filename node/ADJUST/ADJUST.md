@@ -21,7 +21,7 @@ name | type | desc | default | meta
 VAL | FLOAT | value | 1 | 
 LoHi | VEC2 | low and high | (0, 1) | 
 LMH | VEC3 | low, middle, high | (0, 0.5, 1) | 
-🇭🇸‌🇻 | VEC3 | hue, saturation and value | (0, 1, 1) | 
+HSV | VEC3 | hue, saturation and value | (0, 1, 1) | 
 🌓 | FLOAT | contrast | 0 | 
 🔆 | FLOAT | gamma | 1 | 
 MATTE | VEC4 | define a background color for<br>padding, if necessary. this is<br>useful when images do not fit<br>perfectly into the designated<br>area and need a filler color | (0, 0, 0, 255) | 

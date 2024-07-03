@@ -14,7 +14,7 @@ The MIDI Reader node captures MIDI messages from an external MIDI device or cont
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-📟 | STRING | device | MPKmini2 0 | MPKmini2 0
+📟 | STRING | Device | MPKmini2 0 | MPKmini2 0
 
 ### OUTPUT
 

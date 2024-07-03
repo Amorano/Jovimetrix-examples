@@ -14,8 +14,8 @@ Delay node used to introduce pauses in the workflow. It accepts an optional inpu
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-📥 | * | pass in |  | 
-⏱ | INT | timer | 0 | 
+📥 | * | Pass In |  | 
+⏱ | INT | Timer | 0 | 
 
 ### OUTPUT
 

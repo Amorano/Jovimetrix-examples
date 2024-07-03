@@ -14,11 +14,11 @@ The Queue node manages a queue of items, such as file paths or data. It supports
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-Q | STRING | queue | ./res/img/test-a.png | 
-VAL | INT | value | 0 | 
-✋🏽 | BOOLEAN | wait | False | 
-RESET | BOOLEAN | reset | False | 
-BATCH | BOOLEAN | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | False | 
+Q | STRING | Queue | ./res/img/test-a.png | 
+VAL | INT | the current index for the current queue<br>item | 0 | 
+✋🏽 | BOOLEAN | Hold the item at the current queue index | False | 
+RESET | BOOLEAN | reset the queue back to index 1 | False | 
+BATCH | BOOLEAN | load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list | False | 
 
 ### OUTPUT
 

@@ -14,16 +14,16 @@ The `Tick` node acts as a timer and frame counter, emitting pulses or signals ba
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-⚡ | * | trigger |  | 
-VAL | INT | value | 0 | 
-🔄 | INT | loop | 0 | 
-🏎️ | INT | frames per second | 24 | 
-BPM | FLOAT | the number of beats per minute | 120 | 
-🎶 | INT | note | 4 | 
-✋🏽 | BOOLEAN | wait | False | 
-RESET | BOOLEAN | reset | False | 
-BATCH | INT | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | 1 | 
-🦶🏽 | INT | step | 0 | 
+⚡ | * | Output to send when beat (BPM setting) is<br>hit |  | 
+VAL | INT | the current frame number of the tick | 0 | 
+🔄 | INT | number of frames before looping starts. 0<br>means continuous playback (no loop point) | 0 | 
+🏎️ | INT | Fixed frame step rate based on FPS (1/FPS) | 24 | 
+BPM | FLOAT | BPM trigger rate to send the input. If<br>input is empty, TRUE is sent on trigger | 120 | 
+🎶 | INT | Number of beats per measure. Quarter note<br>is 4, Eighth is 8, 16 is 16, etc. | 4 | 
+✋🏽 | BOOLEAN | Wait | False | 
+RESET | BOOLEAN | Reset | False | 
+BATCH | INT | Number of frames wanted | 1 | 
+🦶🏽 | INT | Steps/Stride between pulses -- useful to<br>do odd or even batches. If set to 0 will<br>stretch from (VAL -> LOOP) / Batch giving<br>a linear range of values. | 0 | 
 
 ### OUTPUT
 

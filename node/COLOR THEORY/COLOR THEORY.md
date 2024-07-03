@@ -14,10 +14,10 @@ Apply various color harmony schemes to an input image using the Color Theory Nod
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
-SCHEME | STRING | scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC,<br>SPLIT COMPLIMENTARY, ANALOGOUS,<br>TRIADIC, SQUARE, COMPOUND,<br>CUSTOM TETRAD
-VAL | INT | value | 45 | 
-🔳 | BOOLEAN | color inversion | False | 
+👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
+SCHEME | STRING | Scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC, SPLIT<br>COMPLIMENTARY, ANALOGOUS, TRIADIC, SQUARE,<br>COMPOUND, CUSTOM TETRAD
+VAL | INT | Custom angle of separation to use when<br>calculating colors | 45 | 
+🔳 | BOOLEAN | Color Inversion | False | 
 
 ### OUTPUT
 

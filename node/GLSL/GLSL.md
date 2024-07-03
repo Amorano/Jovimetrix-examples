@@ -14,13 +14,13 @@ The GLSL Node executes custom GLSL (OpenGL Shading Language) fragment shaders to
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🕛 | FLOAT | time | 0 | 
-BATCH | INT | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | 1 | 
-🏎️ | INT | frames per second | 24 | 
-🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (512, 512) | 
-✋🏽 | BOOLEAN | wait | False | 
-RESET | BOOLEAN | reset | False | 
-FRAGMENT | STRING | shader fragment program | 
+🕛 | FLOAT | Time | 0 | 
+BATCH | INT | Output as a BATCH (all images in a single<br>Tensor) or as a LIST of images (each image<br>processed separately) | 1 | 
+🏎️ | INT | Frames per second | 24 | 
+🇼🇭 | VEC2 | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
+✋🏽 | BOOLEAN | Wait | False | 
+RESET | BOOLEAN | Reset | False | 
+FRAGMENT | STRING | Shader Fragment Program | 
 void mainImage( out vec4 fragColor, in vec2 fragCoord )
 {
     // Normalized pixel coordinates (from 0 to 1)
@@ -40,6 +40,6 @@ name | type | desc
 :---:|:---:|---
 🖼️ | IMAGE | Image 
 🌈 | IMAGE | RGB (no alpha) Color 
-😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+😷 | MASK | Mask or Image to use as Mask to control where<br>adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

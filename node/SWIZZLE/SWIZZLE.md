@@ -14,22 +14,22 @@ The Swap Node swaps components between two vectors based on specified swizzle pa
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🅰️ | VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | input a |  | 
-🅱️ | VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | input b |  | 
-❓ | STRING | type | VEC3 | VEC2, VEC2INT, VEC3, VEC3INT,<br>VEC4, VEC4INT, COORD2D
-SWAP X | STRING | replace input red channel with<br>target channel or constant | A_X | A X, A Y, A Z, A W, B X, B Y, B<br>Z, B W, CONSTANT
-🇽 | FLOAT | x | 0 | 
-SWAP Y | STRING | replace input red channel with<br>target channel or constant | A_Y | A X, A Y, A Z, A W, B X, B Y, B<br>Z, B W, CONSTANT
-🇾 | FLOAT | y | 0 | 
-SWAP Z | STRING | replace input red channel with<br>target channel or constant | A_Z | A X, A Y, A Z, A W, B X, B Y, B<br>Z, B W, CONSTANT
-🇿 | FLOAT | z | 0 | 
-SWAP W | STRING | replace input w channel with<br>target channel or constant | A_W | A X, A Y, A Z, A W, B X, B Y, B<br>Z, B W, CONSTANT
-🇼 | FLOAT | width | 0 | 
+🅰️ | VEC2, VEC3, VEC4, VEC2INT, VEC3INT,<br>VEC4INT, COORD2D | Input A |  | 
+🅱️ | VEC2, VEC3, VEC4, VEC2INT, VEC3INT,<br>VEC4INT, COORD2D | Input B |  | 
+❓ | STRING | Output type desired from resultant<br>operation | VEC3 | VEC2, VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, COORD2D
+SWAP X | STRING | Replace input Red channel with target<br>channel or constant | A_X | A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT
+🇽 | FLOAT | X | 0 | 
+SWAP Y | STRING | Replace input Red channel with target<br>channel or constant | A_Y | A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT
+🇾 | FLOAT | Y | 0 | 
+SWAP Z | STRING | Replace input Red channel with target<br>channel or constant | A_Z | A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT
+🇿 | FLOAT | Z | 0 | 
+SWAP W | STRING | Replace input W channel with target<br>channel or constant | A_W | A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT
+🇼 | FLOAT | Width | 0 | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🦄 | VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Any Type 
+🦄 | VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D | Any Type 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

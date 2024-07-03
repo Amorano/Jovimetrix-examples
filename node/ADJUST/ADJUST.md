@@ -14,18 +14,18 @@ Enhance and modify images with various effects using the Adjust Node. Apply effe
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
-😷 | * | mask or image to use as mask to<br>control where adjustments are<br>applied |  | 
-⚒️ | STRING | function | BLUR | BLUR, STACK BLUR, GAUSSIAN BLUR,<br>MEDIAN BLUR, SHARPEN, EMBOSS,<br>INVERT, HSV, LEVELS, EQUALIZE,<br>PIXELATE, QUANTIZE, POSTERIZE,<br>FIND EDGES, OUTLINE, DILATE,<br>ERODE, OPEN, CLOSE
-🅡 | INT | radius | 3 | 
-VAL | FLOAT | value | 1 | 
-LoHi | VEC2 | low and high | (0, 1) | 
-LMH | VEC3 | low, middle, high | (0, 0.5, 1) | 
-HSV | VEC3 | hue, saturation and value | (0, 1, 1) | 
-🌓 | FLOAT | contrast | 0 | 
-🔆 | FLOAT | gamma | 1 | 
-MATTE | VEC4 | define a background color for<br>padding, if necessary. this is<br>useful when images do not fit<br>perfectly into the designated<br>area and need a filler color | (0, 0, 0, 255) | 
-🔳 | BOOLEAN | color inversion | False | 
+👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
+😷 | * | Mask or Image to use as Mask to control<br>where adjustments are applied |  | 
+⚒️ | STRING | Type of adjustment (e.g., blur, sharpen,<br>invert) | BLUR | BLUR, STACK BLUR, GAUSSIAN BLUR, MEDIAN<br>BLUR, SHARPEN, EMBOSS, INVERT, HSV,<br>LEVELS, EQUALIZE, PIXELATE, QUANTIZE,<br>POSTERIZE, FIND EDGES, OUTLINE, DILATE,<br>ERODE, OPEN, CLOSE
+🅡 | INT | Radius | 3 | 
+VAL | FLOAT | Value | 1 | 
+LoHi | VEC2 | Low and High | (0, 1) | 
+LMH | VEC3 | Low, Middle, High | (0, 0.5, 1) | 
+HSV | VEC3 | Hue, Saturation and Value | (0, 1, 1) | 
+🌓 | FLOAT | Contrast | 0 | 
+🔆 | FLOAT | Gamma | 1 | 
+MATTE | VEC4 | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+🔳 | BOOLEAN | Invert the mask input | False | 
 
 ### OUTPUT
 
@@ -33,6 +33,6 @@ name | type | desc
 :---:|:---:|---
 🖼️ | IMAGE | Image 
 🌈 | IMAGE | RGB (no alpha) Color 
-😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+😷 | MASK | Mask or Image to use as Mask to control where<br>adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

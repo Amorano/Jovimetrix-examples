@@ -14,7 +14,7 @@ Routes the input data from the optional input ports to the output port, preservi
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🚌 | BUS | route |  | 
+🚌 | BUS | Route |  | 
 
 ### OUTPUT
 

@@ -14,7 +14,7 @@ The MIDI Message node processes MIDI messages received from an external MIDI con
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🎛️ | JMIDIMSG | midi |  | 
+🎛️ | JMIDIMSG | Midi |  | 
 
 ### OUTPUT
 

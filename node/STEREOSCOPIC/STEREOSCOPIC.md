@@ -14,9 +14,9 @@ The Stereoscopic node simulates depth perception in images by generating stereos
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
-🔟 | FLOAT | integer | 0.1 | 
-📽️ | FLOAT | focal length | 500 | 
+👾 | * | Optional Image to Matte with Selected<br>Color |  | 
+🔟 | FLOAT | Baseline | 0.1 | 
+📽️ | FLOAT | Focal Length | 500 | 
 
 ### OUTPUT
 

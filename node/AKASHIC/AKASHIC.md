@@ -10,7 +10,6 @@ The Akashic node processes input data and prepares it for visualization. It acce
 
 ### INPUT
 
-NONE
 
 ### OUTPUT
 

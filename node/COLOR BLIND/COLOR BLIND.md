@@ -14,10 +14,10 @@ Use the Color Blind Node to simulate color blindness effects on images. You can 
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
-DEFICIENCY | STRING | type of color deficiency: red<br>(protanopia), green<br>(deuteranopia), blue<br>(tritanopia) | PROTAN | PROTAN, DEUTAN, TRITAN
-SIMULATOR | STRING | solver to use when translating<br>to new color space | AUTOSELECT | AUTOSELECT, BRETTEL1997,<br>COBLISV1, COBLISV2, MACHADO2009,<br>VIENOT1999, VISCHECK
-VAL | FLOAT | value | 1 | 
+👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
+DEFICIENCY | STRING | Type of color deficiency: Red<br>(Protanopia), Green (Deuteranopia), Blue<br>(Tritanopia) | PROTAN | PROTAN, DEUTAN, TRITAN
+SIMULATOR | STRING | Solver to use when translating to new<br>color space | AUTOSELECT | AUTOSELECT, BRETTEL1997, COBLISV1,<br>COBLISV2, MACHADO2009, VIENOT1999,<br>VISCHECK
+VAL | FLOAT | alpha blending | 1 | 
 
 ### OUTPUT
 
@@ -25,6 +25,6 @@ name | type | desc
 :---:|:---:|---
 🖼️ | IMAGE | Image 
 🌈 | IMAGE | RGB (no alpha) Color 
-😷 | MASK | Mask or Image to use as Mask to control<br>where adjustments are applied 
+😷 | MASK | Mask or Image to use as Mask to control where<br>adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

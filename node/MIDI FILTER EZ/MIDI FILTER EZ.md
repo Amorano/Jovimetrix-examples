@@ -14,13 +14,13 @@ The MIDI Filter EZ node allows you to filter MIDI messages based on various crit
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🎛️ | JMIDIMSG | midi |  | 
-MODE | STRING | decide whether the images should<br>be resized to fit a specific<br>dimension. available modes<br>include scaling to fit within<br>given dimensions or keeping the<br>original size | IGNORE | NOTE OFF, NOTE ON, IGNORE
-CHAN | INT | channel | -1 | 
-🎚️ | INT | control | -1 | 
-🎶 | INT | note | -1 | 
-VAL | INT | value | -1 | 
-0-1 | FLOAT | normalize | -1 | 
+🎛️ | JMIDIMSG | Midi |  | 
+MODE | STRING | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | IGNORE | NOTE OFF, NOTE ON, IGNORE
+CHAN | INT | Channel | -1 | 
+🎚️ | INT | Control | -1 | 
+🎶 | INT | Note | -1 | 
+VAL | INT | Value | -1 | 
+0-1 | FLOAT | Normalize | -1 | 
 
 ### OUTPUT
 

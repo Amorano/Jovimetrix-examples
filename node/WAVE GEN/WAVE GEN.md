@@ -14,13 +14,13 @@ The `Wave Generator` node produces waveforms like sine, square, or sawtooth with
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-♒ | STRING | wave function | SIN | SIN, COS, TAN, SAWTOOTH,<br>TRIANGLE, SQUARE, PULSE, RAMP,<br>STEP, EXPONENTIAL, LOGARITHMIC,<br>NOISE, HAVERSINE, RECTANGULAR<br>PULSE, GAUSSIAN, CHIRP
-FREQ | FLOAT | frequency | 1 | 
-🔊 | FLOAT | amplitude | 1 | 
-PHASE | FLOAT | phase | 0 | 
-OFFSET | FLOAT | offset | 0 | 
-🕛 | FLOAT | time | 0 | 
-🔳 | BOOLEAN | color inversion | False | 
+♒ | STRING | Wave Function | SIN | SIN, COS, TAN, SAWTOOTH, TRIANGLE, SQUARE,<br>PULSE, RAMP, STEP, EXPONENTIAL,<br>LOGARITHMIC, NOISE, HAVERSINE, RECTANGULAR<br>PULSE, GAUSSIAN, CHIRP
+FREQ | FLOAT | Frequency | 1 | 
+🔊 | FLOAT | Amplitude | 1 | 
+PHASE | FLOAT | Phase | 0 | 
+OFFSET | FLOAT | Offset | 0 | 
+🕛 | FLOAT | Time | 0 | 
+🔳 | BOOLEAN | Color Inversion | False | 
 
 ### OUTPUT
 

@@ -14,13 +14,13 @@ The MIDI Filter node provides advanced filtering capabilities for MIDI messages 
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🎛️ | JMIDIMSG | midi |  | 
-🔛 | STRING | on | IGNORE | NOTE OFF, NOTE ON, IGNORE
-CHAN | STRING | channel |  | 
-🎚️ | STRING | control |  | 
-🎶 | STRING | note |  | 
-VAL | STRING | value |  | 
-0-1 | STRING | normalize |  | 
+🎛️ | JMIDIMSG | Midi |  | 
+🔛 | STRING | On | IGNORE | NOTE OFF, NOTE ON, IGNORE
+CHAN | STRING | Channel |  | 
+🎚️ | STRING | Control |  | 
+🎶 | STRING | Note |  | 
+VAL | STRING | Value |  | 
+0-1 | STRING | Normalize |  | 
 
 ### OUTPUT
 

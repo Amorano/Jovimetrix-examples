@@ -14,18 +14,25 @@ The GLSL Node executes custom GLSL (OpenGL Shading Language) fragment shaders to
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
 🕛 | FLOAT | time | 0 | 
-BATCH | VEC2 | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | (1, 30) | 
+BATCH | INT | output as a batch (all images in<br>a single tensor) or as a list of<br>images (each image processed<br>separately) | 1 | 
+🏎️ | INT | frames per second | 24 | 
+🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (512, 512) | 
 ✋🏽 | BOOLEAN | wait | False | 
 RESET | BOOLEAN | reset | False | 
-🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (512, 512) | 
-FRAGMENT | STRING | shader fragment program | void main() {
-    vec4 texColor = texture(iChannel0, fragCoord);
-    vec4 color = vec4(fragCoord, abs(sin(iTime)), 1.0);
-    fragColor = vec4((texColor.xyz + color.xyz) / 2.0, 1.0);
-} | 
-PARAM | STRING | parameters | {} | 
+FRAGMENT | STRING | shader fragment program | 
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    // Normalized pixel coordinates (from 0 to 1)
+    vec2 uv = fragCoord/iResolution.xy;
+
+    // Time varying pixel color
+    vec3 col = 0.5 + 0.5*cos(iTime+uv.xyx+vec3(0,2,4));
+
+    // Output to screen
+    fragColor = vec4(col,1.0);
+}
+ | 
 
 ### OUTPUT
 

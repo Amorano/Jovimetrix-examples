@@ -14,8 +14,8 @@ The Comparison node evaluates two inputs based on a specified operation. It acce
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🅰️ | * | input a |  | 
-🅱️ | * | input b |  | 
+🅰️ | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D,IMAGE,MASK | input a |  | 
+🅱️ | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D,IMAGE,MASK | input b |  | 
 😍 | * | pass this data on a successful<br>condition |  | 
 🥵 | * | pass this data on a failure<br>condition |  | 
 🕵🏽‍♀️ | STRING | comparison function. will pass<br>the data in 😍 on successful<br>comparison | EQUAL | EQUAL, NOT EQUAL, LESS THAN,<br>LESS THAN EQUAL, GREATER THAN,<br>GREATER THAN EQUAL, AND, NAND,<br>OR, NOR, XOR, XNOR, IS, IS NOT,<br>IN, NOT IN
@@ -25,7 +25,7 @@ name | type | desc | default | meta
 
 name | type | desc
 :---:|:---:|---
-⚡ | * | Trigger 
-VAL | * | Value 
+⚡ | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Trigger 
+VAL | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Value 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

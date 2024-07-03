@@ -15,7 +15,7 @@ The Value Node supplies raw or default values for various data types, supporting
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🅰️ | * | input a |  | 
-❓ | STRING | type | BOOLEAN | BOOLEAN, FLOAT, INT, VEC2,<br>VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, STRING, LIST, DICT,<br>COORD2D
+❓ | STRING | type | BOOLEAN | BOOLEAN, FLOAT, INT, VEC2,<br>VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, COORD2D, STRING, LIST,<br>DICT
 🇽 | * | x | 0 | 
 🇾 | * | y | 0 | 
 🇿 | * | z | 0 | 
@@ -29,10 +29,10 @@ seed | INT | random generator's initial value | 0 |
 
 name | type | desc
 :---:|:---:|---
-🦄 | * | Any Type 
-🇽 | * | X 
-🇾 | * | Y 
-🇿 | * | Z 
-🇼 | * | Width 
+🦄 | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Any Type 
+🇽 | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | X 
+🇾 | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Y 
+🇿 | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Z 
+🇼 | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Width 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

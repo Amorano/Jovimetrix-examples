@@ -15,7 +15,7 @@ Extract a portion of an input image or resize it. It supports various cropping m
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾 | * | pixel data (rgba, rgb or<br>grayscale) |  | 
-⚒️ | STRING | function | CENTER | CENTER, XY, FREE
+⚒️ | STRING | function | CENTER | CENTER, XY, FREE, HEAD, BODY
 🇽🇾 | VEC2 | x and y | (0, 0) | 
 🇼🇭 | VEC2 | set the target dimensions for<br>the output image if scaling is<br>applied | (512, 512) | 
 TL-TR | VEC4 | top left - top right | (0, 0, 0, 1) | 

@@ -14,10 +14,10 @@ The Binary Operation node executes binary operations like addition, subtraction,
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🅰️ | * | input a |  | 
-🅱️ | * | input b |  | 
+🅰️ | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D,IMAGE,MASK | input a |  | 
+🅱️ | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D,IMAGE,MASK | input b |  | 
 ⚒️ | STRING | function | ADD | ADD, SUBTRACT, MULTIPLY, DIVIDE,<br>DIVIDE FLOOR, MODULUS, POWER,<br>MAXIMUM, MINIMUM, DOT PRODUCT,<br>CROSS PRODUCT, BIT AND, BIT<br>NAND, BIT OR, BIT NOR, BIT XOR,<br>BIT XNOR, BIT LSHIFT, BIT<br>RSHIFT, UNION, INTERSECTION,<br>DIFFERENCE
-❓ | STRING | type | INT | BOOLEAN, FLOAT, INT, VEC2,<br>VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT
+❓ | STRING | type | INT | BOOLEAN, FLOAT, INT, VEC2,<br>VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, COORD2D
 🙃 | BOOLEAN | flip input a and input b with<br>each other | False | 
 🅰️🅰️ | VEC4 | value vector | (0, 0, 0, 0) | 
 🅱️🅱️ | VEC4 | value vector | (0, 0, 0, 0) | 
@@ -26,6 +26,6 @@ name | type | desc | default | meta
 
 name | type | desc
 :---:|:---:|---
-❔ | * | Unknown 
+❔ | BOOLEAN,FLOAT,INT,VEC2,VEC3,VEC4,VEC2INT,VEC3INT,VEC4INT,COORD2D | Unknown 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

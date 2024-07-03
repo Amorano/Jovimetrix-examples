@@ -29,7 +29,7 @@ BATCH | INT | output as a batch (all images in<br>a single tensor) or as a list 
 
 name | type | desc
 :---:|:---:|---
-VAL | * | Value 
+VAL | INT | Value 
 🛟 | FLOAT | Linear 
 🏎️ | FLOAT | Frames per second 
 ⚡ | * | Trigger 

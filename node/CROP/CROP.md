@@ -28,6 +28,6 @@ name | type | desc
 :---:|:---:|---
 🖼️  |  IMAGE  | Image 
 🌈  |  IMAGE  | RGB (no alpha) Color 
-😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are applied 
+😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are<br>applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

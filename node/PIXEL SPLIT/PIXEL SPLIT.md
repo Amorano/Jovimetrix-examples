@@ -14,15 +14,15 @@ Takes an input image and splits it into its individual color channels (red, gree
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-❤️ | MASK | Red Channel 
-💚 | MASK | Green Channel 
-💙 | MASK | Blue Channel 
-🤍 | MASK | Alpha Channel 
+❤️  |  MASK  | Red Channel 
+💚  |  MASK  | Green Channel 
+💙  |  MASK  | Blue Channel 
+🤍  |  MASK  | Alpha Channel 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

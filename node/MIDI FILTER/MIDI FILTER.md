@@ -14,19 +14,19 @@ The MIDI Filter node provides advanced filtering capabilities for MIDI messages 
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🎛️ | JMIDIMSG | Midi |  | 
-🔛 | STRING | On | IGNORE | NOTE OFF, NOTE ON, IGNORE
-CHAN | STRING | Channel |  | 
-🎚️ | STRING | Control |  | 
-🎶 | STRING | Note |  | 
-VAL | STRING | Value |  | 
-0-1 | STRING | Normalize |  | 
+🎛️  |  JMIDIMSG  | Midi |  | 
+🔛  |  STRING  | On | IGNORE | NOTE OFF, NOTE ON, IGNORE
+CHAN  |  STRING  | Channel |  | 
+🎚️  |  STRING  | Control |  | 
+🎶  |  STRING  | Note |  | 
+VAL  |  STRING  | Value |  | 
+0-1  |  STRING  | Normalize |  | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🎛️ | JMIDIMSG | Midi 
-⚡ | BOOLEAN | Trigger 
+🎛️  |  JMIDIMSG  | Midi 
+⚡  |  BOOLEAN  | Trigger 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

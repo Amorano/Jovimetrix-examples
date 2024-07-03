@@ -14,19 +14,19 @@ Apply various color harmony schemes to an input image using the Color Theory Nod
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
-SCHEME | STRING | Scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC, SPLIT<br>COMPLIMENTARY, ANALOGOUS, TRIADIC, SQUARE,<br>COMPOUND, CUSTOM TETRAD
-VAL | INT | Custom angle of separation to use when<br>calculating colors | 45 | 
-🔳 | BOOLEAN | Color Inversion | False | 
+👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+SCHEME  |  STRING  | Scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC, SPLIT<br>COMPLIMENTARY, ANALOGOUS, TRIADIC, SQUARE,<br>COMPOUND, CUSTOM TETRAD
+VAL  |  INT  | Custom angle of separation to use when<br>calculating colors | 45 | 
+🔳  |  BOOLEAN  | Color Inversion | False | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🔵 | IMAGE | Color Scheme Result 1 
-🟡 | IMAGE | Color Scheme Result 2 
-🟣 | IMAGE | Color Scheme Result 3 
-⚫️ | IMAGE | Color Scheme Result 4 
-⚪ | IMAGE | Color Scheme Result 5 
+🔵  |  IMAGE  | Color Scheme Result 1 
+🟡  |  IMAGE  | Color Scheme Result 2 
+🟣  |  IMAGE  | Color Scheme Result 3 
+⚫️  |  IMAGE  | Color Scheme Result 4 
+⚪  |  IMAGE  | Color Scheme Result 5 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -14,18 +14,18 @@ The Lerp Node calculates linear interpolation between two values or vectors base
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🅰️ | BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4,<br>VEC2INT, VEC3INT, VEC4INT, COORD2D, IMAGE,<br>MASK | Custom Start Point |  | 
-🅱️ | BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4,<br>VEC2INT, VEC3INT, VEC4INT, COORD2D, IMAGE,<br>MASK | Custom End Point |  | 
-🛟 | FLOAT | Blend Amount. 0 = full A, 1 = full B | 0.5 | 
-EASE | STRING | Easing function | NONE | NONE, QUAD IN, QUAD OUT, QUAD IN OUT,<br>CUBIC IN, CUBIC OUT, CUBIC IN OUT, QUARTIC<br>IN, QUARTIC OUT, QUARTIC IN OUT, QUINTIC<br>IN, QUINTIC OUT, QUINTIC IN OUT, SIN IN,<br>SIN OUT, SIN IN OUT, CIRCULAR IN, CIRCULAR<br>OUT, CIRCULAR IN OUT, EXPONENTIAL IN,<br>EXPONENTIAL OUT, EXPONENTIAL IN OUT,<br>ELASTIC IN, ELASTIC OUT, ELASTIC IN OUT
-❓ | STRING | Output type desired from resultant<br>operation | INT | BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3,<br>VEC3INT, VEC4, VEC4INT, COORD2D
-🅰️🅰️ | VEC4 | default value vector for A | (0, 0, 0, 0) | 
-🅱️🅱️ | VEC4 | default value vector for B | (1, 1, 1, 1) | 
+🅰️  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4,<br>VEC2INT, VEC3INT, VEC4INT, COORD2D, IMAGE,<br>MASK  | Custom Start Point |  | 
+🅱️  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4,<br>VEC2INT, VEC3INT, VEC4INT, COORD2D, IMAGE,<br>MASK  | Custom End Point |  | 
+🛟  |  FLOAT  | Blend Amount. 0 = full A, 1 = full B | 0.5 | 
+EASE  |  STRING  | Easing function | NONE | NONE, QUAD IN, QUAD OUT, QUAD IN OUT,<br>CUBIC IN, CUBIC OUT, CUBIC IN OUT, QUARTIC<br>IN, QUARTIC OUT, QUARTIC IN OUT, QUINTIC<br>IN, QUINTIC OUT, QUINTIC IN OUT, SIN IN,<br>SIN OUT, SIN IN OUT, CIRCULAR IN, CIRCULAR<br>OUT, CIRCULAR IN OUT, EXPONENTIAL IN,<br>EXPONENTIAL OUT, EXPONENTIAL IN OUT,<br>ELASTIC IN, ELASTIC OUT, ELASTIC IN OUT
+❓  |  STRING  | Output type desired from resultant<br>operation | INT | BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3,<br>VEC3INT, VEC4, VEC4INT, COORD2D
+🅰️🅰️  |  VEC4  | default value vector for A | (0, 0, 0, 0) | 
+🅱️🅱️  |  VEC4  | default value vector for B | (1, 1, 1, 1) | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🦄 | BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D, IMAGE, MASK | Any Type 
+🦄  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D, IMAGE, MASK  | Any Type 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

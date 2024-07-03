@@ -14,14 +14,14 @@ The Stereoscopic node simulates depth perception in images by generating stereos
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | Optional Image to Matte with Selected<br>Color |  | 
-🔟 | FLOAT | Baseline | 0.1 | 
-📽️ | FLOAT | Focal Length | 500 | 
+👾  |  *  | Optional Image to Matte with Selected<br>Color |  | 
+🔟  |  FLOAT  | Baseline | 0.1 | 
+📽️  |  FLOAT  | Focal Length | 500 | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🖼️ | IMAGE | Image 
+🖼️  |  IMAGE  | Image 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

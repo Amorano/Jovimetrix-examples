@@ -14,19 +14,19 @@ The `Wave Generator` node produces waveforms like sine, square, or sawtooth with
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-♒ | STRING | Wave Function | SIN | SIN, COS, TAN, SAWTOOTH, TRIANGLE, SQUARE,<br>PULSE, RAMP, STEP, EXPONENTIAL,<br>LOGARITHMIC, NOISE, HAVERSINE, RECTANGULAR<br>PULSE, GAUSSIAN, CHIRP
-FREQ | FLOAT | Frequency | 1 | 
-🔊 | FLOAT | Amplitude | 1 | 
-PHASE | FLOAT | Phase | 0 | 
-OFFSET | FLOAT | Offset | 0 | 
-🕛 | FLOAT | Time | 0 | 
-🔳 | BOOLEAN | Color Inversion | False | 
+♒  |  STRING  | Wave Function | SIN | SIN, COS, TAN, SAWTOOTH, TRIANGLE, SQUARE,<br>PULSE, RAMP, STEP, EXPONENTIAL,<br>LOGARITHMIC, NOISE, HAVERSINE, RECTANGULAR<br>PULSE, GAUSSIAN, CHIRP
+FREQ  |  FLOAT  | Frequency | 1 | 
+🔊  |  FLOAT  | Amplitude | 1 | 
+PHASE  |  FLOAT  | Phase | 0 | 
+OFFSET  |  FLOAT  | Offset | 0 | 
+🕛  |  FLOAT  | Time | 0 | 
+🔳  |  BOOLEAN  | Color Inversion | False | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🛟 | FLOAT | Linear 
-🔟 | INT | Integer 
+🛟  |  FLOAT  | Linear 
+🔟  |  INT  | Integer 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

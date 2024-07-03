@@ -14,11 +14,11 @@ Save the output image along with its metadata to the specified path. Supports sa
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-image | IMAGE |  |  | 
-path | STRING | Unknown Explanation! |  | 
-fname | STRING | Unknown Explanation! | output | 
-metadata | JSON | Unknown Explanation! |  | 
-usermeta | STRING | Unknown Explanation! |  | 
+image  |  IMAGE  |  |  | 
+path  |  STRING  | Unknown Explanation! |  | 
+fname  |  STRING  | Unknown Explanation! | output | 
+metadata  |  JSON  | Unknown Explanation! |  | 
+usermeta  |  STRING  | Unknown Explanation! |  | 
 
 ### OUTPUT
 

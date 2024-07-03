@@ -14,20 +14,20 @@ Extract a portion of an input image or resize it. It supports various cropping m
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
-⚒️ | STRING | Function | CENTER | CENTER, XY, FREE, HEAD, BODY
-🇽🇾 | VEC2 | X and Y | (0, 0) | 
-🇼🇭 | VEC2 | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
-TL-TR | VEC4 | Top Left - Top Right | (0, 0, 0, 1) | 
-BL-BR | VEC4 | Bottom Left - Bottom Right | (1, 0, 1, 1) | 
-🌈 | VEC3 | RGB (no alpha) Color | (0, 0, 0) | 
+👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+⚒️  |  STRING  | Function | CENTER | CENTER, XY, FREE, HEAD, BODY
+🇽🇾  |  VEC2  | X and Y | (0, 0) | 
+🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
+TL-TR  |  VEC4  | Top Left - Top Right | (0, 0, 0, 1) | 
+BL-BR  |  VEC4  | Bottom Left - Bottom Right | (1, 0, 1, 1) | 
+🌈  |  VEC3  | RGB (no alpha) Color | (0, 0, 0) | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🖼️ | IMAGE | Image 
-🌈 | IMAGE | RGB (no alpha) Color 
-😷 | MASK | Mask or Image to use as Mask to control where<br>adjustments are applied 
+🖼️  |  IMAGE  | Image 
+🌈  |  IMAGE  | RGB (no alpha) Color 
+😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

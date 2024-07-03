@@ -14,16 +14,16 @@ The Export node is responsible for saving images or animations to disk. It suppo
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
-📤 | STRING | Pass Out | <comfy output dir> | 
-FORMAT | STRING | Format | gifski | gifski, gif, png, jpg
-PREFIX | STRING | Prefix | jovi | 
-OVERWRITE | BOOLEAN | Overwrite | False | 
-OPT | BOOLEAN | Optimize | False | 
-QUALITY | INT | Quality | 90 | 
-MOTION | INT | Motion Quality | 100 | 
-🏎️ | INT | Frames per second | 24 | 
-🔄 | INT | Loop | 0 | 
+👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+📤  |  STRING  | Pass Out | <comfy output dir> | 
+FORMAT  |  STRING  | Format | gifski | gifski, gif, png, jpg
+PREFIX  |  STRING  | Prefix | jovi | 
+OVERWRITE  |  BOOLEAN  | Overwrite | False | 
+OPT  |  BOOLEAN  | Optimize | False | 
+QUALITY  |  INT  | Quality | 90 | 
+MOTION  |  INT  | Motion Quality | 100 | 
+🏎️  |  INT  | Frames per second | 24 | 
+🔄  |  INT  | Loop | 0 | 
 
 ### OUTPUT
 

@@ -14,19 +14,19 @@ The MIDI Filter EZ node allows you to filter MIDI messages based on various crit
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🎛️ | JMIDIMSG | Midi |  | 
-MODE | STRING | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | IGNORE | NOTE OFF, NOTE ON, IGNORE
-CHAN | INT | Channel | -1 | 
-🎚️ | INT | Control | -1 | 
-🎶 | INT | Note | -1 | 
-VAL | INT | Value | -1 | 
-0-1 | FLOAT | Normalize | -1 | 
+🎛️  |  JMIDIMSG  | Midi |  | 
+MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | IGNORE | NOTE OFF, NOTE ON, IGNORE
+CHAN  |  INT  | Channel | -1 | 
+🎚️  |  INT  | Control | -1 | 
+🎶  |  INT  | Note | -1 | 
+VAL  |  INT  | Value | -1 | 
+0-1  |  FLOAT  | Normalize | -1 | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🎛️ | JMIDIMSG | Midi 
-⚡ | BOOLEAN | Trigger 
+🎛️  |  JMIDIMSG  | Midi 
+⚡  |  BOOLEAN  | Trigger 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

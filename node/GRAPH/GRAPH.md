@@ -14,14 +14,14 @@ The Graph node visualizes a series of data points over time. It accepts a dynami
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-RESET | BOOLEAN | Reset | False | 
-VAL | INT | Number of values to graph and display | 60 | 
-🇼🇭 | VEC2 | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
+RESET  |  BOOLEAN  | Reset | False | 
+VAL  |  INT  | Number of values to graph and display | 60 | 
+🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🖼️ | IMAGE | Image 
+🖼️  |  IMAGE  | Image 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -14,30 +14,30 @@ The Text Generation node generates images containing text based on user-defined 
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-📝 | STRING | Your Message |  | 
-FONT | STRING | Available System Fonts | Almendra | Almendra, Alphabutt Base A, Alphabutt<br>Letters A, Arial, BIG BREAST FONT,<br>Bahnschrift, Caladea, Calibri, Cambria,<br>Candara, Carlito, Cascadia Code, Cascadia<br>Mono, Comic Sans MS, Consolas, Constantia,<br>Corbel, Courier New, Cyclopia, DejaVu<br>Sans, DejaVu Sans Display, DejaVu Sans<br>Mono, DejaVu Serif, DejaVu Serif Display,<br>Ebrima
-LETTER | BOOLEAN | If each letter be generated and output in<br>a batch | False | 
-AUTOSIZE | BOOLEAN | Scale based on Width & Height | False | 
-🌈A | VEC4 | Color of the letters | (255, 255, 255, 255) | 
-MATTE | VEC3 | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0) | 
-COLS | INT | 0 = Auto-Fit, >0 = Fit into N columns | 0 | 
-SIZE | INT | Text Size | 16 | 
-ALIGN | STRING | Top, Center or Bottom alignment | CENTER | TOP, CENTER, BOTTOM
-JUSTIFY | STRING | How to align the text to the side margins<br>of the canvas: Left, Right, or Centered | CENTER | LEFT, CENTER, RIGHT
-MARGIN | INT | Whitespace padding around canvas | 0 | 
-SPACING | INT | Line Spacing between Text Lines | 25 | 
-🇼🇭 | VEC2 | Set the target dimensions for the output<br>image if scaling is applied | (256, 256) | 
-🇽🇾 | VEC2 | Offset the position | (0, 0) | 
-📐 | FLOAT | Rotation Angle | 0 | 
-EDGE | STRING | Clip or Wrap the Canvas Edge | CLIP | CLIP, WRAP, WRAPX, WRAPY
-🔳 | BOOLEAN | Invert the mask input | False | 
+📝  |  STRING  | Your Message |  | 
+FONT  |  STRING  | Available System Fonts | Almendra | Almendra, Alphabutt Base A, Alphabutt<br>Letters A, Arial, BIG BREAST FONT,<br>Bahnschrift, Caladea, Calibri, Cambria,<br>Candara, Carlito, Cascadia Code, Cascadia<br>Mono, Comic Sans MS, Consolas, Constantia,<br>Corbel, Courier New, Cyclopia, DejaVu<br>Sans, DejaVu Sans Display, DejaVu Sans<br>Mono, DejaVu Serif, DejaVu Serif Display,<br>Ebrima
+LETTER  |  BOOLEAN  | If each letter be generated and output in<br>a batch | False | 
+AUTOSIZE  |  BOOLEAN  | Scale based on Width & Height | False | 
+🌈A  |  VEC4  | Color of the letters | (255, 255, 255, 255) | 
+MATTE  |  VEC3  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0) | 
+COLS  |  INT  | 0 = Auto-Fit, >0 = Fit into N columns | 0 | 
+SIZE  |  INT  | Text Size | 16 | 
+ALIGN  |  STRING  | Top, Center or Bottom alignment | CENTER | TOP, CENTER, BOTTOM
+JUSTIFY  |  STRING  | How to align the text to the side margins<br>of the canvas: Left, Right, or Centered | CENTER | LEFT, CENTER, RIGHT
+MARGIN  |  INT  | Whitespace padding around canvas | 0 | 
+SPACING  |  INT  | Line Spacing between Text Lines | 25 | 
+🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (256, 256) | 
+🇽🇾  |  VEC2  | Offset the position | (0, 0) | 
+📐  |  FLOAT  | Rotation Angle | 0 | 
+EDGE  |  STRING  | Clip or Wrap the Canvas Edge | CLIP | CLIP, WRAP, WRAPX, WRAPY
+🔳  |  BOOLEAN  | Invert the mask input | False | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🖼️ | IMAGE | Image 
-🌈 | IMAGE | RGB (no alpha) Color 
-😷 | MASK | Mask or Image to use as Mask to control where<br>adjustments are applied 
+🖼️  |  IMAGE  | Image 
+🌈  |  IMAGE  | RGB (no alpha) Color 
+😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

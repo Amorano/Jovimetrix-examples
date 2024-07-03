@@ -14,18 +14,18 @@ The MIDI Reader node captures MIDI messages from an external MIDI device or cont
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-📟 | STRING | Device | MPKmini2 0 | MPKmini2 0
+📟  |  STRING  | Device | MPKmini2 0 | MPKmini2 0
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🎛️ | JMIDIMSG | Midi 
-🔛 | BOOLEAN | On 
-CHAN | INT | Channel 
-🎚️ | INT | Control 
-🎶 | INT | Note 
-VAL | FLOAT | Value 
-0-1 | FLOAT | Normalize 
+🎛️  |  JMIDIMSG  | Midi 
+🔛  |  BOOLEAN  | On 
+CHAN  |  INT  | Channel 
+🎚️  |  INT  | Control 
+🎶  |  INT  | Note 
+VAL  |  FLOAT  | Value 
+0-1  |  FLOAT  | Normalize 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

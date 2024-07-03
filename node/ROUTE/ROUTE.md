@@ -14,12 +14,12 @@ Routes the input data from the optional input ports to the output port, preservi
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🚌 | BUS | Route |  | 
+🚌  |  BUS  | Route |  | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🚌 | BUS | Route 
+🚌  |  BUS  | Route 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

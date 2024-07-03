@@ -14,19 +14,19 @@ Use the Threshold Node to define a range and apply it to an image for segmentati
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾 | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
-🧬 | STRING | X-Men | ADAPT_NONE | ADAPT NONE, ADAPT MEAN, ADAPT GAUSS
-⚒️ | STRING | Function | BINARY | BINARY, TRUNC, TOZERO
-📉 | FLOAT | Threshold | 0.5 | 
-📏 | INT | Scalar by which to scale the input | 3 | 
-🔳 | BOOLEAN | Invert the mask input | False | 
+👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+🧬  |  STRING  | X-Men | ADAPT_NONE | ADAPT NONE, ADAPT MEAN, ADAPT GAUSS
+⚒️  |  STRING  | Function | BINARY | BINARY, TRUNC, TOZERO
+📉  |  FLOAT  | Threshold | 0.5 | 
+📏  |  INT  | Scalar by which to scale the input | 3 | 
+🔳  |  BOOLEAN  | Invert the mask input | False | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🖼️ | IMAGE | Image 
-🌈 | IMAGE | RGB (no alpha) Color 
-😷 | MASK | Mask or Image to use as Mask to control where<br>adjustments are applied 
+🖼️  |  IMAGE  | Image 
+🌈  |  IMAGE  | RGB (no alpha) Color 
+😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

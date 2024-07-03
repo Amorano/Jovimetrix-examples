@@ -14,23 +14,23 @@ Swap pixel values between two input images based on specified channel swizzle op
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
-👾B | * | Pixel Data (RGBA, RGB or Grayscale) |  | 
-SWAP R | STRING | Replace input Red channel with target<br>channel or constant | RED_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
-🟥 | INT | Red | 0 | 
-SWAP G | STRING | Replace input Green channel with target<br>channel or constant | GREEN_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
-🟩 | INT | Green | 0 | 
-SWAP B | STRING | Replace input Blue channel with target<br>channel or constant | BLUE_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
-🟦 | INT | Blue | 0 | 
-SWAP A | STRING | Replace input Alpha channel with target<br>channel or constant | ALPHA_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
-⬜ | INT | Alpha | 0 | 
+👾A  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾B  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+SWAP R  |  STRING  | Replace input Red channel with target<br>channel or constant | RED_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
+🟥  |  INT  | Red | 0 | 
+SWAP G  |  STRING  | Replace input Green channel with target<br>channel or constant | GREEN_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
+🟩  |  INT  | Green | 0 | 
+SWAP B  |  STRING  | Replace input Blue channel with target<br>channel or constant | BLUE_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
+🟦  |  INT  | Blue | 0 | 
+SWAP A  |  STRING  | Replace input Alpha channel with target<br>channel or constant | ALPHA_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
+⬜  |  INT  | Alpha | 0 | 
 
 ### OUTPUT
 
 name | type | desc
 :---:|:---:|---
-🖼️ | IMAGE | Image 
-🌈 | IMAGE | RGB (no alpha) Color 
-😷 | MASK | Mask or Image to use as Mask to control where<br>adjustments are applied 
+🖼️  |  IMAGE  | Image 
+🌈  |  IMAGE  | RGB (no alpha) Color 
+😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are applied 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 
-The GLSL Node executes custom GLSL (OpenGL Shading Language) fragment shaders to generate images or apply effects. GLSL is a high-level shading language used for graphics programming, particularly in the context of rendering images or animations. This node allows for real-time rendering of shader effects, providing flexibility and creative control over image processing pipelines. It takes advantage of GPU acceleration for efficient computation, enabling the rapid generation of complex visual effects.
+Execute custom GLSL (OpenGL Shading Language) fragment shaders to generate images or apply effects. GLSL is a high-level shading language used for graphics programming, particularly in the context of rendering images or animations. This node allows for real-time rendering of shader effects, providing flexibility and creative control over image processing pipelines. It takes advantage of GPU acceleration for efficient computation, enabling the rapid generation of complex visual effects.
 
 ![GLSL](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL/GLSL.png)
 
@@ -21,16 +21,22 @@ BATCH  |  INT  | Output as a BATCH (all images in a single<br>Tensor) or as a LI
 ✋🏽  |  BOOLEAN  | Wait | False | 
 RESET  |  BOOLEAN  | Reset | False | 
 FRAGMENT  |  STRING  | Shader Fragment Program | 
-void mainImage( out vec4 fragColor, in vec2 fragCoord )
-{
-    // Normalized pixel coordinates (from 0 to 1)
-    vec2 uv = fragCoord/iResolution.xy;
+uniform sampler2D imageA;
+uniform sampler2D imageB;
+uniform float size; // 7.
+uniform float time_scale; // 19.
 
-    // Time varying pixel color
-    vec3 col = 0.5 + 0.5*cos(iTime+uv.xyx+vec3(0,2,4));
+void mainImage( out vec4 fragColor, vec2 fragCoord ) {
+  vec2 u = floor(fragCoord / size);
+  float s = dot(u, u) + iTime / time_scale;
+  u = mod(u, 2.);
 
-    // Output to screen
-    fragColor = vec4(col,1.0);
+  vec2 uv = fragCoord.xy / iResolution.xy;
+  //vec3 col2 = texture2D(imageB, uv).rgb;
+  vec3 col = texture2D(imageA, uv).rgb;
+
+
+  fragColor = vec4(col + (floor(sin(s)) - u.y - floor(cos(s)) - u.xxxx).rgb, 1.0);
 }
  | 
 

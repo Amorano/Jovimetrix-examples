@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
-The `Tick` node acts as a timer and frame counter, emitting pulses or signals based on time intervals or BPM settings. It allows precise synchronization and control over animation sequences, with options to adjust FPS, BPM, and loop points. This node is useful for generating time-based events or driving animations with rhythmic precision.
+A timer and frame counter, emitting pulses or signals based on time intervals. It allows precise synchronization and control over animation sequences, with options to adjust FPS, BPM, and loop points. This node is useful for generating time-based events or driving animations with rhythmic precision.
 
 ![TICK](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TICK/TICK.png)
 

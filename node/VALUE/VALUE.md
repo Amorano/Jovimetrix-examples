@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
-The Value Node supplies raw or default values for various data types, supporting vector input with components for X, Y, Z, and W. It also provides a string input option.
+Supplies raw or default values for various data types, supporting vector input with components for X, Y, Z, and W. It also provides a string input option.
 
 ![VALUE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VALUE/VALUE.png)
 
@@ -29,10 +29,10 @@ seed  |  INT  | Random generator's initial value | 0 |
 
 name | type | desc
 :---:|:---:|---
-🦄  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D  | Any Type 
-🇽  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D  | X 
-🇾  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D  | Y 
-🇿  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D  | Z 
-🇼  |  BOOLEAN, FLOAT, INT, VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D  | Width 
+🦄  |  *  | Any Type 
+🇽  |  *  | X 
+🇾  |  *  | Y 
+🇿  |  *  | Z 
+🇼  |  *  | Width 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

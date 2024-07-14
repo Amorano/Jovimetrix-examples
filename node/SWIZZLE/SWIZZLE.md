@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
-The Swap Node swaps components between two vectors based on specified swizzle patterns and values. It provides flexibility in rearranging vector elements dynamically.
+Swap components between two vectors based on specified swizzle patterns and values. It provides flexibility in rearranging vector elements dynamically.
 
 ![SWIZZLE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SWIZZLE/SWIZZLE.png)
 
@@ -14,8 +14,8 @@ The Swap Node swaps components between two vectors based on specified swizzle pa
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🅰️  |  VEC2, VEC3, VEC4, VEC2INT, VEC3INT,<br>VEC4INT, COORD2D  | Input A |  | 
-🅱️  |  VEC2, VEC3, VEC4, VEC2INT, VEC3INT,<br>VEC4INT, COORD2D  | Input B |  | 
+🅰️  |  *  | Input A |  | 
+🅱️  |  *  | Input B |  | 
 ❓  |  STRING  | Output type desired from resultant<br>operation | VEC3 | VEC2, VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, COORD2D
 SWAP X  |  STRING  | Replace input Red channel with target<br>channel or constant | A_X | A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT
 🇽  |  FLOAT  | X | 0 | 
@@ -30,6 +30,6 @@ SWAP W  |  STRING  | Replace input W channel with target<br>channel or constant 
 
 name | type | desc
 :---:|:---:|---
-🦄  |  VEC2, VEC3, VEC4, VEC2INT, VEC3INT, VEC4INT, COORD2D  | Any Type 
+🦄  |  *  | Any Type 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

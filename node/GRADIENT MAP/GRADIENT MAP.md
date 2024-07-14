@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
-Remaps an input image using a gradient lookup table (LUT) to allow precise control over color mapping by applying the gradient to the input image. The gradient image will be translated into a single row lookup table. This node is useful for artistic effects, color grading, and mapping specific color ranges to achieve desired visual effects.
+Remaps an input image using a gradient lookup table (LUT). The gradient image will be translated into a single row lookup table.
 
 ![GRADIENT MAP](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GRADIENT%20MAP/GRADIENT%20MAP.png)
 

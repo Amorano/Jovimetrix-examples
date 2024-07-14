@@ -14,10 +14,10 @@ Combines individual color channels (red, green, blue) along with an optional mas
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🟥  |  IMAGE, MASK  | Red |  | 
-🟩  |  IMAGE, MASK  | Green |  | 
-🟦  |  IMAGE, MASK  | Blue |  | 
-⬜  |  IMAGE, MASK  | Alpha |  | 
+🟥  |  *  | Red |  | 
+🟩  |  *  | Green |  | 
+🟦  |  *  | Blue |  | 
+⬜  |  *  | Alpha |  | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT

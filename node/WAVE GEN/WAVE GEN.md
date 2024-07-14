@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
-The `Wave Generator` node produces waveforms like sine, square, or sawtooth with adjustable frequency, amplitude, phase, and offset. It's handy for creating oscillating patterns or controlling animation dynamics. This node emits both continuous floating-point values and integer representations of the generated waves.
+Produce waveforms like sine, square, or sawtooth with adjustable frequency, amplitude, phase, and offset. It's handy for creating oscillating patterns or controlling animation dynamics. This node emits both continuous floating-point values and integer representations of the generated waves.
 
 ![WAVE GEN](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/WAVE%20GEN/WAVE%20GEN.png)
 

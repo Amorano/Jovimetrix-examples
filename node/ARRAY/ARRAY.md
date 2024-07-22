@@ -19,7 +19,7 @@ INDEX  |  INT  | Selected list position | 0 |
 RANGE  |  VEC3  | start index, ending index (0 means full<br>length) and how many items to skip per<br>step | (0, 0, 1) | 
 📝  |  STRING  | Comma separated list of indicies to export |  | 
 seed  |  INT  | Random generator's initial value | 0 | 
-COUNT  |  INT  | How many items to return | 1 | 
+COUNT  |  INT  | How many items to return | 0 | 
 🙃  |  BOOLEAN  | invert the calculated output list | False | 
 CHUNK  |  INT  | How many items to put per output. Default<br>(0) is all items | 0 | 
 
@@ -28,7 +28,8 @@ CHUNK  |  INT  | How many items to put per output. Default<br>(0) is all items |
 name | type | desc
 :---:|:---:|---
 🦄  |  *  | Any Type 
+LENGTH  |  INT  | Length 
 🧾  |  *  | List 
-VAL  |  INT  | Value 
+FULL SIZE  |  INT  | All items 
 
 help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project

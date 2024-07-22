@@ -15,28 +15,25 @@ Execute custom GLSL (OpenGL Shading Language) fragment shaders to generate image
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🕛  |  FLOAT  | Time | 0 | 
-BATCH  |  INT  | Output as a BATCH (all images in a single<br>Tensor) or as a LIST of images (each image<br>processed separately) | 1 | 
+BATCH  |  INT  | Output as a BATCH (all images in a single<br>Tensor) or as a LIST of images (each image<br>processed separately) | 0 | 
 🏎️  |  INT  | Frames per second | 24 | 
 🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
+MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 ✋🏽  |  BOOLEAN  | Wait | False | 
 RESET  |  BOOLEAN  | Reset | False | 
-FRAGMENT  |  STRING  | Shader Fragment Program | 
-uniform sampler2D imageA;
-uniform sampler2D imageB;
-uniform float size; // 7.
-uniform float time_scale; // 19.
+VERTEX  |  STRING  | Select a vertex program to load | #version 330 core
+void main()
+{
+    vec2 verts[3] = vec2[](vec2(-1, -1), vec2(3, -1), vec2(-1, 3));
+    gl_Position = vec4(verts[gl_VertexID], 0, 1);
+}
+ | 
+FRAGMENT  |  STRING  | Select a fragment program to load | uniform sampler2D imageA;
 
 void mainImage( out vec4 fragColor, vec2 fragCoord ) {
-  vec2 u = floor(fragCoord / size);
-  float s = dot(u, u) + iTime / time_scale;
-  u = mod(u, 2.);
-
   vec2 uv = fragCoord.xy / iResolution.xy;
-  //vec3 col2 = texture2D(imageB, uv).rgb;
   vec3 col = texture2D(imageA, uv).rgb;
-
-
-  fragColor = vec4(col + (floor(sin(s)) - u.y - floor(cos(s)) - u.xxxx).rgb, 1.0);
+  fragColor = vec4(col, 1.0);
 }
  | 
 

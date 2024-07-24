@@ -16,7 +16,7 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 RESET  |  BOOLEAN  | Reset | False | 
 VAL  |  INT  | Number of values to graph and display | 60 | 
-🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
+🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 
 ### OUTPUT
 

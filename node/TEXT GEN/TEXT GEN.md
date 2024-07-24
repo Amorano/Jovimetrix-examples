@@ -26,7 +26,7 @@ ALIGN  |  STRING  | Top, Center or Bottom alignment | CENTER | TOP, CENTER, BOTT
 JUSTIFY  |  STRING  | How to align the text to the side margins<br>of the canvas: Left, Right, or Centered | CENTER | LEFT, CENTER, RIGHT
 MARGIN  |  INT  | Whitespace padding around canvas | 0 | 
 SPACING  |  INT  | Line Spacing between Text Lines | 25 | 
-🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (256, 256) | 
+🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (256, 256) | 
 🇽🇾  |  VEC2  | Offset the position | (0, 0) | 
 📐  |  FLOAT  | Rotation Angle | 0 | 
 EDGE  |  STRING  | Clip or Wrap the Canvas Edge | CLIP | CLIP, WRAP, WRAPX, WRAPY

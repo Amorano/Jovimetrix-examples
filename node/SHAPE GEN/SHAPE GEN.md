@@ -18,7 +18,7 @@ SHAPE  |  STRING  | Circle, Square or Polygonal forms | CIRCLE | CIRCLE, SQUARE,
 SIDES  |  INT  | Number of sides polygon has (3-100) | 3 | 
 🌈A  |  VEC4  | Main Shape Color | (255, 255, 255, 255) | 
 MATTE  |  VEC4  | Background Color | (0, 0, 0, 255) | 
-🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (256, 256) | 
+🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (256, 256) | 
 🇽🇾  |  VEC2  | X and Y | (0, 0) | 
 📐  |  FLOAT  | Rotation Angle | 0 | 
 📏  |  VEC2  | Scalar by which to scale the input | (1.0, 1.0) | 

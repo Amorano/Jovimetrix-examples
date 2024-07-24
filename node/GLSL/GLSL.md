@@ -14,11 +14,11 @@ Execute custom GLSL (OpenGL Shading Language) fragment shaders to generate image
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🕛  |  FLOAT  | Time | 0 | 
+🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (512, 512) | 
+MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 BATCH  |  INT  | Output as a BATCH (all images in a single<br>Tensor) or as a LIST of images (each image<br>processed separately) | 0 | 
 🏎️  |  INT  | Frames per second | 24 | 
-🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
-MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+🕛  |  FLOAT  | Time | 0 | 
 ✋🏽  |  BOOLEAN  | Wait | False | 
 RESET  |  BOOLEAN  | Reset | False | 
 VERTEX  |  STRING  | Select a vertex program to load | #version 330 core
@@ -32,8 +32,7 @@ FRAGMENT  |  STRING  | Select a fragment program to load | uniform sampler2D ima
 
 void mainImage( out vec4 fragColor, vec2 fragCoord ) {
   vec2 uv = fragCoord.xy / iResolution.xy;
-  vec3 col = texture2D(imageA, uv).rgb;
-  fragColor = vec4(col, 1.0);
+  fragColor = texture2D(imageA, uv);
 }
  | 
 

@@ -17,7 +17,7 @@ name | type | desc | default | meta
 👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 ⚒️  |  STRING  | Function | CENTER | CENTER, XY, FREE, HEAD, BODY
 🇽🇾  |  VEC2  | X and Y | (0, 0) | 
-🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
+🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 TL-TR  |  VEC4  | Top Left - Top Right | (0, 0, 0, 1) | 
 BL-BR  |  VEC4  | Bottom Left - Bottom Right | (1, 0, 1, 1) | 
 🌈  |  VEC3  | RGB (no alpha) Color | (0, 0, 0) | 

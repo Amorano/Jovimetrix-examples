@@ -14,7 +14,7 @@ Captures MIDI messages from an external MIDI device or controller. It monitors M
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-📟  |  STRING  | Device | MPKmini2 0 | MPKmini2 0
+📟  |  STRING  | Device |  | 
 
 ### OUTPUT
 

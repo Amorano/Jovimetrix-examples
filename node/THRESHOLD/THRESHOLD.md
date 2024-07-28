@@ -1,4 +1,4 @@
-# [THRESHOLD (JOV) 📉](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/THRESHOLD/THRESHOLD.md)
+# [THRESHOLD (JOV) 📉](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/THRESHOLD/THRESHOLD.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

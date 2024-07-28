@@ -1,4 +1,4 @@
-# [STREAM WRITER (JOV) 🎞️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STREAM%20WRITER/STREAM%20WRITER.md)
+# [STREAM WRITER (JOV) 🎞️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/STREAM%20WRITER/STREAM%20WRITER.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 

@@ -1,4 +1,4 @@
-# [COLOR BLIND (JOV) 👁‍🗨](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20BLIND/COLOR%20BLIND.md)
+# [COLOR BLIND (JOV) 👁‍🗨](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20BLIND/COLOR%20BLIND.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

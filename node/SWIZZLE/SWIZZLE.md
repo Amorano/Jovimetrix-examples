@@ -1,4 +1,4 @@
-# [SWIZZLE (JOV) 😵](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SWIZZLE/SWIZZLE.md)
+# [SWIZZLE (JOV) 😵](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/SWIZZLE/SWIZZLE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

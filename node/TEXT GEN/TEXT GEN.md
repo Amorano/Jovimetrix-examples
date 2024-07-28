@@ -1,4 +1,4 @@
-# [TEXT GEN (JOV) 📝](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TEXT%20GEN/TEXT%20GEN.md)
+# [TEXT GEN (JOV) 📝](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TEXT%20GEN/TEXT%20GEN.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 

@@ -1,4 +1,4 @@
-# [WAVE GRAPH (JOV) ▶ ılıılı](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/WAVE%20GRAPH/WAVE%20GRAPH.md)
+# [WAVE GRAPH (JOV) ▶ ılıılı](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/WAVE%20GRAPH/WAVE%20GRAPH.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 

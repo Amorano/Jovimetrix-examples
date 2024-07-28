@@ -1,4 +1,4 @@
-# [BLEND (JOV) ⚗️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/BLEND/BLEND.md)
+# [BLEND (JOV) ⚗️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/BLEND/BLEND.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

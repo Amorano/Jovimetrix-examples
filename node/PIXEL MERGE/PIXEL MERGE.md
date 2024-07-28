@@ -1,4 +1,4 @@
-# [PIXEL MERGE (JOV) 🫂](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20MERGE/PIXEL%20MERGE.md)
+# [PIXEL MERGE (JOV) 🫂](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20MERGE/PIXEL%20MERGE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

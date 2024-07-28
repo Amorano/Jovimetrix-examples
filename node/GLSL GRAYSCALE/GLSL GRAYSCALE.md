@@ -1,4 +1,4 @@
-# [GLSL GRAYSCALE (JOV) 🧙🏽](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20GRAYSCALE/GLSL%20GRAYSCALE.md)
+# [GLSL GRAYSCALE (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20GRAYSCALE/GLSL%20GRAYSCALE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 Convert input to grayscale

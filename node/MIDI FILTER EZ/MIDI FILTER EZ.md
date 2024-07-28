@@ -1,4 +1,4 @@
-# [MIDI FILTER EZ (JOV) ❇️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/MIDI%20FILTER%20EZ/MIDI%20FILTER%20EZ.md)
+# [MIDI FILTER EZ (JOV) ❇️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20FILTER%20EZ/MIDI%20FILTER%20EZ.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 

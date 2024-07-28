@@ -1,4 +1,4 @@
-# [DELAY (JOV) ✋🏽](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/DELAY/DELAY.md)
+# [DELAY (JOV) ✋🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/DELAY/DELAY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

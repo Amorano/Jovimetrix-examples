@@ -1,4 +1,4 @@
-# [ADJUST (JOV) 🕸️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ADJUST/ADJUST.md)
+# [ADJUST (JOV) 🕸️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/ADJUST/ADJUST.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

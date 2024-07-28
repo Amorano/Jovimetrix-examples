@@ -1,4 +1,4 @@
-# [TICK (JOV) ⏱](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TICK/TICK.md)
+# [TICK (JOV) ⏱](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TICK/TICK.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

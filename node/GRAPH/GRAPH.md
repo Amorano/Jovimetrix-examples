@@ -1,4 +1,4 @@
-# [GRAPH (JOV) 📈](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GRAPH/GRAPH.md)
+# [GRAPH (JOV) 📈](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GRAPH/GRAPH.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 

@@ -1,4 +1,4 @@
-# [STEREOGRAM (JOV) 📻](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STEREOGRAM/STEREOGRAM.md)
+# [STEREOGRAM (JOV) 📻](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/STEREOGRAM/STEREOGRAM.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 

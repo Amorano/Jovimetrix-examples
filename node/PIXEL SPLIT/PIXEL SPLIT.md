@@ -1,4 +1,4 @@
-# [PIXEL SPLIT (JOV) 💔](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20SPLIT/PIXEL%20SPLIT.md)
+# [PIXEL SPLIT (JOV) 💔](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20SPLIT/PIXEL%20SPLIT.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

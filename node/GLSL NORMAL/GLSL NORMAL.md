@@ -1,4 +1,4 @@
-# [GLSL NORMAL (JOV) 🧙🏽](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20NORMAL/GLSL%20NORMAL.md)
+# [GLSL NORMAL (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20NORMAL/GLSL%20NORMAL.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 Convert input into a Normal map

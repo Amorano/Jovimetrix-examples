@@ -1,4 +1,4 @@
-# [ROUTE (JOV) 🚌](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ROUTE/ROUTE.md)
+# [ROUTE (JOV) 🚌](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/ROUTE/ROUTE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 

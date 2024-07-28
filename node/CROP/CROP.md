@@ -1,4 +1,4 @@
-# [CROP (JOV) ✂️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CROP/CROP.md)
+# [CROP (JOV) ✂️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/CROP/CROP.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

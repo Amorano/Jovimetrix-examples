@@ -1,4 +1,4 @@
-# [VALUE (JOV) 🧬](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VALUE/VALUE.md)
+# [VALUE (JOV) 🧬](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/VALUE/VALUE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

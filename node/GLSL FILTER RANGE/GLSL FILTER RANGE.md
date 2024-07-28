@@ -1,4 +1,4 @@
-# [GLSL FILTER RANGE (JOV) 🧙🏽‍♀️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.md)
+# [GLSL FILTER RANGE (JOV) 🧙🏽‍♀️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 Range select clipped at start and end

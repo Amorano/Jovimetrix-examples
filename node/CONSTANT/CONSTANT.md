@@ -1,4 +1,4 @@
-# [CONSTANT (JOV) 🟪](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CONSTANT/CONSTANT.md)
+# [CONSTANT (JOV) 🟪](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/CONSTANT/CONSTANT.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 

@@ -1,4 +1,4 @@
-# [GLSL (JOV) 🍩](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL/GLSL.md)
+# [GLSL (JOV) 🍩](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL/GLSL.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 

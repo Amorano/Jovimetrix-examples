@@ -1,4 +1,4 @@
-# [MIDI READER (JOV) 🎹](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/MIDI%20READER/MIDI%20READER.md)
+# [MIDI READER (JOV) 🎹](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20READER/MIDI%20READER.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 

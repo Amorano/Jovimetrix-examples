@@ -1,4 +1,4 @@
-# [AKASHIC (JOV) 📓](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/AKASHIC/AKASHIC.md)
+# [AKASHIC (JOV) 📓](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/AKASHIC/AKASHIC.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 

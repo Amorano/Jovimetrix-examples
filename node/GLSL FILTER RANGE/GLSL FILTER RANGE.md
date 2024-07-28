@@ -1,8 +1,8 @@
-# GLSL COLOR-GRAYSCALE (JOV) 🍩
+# GLSL FILTER RANGE (JOV) 🧙🏽‍♀️
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
-GLSL shader loaded from C:\dev\ComfyUI\ComfyUI\custom_nodes\Jovimetrix\res\glsl\color-grayscale.glsl
-![GLSL COLOR-GRAYSCALE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20COLOR-GRAYSCALE/GLSL%20COLOR-GRAYSCALE.png)
+Range select clipped at start and end
+![GLSL FILTER RANGE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.png)
 
 #### OUTPUT NODE?: `False`
 
@@ -12,13 +12,17 @@ GLSL shader loaded from C:\dev\ComfyUI\ComfyUI\custom_nodes\Jovimetrix\res\glsl\
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-🕛  |  FLOAT  | Time | 0 | 
+image  |  IMAGE  | Unknown Explanation! |  | 
+start  |  VEC3  | 0 | (0, 0, 0) | 
+end  |  VEC3  | 0 | (0, 0, 0) | 
+🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (512, 512) | 
+MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 BATCH  |  INT  | Output as a BATCH (all images in a single<br>Tensor) or as a LIST of images (each image<br>processed separately) | 0 | 
 🏎️  |  INT  | Frames per second | 24 | 
-🇼🇭  |  VEC2  | Set the target dimensions for the output<br>image if scaling is applied | (512, 512) | 
-MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+🕛  |  FLOAT  | Time | 0 | 
 ✋🏽  |  BOOLEAN  | Wait | False | 
 RESET  |  BOOLEAN  | Reset | False | 
+FRAGMENT  |  JDATABUCKET  | Select a fragment program to load |  | 
 
 ### OUTPUT
 

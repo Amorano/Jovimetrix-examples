@@ -15,8 +15,8 @@ Generate a constant image or mask of a specified size and color. It can be used 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾  |  *  | Optional Image to Matte with Selected<br>Color |  | 
-🌈A  |  VEC4  | Constant Color to Output | (0, 0, 0, 255) | 
-🇼🇭  |  VEC2  | Desired Width and Height of the Color<br>Output | (512, 512) | 
+🌈A  |  VEC4INT  | Constant Color to Output | (0, 0, 0, 255) | 
+🇼🇭  |  VEC2INT  | Desired Width and Height of the Color<br>Output | (512, 512) | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
 

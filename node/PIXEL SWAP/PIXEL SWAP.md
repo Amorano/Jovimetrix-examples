@@ -1,4 +1,4 @@
-# [PIXEL SWAP (JOV) 🔃](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20SWAP/PIXEL%20SWAP.md)
+## [PIXEL SWAP (JOV) 🔃](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20SWAP/PIXEL%20SWAP.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
@@ -8,9 +8,9 @@ Swap pixel values between two input images based on specified channel swizzle op
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -25,7 +25,7 @@ SWAP B  |  STRING  | Replace input Blue channel with target<br>channel or consta
 SWAP A  |  STRING  | Replace input Alpha channel with target<br>channel or constant | ALPHA_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
 ⬜  |  INT  | Alpha | 0 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -33,4 +33,4 @@ name | type | desc
 🌈  |  IMAGE  | RGB (no alpha) Color 
 😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are<br>applied 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -1,4 +1,4 @@
-# [ADJUST (JOV) 🕸️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/ADJUST/ADJUST.md)
+## [ADJUST (JOV) 🕸️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/ADJUST/ADJUST.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
@@ -8,9 +8,9 @@ Enhance and modify images with various effects such as blurring, sharpening, col
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -27,7 +27,7 @@ HSV  |  VEC3  | Hue, Saturation and Value | (0, 1, 1) |
 MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 🔳  |  BOOLEAN  | Invert the mask input | False | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -35,4 +35,4 @@ name | type | desc
 🌈  |  IMAGE  | RGB (no alpha) Color 
 😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are<br>applied 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

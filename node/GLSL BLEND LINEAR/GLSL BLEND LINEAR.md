@@ -1,4 +1,4 @@
-# [GLSL BLEND LINEAR (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.md)
+## [GLSL BLEND LINEAR (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 Simple linear blend between two images
@@ -6,9 +6,9 @@ Simple linear blend between two images
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -24,7 +24,7 @@ BATCH  |  INT  | Output as a BATCH (all images in a single<br>Tensor) or as a LI
 RESET  |  BOOLEAN  | Reset | False | 
 FRAGMENT  |  JDATABUCKET  | Select a fragment program to load |  | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -32,4 +32,4 @@ name | type | desc
 🌈  |  IMAGE  | RGB (no alpha) Color 
 😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are<br>applied 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

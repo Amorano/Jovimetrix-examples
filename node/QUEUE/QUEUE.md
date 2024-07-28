@@ -1,4 +1,4 @@
-# [QUEUE (JOV) 🗃](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/QUEUE/QUEUE.md)
+## [QUEUE (JOV) 🗃](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/QUEUE/QUEUE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
@@ -8,9 +8,9 @@ Manage a queue of items, such as file paths or data. It supports various formats
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -20,7 +20,7 @@ VAL  |  INT  | the current index for the current queue<br>item | 0 |
 RESET  |  BOOLEAN  | reset the queue back to index 1 | False | 
 BATCH  |  BOOLEAN  | load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list | False | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -30,4 +30,4 @@ CURRENT  |  *  | Current
 INDEX  |  INT  | Current item index in the Queue list 
 TOTAL  |  INT  | Total items in the current Queue List 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

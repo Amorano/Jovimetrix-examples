@@ -1,4 +1,4 @@
-# [WAVE GEN (JOV) 🌊](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/WAVE%20GEN/WAVE%20GEN.md)
+## [WAVE GEN (JOV) 🌊](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/WAVE%20GEN/WAVE%20GEN.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,9 +8,9 @@ Produce waveforms like sine, square, or sawtooth with adjustable frequency, ampl
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -22,11 +22,11 @@ OFFSET  |  FLOAT  | Offset | 0 |
 🕛  |  FLOAT  | Time | 0 | 
 🔳  |  BOOLEAN  | Color Inversion | False | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 🛟  |  FLOAT  | Linear 
 🔟  |  INT  | Integer 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -1,4 +1,4 @@
-# [DELAY (JOV) ✋🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/DELAY/DELAY.md)
+## [DELAY (JOV) ✋🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/DELAY/DELAY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,19 +8,19 @@ Introduce pauses in the workflow that accept an optional input to pass through a
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 📥  |  *  | Pass In |  | 
 ⏱  |  INT  | Timer | 0 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 📤  |  *  | Pass Out 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -1,4 +1,4 @@
-# [MIDI READER (JOV) 🎹](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20READER/MIDI%20READER.md)
+## [MIDI READER (JOV) 🎹](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20READER/MIDI%20READER.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 
@@ -8,15 +8,15 @@ Captures MIDI messages from an external MIDI device or controller. It monitors M
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 📟  |  STRING  | Device |  | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -28,4 +28,4 @@ CHAN  |  INT  | Channel
 VAL  |  FLOAT  | Value 
 0-1  |  FLOAT  | Normalize 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -1,4 +1,4 @@
-# [COLOR BLIND (JOV) 👁‍🗨](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20BLIND/COLOR%20BLIND.md)
+## [COLOR BLIND (JOV) 👁‍🗨](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20BLIND/COLOR%20BLIND.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
@@ -8,9 +8,9 @@ Simulate color blindness effects on images. You can select various types of colo
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -19,7 +19,7 @@ DEFICIENCY  |  STRING  | Type of color deficiency: Red<br>(Protanopia), Green (D
 SIMULATOR  |  STRING  | Solver to use when translating to new<br>color space | AUTOSELECT | AUTOSELECT, BRETTEL1997, COBLISV1,<br>COBLISV2, MACHADO2009, VIENOT1999,<br>VISCHECK
 VAL  |  FLOAT  | alpha blending | 1 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -27,4 +27,4 @@ name | type | desc
 🌈  |  IMAGE  | RGB (no alpha) Color 
 😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are<br>applied 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

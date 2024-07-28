@@ -1,4 +1,4 @@
-# [TEXT GEN (JOV) 📝](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TEXT%20GEN/TEXT%20GEN.md)
+## [TEXT GEN (JOV) 📝](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TEXT%20GEN/TEXT%20GEN.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 
@@ -8,9 +8,9 @@ Generates images containing text based on parameters such as font, size, alignme
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -32,7 +32,7 @@ SPACING  |  INT  | Line Spacing between Text Lines | 25 |
 EDGE  |  STRING  | Clip or Wrap the Canvas Edge | CLIP | CLIP, WRAP, WRAPX, WRAPY
 🔳  |  BOOLEAN  | Invert the mask input | False | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -40,4 +40,4 @@ name | type | desc
 🌈  |  IMAGE  | RGB (no alpha) Color 
 😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are<br>applied 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

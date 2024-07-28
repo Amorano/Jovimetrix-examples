@@ -1,4 +1,4 @@
-# [LERP (JOV) 🔰](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/LERP/LERP.md)
+## [LERP (JOV) 🔰](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/LERP/LERP.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,9 +8,9 @@ Calculate linear interpolation between two values or vectors based on a blending
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -22,10 +22,10 @@ EASE  |  STRING  | Easing function | NONE | NONE, QUAD IN, QUAD OUT, QUAD IN OUT
 🅰️🅰️  |  VEC4  | default value vector for A | (0, 0, 0, 0) | 
 🅱️🅱️  |  VEC4  | default value vector for B | (1, 1, 1, 1) | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 🦄  |  *  | Any Type 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

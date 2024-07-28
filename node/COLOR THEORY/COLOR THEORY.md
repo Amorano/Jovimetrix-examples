@@ -1,4 +1,4 @@
-# [COLOR THEORY (JOV) 🛞](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20THEORY/COLOR%20THEORY.md)
+## [COLOR THEORY (JOV) 🛞](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20THEORY/COLOR%20THEORY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
@@ -8,9 +8,9 @@ Generate a color harmony based on the selected scheme. Supported schemes include
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -19,7 +19,7 @@ SCHEME  |  STRING  | Scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC, SPLI
 VAL  |  INT  | Custom angle of separation to use when<br>calculating colors | 45 | 
 🔳  |  BOOLEAN  | Color Inversion | False | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -29,4 +29,4 @@ name | type | desc
 ⚫️  |  IMAGE  | Color Scheme Result 4 
 ⚪  |  IMAGE  | Color Scheme Result 5 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

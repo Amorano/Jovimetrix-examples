@@ -1,4 +1,4 @@
-# [OP BINARY (JOV) 🌟](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/OP%20BINARY/OP%20BINARY.md)
+## [OP BINARY (JOV) 🌟](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/OP%20BINARY/OP%20BINARY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,9 +8,9 @@ Execute binary operations like addition, subtraction, multiplication, division, 
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -22,10 +22,10 @@ name | type | desc | default | meta
 🅰️🅰️  |  VEC4  | value vector | (0, 0, 0, 0) | 
 🅱️🅱️  |  VEC4  | value vector | (0, 0, 0, 0) | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 ❔  |  *  | Unknown 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

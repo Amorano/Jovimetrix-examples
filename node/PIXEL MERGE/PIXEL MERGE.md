@@ -1,4 +1,4 @@
-# [PIXEL MERGE (JOV) 🫂](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20MERGE/PIXEL%20MERGE.md)
+## [PIXEL MERGE (JOV) 🫂](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20MERGE/PIXEL%20MERGE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
@@ -8,9 +8,9 @@ Combines individual color channels (red, green, blue) along with an optional mas
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -25,7 +25,7 @@ MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This i
 🙃  |  VEC4  | Invert specific input prior to merging. R,<br>G, B, A. | (0, 0, 0, 0) | 
 🔳  |  BOOLEAN  | Invert the final merged output | False | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -33,4 +33,4 @@ name | type | desc
 🌈  |  IMAGE  | RGB (no alpha) Color 
 😷  |  MASK  | Mask or Image to use as Mask to control where adjustments are<br>applied 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

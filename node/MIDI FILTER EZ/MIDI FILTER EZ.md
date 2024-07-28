@@ -1,4 +1,4 @@
-# [MIDI FILTER EZ (JOV) ❇️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20FILTER%20EZ/MIDI%20FILTER%20EZ.md)
+## [MIDI FILTER EZ (JOV) ❇️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20FILTER%20EZ/MIDI%20FILTER%20EZ.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 
@@ -8,9 +8,9 @@ Filter MIDI messages based on various criteria, including MIDI mode (such as not
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -22,11 +22,11 @@ CHAN  |  INT  | Channel | -1 |
 VAL  |  INT  | Value | -1 | 
 0-1  |  FLOAT  | Normalize | -1 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 🎛️  |  JMIDIMSG  | Midi 
 ⚡  |  BOOLEAN  | Trigger 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

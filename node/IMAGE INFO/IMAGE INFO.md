@@ -1,4 +1,4 @@
-# [IMAGE INFO (JOV) 📚](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/IMAGE%20INFO/IMAGE%20INFO.md)
+## [IMAGE INFO (JOV) 📚](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/IMAGE%20INFO/IMAGE%20INFO.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
@@ -8,15 +8,15 @@ Exports and Displays immediate information about images.
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾A  |  *  |  |  | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -27,4 +27,4 @@ name | type | desc
 🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) 
 🇼🇭🇨  |  VEC3  | Width, Height and Channel as a Vector3 (x,y,z) 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

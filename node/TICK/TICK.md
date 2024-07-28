@@ -1,4 +1,4 @@
-# [TICK (JOV) ⏱](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TICK/TICK.md)
+## [TICK (JOV) ⏱](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TICK/TICK.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,9 +8,9 @@ A timer and frame counter, emitting pulses or signals based on time intervals. I
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -25,7 +25,7 @@ RESET  |  BOOLEAN  | Reset | False |
 BATCH  |  INT  | Number of frames wanted | 1 | 
 🦶🏽  |  INT  | Steps/Stride between pulses -- useful to<br>do odd or even batches. If set to 0 will<br>stretch from (VAL -> LOOP) / Batch giving<br>a linear range of values. | 0 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -34,4 +34,4 @@ VAL  |  INT  | Value
 🏎️  |  FLOAT  | Frames per second 
 ⚡  |  *  | Trigger 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

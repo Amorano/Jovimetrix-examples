@@ -1,4 +1,4 @@
-# [PIXEL SPLIT (JOV) 💔](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20SPLIT/PIXEL%20SPLIT.md)
+## [PIXEL SPLIT (JOV) 💔](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20SPLIT/PIXEL%20SPLIT.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
@@ -8,15 +8,15 @@ Takes an input image and splits it into its individual color channels (red, gree
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -25,4 +25,4 @@ name | type | desc
 💙  |  MASK  | Blue Channel 
 🤍  |  MASK  | Alpha Channel 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

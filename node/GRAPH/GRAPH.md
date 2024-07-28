@@ -1,4 +1,4 @@
-# [GRAPH (JOV) 📈](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GRAPH/GRAPH.md)
+## [GRAPH (JOV) 📈](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GRAPH/GRAPH.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
@@ -8,9 +8,9 @@ Visualize a series of data points over time. It accepts a dynamic number of valu
 
 #### OUTPUT NODE?: `True`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -18,10 +18,10 @@ RESET  |  BOOLEAN  | Reset | False |
 VAL  |  INT  | Number of values to graph and display | 60 | 
 🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 🖼️  |  IMAGE  | Image 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

@@ -1,4 +1,4 @@
-# [STEREOSCOPIC (JOV) 🕶️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/STEREOSCOPIC/STEREOSCOPIC.md)
+## [STEREOSCOPIC (JOV) 🕶️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/STEREOSCOPIC/STEREOSCOPIC.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 
@@ -8,9 +8,9 @@ Simulates depth perception in images by generating stereoscopic views. It accept
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -18,10 +18,10 @@ name | type | desc | default | meta
 🔟  |  FLOAT  | Baseline | 0.1 | 
 📽️  |  FLOAT  | Focal Length | 500 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 🖼️  |  IMAGE  | Image 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

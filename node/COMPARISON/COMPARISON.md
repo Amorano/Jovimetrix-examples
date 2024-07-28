@@ -1,4 +1,4 @@
-# [COMPARISON (JOV) 🕵🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COMPARISON/COMPARISON.md)
+## [COMPARISON (JOV) 🕵🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COMPARISON/COMPARISON.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,9 +8,9 @@ Evaluates two inputs (A and B) with a specified comparison operators and optiona
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -22,11 +22,11 @@ name | type | desc | default | meta
 🙃  |  BOOLEAN  | Flip Input A and Input B with each other | False | 
 🔳  |  BOOLEAN  | Color Inversion | False | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 ⚡  |  *  | Trigger 
 VAL  |  *  | Value 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

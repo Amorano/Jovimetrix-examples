@@ -1,4 +1,4 @@
-# [ARRAY (JOV) 📚](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/ARRAY/ARRAY.md)
+## [ARRAY (JOV) 📚](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/ARRAY/ARRAY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
@@ -8,9 +8,9 @@ Processes a batch of data based on the selected mode, such as merging, picking, 
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -23,7 +23,7 @@ COUNT  |  INT  | How many items to return | 0 |
 🙃  |  BOOLEAN  | invert the calculated output list | False | 
 CHUNK  |  INT  | How many items to put per output. Default<br>(0) is all items | 0 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -32,4 +32,4 @@ LENGTH  |  INT  | Length
 🧾  |  *  | List 
 FULL SIZE  |  INT  | All items 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

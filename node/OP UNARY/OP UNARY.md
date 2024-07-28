@@ -1,4 +1,4 @@
-# [OP UNARY (JOV) 🎲](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/OP%20UNARY/OP%20UNARY.md)
+## [OP UNARY (JOV) 🎲](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/OP%20UNARY/OP%20UNARY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,19 +8,19 @@ Perform single function operations like absolute value, mean, median, mode, magn
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🅰️  |  *  | Input A |  | 
 ⚒️  |  STRING  | Function | ABS | ABS, FLOOR, CEIL, SQRT, SQUARE, LOG,<br>LOG10, SIN, COS, TAN, NEGATE, RECIPROCAL,<br>FACTORIAL, EXP, MINIMUM, MAXIMUM, MEAN,<br>MEDIAN, MODE, MAGNITUDE, NORMALIZE, NOT,<br>BIT NOT, COS H, SIN H
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 ❔  |  *  | Unknown 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

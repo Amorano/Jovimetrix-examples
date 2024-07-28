@@ -1,4 +1,4 @@
-# [MIDI MESSAGE (JOV) 🎛️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20MESSAGE/MIDI%20MESSAGE.md)
+## [MIDI MESSAGE (JOV) 🎛️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/MIDI%20MESSAGE/MIDI%20MESSAGE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 
@@ -8,15 +8,15 @@ Processes MIDI messages received from an external MIDI controller or device. It 
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🎛️  |  JMIDIMSG  | Midi |  | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -28,4 +28,4 @@ CHAN  |  INT  | Channel
 VAL  |  FLOAT  | Value 
 0-1  |  FLOAT  | Normalize 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

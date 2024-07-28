@@ -1,4 +1,4 @@
-# [AKASHIC (JOV) 📓](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/AKASHIC/AKASHIC.md)
+## [AKASHIC (JOV) 📓](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/AKASHIC/AKASHIC.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
@@ -8,11 +8,11 @@ Visualize data. It accepts various types of data, including images, text, and ot
 
 #### OUTPUT NODE?: `True`
 
-### INPUT
+## INPUT
 
 
-### OUTPUT
+## OUTPUT
 
 NONE
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

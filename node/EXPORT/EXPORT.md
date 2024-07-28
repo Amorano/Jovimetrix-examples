@@ -1,4 +1,4 @@
-# [EXPORT (JOV) 📽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/EXPORT/EXPORT.md)
+## [EXPORT (JOV) 📽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/EXPORT/EXPORT.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
@@ -8,9 +8,9 @@ Responsible for saving images or animations to disk. It supports various output 
 
 #### OUTPUT NODE?: `True`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -25,8 +25,8 @@ MOTION  |  INT  | Motion Quality | 100 |
 🏎️  |  INT  | Frames per second | 24 | 
 🔄  |  INT  | Loop | 0 | 
 
-### OUTPUT
+## OUTPUT
 
 NONE
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

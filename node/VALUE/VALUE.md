@@ -1,4 +1,4 @@
-# [VALUE (JOV) 🧬](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/VALUE/VALUE.md)
+## [VALUE (JOV) 🧬](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/VALUE/VALUE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,9 +8,9 @@ Supplies raw or default values for various data types, supporting vector input w
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -25,7 +25,7 @@ seed  |  INT  | Random generator's initial value | 0 |
 🅱️🅱️  |  VEC4  | default value vector for B | (1, 1, 1, 1) | 
 📝  |  STRING  | String Entry |  | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
@@ -35,4 +35,4 @@ name | type | desc
 🇿  |  *  | Z 
 🇼  |  *  | Width 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

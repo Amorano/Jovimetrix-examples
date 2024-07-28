@@ -1,4 +1,4 @@
-# [SWIZZLE (JOV) 😵](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/SWIZZLE/SWIZZLE.md)
+## [SWIZZLE (JOV) 😵](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/SWIZZLE/SWIZZLE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 
@@ -8,9 +8,9 @@ Swap components between two vectors based on specified swizzle patterns and valu
 
 #### OUTPUT NODE?: `False`
 
-### INPUT
+## INPUT
 
-#### OPTIONAL
+### OPTIONAL
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
@@ -26,10 +26,10 @@ SWAP Z  |  STRING  | Replace input Red channel with target<br>channel or constan
 SWAP W  |  STRING  | Replace input W channel with target<br>channel or constant | A_W | A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT
 🇼  |  FLOAT  | Width | 0 | 
 
-### OUTPUT
+## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 🦄  |  *  | Any Type 
 
-help powered by [MelMass](https://github.com/melMass) & [comfy_mtb](https://github.com/melMass/comfy_mtb) project
+original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

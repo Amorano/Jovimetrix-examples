@@ -1,4 +1,4 @@
-# IMAGE INFO (JOV) 📚
+# [IMAGE INFO (JOV) 📚](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/IMAGE%20INFO/IMAGE%20INFO.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 

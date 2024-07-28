@@ -1,4 +1,4 @@
-# WAVE GEN (JOV) 🌊
+# [WAVE GEN (JOV) 🌊](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/WAVE%20GEN/WAVE%20GEN.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

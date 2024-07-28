@@ -1,4 +1,4 @@
-# FILTER MASK (JOV) 🤿
+# [FILTER MASK (JOV) 🤿](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FILTER%20MASK/FILTER%20MASK.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

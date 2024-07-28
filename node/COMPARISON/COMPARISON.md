@@ -1,4 +1,4 @@
-# COMPARISON (JOV) 🕵🏽
+# [COMPARISON (JOV) 🕵🏽](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COMPARISON/COMPARISON.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

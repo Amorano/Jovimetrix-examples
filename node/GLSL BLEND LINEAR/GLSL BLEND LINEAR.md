@@ -1,4 +1,4 @@
-# GLSL BLEND LINEAR (JOV) 🧙🏽
+# [GLSL BLEND LINEAR (JOV) 🧙🏽](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 Simple linear blend between two images

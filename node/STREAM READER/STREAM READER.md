@@ -1,4 +1,4 @@
-# STREAM READER (JOV) 📺
+# [STREAM READER (JOV) 📺](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STREAM%20READER/STREAM%20READER.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 

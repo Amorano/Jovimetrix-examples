@@ -1,4 +1,4 @@
-# MIDI MESSAGE (JOV) 🎛️
+# [MIDI MESSAGE (JOV) 🎛️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/MIDI%20MESSAGE/MIDI%20MESSAGE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 

@@ -1,4 +1,4 @@
-# COLOR THEORY (JOV) 🛞
+# [COLOR THEORY (JOV) 🛞](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20THEORY/COLOR%20THEORY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

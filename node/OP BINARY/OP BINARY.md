@@ -1,4 +1,4 @@
-# OP BINARY (JOV) 🌟
+# [OP BINARY (JOV) 🌟](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/OP%20BINARY/OP%20BINARY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

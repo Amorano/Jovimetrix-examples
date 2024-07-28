@@ -1,4 +1,4 @@
-# GRADIENT MAP (JOV) 🇲🇺
+# [GRADIENT MAP (JOV) 🇲🇺](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GRADIENT%20MAP/GRADIENT%20MAP.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

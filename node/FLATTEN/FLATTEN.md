@@ -1,4 +1,4 @@
-# FLATTEN (JOV) ⬇️
+# [FLATTEN (JOV) ⬇️](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FLATTEN/FLATTEN.md)
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 

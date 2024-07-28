@@ -1,4 +1,4 @@
-# ARRAY (JOV) 📚
+# [ARRAY (JOV) 📚](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ARRAY/ARRAY.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 

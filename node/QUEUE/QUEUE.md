@@ -1,4 +1,4 @@
-# QUEUE (JOV) 🗃
+# [QUEUE (JOV) 🗃](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/QUEUE/QUEUE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 

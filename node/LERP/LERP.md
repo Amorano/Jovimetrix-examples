@@ -1,4 +1,4 @@
-# LERP (JOV) 🔰
+# [LERP (JOV) 🔰](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/LERP/LERP.md)
 
 ## JOVIMETRIX 🔺🟩🔵/CALC
 

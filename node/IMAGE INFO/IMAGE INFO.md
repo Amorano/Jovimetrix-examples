@@ -2,7 +2,9 @@
 
 ## JOVIMETRIX 🔺🟩🔵/UTILITY
 
+
 Exports and Displays immediate information about images.
+
 
 ![IMAGE INFO](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/IMAGE%20INFO/IMAGE%20INFO.png)
 

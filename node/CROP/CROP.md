@@ -2,7 +2,9 @@
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
+
 Extract a portion of an input image or resize it. It supports various cropping modes, including center cropping, custom XY cropping, and free-form polygonal cropping. This node is useful for preparing image data for specific tasks or extracting regions of interest.
+
 
 ![CROP](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CROP/CROP.png)
 

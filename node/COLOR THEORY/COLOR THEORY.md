@@ -2,7 +2,9 @@
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
+
 Generate a color harmony based on the selected scheme. Supported schemes include complimentary, analogous, triadic, tetradic, and more. Users can customize the angle of separation for color calculations, offering flexibility in color manipulation and exploration of different color palettes.
+
 
 ![COLOR THEORY](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20THEORY/COLOR%20THEORY.png)
 

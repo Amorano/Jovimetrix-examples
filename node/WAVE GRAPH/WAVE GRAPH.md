@@ -2,7 +2,9 @@
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 
+
 The Wave Graph node visualizes audio waveforms as bars. Adjust parameters like the number of bars, bar thickness, and colors.
+
 
 ![WAVE GRAPH](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/WAVE%20GRAPH/WAVE%20GRAPH.png)
 

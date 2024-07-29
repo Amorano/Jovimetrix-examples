@@ -2,7 +2,9 @@
 
 ## JOVIMETRIX 🔺🟩🔵/CREATE
 
+
 Generates false perception 3D images from 2D input. Set tile divisions, noise, gamma, and shift parameters to control the stereogram's appearance.
+
 
 ![STEREOGRAM](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STEREOGRAM/STEREOGRAM.png)
 

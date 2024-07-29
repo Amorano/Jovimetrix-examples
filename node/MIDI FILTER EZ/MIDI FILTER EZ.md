@@ -2,7 +2,9 @@
 
 ## JOVIMETRIX 🔺🟩🔵/DEVICE
 
+
 Filter MIDI messages based on various criteria, including MIDI mode (such as note on or note off), MIDI channel, control number, note number, value, and normalized value. This node is useful for processing MIDI input and selectively passing through only the desired messages. It helps simplify MIDI data handling by allowing you to focus on specific types of MIDI events.
+
 
 ![MIDI FILTER EZ](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/MIDI%20FILTER%20EZ/MIDI%20FILTER%20EZ.png)
 

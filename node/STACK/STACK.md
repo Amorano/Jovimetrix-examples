@@ -2,7 +2,9 @@
 
 ## JOVIMETRIX 🔺🟩🔵/COMPOSE
 
+
 Merge multiple input images into a single composite image by stacking them along a specified axis. Options include axis, stride, scaling mode, width and height, interpolation method, and matte color. The axis parameter allows for horizontal, vertical, or grid stacking of images, while stride controls the spacing between them.
+
 
 ![STACK](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STACK/STACK.png)
 

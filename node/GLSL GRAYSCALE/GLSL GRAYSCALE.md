@@ -1,7 +1,9 @@
 ## [GLSL GRAYSCALE (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20GRAYSCALE/GLSL%20GRAYSCALE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
+
 Convert input to grayscale
+
 ![GLSL GRAYSCALE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20GRAYSCALE/GLSL%20GRAYSCALE.png)
 
 #### OUTPUT NODE?: `False`

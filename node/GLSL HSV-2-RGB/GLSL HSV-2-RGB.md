@@ -1,10 +1,10 @@
-## [GLSL BLEND LINEAR (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.md)
+## [GLSL HSV-2-RGB (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20HSV-2-RGB/GLSL%20HSV-2-RGB.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 
-Simple linear blend between two images
+Convert HSV input to RGB
 
-![GLSL BLEND LINEAR](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.png)
+![GLSL HSV-2-RGB](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20HSV-2-RGB/GLSL%20HSV-2-RGB.png)
 
 #### OUTPUT NODE?: `False`
 
@@ -14,9 +14,7 @@ Simple linear blend between two images
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-imageA  |  IMAGE  | Unknown Explanation! |  | 
-imageB  |  IMAGE  | Unknown Explanation! |  | 
-blend_amt  |  FLOAT  | 0 | 0.5 | 
+image  |  IMAGE  | Unknown Explanation! |  | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT

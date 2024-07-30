@@ -115,15 +115,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>VALUE (JOV) 🧬</title>
+    <title>GLSL RGB-2-LAB (JOV) 🧙🏽</title>
 </head>
 <body class="jov-doc">
-    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/VALUE/VALUE.md" target="_blank" rel="noreferrer noopener">VALUE (JOV) 🧬</a></h2>
-    <h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
-    <p>
-Supplies raw or default values for various data types, supporting vector input with components for X, Y, Z, and W. It also provides a string input option.
-</p>
-    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VALUE/VALUE.png" alt="VALUE">
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20RGB-2-LAB/GLSL%20RGB-2-LAB.md" target="_blank" rel="noreferrer noopener">GLSL RGB-2-LAB (JOV) 🧙🏽</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/GLSL</h3>
+    <p>Convert RGB input to LAB</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20RGB-2-LAB/GLSL%20RGB-2-LAB.png" alt="GLSL RGB-2-LAB">
     <p>OUTPUT NODE?: False</p>
 
     <h2>INPUT</h2>
@@ -131,63 +129,39 @@ Supplies raw or default values for various data types, supporting vector input w
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
-    <td>🅰️</td>
-    <td>*</td>
-    <td>Passes a raw value directly, or supplies<br>defaults for any value inputs without<br>connections</td>
+    <td>image</td>
+    <td>IMAGE</td>
+    <td>Unknown Explanation!</td>
     <td></td>
     <td></td>
 </tr><tr>
-    <td>❓</td>
+    <td>MODE</td>
     <td>STRING</td>
-    <td>Take the input and convert it into the<br>selected type.</td>
-    <td>BOOLEAN</td>
-    <td>BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3,<br>VEC3INT, VEC4, VEC4INT, COORD2D, STRING,<br>LIST, DICT</td>
+    <td>Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size</td>
+    <td>NONE</td>
+    <td>NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT</td>
 </tr><tr>
-    <td>🇽</td>
-    <td>*</td>
-    <td>X</td>
-    <td>0</td>
+    <td>🇼🇭</td>
+    <td>VEC2</td>
+    <td>Width and Height as a Vector2 (x,y)</td>
+    <td>(512, 512)</td>
     <td></td>
 </tr><tr>
-    <td>🇾</td>
-    <td>*</td>
-    <td>Y</td>
-    <td>0</td>
-    <td></td>
-</tr><tr>
-    <td>🇿</td>
-    <td>*</td>
-    <td>Z</td>
-    <td>0</td>
-    <td></td>
-</tr><tr>
-    <td>🇼</td>
-    <td>*</td>
-    <td>Width</td>
-    <td>0</td>
-    <td></td>
-</tr><tr>
-    <td>🅰️🅰️</td>
-    <td>VEC4</td>
-    <td>default value vector for A</td>
-    <td>(0, 0, 0, 0)</td>
-    <td></td>
-</tr><tr>
-    <td>seed</td>
-    <td>INT</td>
-    <td>Random generator's initial value</td>
-    <td>0</td>
-    <td></td>
-</tr><tr>
-    <td>🅱️🅱️</td>
-    <td>VEC4</td>
-    <td>default value vector for B</td>
-    <td>(1, 1, 1, 1)</td>
-    <td></td>
-</tr><tr>
-    <td>📝</td>
+    <td>🎞️</td>
     <td>STRING</td>
-    <td>String Entry</td>
+    <td>Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case</td>
+    <td>LANCZOS4</td>
+    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT</td>
+</tr><tr>
+    <td>MATTE</td>
+    <td>VEC4</td>
+    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>(0, 0, 0, 255)</td>
+    <td></td>
+</tr><tr>
+    <td>FRAGMENT</td>
+    <td>JDATABUCKET</td>
+    <td>Select a fragment program to load</td>
     <td></td>
     <td></td>
 </tr>
@@ -197,25 +171,17 @@ Supplies raw or default values for various data types, supporting vector input w
     <table>
         <tr><th>Name</th><th>Type</th><th>Description</th></tr>
         <tr>
-    <td>🦄</td>
-    <td>*</td>
-    <td>Any Type</td>
+    <td>🖼️</td>
+    <td>IMAGE</td>
+    <td>Image</td>
 </tr><tr>
-    <td>🇽</td>
-    <td>*</td>
-    <td>X</td>
+    <td>🌈</td>
+    <td>IMAGE</td>
+    <td>RGB (no alpha) Color</td>
 </tr><tr>
-    <td>🇾</td>
-    <td>*</td>
-    <td>Y</td>
-</tr><tr>
-    <td>🇿</td>
-    <td>*</td>
-    <td>Z</td>
-</tr><tr>
-    <td>🇼</td>
-    <td>*</td>
-    <td>Width</td>
+    <td>😷</td>
+    <td>MASK</td>
+    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
 </tr>
     </table>
 

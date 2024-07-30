@@ -1,0 +1,216 @@
+<style>
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-section, .output-section {
+    margin-bottom: 30px;
+  }
+
+  .param-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .param-key {
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 10px;
+  }
+
+  .param-value {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .param-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .param-key {
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GLSL NORMAL (JOV) 🧙🏽</title>
+</head>
+<body>
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20NORMAL/GLSL%20NORMAL.md" target="_blank" rel="noreferrer noopener">GLSL NORMAL (JOV) 🧙🏽</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/GLSL</h3>
+    <p>Convert input into a Normal map</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20NORMAL/GLSL%20NORMAL.png" alt="GLSL NORMAL">
+    <p>OUTPUT NODE?: False</p>
+
+    <h2>INPUT</h2>
+    <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>image</td>
+    <td>IMAGE</td>
+    <td>Unknown Explanation!</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>scalar</td>
+    <td>FLOAT</td>
+    <td>Unknown Explanation!</td>
+    <td>0.25</td>
+    <td></td>
+</tr><tr>
+    <td>🇼🇭</td>
+    <td>VEC2</td>
+    <td>Width and Height as a Vector2 (x,y)</td>
+    <td>(512, 512)</td>
+    <td></td>
+</tr><tr>
+    <td>MATTE</td>
+    <td>VEC4</td>
+    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>(0, 0, 0, 255)</td>
+    <td></td>
+</tr><tr>
+    <td>BATCH</td>
+    <td>INT</td>
+    <td>Output as a BATCH (all images in a single<br>Tensor) or as a LIST of images (each image<br>processed separately)</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>🏎️</td>
+    <td>INT</td>
+    <td>Frames per second</td>
+    <td>24</td>
+    <td></td>
+</tr><tr>
+    <td>🕛</td>
+    <td>FLOAT</td>
+    <td>Time</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>✋🏽</td>
+    <td>BOOLEAN</td>
+    <td>Wait</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>RESET</td>
+    <td>BOOLEAN</td>
+    <td>Reset</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>FRAGMENT</td>
+    <td>JDATABUCKET</td>
+    <td>Select a fragment program to load</td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+
+    <h2>OUTPUT</h2>
+    <table>
+        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+        <tr>
+    <td>🖼️</td>
+    <td>IMAGE</td>
+    <td>Image</td>
+</tr><tr>
+    <td>🌈</td>
+    <td>IMAGE</td>
+    <td>RGB (no alpha) Color</td>
+</tr><tr>
+    <td>😷</td>
+    <td>MASK</td>
+    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+</tr>
+    </table>
+
+    <footer>
+        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+    </footer>
+</body>
+</html>

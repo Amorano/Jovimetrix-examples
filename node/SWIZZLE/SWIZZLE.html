@@ -1,0 +1,216 @@
+<style>
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-section, .output-section {
+    margin-bottom: 30px;
+  }
+
+  .param-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .param-key {
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 10px;
+  }
+
+  .param-value {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .param-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .param-key {
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SWIZZLE (JOV) 😵</title>
+</head>
+<body>
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/SWIZZLE/SWIZZLE.md" target="_blank" rel="noreferrer noopener">SWIZZLE (JOV) 😵</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
+    <p>
+Swap components between two vectors based on specified swizzle patterns and values. It provides flexibility in rearranging vector elements dynamically.
+</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SWIZZLE/SWIZZLE.png" alt="SWIZZLE">
+    <p>OUTPUT NODE?: False</p>
+
+    <h2>INPUT</h2>
+    <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>🅰️</td>
+    <td>*</td>
+    <td>Input A</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>🅱️</td>
+    <td>*</td>
+    <td>Input B</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>❓</td>
+    <td>STRING</td>
+    <td>Output type desired from resultant<br>operation</td>
+    <td>VEC3</td>
+    <td>VEC2, VEC2INT, VEC3, VEC3INT, VEC4,<br>VEC4INT, COORD2D</td>
+</tr><tr>
+    <td>SWAP X</td>
+    <td>STRING</td>
+    <td>Replace input Red channel with target<br>channel or constant</td>
+    <td>A_X</td>
+    <td>A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT</td>
+</tr><tr>
+    <td>🇽</td>
+    <td>FLOAT</td>
+    <td>X</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>SWAP Y</td>
+    <td>STRING</td>
+    <td>Replace input Red channel with target<br>channel or constant</td>
+    <td>A_Y</td>
+    <td>A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT</td>
+</tr><tr>
+    <td>🇾</td>
+    <td>FLOAT</td>
+    <td>Y</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>SWAP Z</td>
+    <td>STRING</td>
+    <td>Replace input Red channel with target<br>channel or constant</td>
+    <td>A_Z</td>
+    <td>A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT</td>
+</tr><tr>
+    <td>🇿</td>
+    <td>FLOAT</td>
+    <td>Z</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>SWAP W</td>
+    <td>STRING</td>
+    <td>Replace input W channel with target<br>channel or constant</td>
+    <td>A_W</td>
+    <td>A X, A Y, A Z, A W, B X, B Y, B Z, B W,<br>CONSTANT</td>
+</tr><tr>
+    <td>🇼</td>
+    <td>FLOAT</td>
+    <td>Width</td>
+    <td>0</td>
+    <td></td>
+</tr>
+</table>
+
+    <h2>OUTPUT</h2>
+    <table>
+        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+        <tr>
+    <td>🦄</td>
+    <td>*</td>
+    <td>Any Type</td>
+</tr>
+    </table>
+
+    <footer>
+        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+    </footer>
+</body>
+</html>

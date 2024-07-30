@@ -1,0 +1,196 @@
+<style>
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-section, .output-section {
+    margin-bottom: 30px;
+  }
+
+  .param-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .param-key {
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 10px;
+  }
+
+  .param-value {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .param-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .param-key {
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WAVE GEN (JOV) 🌊</title>
+</head>
+<body>
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/WAVE%20GEN/WAVE%20GEN.md" target="_blank" rel="noreferrer noopener">WAVE GEN (JOV) 🌊</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
+    <p>
+Produce waveforms like sine, square, or sawtooth with adjustable frequency, amplitude, phase, and offset. It&#x27;s handy for creating oscillating patterns or controlling animation dynamics. This node emits both continuous floating-point values and integer representations of the generated waves.
+</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/WAVE%20GEN/WAVE%20GEN.png" alt="WAVE GEN">
+    <p>OUTPUT NODE?: False</p>
+
+    <h2>INPUT</h2>
+    <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>♒</td>
+    <td>STRING</td>
+    <td>Wave Function</td>
+    <td>SIN</td>
+    <td>SIN, COS, TAN, SAWTOOTH, TRIANGLE, SQUARE,<br>PULSE, RAMP, STEP, EXPONENTIAL,<br>LOGARITHMIC, NOISE, HAVERSINE, RECTANGULAR<br>PULSE, GAUSSIAN, CHIRP</td>
+</tr><tr>
+    <td>FREQ</td>
+    <td>FLOAT</td>
+    <td>Frequency</td>
+    <td>1</td>
+    <td></td>
+</tr><tr>
+    <td>🔊</td>
+    <td>FLOAT</td>
+    <td>Amplitude</td>
+    <td>1</td>
+    <td></td>
+</tr><tr>
+    <td>PHASE</td>
+    <td>FLOAT</td>
+    <td>Phase</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>OFFSET</td>
+    <td>FLOAT</td>
+    <td>Offset</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>🕛</td>
+    <td>FLOAT</td>
+    <td>Time</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>🔳</td>
+    <td>BOOLEAN</td>
+    <td>Color Inversion</td>
+    <td>False</td>
+    <td></td>
+</tr>
+</table>
+
+    <h2>OUTPUT</h2>
+    <table>
+        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+        <tr>
+    <td>🛟</td>
+    <td>FLOAT</td>
+    <td>Linear</td>
+</tr><tr>
+    <td>🔟</td>
+    <td>INT</td>
+    <td>Integer</td>
+</tr>
+    </table>
+
+    <footer>
+        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<style>
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-section, .output-section {
+    margin-bottom: 30px;
+  }
+
+  .param-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .param-key {
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 10px;
+  }
+
+  .param-value {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .param-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .param-key {
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEXT GEN (JOV) 📝</title>
+</head>
+<body>
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TEXT%20GEN/TEXT%20GEN.md" target="_blank" rel="noreferrer noopener">TEXT GEN (JOV) 📝</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/CREATE</h3>
+    <p>
+Generates images containing text based on parameters such as font, size, alignment, color, and position. Users can input custom text messages, select fonts from a list of available options, adjust font size, and specify the alignment and justification of the text. Additionally, the node provides options for auto-sizing text to fit within specified dimensions, controlling letter-by-letter rendering, and applying edge effects such as clipping and inversion.
+</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TEXT%20GEN/TEXT%20GEN.png" alt="TEXT GEN">
+    <p>OUTPUT NODE?: False</p>
+
+    <h2>INPUT</h2>
+    <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>📝</td>
+    <td>STRING</td>
+    <td>Your Message</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>FONT</td>
+    <td>STRING</td>
+    <td>Available System Fonts</td>
+    <td>Almendra</td>
+    <td>Almendra, Alphabutt Base A, Alphabutt<br>Letters A, Arial, BIG BREAST FONT,<br>Bahnschrift, Caladea, Calibri, Cambria,<br>Candara, Carlito, Cascadia Code, Cascadia<br>Mono, Comic Sans MS, Consolas, Constantia,<br>Corbel, Courier New, Cyclopia, DejaVu<br>Sans, DejaVu Sans Display, DejaVu Sans<br>Mono, DejaVu Serif, DejaVu Serif Display,<br>Ebrima</td>
+</tr><tr>
+    <td>LETTER</td>
+    <td>BOOLEAN</td>
+    <td>If each letter be generated and output in<br>a batch</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>AUTOSIZE</td>
+    <td>BOOLEAN</td>
+    <td>Scale based on Width & Height</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>🌈A</td>
+    <td>VEC4</td>
+    <td>Color of the letters</td>
+    <td>(255, 255, 255, 255)</td>
+    <td></td>
+</tr><tr>
+    <td>MATTE</td>
+    <td>VEC3</td>
+    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>(0, 0, 0)</td>
+    <td></td>
+</tr><tr>
+    <td>COLS</td>
+    <td>INT</td>
+    <td>0 = Auto-Fit, >0 = Fit into N columns</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>SIZE</td>
+    <td>INT</td>
+    <td>Text Size</td>
+    <td>16</td>
+    <td></td>
+</tr><tr>
+    <td>ALIGN</td>
+    <td>STRING</td>
+    <td>Top, Center or Bottom alignment</td>
+    <td>CENTER</td>
+    <td>TOP, CENTER, BOTTOM</td>
+</tr><tr>
+    <td>JUSTIFY</td>
+    <td>STRING</td>
+    <td>How to align the text to the side margins<br>of the canvas: Left, Right, or Centered</td>
+    <td>CENTER</td>
+    <td>LEFT, CENTER, RIGHT</td>
+</tr><tr>
+    <td>MARGIN</td>
+    <td>INT</td>
+    <td>Whitespace padding around canvas</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>SPACING</td>
+    <td>INT</td>
+    <td>Line Spacing between Text Lines</td>
+    <td>25</td>
+    <td></td>
+</tr><tr>
+    <td>🇼🇭</td>
+    <td>VEC2</td>
+    <td>Width and Height as a Vector2 (x,y)</td>
+    <td>(256, 256)</td>
+    <td></td>
+</tr><tr>
+    <td>🇽🇾</td>
+    <td>VEC2</td>
+    <td>Offset the position</td>
+    <td>(0, 0)</td>
+    <td></td>
+</tr><tr>
+    <td>📐</td>
+    <td>FLOAT</td>
+    <td>Rotation Angle</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>EDGE</td>
+    <td>STRING</td>
+    <td>Clip or Wrap the Canvas Edge</td>
+    <td>CLIP</td>
+    <td>CLIP, WRAP, WRAPX, WRAPY</td>
+</tr><tr>
+    <td>🔳</td>
+    <td>BOOLEAN</td>
+    <td>Invert the mask input</td>
+    <td>False</td>
+    <td></td>
+</tr>
+</table>
+
+    <h2>OUTPUT</h2>
+    <table>
+        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+        <tr>
+    <td>🖼️</td>
+    <td>IMAGE</td>
+    <td>Image</td>
+</tr><tr>
+    <td>🌈</td>
+    <td>IMAGE</td>
+    <td>RGB (no alpha) Color</td>
+</tr><tr>
+    <td>😷</td>
+    <td>MASK</td>
+    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+</tr>
+    </table>
+
+    <footer>
+        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+    </footer>
+</body>
+</html>

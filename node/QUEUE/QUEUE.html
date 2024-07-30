@@ -1,0 +1,196 @@
+<style>
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-section, .output-section {
+    margin-bottom: 30px;
+  }
+
+  .param-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .param-key {
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 10px;
+  }
+
+  .param-value {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .param-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .param-key {
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QUEUE (JOV) 🗃</title>
+</head>
+<body>
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/QUEUE/QUEUE.md" target="_blank" rel="noreferrer noopener">QUEUE (JOV) 🗃</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/UTILITY</h3>
+    <p>
+Manage a queue of items, such as file paths or data. It supports various formats including images, videos, text files, and JSON files. Users can specify the current index for the queue item, enable pausing the queue, or reset it back to the first index. The node outputs the current item in the queue, the entire queue, the current index, and the total number of items in the queue.
+</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/QUEUE/QUEUE.png" alt="QUEUE">
+    <p>OUTPUT NODE?: False</p>
+
+    <h2>INPUT</h2>
+    <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>Q</td>
+    <td>STRING</td>
+    <td>Queue</td>
+    <td>./res/img/test-a.png</td>
+    <td></td>
+</tr><tr>
+    <td>VAL</td>
+    <td>INT</td>
+    <td>the current index for the current queue<br>item</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>✋🏽</td>
+    <td>BOOLEAN</td>
+    <td>Hold the item at the current queue index</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>RESET</td>
+    <td>BOOLEAN</td>
+    <td>reset the queue back to index 1</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>BATCH</td>
+    <td>BOOLEAN</td>
+    <td>load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list</td>
+    <td>False</td>
+    <td></td>
+</tr>
+</table>
+
+    <h2>OUTPUT</h2>
+    <table>
+        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+        <tr>
+    <td>🦄</td>
+    <td>*</td>
+    <td>Any Type</td>
+</tr><tr>
+    <td>Q</td>
+    <td>*</td>
+    <td>Queue</td>
+</tr><tr>
+    <td>CURRENT</td>
+    <td>*</td>
+    <td>Current</td>
+</tr><tr>
+    <td>INDEX</td>
+    <td>INT</td>
+    <td>Current item index in the Queue list</td>
+</tr><tr>
+    <td>TOTAL</td>
+    <td>INT</td>
+    <td>Total items in the current Queue List</td>
+</tr>
+    </table>
+
+    <footer>
+        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+    </footer>
+</body>
+</html>

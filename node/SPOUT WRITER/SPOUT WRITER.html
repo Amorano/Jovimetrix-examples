@@ -1,0 +1,188 @@
+<style>
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-section, .output-section {
+    margin-bottom: 30px;
+  }
+
+  .param-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .param-key {
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 10px;
+  }
+
+  .param-value {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .param-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .param-key {
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPOUT WRITER (JOV) 🎥</title>
+</head>
+<body>
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/SPOUT%20WRITER/SPOUT%20WRITER.md" target="_blank" rel="noreferrer noopener">SPOUT WRITER (JOV) 🎥</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/DEVICE</h3>
+    <p>
+Sends frames to a specified Spout receiver application for real-time video sharing. Accepts tensors representing images and allows configuration of parameters such as the Spout host, frame rate, resolution, scaling mode, interpolation method, and matte color. The node continuously streams frames to the specified Spout host, enabling real-time visualization or integration with other applications that support Spout.
+</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SPOUT%20WRITER/SPOUT%20WRITER.png" alt="SPOUT WRITER">
+    <p>OUTPUT NODE?: True</p>
+
+    <h2>INPUT</h2>
+    <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>👾</td>
+    <td>*</td>
+    <td>Pixel Data (RGBA, RGB or Grayscale)</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>🚌</td>
+    <td>STRING</td>
+    <td>Route</td>
+    <td>Spout Sender</td>
+    <td></td>
+</tr><tr>
+    <td>🏎️</td>
+    <td>INT</td>
+    <td>@@@ NOT USED @@@</td>
+    <td>30</td>
+    <td></td>
+</tr><tr>
+    <td>MODE</td>
+    <td>STRING</td>
+    <td>Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size</td>
+    <td>NONE</td>
+    <td>NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT</td>
+</tr><tr>
+    <td>🇼🇭</td>
+    <td>VEC2</td>
+    <td>Width and Height as a Vector2 (x,y)</td>
+    <td>(512, 512)</td>
+    <td></td>
+</tr><tr>
+    <td>🎞️</td>
+    <td>STRING</td>
+    <td>Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case</td>
+    <td>LANCZOS4</td>
+    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT</td>
+</tr><tr>
+    <td>MATTE</td>
+    <td>VEC4</td>
+    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>(0, 0, 0, 255)</td>
+    <td></td>
+</tr>
+</table>
+
+    <h2>OUTPUT</h2>
+    <table>
+        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+        
+    </table>
+
+    <footer>
+        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+    </footer>
+</body>
+</html>

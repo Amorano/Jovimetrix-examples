@@ -1,0 +1,212 @@
+<style>
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-section, .output-section {
+    margin-bottom: 30px;
+  }
+
+  .param-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .param-key {
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 10px;
+  }
+
+  .param-value {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .param-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .param-key {
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COLOR MATCH (JOV) 💞</title>
+</head>
+<body>
+    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20MATCH/COLOR%20MATCH.md" target="_blank" rel="noreferrer noopener">COLOR MATCH (JOV) 💞</a></h2>
+    <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+    <p>
+Adjust the color scheme of one image to match another with the Color Match Node. Choose from various color matching modes, including LUT, Histogram, and Reinhard. You can specify options like color maps, the number of colors, and whether to flip or invert the images. This node allows for the creation of seamless and cohesive visuals, making it ideal for texture work or masking in motion graphics and design projects.
+</p>
+    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20MATCH/COLOR%20MATCH.png" alt="COLOR MATCH">
+    <p>OUTPUT NODE?: False</p>
+
+    <h2>INPUT</h2>
+    <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>👾A</td>
+    <td>*</td>
+    <td>Pixel Data (RGBA, RGB or Grayscale)</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>👾B</td>
+    <td>*</td>
+    <td>Pixel Data (RGBA, RGB or Grayscale)</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>MODE</td>
+    <td>STRING</td>
+    <td>Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size</td>
+    <td>REINHARD</td>
+    <td>REINHARD, LUT, HISTOGRAM</td>
+</tr><tr>
+    <td>MAP</td>
+    <td>STRING</td>
+    <td>Custom image that will be transformed into<br>a LUT or a built-in cv2 LUT</td>
+    <td>USER_MAP</td>
+    <td>USER MAP, PRESET MAP</td>
+</tr><tr>
+    <td>🇸🇨</td>
+    <td>STRING</td>
+    <td>One of two dozen CV2 Built-in Colormap LUT<br>(Look Up Table) Presets</td>
+    <td>HSV</td>
+    <td>AUTUMN, BONE, JET, WINTER, RAINBOW, OCEAN,<br>SUMMER, SPRING, COOL, HSV, PINK, HOT,<br>PARULA, MAGMA, INFERNO, PLASMA, VIRIDIS,<br>CIVIDIS, TWILIGHT, TWILIGHT SHIFTED,<br>TURBO, DEEPGREEN</td>
+</tr><tr>
+    <td>VAL</td>
+    <td>INT</td>
+    <td>Value</td>
+    <td>255</td>
+    <td></td>
+</tr><tr>
+    <td>🙃</td>
+    <td>BOOLEAN</td>
+    <td>Flip Input A and Input B with each other</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>🔳</td>
+    <td>BOOLEAN</td>
+    <td>Invert the color match output</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>MATTE</td>
+    <td>VEC4</td>
+    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>(0, 0, 0, 255)</td>
+    <td></td>
+</tr>
+</table>
+
+    <h2>OUTPUT</h2>
+    <table>
+        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+        <tr>
+    <td>🖼️</td>
+    <td>IMAGE</td>
+    <td>Image</td>
+</tr><tr>
+    <td>🌈</td>
+    <td>IMAGE</td>
+    <td>RGB (no alpha) Color</td>
+</tr><tr>
+    <td>😷</td>
+    <td>MASK</td>
+    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+</tr>
+    </table>
+
+    <footer>
+        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+    </footer>
+</body>
+</html>

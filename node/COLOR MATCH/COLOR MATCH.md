@@ -24,7 +24,7 @@ MAP  |  STRING  | Custom image that will be transformed into<br>a LUT or a built
 VAL  |  INT  | Value | 255 | 
 🙃  |  BOOLEAN  | Flip Input A and Input B with each other | False | 
 🔳  |  BOOLEAN  | Invert the color match output | False | 
-MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 
 ## OUTPUT
 

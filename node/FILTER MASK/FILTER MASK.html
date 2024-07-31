@@ -1,133 +1,18 @@
-<style>
-.jov-doc :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --border-color: #ddd;
-}
-
-.jov-doc body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-  background-color: var(--background-color);
-  margin: 0;
-  padding: 20px;
-}
-
-.jov-doc .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.jov-doc h1, h2, h3 {
-  color: var(--secondary-color);
-}
-
-.jov-doc h1 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.jov-doc h2 {
-  border-bottom: 2px solid var(--primary-color);
-  padding-bottom: 10px;
-  margin-top: 30px;
-}
-
-.jov-doc table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.jov-doc th, td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.jov-doc th {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-.jov-doc tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.jov-doc img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.jov-doc .input-section, .output-section {
-  margin-bottom: 30px;
-}
-
-.jov-doc .param-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.jov-doc .param-key {
-  font-weight: bold;
-  min-width: 150px;
-  margin-right: 10px;
-}
-
-.jov-doc .param-value {
-  flex: 1;
-}
-
-.jov-doc @media (max-width: 768px) {
-  .param-row {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .param-key {
-    margin-bottom: 5px;
-  }
-}
-
-.jov-doc a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.jov-doc a:hover {
-  text-decoration: underline;
-}
-</style>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>FILTER MASK (JOV) 🤿</title>
 </head>
-<body class="jov-doc">
-    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/FILTER%20MASK/FILTER%20MASK.md" target="_blank" rel="noreferrer noopener">FILTER MASK (JOV) 🤿</a></h2>
-    <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-    <p>
-Create masks based on specific color ranges within an image. Specify the color range using start and end values and an optional fuzziness factor to adjust the range. This node allows for precise color-based mask creation, ideal for tasks like object isolation, background removal, or targeted color adjustments.
-</p>
-    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FILTER%20MASK/FILTER%20MASK.png" alt="FILTER MASK">
-    <p>OUTPUT NODE?: False</p>
-
-    <h2>INPUT</h2>
-    <h3>OPTIONAL</h3>
+<body>
+    <div class='jov-panel-doc'>
+        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/FILTER%20MASK/FILTER%20MASK.md" target="_blank" rel="noreferrer noopener">FILTER MASK (JOV) 🤿</a></h2>
+        <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
+        <p><br>Create masks based on specific color ranges within an image. Specify the color range using start and end values and an optional fuzziness factor to adjust the range. This node allows for precise color-based mask creation, ideal for tasks like object isolation, background removal, or targeted color adjustments.<br></p>
+        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FILTER%20MASK/FILTER%20MASK.png" alt="FILTER MASK">
+        <p>OUTPUT NODE?: False</p>
+        <h2>INPUT</h2>
+        <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
@@ -138,7 +23,7 @@ Create masks based on specific color ranges within an image. Specify the color r
     <td></td>
 </tr><tr>
     <td>START</td>
-    <td>VEC3</td>
+    <td>VEC3INT</td>
     <td>Start of the range</td>
     <td>(128, 128, 128)</td>
     <td></td>
@@ -150,7 +35,7 @@ Create masks based on specific color ranges within an image. Specify the color r
     <td></td>
 </tr><tr>
     <td>END</td>
-    <td>VEC3</td>
+    <td>VEC3INT</td>
     <td>End of the range</td>
     <td>(128, 128, 128)</td>
     <td></td>
@@ -162,17 +47,16 @@ Create masks based on specific color ranges within an image. Specify the color r
     <td></td>
 </tr><tr>
     <td>MATTE</td>
-    <td>VEC4</td>
+    <td>VEC4INT</td>
     <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
     <td>(0, 0, 0, 255)</td>
     <td></td>
 </tr>
 </table>
-
-    <h2>OUTPUT</h2>
-    <table>
-        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
-        <tr>
+        <h2>OUTPUT</h2>
+        <table>
+            <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+            <tr>
     <td>🖼️</td>
     <td>IMAGE</td>
     <td>Image</td>
@@ -185,10 +69,10 @@ Create masks based on specific color ranges within an image. Specify the color r
     <td>MASK</td>
     <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
 </tr>
-    </table>
-
-    <footer>
-        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
-    </footer>
+        </table>
+        <footer>
+            <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+        </footer>
+    </div>
 </body>
 </html>

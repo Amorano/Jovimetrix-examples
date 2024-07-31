@@ -26,7 +26,7 @@ LMH  |  VEC3  | Low, Middle, High | (0, 0.5, 1) |
 HSV  |  VEC3  | Hue, Saturation and Value | (0, 1, 1) | 
 🌓  |  FLOAT  | Contrast | 0 | 
 🔆  |  FLOAT  | Gamma | 1 | 
-MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 🔳  |  BOOLEAN  | Invert the mask input | False | 
 
 ## OUTPUT

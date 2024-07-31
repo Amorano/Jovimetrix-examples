@@ -1,133 +1,18 @@
-<style>
-.jov-doc :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --border-color: #ddd;
-}
-
-.jov-doc body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-  background-color: var(--background-color);
-  margin: 0;
-  padding: 20px;
-}
-
-.jov-doc .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.jov-doc h1, h2, h3 {
-  color: var(--secondary-color);
-}
-
-.jov-doc h1 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.jov-doc h2 {
-  border-bottom: 2px solid var(--primary-color);
-  padding-bottom: 10px;
-  margin-top: 30px;
-}
-
-.jov-doc table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.jov-doc th, td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.jov-doc th {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-.jov-doc tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.jov-doc img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.jov-doc .input-section, .output-section {
-  margin-bottom: 30px;
-}
-
-.jov-doc .param-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.jov-doc .param-key {
-  font-weight: bold;
-  min-width: 150px;
-  margin-right: 10px;
-}
-
-.jov-doc .param-value {
-  flex: 1;
-}
-
-.jov-doc @media (max-width: 768px) {
-  .param-row {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .param-key {
-    margin-bottom: 5px;
-  }
-}
-
-.jov-doc a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.jov-doc a:hover {
-  text-decoration: underline;
-}
-</style>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>VALUE (JOV) 🧬</title>
 </head>
-<body class="jov-doc">
-    <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/VALUE/VALUE.md" target="_blank" rel="noreferrer noopener">VALUE (JOV) 🧬</a></h2>
-    <h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
-    <p>
-Supplies raw or default values for various data types, supporting vector input with components for X, Y, Z, and W. It also provides a string input option.
-</p>
-    <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VALUE/VALUE.png" alt="VALUE">
-    <p>OUTPUT NODE?: False</p>
-
-    <h2>INPUT</h2>
-    <h3>OPTIONAL</h3>
+<body>
+    <div class='jov-panel-doc'>
+        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/VALUE/VALUE.md" target="_blank" rel="noreferrer noopener">VALUE (JOV) 🧬</a></h2>
+        <h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
+        <p><br>Supplies raw or default values for various data types, supporting vector input with components for X, Y, Z, and W. It also provides a string input option.<br></p>
+        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/VALUE/VALUE.png" alt="VALUE">
+        <p>OUTPUT NODE?: False</p>
+        <h2>INPUT</h2>
+        <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
@@ -192,11 +77,10 @@ Supplies raw or default values for various data types, supporting vector input w
     <td></td>
 </tr>
 </table>
-
-    <h2>OUTPUT</h2>
-    <table>
-        <tr><th>Name</th><th>Type</th><th>Description</th></tr>
-        <tr>
+        <h2>OUTPUT</h2>
+        <table>
+            <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+            <tr>
     <td>🦄</td>
     <td>*</td>
     <td>Any Type</td>
@@ -217,10 +101,10 @@ Supplies raw or default values for various data types, supporting vector input w
     <td>*</td>
     <td>Width</td>
 </tr>
-    </table>
-
-    <footer>
-        <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
-    </footer>
+        </table>
+        <footer>
+            <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+        </footer>
+    </div>
 </body>
 </html>

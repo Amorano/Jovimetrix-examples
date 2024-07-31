@@ -20,7 +20,7 @@ name | type | desc | default | meta
 VAL  |  INT  | the current frame number of the tick | 0 | 
 🔄  |  INT  | number of frames before looping starts. 0<br>means continuous playback (no loop point) | 0 | 
 🏎️  |  INT  | Fixed frame step rate based on FPS (1/FPS) | 24 | 
-BPM  |  FLOAT  | BPM trigger rate to send the input. If<br>input is empty, TRUE is sent on trigger | 120 | 
+BPM  |  INT  | BPM trigger rate to send the input. If<br>input is empty, TRUE is sent on trigger | 120 | 
 🎶  |  INT  | Number of beats per measure. Quarter note<br>is 4, Eighth is 8, 16 is 16, etc. | 4 | 
 ✋🏽  |  BOOLEAN  | Wait | False | 
 RESET  |  BOOLEAN  | Reset | False | 

@@ -21,14 +21,14 @@ FONT  |  STRING  | Available System Fonts | Almendra | Almendra, Alphabutt Base 
 LETTER  |  BOOLEAN  | If each letter be generated and output in<br>a batch | False | 
 AUTOSIZE  |  BOOLEAN  | Scale based on Width & Height | False | 
 🌈A  |  VEC4  | Color of the letters | (255, 255, 255, 255) | 
-MATTE  |  VEC3  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0) | 
+MATTE  |  VEC3INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0) | 
 COLS  |  INT  | 0 = Auto-Fit, >0 = Fit into N columns | 0 | 
 SIZE  |  INT  | Text Size | 16 | 
 ALIGN  |  STRING  | Top, Center or Bottom alignment | CENTER | TOP, CENTER, BOTTOM
 JUSTIFY  |  STRING  | How to align the text to the side margins<br>of the canvas: Left, Right, or Centered | CENTER | LEFT, CENTER, RIGHT
 MARGIN  |  INT  | Whitespace padding around canvas | 0 | 
 SPACING  |  INT  | Line Spacing between Text Lines | 25 | 
-🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (256, 256) | 
+🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (256, 256) | 
 🇽🇾  |  VEC2  | Offset the position | (0, 0) | 
 📐  |  FLOAT  | Rotation Angle | 0 | 
 EDGE  |  STRING  | Clip or Wrap the Canvas Edge | CLIP | CLIP, WRAP, WRAPX, WRAPY

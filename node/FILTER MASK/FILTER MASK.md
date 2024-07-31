@@ -17,11 +17,11 @@ Create masks based on specific color ranges within an image. Specify the color r
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 👾A  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
-START  |  VEC3  | Start of the range | (128, 128, 128) | 
+START  |  VEC3INT  | Start of the range | (128, 128, 128) | 
 🇴  |  BOOLEAN  | use an end point (start->end) when<br>calculating the filter range | False | 
-END  |  VEC3  | End of the range | (128, 128, 128) | 
+END  |  VEC3INT  | End of the range | (128, 128, 128) | 
 🛟  |  VEC3  | the fuzziness use to extend the start and<br>end range(s) | (0.5, 0.5, 0.5) | 
-MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 
 ## OUTPUT
 

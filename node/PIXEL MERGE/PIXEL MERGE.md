@@ -21,10 +21,10 @@ name | type | desc | default | meta
 🟦  |  *  | Blue |  | 
 ⬜  |  *  | Alpha |  | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
-🇼🇭  |  VEC2  | Width and Height as a Vector2 (x,y) | (512, 512) | 
+🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
-MATTE  |  VEC4  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
-🙃  |  VEC4  | Invert specific input prior to merging. R,<br>G, B, A. | (0, 0, 0, 0) | 
+MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+🙃  |  VEC4  | Invert specific input prior to merging. R,<br>G, B, A. |  | 
 🔳  |  BOOLEAN  | Invert the final merged output | False | 
 
 ## OUTPUT

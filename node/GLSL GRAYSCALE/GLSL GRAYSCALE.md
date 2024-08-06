@@ -15,7 +15,7 @@ Convert input to grayscale
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 image  |  IMAGE  | Unknown Explanation! |  | 
-conversion  |  VEC3  | 0 | (0.299, 0.587, 0.114) | 
+convert  |  VEC3  | Scalar for each channel | (0.299, 0.587, 0.114) | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT

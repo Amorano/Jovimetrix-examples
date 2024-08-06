@@ -16,6 +16,7 @@ Combines individual color channels (red, green, blue) along with an optional mas
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
+👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 🟥  |  *  | Red |  | 
 🟩  |  *  | Green |  | 
 🟦  |  *  | Blue |  | 

@@ -23,18 +23,25 @@ MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. Thi
 BATCH  |  INT  | Output as a BATCH (all images in a single<br>Tensor) or as a LIST of images (each image<br>processed separately) | 0 | 
 🏎️  |  INT  | Frames per second | 24 | 
 🕛  |  FLOAT  | Time | 0 | 
-VERTEX  |  STRING  | Select a vertex program to load | #version 330 core
+VERTEX  |  STRING  | Select a vertex program to load | 
+#version 330 core
+
+precision highp float;
+
 void main()
 {
     vec2 verts[3] = vec2[](vec2(-1, -1), vec2(3, -1), vec2(-1, 3));
     gl_Position = vec4(verts[gl_VertexID], 0, 1);
 }
  | 
-FRAGMENT  |  STRING  | Select a fragment program to load | uniform sampler2D imageA;
+FRAGMENT  |  STRING  | Select a fragment program to load | 
+uniform sampler2D image;
 
 void mainImage( out vec4 fragColor, vec2 fragCoord ) {
   vec2 uv = fragCoord.xy / iResolution.xy;
-  fragColor = texture2D(imageA, uv);
+  // Correcting for aspect ratio
+  // uv.y *= (iResolution.x / iResolution.y);
+  fragColor = texture2D(image, uv);
 }
  | 
 

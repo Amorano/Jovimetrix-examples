@@ -2,7 +2,7 @@
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL
 
-Convert LAB color space to RGB
+Convert LAB input to RGB
 
 ![GLSL LAB-2-RGB](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20LAB-2-RGB/GLSL%20LAB-2-RGB.png)
 

@@ -20,7 +20,7 @@ name | type | desc | default | meta
 VAL  |  INT  | Number of Vertical bars to try to fit<br>within the specified Width x Height | 100 | 
 THICK  |  FLOAT  | The percentage of fullness for each bar;<br>currently scaled from the left only | 0.72 | 
 🇼🇭  |  VEC2INT  | Final output size of the wave bar graph | (256, 256) | 
-🌈A  |  VEC4  | Bar Color | (128, 128, 0, 255) | 
+🌈A  |  VEC4INT  | Bar Color | (128, 128, 0, 255) | 
 MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 128, 128, 255) | 
 
 ## OUTPUT

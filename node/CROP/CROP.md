@@ -22,7 +22,7 @@ name | type | desc | default | meta
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 TL-TR  |  VEC4  | Top Left - Top Right | (0, 0, 0, 1) | 
 BL-BR  |  VEC4  | Bottom Left - Bottom Right | (1, 0, 1, 1) | 
-MATTE  |  VEC3INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0) | 
+MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 
 ## OUTPUT
 

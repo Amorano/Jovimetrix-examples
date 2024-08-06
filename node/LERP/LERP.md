@@ -22,11 +22,11 @@ name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 🅰️  |  *  | Custom Start Point |  | 
 🅱️  |  *  | Custom End Point |  | 
-🛟  |  FLOAT  | Blend Amount. 0 = full A, 1 = full B | 0.5 | 
-EASE  |  STRING  | Easing function | NONE | NONE, QUAD IN, QUAD OUT, QUAD IN OUT,<br>CUBIC IN, CUBIC OUT, CUBIC IN OUT, QUARTIC<br>IN, QUARTIC OUT, QUARTIC IN OUT, QUINTIC<br>IN, QUINTIC OUT, QUINTIC IN OUT, SIN IN,<br>SIN OUT, SIN IN OUT, CIRCULAR IN, CIRCULAR<br>OUT, CIRCULAR IN OUT, EXPONENTIAL IN,<br>EXPONENTIAL OUT, EXPONENTIAL IN OUT,<br>ELASTIC IN, ELASTIC OUT, ELASTIC IN OUT
-❓  |  STRING  | Output type desired from resultant<br>operation | INT | BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3,<br>VEC3INT, VEC4, VEC4INT, COORD2D
+🛟  |  VEC4  | Blend Amount. 0 = full A, 1 = full B | (0.5, 0.5, 0.5, 0.5) | 
 🅰️🅰️  |  VEC4  | default value vector for A | (0, 0, 0, 0) | 
 🅱️🅱️  |  VEC4  | default value vector for B | (1, 1, 1, 1) | 
+❓  |  STRING  | Output type desired from resultant<br>operation | FLOAT | BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3,<br>VEC3INT, VEC4, VEC4INT, COORD2D
+EASE  |  STRING  | Easing function | NONE | NONE, QUAD IN, QUAD OUT, QUAD IN OUT,<br>CUBIC IN, CUBIC OUT, CUBIC IN OUT, QUARTIC<br>IN, QUARTIC OUT, QUARTIC IN OUT, QUINTIC<br>IN, QUINTIC OUT, QUINTIC IN OUT, SIN IN,<br>SIN OUT, SIN IN OUT, CIRCULAR IN, CIRCULAR<br>OUT, CIRCULAR IN OUT, EXPONENTIAL IN,<br>EXPONENTIAL OUT, EXPONENTIAL IN OUT,<br>ELASTIC IN, ELASTIC OUT, ELASTIC IN OUT
 
 ## OUTPUT
 

@@ -16,12 +16,12 @@ Generates images containing text based on parameters such as font, size, alignme
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-📝  |  STRING  | Your Message |  | 
+📝  |  STRING  | Your Message | jovimetrix | 
 FONT  |  STRING  | Available System Fonts | Almendra | Almendra, Alphabutt Base A, Alphabutt<br>Letters A, Arial, BIG BREAST FONT,<br>Bahnschrift, Caladea, Calibri, Cambria,<br>Candara, Carlito, Cascadia Code, Cascadia<br>Mono, Comic Sans MS, Consolas, Constantia,<br>Corbel, Courier New, Cyclopia, DejaVu<br>Sans, DejaVu Sans Display, DejaVu Sans<br>Mono, DejaVu Serif, DejaVu Serif Display,<br>Ebrima
 LETTER  |  BOOLEAN  | If each letter be generated and output in<br>a batch | False | 
 AUTOSIZE  |  BOOLEAN  | Scale based on Width & Height | False | 
-🌈A  |  VEC4  | Color of the letters | (255, 255, 255, 255) | 
-MATTE  |  VEC3INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0) | 
+🌈A  |  VEC4INT  | Color of the letters | (255, 255, 255, 255) | 
+MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
 COLS  |  INT  | 0 = Auto-Fit, >0 = Fit into N columns | 0 | 
 SIZE  |  INT  | Text Size | 16 | 
 ALIGN  |  STRING  | Top, Center or Bottom alignment | CENTER | TOP, CENTER, BOTTOM

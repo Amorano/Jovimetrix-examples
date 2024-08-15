@@ -22,7 +22,7 @@ SRC  |  STRING  | Source | URL | URL, CAMERA, MONITOR, WINDOW, SPOUT
 🖥  |  STRING  | Monitor | dynamic | list of system monitor devices
 🪟  |  STRING  | Window | dynamic | list of available system windows
 DPI  |  BOOLEAN  | Use DPI mode from OS | True | 
-🔲  |  VEC4  | Bounding box | (0, 0, 1, 1) | 
+🔲  |  VEC4  | Define an inner bounding box using<br>relative coordinates [0..1] as a box<br>region to clip. | (0, 0, 1, 1) | 
 🏎️  |  INT  | Frames per second | 30 | 
 ✋🏽  |  BOOLEAN  | Wait | False | 
 BATCH  |  VEC2INT  | Number of frames wanted and the FPS | (1, 30) | 

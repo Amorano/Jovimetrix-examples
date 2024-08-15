@@ -1,6 +1,6 @@
 ## [GLSL NORMAL (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20NORMAL/GLSL%20NORMAL.md)
 
-## JOVIMETRIX 🔺🟩🔵/GLSL
+## JOVIMETRIX 🔺🟩🔵/GLSL/CREATE
 
 Convert input into a Normal map
 
@@ -14,8 +14,10 @@ Convert input into a Normal map
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-image  |  IMAGE  | Unknown Explanation! |  | 
-scalar  |  FLOAT  | Intensity of depth | 0.25 | 
+image  |  IMAGE  | Input image to convert into a normal map |  | 
+scalar  |  FLOAT  | Intensity of base normal | 1.0 | 
+detail  |  FLOAT  | Intensity of detail normal | 1.0 | 
+flip  |  BOOLEAN  | Reverse the Normal direction | False | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT

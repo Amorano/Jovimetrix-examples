@@ -2,36 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GLSL FILTER RANGE (JOV) 🧙🏽‍♀️</title>
+    <title>GLSL NORMAL BLEND (JOV) 🧙🏽</title>
 </head>
 <body>
     <div class='jov-panel-doc'>
-        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.md" target="_blank" rel="noreferrer noopener">GLSL FILTER RANGE (JOV) 🧙🏽‍♀️</a></h2>
-        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/FILTER</h3>
-        <p>Select pixels from start color through end color. Maintains alpha/mask.</p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.png" alt="GLSL FILTER RANGE">
+        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20NORMAL%20BLEND/GLSL%20NORMAL%20BLEND.md" target="_blank" rel="noreferrer noopener">GLSL NORMAL BLEND (JOV) 🧙🏽</a></h2>
+        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/UTILITY</h3>
+        <p>Blend two Normal maps</p>
+        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20NORMAL%20BLEND/GLSL%20NORMAL%20BLEND.png" alt="GLSL NORMAL BLEND">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
-    <td>image</td>
+    <td>imageA</td>
     <td>IMAGE</td>
-    <td>RGB(A) image</td>
+    <td>Input image A to blend with image B</td>
     <td></td>
     <td></td>
 </tr><tr>
-    <td>start</td>
-    <td>VEC3</td>
-    <td>Start of the Range</td>
-    <td>(0, 0, 0)</td>
+    <td>imageB</td>
+    <td>IMAGE</td>
+    <td>Input image B to blend with image A</td>
+    <td></td>
     <td></td>
 </tr><tr>
-    <td>end</td>
-    <td>VEC3</td>
-    <td>End of the Range</td>
-    <td>(1.0, 1.0, 1.0)</td>
+    <td>blend</td>
+    <td>FLOAT</td>
+    <td>Intensity of blend</td>
+    <td>0.5</td>
     <td></td>
 </tr><tr>
     <td>MODE</td>

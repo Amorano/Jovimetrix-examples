@@ -1,8 +1,8 @@
 ## [GLSL FILTER RANGE (JOV) 🧙🏽‍♀️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.md)
 
-## JOVIMETRIX 🔺🟩🔵/GLSL
+## JOVIMETRIX 🔺🟩🔵/GLSL/FILTER
 
-Select pixels from start color through end color
+Select pixels from start color through end color. Maintains alpha/mask.
 
 ![GLSL FILTER RANGE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.png)
 
@@ -14,7 +14,7 @@ Select pixels from start color through end color
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-image  |  IMAGE  | Unknown Explanation! |  | 
+image  |  IMAGE  | RGB(A) image |  | 
 start  |  VEC3  | Start of the Range | (0, 0, 0) | 
 end  |  VEC3  | End of the Range | (1.0, 1.0, 1.0) | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT

@@ -7,7 +7,7 @@
 <body>
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20NORMAL/GLSL%20NORMAL.md" target="_blank" rel="noreferrer noopener">GLSL NORMAL (JOV) 🧙🏽</a></h2>
-        <h3>JOVIMETRIX 🔺🟩🔵/GLSL</h3>
+        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/CREATE</h3>
         <p>Convert input into a Normal map</p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20NORMAL/GLSL%20NORMAL.png" alt="GLSL NORMAL">
         <p>OUTPUT NODE?: False</p>
@@ -18,14 +18,26 @@
     <tr>
     <td>image</td>
     <td>IMAGE</td>
-    <td>Unknown Explanation!</td>
+    <td>Input image to convert into a normal map</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>scalar</td>
     <td>FLOAT</td>
-    <td>Intensity of depth</td>
-    <td>0.25</td>
+    <td>Intensity of base normal</td>
+    <td>1.0</td>
+    <td></td>
+</tr><tr>
+    <td>detail</td>
+    <td>FLOAT</td>
+    <td>Intensity of detail normal</td>
+    <td>1.0</td>
+    <td></td>
+</tr><tr>
+    <td>flip</td>
+    <td>BOOLEAN</td>
+    <td>Reverse the Normal direction</td>
+    <td>False</td>
     <td></td>
 </tr><tr>
     <td>MODE</td>

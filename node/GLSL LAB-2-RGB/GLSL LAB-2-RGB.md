@@ -1,8 +1,8 @@
 ## [GLSL LAB-2-RGB (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20LAB-2-RGB/GLSL%20LAB-2-RGB.md)
 
-## JOVIMETRIX 🔺🟩🔵/GLSL
+## JOVIMETRIX 🔺🟩🔵/GLSL/COLOR/CONVERT
 
-Convert LAB input to RGB
+Convert LAB image into RGB color space. Maintains alpha/mask.
 
 ![GLSL LAB-2-RGB](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20LAB-2-RGB/GLSL%20LAB-2-RGB.png)
 
@@ -14,7 +14,7 @@ Convert LAB input to RGB
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-image  |  IMAGE  | Unknown Explanation! |  | 
+image  |  IMAGE  | LAB image |  | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT

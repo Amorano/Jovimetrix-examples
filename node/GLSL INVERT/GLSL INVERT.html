@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GLSL FILTER RANGE (JOV) 🧙🏽‍♀️</title>
+    <title>GLSL INVERT (JOV) 🧙🏽‍♀️</title>
 </head>
 <body>
     <div class='jov-panel-doc'>
-        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.md" target="_blank" rel="noreferrer noopener">GLSL FILTER RANGE (JOV) 🧙🏽‍♀️</a></h2>
-        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/FILTER</h3>
-        <p>Select pixels from start color through end color. Maintains alpha/mask.</p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.png" alt="GLSL FILTER RANGE">
+        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20INVERT/GLSL%20INVERT.md" target="_blank" rel="noreferrer noopener">GLSL INVERT (JOV) 🧙🏽‍♀️</a></h2>
+        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/UTILITY</h3>
+        <p>Invert the channels of an image along a scalar [0..1] range.</p>
+        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20INVERT/GLSL%20INVERT.png" alt="GLSL INVERT">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
@@ -18,20 +18,14 @@
     <tr>
     <td>image</td>
     <td>IMAGE</td>
-    <td>RGB(A) image</td>
+    <td>4-channel data</td>
     <td></td>
     <td></td>
 </tr><tr>
-    <td>start</td>
-    <td>VEC3</td>
-    <td>Start of the Range</td>
-    <td>(0, 0, 0)</td>
-    <td></td>
-</tr><tr>
-    <td>end</td>
-    <td>VEC3</td>
-    <td>End of the Range</td>
-    <td>(1.0, 1.0, 1.0)</td>
+    <td>invert</td>
+    <td>VEC4</td>
+    <td>amount to invert each channel</td>
+    <td>(0, 0, 0, 0)</td>
     <td></td>
 </tr><tr>
     <td>MODE</td>

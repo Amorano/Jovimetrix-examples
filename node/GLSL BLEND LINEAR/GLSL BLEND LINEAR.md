@@ -1,6 +1,6 @@
 ## [GLSL BLEND LINEAR (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.md)
 
-## JOVIMETRIX 🔺🟩🔵/GLSL
+## JOVIMETRIX 🔺🟩🔵/GLSL/UTILITY
 
 Simple linear blend between two images
 
@@ -14,8 +14,8 @@ Simple linear blend between two images
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-imageA  |  IMAGE  | Unknown Explanation! |  | 
-imageB  |  IMAGE  | Unknown Explanation! |  | 
+imageA  |  IMAGE  | MASK, RGB or RGBA |  | 
+imageB  |  IMAGE  | MASK, RGB or RGBA |  | 
 blend_amt  |  FLOAT  | Scalar blend amount | 0.5 | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 

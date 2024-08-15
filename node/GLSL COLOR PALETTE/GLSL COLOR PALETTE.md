@@ -1,10 +1,10 @@
-## [GLSL GRAYSCALE (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20GRAYSCALE/GLSL%20GRAYSCALE.md)
+## [GLSL COLOR PALETTE (JOV) 🧙🏽‍♀️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20COLOR%20PALETTE/GLSL%20COLOR%20PALETTE.md)
 
-## JOVIMETRIX 🔺🟩🔵/GLSL/COLOR
+## JOVIMETRIX 🔺🟩🔵/GLSL/CREATE
 
-Convert input to grayscale
+COLOR PALETTE
 
-![GLSL GRAYSCALE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20GRAYSCALE/GLSL%20GRAYSCALE.png)
+![GLSL COLOR PALETTE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20COLOR%20PALETTE/GLSL%20COLOR%20PALETTE.png)
 
 #### OUTPUT NODE?: `False`
 
@@ -14,8 +14,10 @@ Convert input to grayscale
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-image  |  IMAGE  | MASK, RGB or RGBA |  | 
-convert  |  VEC3  | Scalar for each channel | (0.299, 0.587, 0.114) | 
+bias  |  VEC3  | scale and bias (dc offset) | (0.5, 0.5, 0.5) | 
+amp  |  VEC3  | contrast and brightness (amplitude) | (0.5, 0.5, 0.5) | 
+freq  |  VEC3  | color cycle (R, G and B) (frequency) | (1.0, 1.0, 1.0) | 
+phase  |  VEC3  | starting offset for the cycle | (0, 0, 0) | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT

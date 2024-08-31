@@ -24,10 +24,10 @@ name | type | desc
 :---:|:---:|---
 🎛️  |  JMIDIMSG  | Midi 
 🔛  |  BOOLEAN  | On 
-CHAN  |  INT  | Channel 
+chan  |  INT  |  
 🎚️  |  INT  | Control 
 🎶  |  INT  | Note 
-VAL  |  FLOAT  | Value 
+val  |  FLOAT  |  
 0-1  |  FLOAT  | Normalize 
 
 original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

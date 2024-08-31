@@ -22,16 +22,16 @@ SRC  |  STRING  | Source | URL | URL, CAMERA, MONITOR, WINDOW, SPOUT
 🖥  |  STRING  | Monitor | dynamic | list of system monitor devices
 🪟  |  STRING  | Window | dynamic | list of available system windows
 DPI  |  BOOLEAN  | Use DPI mode from OS | True | 
-🔲  |  VEC4  | Define an inner bounding box using<br>relative coordinates [0..1] as a box<br>region to clip. | (0, 0, 1, 1) | 
+🔲  |  VEC4  | Define an inner bounding box using<br>relative coordinates [0..1] as a box<br>region to clip. | [0, 0, 1, 1] | 
 🏎️  |  INT  | Frames per second | 30 | 
 ✋🏽  |  BOOLEAN  | Wait | False | 
-BATCH  |  VEC2INT  | Number of frames wanted and the FPS | (1, 30) | 
+BATCH  |  VEC2INT  | Number of frames wanted and the FPS | [1, 30] | 
 🧭  |  STRING  | Orientation | NORMAL | NORMAL, FLIPX, FLIPY, FLIPXY
 🔎  |  FLOAT  | ZOOM | 0.0 | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | NONE | NONE, CROP, MATTE, FIT, ASPECT, ASPECT<br>SHORT
-🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | (512, 512) | 
+🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | [512, 512] | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
-MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | (0, 0, 0, 255) | 
+MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | [0, 0, 0, 255] | 
 
 ## OUTPUT
 

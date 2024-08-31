@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/STACK/STACK.md" target="_blank" rel="noreferrer noopener">STACK (JOV) ➕</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><br>Merge multiple input images into a single composite image by stacking them along a specified axis. Options include axis, stride, scaling mode, width and height, interpolation method, and matte color. The axis parameter allows for horizontal, vertical, or grid stacking of images, while stride controls the spacing between them.<br></p>
+        <p><p>Merge multiple input images into a single composite image by stacking them along a specified axis. Options include axis, stride, scaling mode, width and height, interpolation method, and matte color. The axis parameter allows for horizontal, vertical, or grid stacking of images, while stride controls the spacing between them.</p></p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STACK/STACK.png" alt="STACK">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
@@ -37,7 +37,7 @@
     <td>🇼🇭</td>
     <td>VEC2INT</td>
     <td>Width and Height as a Vector2 (x,y)</td>
-    <td>(512, 512)</td>
+    <td>[512, 512]</td>
     <td></td>
 </tr><tr>
     <td>🎞️</td>
@@ -49,7 +49,7 @@
     <td>MATTE</td>
     <td>VEC4INT</td>
     <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
-    <td>(0, 0, 0, 255)</td>
+    <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
 </table>

@@ -29,6 +29,6 @@ name | type | desc | default | meta
 name | type | desc
 :---:|:---:|---
 ⚡  |  *  | Trigger 
-VAL  |  *  | Value 
+val  |  *  |  
 
 original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

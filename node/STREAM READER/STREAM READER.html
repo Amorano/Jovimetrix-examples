@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/STREAM%20READER/STREAM%20READER.md" target="_blank" rel="noreferrer noopener">STREAM READER (JOV) 📺</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/DEVICE</h3>
-        <p><br>Capture frames from various sources such as URLs, cameras, monitors, windows, or Spout streams. It supports batch processing, allowing multiple frames to be captured simultaneously. The node provides options for configuring the source, resolution, frame rate, zoom, orientation, and interpolation method. Additionally, it supports capturing frames from multiple monitors or windows simultaneously. The captured frames are returned as tensors, enabling further processing downstream.<br></p>
+        <p><p>Capture frames from various sources such as URLs, cameras, monitors, windows, or Spout streams. It supports batch processing, allowing multiple frames to be captured simultaneously. The node provides options for configuring the source, resolution, frame rate, zoom, orientation, and interpolation method. Additionally, it supports capturing frames from multiple monitors or windows simultaneously. The captured frames are returned as tensors, enabling further processing downstream.</p></p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/STREAM%20READER/STREAM%20READER.png" alt="STREAM READER">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
@@ -55,7 +55,7 @@
     <td>🔲</td>
     <td>VEC4</td>
     <td>Define an inner bounding box using<br>relative coordinates [0..1] as a box<br>region to clip.</td>
-    <td>(0, 0, 1, 1)</td>
+    <td>[0, 0, 1, 1]</td>
     <td></td>
 </tr><tr>
     <td>🏎️</td>
@@ -73,7 +73,7 @@
     <td>BATCH</td>
     <td>VEC2INT</td>
     <td>Number of frames wanted and the FPS</td>
-    <td>(1, 30)</td>
+    <td>[1, 30]</td>
     <td></td>
 </tr><tr>
     <td>🧭</td>
@@ -97,7 +97,7 @@
     <td>🇼🇭</td>
     <td>VEC2INT</td>
     <td>Width and Height as a Vector2 (x,y)</td>
-    <td>(512, 512)</td>
+    <td>[512, 512]</td>
     <td></td>
 </tr><tr>
     <td>🎞️</td>
@@ -109,7 +109,7 @@
     <td>MATTE</td>
     <td>VEC4INT</td>
     <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
-    <td>(0, 0, 0, 255)</td>
+    <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
 </table>

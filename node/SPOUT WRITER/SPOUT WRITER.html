@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/SPOUT%20WRITER/SPOUT%20WRITER.md" target="_blank" rel="noreferrer noopener">SPOUT WRITER (JOV) 🎥</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/DEVICE</h3>
-        <p><br>Sends frames to a specified Spout receiver application for real-time video sharing. Accepts tensors representing images and allows configuration of parameters such as the Spout host, frame rate, resolution, scaling mode, interpolation method, and matte color. The node continuously streams frames to the specified Spout host, enabling real-time visualization or integration with other applications that support Spout.<br></p>
+        <p><p>Sends frames to a specified Spout receiver application for real-time video sharing. Accepts tensors representing images and allows configuration of parameters such as the Spout host, frame rate, resolution, scaling mode, interpolation method, and matte color. The node continuously streams frames to the specified Spout host, enabling real-time visualization or integration with other applications that support Spout.</p></p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SPOUT%20WRITER/SPOUT%20WRITER.png" alt="SPOUT WRITER">
         <p>OUTPUT NODE?: True</p>
         <h2>INPUT</h2>
@@ -43,7 +43,7 @@
     <td>🇼🇭</td>
     <td>VEC2INT</td>
     <td>Width and Height as a Vector2 (x,y)</td>
-    <td>(512, 512)</td>
+    <td>[512, 512]</td>
     <td></td>
 </tr><tr>
     <td>🎞️</td>
@@ -55,7 +55,7 @@
     <td>MATTE</td>
     <td>VEC4INT</td>
     <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
-    <td>(0, 0, 0, 255)</td>
+    <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
 </table>

@@ -17,19 +17,20 @@ Manage a queue of items, such as file paths or data. It supports various formats
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
 Q  |  STRING  | Queue | ./res/img/test-a.png | 
-VAL  |  INT  | the current index for the current queue<br>item | 0 | 
+VAL  |  INT  | The current index for the current queue<br>item | 0 | 
 ✋🏽  |  BOOLEAN  | Hold the item at the current queue index | False | 
-RESET  |  BOOLEAN  | reset the queue back to index 1 | False | 
-BATCH  |  BOOLEAN  | load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list | False | 
+RESET  |  BOOLEAN  | Reset the queue back to index 1 | False | 
+BATCH  |  BOOLEAN  | Load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list | False | 
+RECURSE  |  BOOLEAN  | Search within sub-directories | False | 
 
 ## OUTPUT
 
 name | type | desc
 :---:|:---:|---
 🦄  |  *  | Any Type 
-Q  |  *  | Queue 
-CURRENT  |  *  | Current 
-INDEX  |  INT  | Current item index in the Queue list 
-TOTAL  |  INT  | Total items in the current Queue List 
+q  |  *  |  
+current  |  *  |  
+index  |  INT  |  
+total  |  INT  |  
 
 original help system powered by [MelMass](https://github.com/melMass) & the [comfy_mtb](https://github.com/melMass/comfy_mtb) project

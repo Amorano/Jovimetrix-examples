@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20MATCH/COLOR%20MATCH.md" target="_blank" rel="noreferrer noopener">COLOR MATCH (JOV) 💞</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><br>Adjust the color scheme of one image to match another with the Color Match Node. Choose from various color matching LUTs or Reinhard matching. You can specify a custom user color maps, the number of colors, and whether to flip or invert the images.<br></p>
+        <p><p>Adjust the color scheme of one image to match another with the Color Match Node. Choose from various color matching LUTs or Reinhard matching. You can specify a custom user color maps, the number of colors, and whether to flip or invert the images.</p></p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20MATCH/COLOR%20MATCH.png" alt="COLOR MATCH">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
@@ -48,7 +48,7 @@
 </tr><tr>
     <td>VAL</td>
     <td>INT</td>
-    <td>Value</td>
+    <td>The number of colors to use from the LUT<br>during the remap. Will quantize the LUT<br>range.</td>
     <td>255</td>
     <td></td>
 </tr><tr>
@@ -67,7 +67,7 @@
     <td>MATTE</td>
     <td>VEC4INT</td>
     <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
-    <td>(0, 0, 0, 255)</td>
+    <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
 </table>

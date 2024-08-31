@@ -22,9 +22,9 @@ name | type | desc | default | meta
 🇾  |  *  | Y | 0 | 
 🇿  |  *  | Z | 0 | 
 🇼  |  *  | Width | 0 | 
-🅰️🅰️  |  VEC4  | default value vector for A | (0, 0, 0, 0) | 
+🅰️🅰️  |  VEC4  | default value vector for A | [0, 0, 0, 0] | 
 seed  |  INT  | Random generator's initial value | 0 | 
-🅱️🅱️  |  VEC4  | default value vector for B | (1, 1, 1, 1) | 
+🅱️🅱️  |  VEC4  | default value vector for B | [1, 1, 1, 1] | 
 📝  |  STRING  | String Entry |  | 
 
 ## OUTPUT

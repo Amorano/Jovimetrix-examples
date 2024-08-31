@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/QUEUE/QUEUE.md" target="_blank" rel="noreferrer noopener">QUEUE (JOV) 🗃</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/UTILITY</h3>
-        <p><br>Manage a queue of items, such as file paths or data. It supports various formats including images, videos, text files, and JSON files. Users can specify the current index for the queue item, enable pausing the queue, or reset it back to the first index. The node outputs the current item in the queue, the entire queue, the current index, and the total number of items in the queue.<br></p>
+        <p><p>Manage a queue of items, such as file paths or data. It supports various formats including images, videos, text files, and JSON files. Users can specify the current index for the queue item, enable pausing the queue, or reset it back to the first index. The node outputs the current item in the queue, the entire queue, the current index, and the total number of items in the queue.</p></p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/QUEUE/QUEUE.png" alt="QUEUE">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
@@ -24,7 +24,7 @@
 </tr><tr>
     <td>VAL</td>
     <td>INT</td>
-    <td>the current index for the current queue<br>item</td>
+    <td>The current index for the current queue<br>item</td>
     <td>0</td>
     <td></td>
 </tr><tr>
@@ -36,13 +36,19 @@
 </tr><tr>
     <td>RESET</td>
     <td>BOOLEAN</td>
-    <td>reset the queue back to index 1</td>
+    <td>Reset the queue back to index 1</td>
     <td>False</td>
     <td></td>
 </tr><tr>
     <td>BATCH</td>
     <td>BOOLEAN</td>
-    <td>load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list</td>
+    <td>Load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>RECURSE</td>
+    <td>BOOLEAN</td>
+    <td>Search within sub-directories</td>
     <td>False</td>
     <td></td>
 </tr>
@@ -55,21 +61,21 @@
     <td>*</td>
     <td>Any Type</td>
 </tr><tr>
-    <td>Q</td>
+    <td>q</td>
     <td>*</td>
-    <td>Queue</td>
+    <td></td>
 </tr><tr>
-    <td>CURRENT</td>
+    <td>current</td>
     <td>*</td>
-    <td>Current</td>
+    <td></td>
 </tr><tr>
-    <td>INDEX</td>
+    <td>index</td>
     <td>INT</td>
-    <td>Current item index in the Queue list</td>
+    <td></td>
 </tr><tr>
-    <td>TOTAL</td>
+    <td>total</td>
     <td>INT</td>
-    <td>Total items in the current Queue List</td>
+    <td></td>
 </tr>
         </table>
         <footer>

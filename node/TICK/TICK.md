@@ -31,7 +31,7 @@ BATCH  |  INT  | Number of frames wanted | 1 |
 
 name | type | desc
 :---:|:---:|---
-VAL  |  INT  | Value 
+val  |  INT  |  
 🛟  |  FLOAT  | Linear 
 🏎️  |  FLOAT  | Frames per second 
 ⚡  |  *  | Trigger 

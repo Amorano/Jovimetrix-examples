@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TRANSFORM/TRANSFORM.md" target="_blank" rel="noreferrer noopener">TRANSFORM (JOV) 🏝️</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><br>Apply various geometric transformations to images, including translation, rotation, scaling, mirroring, tiling and perspective projection. It offers extensive control over image manipulation to achieve desired visual effects.<br></p>
+        <p><p>Apply various geometric transformations to images, including translation, rotation, scaling, mirroring, tiling and perspective projection. It offers extensive control over image manipulation to achieve desired visual effects.</p></p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TRANSFORM/TRANSFORM.png" alt="TRANSFORM">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
@@ -25,7 +25,7 @@
     <td>🇽🇾</td>
     <td>VEC2</td>
     <td>X and Y</td>
-    <td>(0, 0)</td>
+    <td>[0, 0]</td>
     <td></td>
 </tr><tr>
     <td>📐</td>
@@ -37,13 +37,13 @@
     <td>📏</td>
     <td>VEC2</td>
     <td>Scalar by which to scale the input</td>
-    <td>(1.0, 1.0)</td>
+    <td>[1.0, 1.0]</td>
     <td></td>
 </tr><tr>
     <td>TILE</td>
     <td>VEC2</td>
     <td>Title</td>
-    <td>(1.0, 1.0)</td>
+    <td>[1.0, 1.0]</td>
     <td></td>
 </tr><tr>
     <td>EDGE</td>
@@ -61,7 +61,7 @@
     <td>PIVOT</td>
     <td>VEC2</td>
     <td>Pivot</td>
-    <td>(0.5, 0.5)</td>
+    <td>[0.5, 0.5]</td>
     <td></td>
 </tr><tr>
     <td>PROJ</td>
@@ -73,13 +73,13 @@
     <td>TL-TR</td>
     <td>VEC4</td>
     <td>Top Left - Top Right</td>
-    <td>(0, 0, 1, 0)</td>
+    <td>[0, 0, 1, 0]</td>
     <td></td>
 </tr><tr>
     <td>BL-BR</td>
     <td>VEC4</td>
     <td>Bottom Left - Bottom Right</td>
-    <td>(0, 1, 1, 1)</td>
+    <td>[0, 1, 1, 1]</td>
     <td></td>
 </tr><tr>
     <td>💪🏽</td>
@@ -97,7 +97,7 @@
     <td>🇼🇭</td>
     <td>VEC2INT</td>
     <td>Width and Height as a Vector2 (x,y)</td>
-    <td>(512, 512)</td>
+    <td>[512, 512]</td>
     <td></td>
 </tr><tr>
     <td>🎞️</td>
@@ -109,7 +109,7 @@
     <td>MATTE</td>
     <td>VEC4INT</td>
     <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
-    <td>(0, 0, 0, 255)</td>
+    <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
 </table>

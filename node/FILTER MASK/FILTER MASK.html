@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/FILTER%20MASK/FILTER%20MASK.md" target="_blank" rel="noreferrer noopener">FILTER MASK (JOV) 🤿</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><br>Create masks based on specific color ranges within an image. Specify the color range using start and end values and an optional fuzziness factor to adjust the range. This node allows for precise color-based mask creation, ideal for tasks like object isolation, background removal, or targeted color adjustments.<br></p>
+        <p><p>Create masks based on specific color ranges within an image. Specify the color range using start and end values and an optional fuzziness factor to adjust the range. This node allows for precise color-based mask creation, ideal for tasks like object isolation, background removal, or targeted color adjustments.</p></p>
         <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FILTER%20MASK/FILTER%20MASK.png" alt="FILTER MASK">
         <p>OUTPUT NODE?: False</p>
         <h2>INPUT</h2>
@@ -25,7 +25,7 @@
     <td>START</td>
     <td>VEC3INT</td>
     <td>Start of the range</td>
-    <td>(128, 128, 128)</td>
+    <td>[128, 128, 128]</td>
     <td></td>
 </tr><tr>
     <td>🇴</td>
@@ -37,19 +37,19 @@
     <td>END</td>
     <td>VEC3INT</td>
     <td>End of the range</td>
-    <td>(128, 128, 128)</td>
+    <td>[128, 128, 128]</td>
     <td></td>
 </tr><tr>
     <td>🛟</td>
     <td>VEC3</td>
     <td>the fuzziness use to extend the start and<br>end range(s)</td>
-    <td>(0.5, 0.5, 0.5)</td>
+    <td>[0.5, 0.5, 0.5]</td>
     <td></td>
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
     <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
-    <td>(0, 0, 0, 255)</td>
+    <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
 </table>

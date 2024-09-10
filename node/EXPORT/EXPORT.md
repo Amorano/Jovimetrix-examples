@@ -16,7 +16,7 @@ Responsible for saving images or animations to disk. It supports various output 
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 📤  |  STRING  | Pass Out | <comfy output dir> | 
 FORMAT  |  STRING  | Format | gifski | gifski, gif, png, jpg
 PREFIX  |  STRING  | Prefix | jovi | 

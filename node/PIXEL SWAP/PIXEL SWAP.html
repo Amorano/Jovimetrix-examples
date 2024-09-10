@@ -8,31 +8,31 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/PIXEL%20SWAP/PIXEL%20SWAP.md" target="_blank" rel="noreferrer noopener">PIXEL SWAP (JOV) 🔃</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><p>Swap pixel values between two input images based on specified channel swizzle operations. Options include pixel inputs, swap operations for red, green, blue, and alpha channels, and constant values for each channel. The swap operations allow for flexible pixel manipulation by determining the source of each channel in the output image, whether it be from the first image, the second image, or a constant value.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20SWAP/PIXEL%20SWAP.png" alt="PIXEL SWAP">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Swap pixel values between two input images based on specified channel swizzle operations. Options include pixel inputs, swap operations for red, green, blue, and alpha channels, and constant values for each channel. The swap operations allow for flexible pixel manipulation by determining the source of each channel in the output image, whether it be from the first image, the second image, or a constant value.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/PIXEL%20SWAP/PIXEL%20SWAP.png" alt="PIXEL SWAP"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾A</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>👾B</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>SWAP R</td>
     <td>STRING</td>
-    <td>Replace input Red channel with target<br>channel or constant</td>
+    <td>Replace input Red channel with target channel or constant</td>
     <td>RED_A</td>
-    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT</td>
+    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
 </tr><tr>
     <td>🟥</td>
     <td>INT</td>
@@ -42,9 +42,9 @@
 </tr><tr>
     <td>SWAP G</td>
     <td>STRING</td>
-    <td>Replace input Green channel with target<br>channel or constant</td>
+    <td>Replace input Green channel with target channel or constant</td>
     <td>GREEN_A</td>
-    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT</td>
+    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
 </tr><tr>
     <td>🟩</td>
     <td>INT</td>
@@ -54,9 +54,9 @@
 </tr><tr>
     <td>SWAP B</td>
     <td>STRING</td>
-    <td>Replace input Blue channel with target<br>channel or constant</td>
+    <td>Replace input Blue channel with target channel or constant</td>
     <td>BLUE_A</td>
-    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT</td>
+    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
 </tr><tr>
     <td>🟦</td>
     <td>INT</td>
@@ -66,9 +66,9 @@
 </tr><tr>
     <td>SWAP A</td>
     <td>STRING</td>
-    <td>Replace input Alpha channel with target<br>channel or constant</td>
+    <td>Replace input Alpha channel with target channel or constant</td>
     <td>ALPHA_A</td>
-    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT</td>
+    <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
 </tr><tr>
     <td>⬜</td>
     <td>INT</td>
@@ -91,7 +91,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

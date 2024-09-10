@@ -8,16 +8,16 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TRANSFORM/TRANSFORM.md" target="_blank" rel="noreferrer noopener">TRANSFORM (JOV) 🏝️</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><p>Apply various geometric transformations to images, including translation, rotation, scaling, mirroring, tiling and perspective projection. It offers extensive control over image manipulation to achieve desired visual effects.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TRANSFORM/TRANSFORM.png" alt="TRANSFORM">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Apply various geometric transformations to images, including translation, rotation, scaling, mirroring, tiling and perspective projection. It offers extensive control over image manipulation to achieve desired visual effects.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TRANSFORM/TRANSFORM.png" alt="TRANSFORM"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
@@ -56,7 +56,7 @@
     <td>STRING</td>
     <td>Mirror</td>
     <td>NONE</td>
-    <td>NONE, X, FLIP X, Y, FLIP Y, XY, X FLIP Y,<br>FLIP XY, FLIP X FLIP Y</td>
+    <td>NONE, X, FLIP X, Y, FLIP Y, XY, X FLIP Y, FLIP XY, FLIP X FLIP Y</td>
 </tr><tr>
     <td>PIVOT</td>
     <td>VEC2</td>
@@ -68,7 +68,7 @@
     <td>STRING</td>
     <td>Projection</td>
     <td>NORMAL</td>
-    <td>NORMAL, POLAR, SPHERICAL, FISHEYE,<br>PERSPECTIVE</td>
+    <td>NORMAL, POLAR, SPHERICAL, FISHEYE, PERSPECTIVE</td>
 </tr><tr>
     <td>TL-TR</td>
     <td>VEC4</td>
@@ -90,7 +90,7 @@
 </tr><tr>
     <td>MODE</td>
     <td>STRING</td>
-    <td>Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size</td>
+    <td>Decide whether the images should be resized to fit a specific dimension. Available modes include scaling to fit within given dimensions or keeping the original size</td>
     <td>MATTE</td>
     <td>MATTE, CROP, FIT, ASPECT, ASPECT SHORT</td>
 </tr><tr>
@@ -102,13 +102,13 @@
 </tr><tr>
     <td>🎞️</td>
     <td>STRING</td>
-    <td>Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case</td>
+    <td>Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case</td>
     <td>LANCZOS4</td>
-    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT</td>
+    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT</td>
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
@@ -127,7 +127,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

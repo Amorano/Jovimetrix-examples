@@ -16,7 +16,7 @@ Sends frames to a specified route, typically for live streaming or recording pur
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 🚌  |  STRING  | Route | /stream | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | MATTE | MATTE, CROP, FIT, ASPECT, ASPECT SHORT
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | [512, 512] | 

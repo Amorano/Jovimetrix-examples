@@ -16,7 +16,7 @@ Extract a portion of an input image or resize it. It supports various cropping m
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 ⚒️  |  STRING  | Function | CENTER | CENTER, XY, FREE, HEAD, BODY
 🇽🇾  |  VEC2  | X and Y | [0, 0] | 
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | [512, 512] | 

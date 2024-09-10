@@ -16,8 +16,8 @@ Generates false perception 3D images from 2D input. Set tile divisions, noise, g
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
-DEPTH  |  *  | Grayscale image representing a depth map |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+DEPTH  |  IMAGE, MASK  | Grayscale image representing a depth map |  | 
 TILE  |  INT  | Title | 8 | 
 NOISE  |  FLOAT  | Noise | 0.33 | 
 🔆  |  FLOAT  | Gamma | 0.33 | 

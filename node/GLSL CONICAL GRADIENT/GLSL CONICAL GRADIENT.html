@@ -2,30 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GLSL HSV ADJUST (JOV) 🧙🏽</title>
+    <title>GLSL CONICAL GRADIENT (JOV) 🧙🏽</title>
 </head>
 <body>
     <div class='jov-panel-doc'>
-        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20HSV%20ADJUST/GLSL%20HSV%20ADJUST.md" target="_blank" rel="noreferrer noopener">GLSL HSV ADJUST (JOV) 🧙🏽</a></h2>
-        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/COLOR</h3>
-        <p>Hue, Saturation and Value adjustment control. Maintains alpha/mask.</p>
-        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20HSV%20ADJUST/GLSL%20HSV%20ADJUST.png" alt="GLSL HSV ADJUST"></div>
+        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20CONICAL%20GRADIENT/GLSL%20CONICAL%20GRADIENT.md" target="_blank" rel="noreferrer noopener">GLSL CONICAL GRADIENT (JOV) 🧙🏽</a></h2>
+        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/CREATE</h3>
+        <p>Generate a conical gradient from black to white</p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20CONICAL%20GRADIENT/GLSL%20CONICAL%20GRADIENT.png" alt="GLSL CONICAL GRADIENT"></div>
         <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
-    <td>image</td>
-    <td>IMAGE, MASK</td>
-    <td>RGB(A) image</td>
-    <td></td>
+    <td>origin</td>
+    <td>VEC2</td>
+    <td>Intensity of base normal</td>
+    <td>[0.5, 0.5]</td>
     <td></td>
 </tr><tr>
-    <td>HSV</td>
-    <td>VEC3</td>
-    <td>Adjust the Hue, Saturation or Value</td>
-    <td>[0, 1.0, 1.0]</td>
+    <td>range</td>
+    <td>VEC2</td>
+    <td>start of range. 0=start. size of range. 1=full range.</td>
+    <td>[0, 1.0]</td>
+    <td></td>
+</tr><tr>
+    <td>angleOffset</td>
+    <td>FLOAT</td>
+    <td>offset of the gradient starting angle</td>
+    <td>0</td>
     <td></td>
 </tr><tr>
     <td>MODE</td>

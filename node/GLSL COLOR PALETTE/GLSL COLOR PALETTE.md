@@ -1,8 +1,8 @@
-## [GLSL COLOR PALETTE (JOV) 🧙🏽‍♀️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20COLOR%20PALETTE/GLSL%20COLOR%20PALETTE.md)
+## [GLSL COLOR PALETTE (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20COLOR%20PALETTE/GLSL%20COLOR%20PALETTE.md)
 
 ## JOVIMETRIX 🔺🟩🔵/GLSL/CREATE
 
-COLOR PALETTE
+Color palette creation using the formula: color(t) = a + b * cos[tau(c*t+d)]. See https://iquilezles.org/articles/palettes for more information.
 
 ![GLSL COLOR PALETTE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20COLOR%20PALETTE/GLSL%20COLOR%20PALETTE.png)
 
@@ -22,6 +22,8 @@ MODE  |  STRING  | Decide whether the images should be<br>resized to fit a speci
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | [512, 512] | 
 🎞️  |  STRING  | Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT
 MATTE  |  VEC4INT  | Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color | [0, 0, 0, 255] | 
+EDGE_X  |  STRING  | Clip or Wrap the Canvas Edge | CLAMP | CLAMP, WRAP, MIRROR
+EDGE_Y  |  STRING  | Clip or Wrap the Canvas Edge | CLAMP | CLAMP, WRAP, MIRROR
 FRAGMENT  |  JDATABUCKET  | Select a fragment program to load |  | 
 
 ## OUTPUT

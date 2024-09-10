@@ -16,7 +16,7 @@ Sends frames to a specified Spout receiver application for real-time video shari
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 🚌  |  STRING  | Route | Spout Sender | 
 🏎️  |  INT  | @@@ NOT USED @@@ | 30 | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | MATTE | MATTE, CROP, FIT, ASPECT, ASPECT SHORT

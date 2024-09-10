@@ -8,9 +8,9 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/QUEUE%20TOO/QUEUE%20TOO.md" target="_blank" rel="noreferrer noopener">QUEUE TOO (JOV) 🗃</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/UTILITY</h3>
-        <p><p>Manage a queue of specific items: media files. Supports various image and video formats. You can specify the current index for the queue item, enable pausing the queue, or reset it back to the first index. The node outputs the current item in the queue, the entire queue, the current index, and the total number of items in the queue.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/QUEUE%20TOO/QUEUE%20TOO.png" alt="QUEUE TOO">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Manage a queue of specific items: media files. Supports various image and video formats. You can specify the current index for the queue item, enable pausing the queue, or reset it back to the first index. The node outputs the current item in the queue, the entire queue, the current index, and the total number of items in the queue.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/QUEUE%20TOO/QUEUE%20TOO.png" alt="QUEUE TOO"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
@@ -22,9 +22,21 @@
     <td>./res/img/test-a.png</td>
     <td></td>
 </tr><tr>
+    <td>RECURSE</td>
+    <td>BOOLEAN</td>
+    <td>Search within sub-directories</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>BATCH</td>
+    <td>BOOLEAN</td>
+    <td>Load all items, if they are loadable items, i.e. batch load images from the Queue's list</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
     <td>VAL</td>
     <td>INT</td>
-    <td>The current index for the current queue<br>item</td>
+    <td>The current index for the current queue item</td>
     <td>0</td>
     <td></td>
 </tr><tr>
@@ -34,27 +46,27 @@
     <td>False</td>
     <td></td>
 </tr><tr>
+    <td>STOP</td>
+    <td>BOOLEAN</td>
+    <td>When the Queue is out of items, send a `HALT` to ComfyUI.</td>
+    <td>False</td>
+    <td></td>
+</tr><tr>
+    <td>🔄</td>
+    <td>BOOLEAN</td>
+    <td>If the queue should loop around the end when reached. If `False`, at the end of the Queue, if there are more iterations, it will just send the previous image.</td>
+    <td>True</td>
+    <td></td>
+</tr><tr>
     <td>RESET</td>
     <td>BOOLEAN</td>
     <td>Reset the queue back to index 1</td>
     <td>False</td>
     <td></td>
 </tr><tr>
-    <td>BATCH</td>
-    <td>BOOLEAN</td>
-    <td>Load all items, if they are loadable<br>items, i.e. batch load images from the<br>Queue's list</td>
-    <td>False</td>
-    <td></td>
-</tr><tr>
-    <td>RECURSE</td>
-    <td>BOOLEAN</td>
-    <td>Search within sub-directories</td>
-    <td>False</td>
-    <td></td>
-</tr><tr>
     <td>MODE</td>
     <td>STRING</td>
-    <td>Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size</td>
+    <td>Decide whether the images should be resized to fit a specific dimension. Available modes include scaling to fit within given dimensions or keeping the original size</td>
     <td>MATTE</td>
     <td>MATTE, CROP, FIT, ASPECT, ASPECT SHORT</td>
 </tr><tr>
@@ -66,13 +78,13 @@
 </tr><tr>
     <td>🎞️</td>
     <td>STRING</td>
-    <td>Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case</td>
+    <td>Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case</td>
     <td>LANCZOS4</td>
-    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT</td>
+    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT</td>
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
@@ -91,10 +103,10 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr><tr>
     <td>current</td>
-    <td>*</td>
+    <td>STRING</td>
     <td></td>
 </tr><tr>
     <td>index</td>
@@ -104,6 +116,10 @@
     <td>total</td>
     <td>INT</td>
     <td></td>
+</tr><tr>
+    <td>⚡</td>
+    <td>BOOLEAN</td>
+    <td>Trigger</td>
 </tr>
         </table>
         <footer>

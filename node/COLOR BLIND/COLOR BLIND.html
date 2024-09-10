@@ -8,31 +8,31 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20BLIND/COLOR%20BLIND.md" target="_blank" rel="noreferrer noopener">COLOR BLIND (JOV) 👁‍🗨</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><p>Simulate color blindness effects on images. You can select various types of color deficiencies, adjust the severity of the effect, and apply the simulation using different simulators. This node is ideal for accessibility testing and design adjustments, ensuring inclusivity in your visual content.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20BLIND/COLOR%20BLIND.png" alt="COLOR BLIND">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Simulate color blindness effects on images. You can select various types of color deficiencies, adjust the severity of the effect, and apply the simulation using different simulators. This node is ideal for accessibility testing and design adjustments, ensuring inclusivity in your visual content.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20BLIND/COLOR%20BLIND.png" alt="COLOR BLIND"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>DEFICIENCY</td>
     <td>STRING</td>
-    <td>Type of color deficiency: Red<br>(Protanopia), Green (Deuteranopia), Blue<br>(Tritanopia)</td>
+    <td>Type of color deficiency: Red (Protanopia), Green (Deuteranopia), Blue (Tritanopia)</td>
     <td>PROTAN</td>
     <td>PROTAN, DEUTAN, TRITAN</td>
 </tr><tr>
     <td>SIMULATOR</td>
     <td>STRING</td>
-    <td>Solver to use when translating to new<br>color space</td>
+    <td>Solver to use when translating to new color space</td>
     <td>AUTOSELECT</td>
-    <td>AUTOSELECT, BRETTEL1997, COBLISV1,<br>COBLISV2, MACHADO2009, VIENOT1999,<br>VISCHECK</td>
+    <td>AUTOSELECT, BRETTEL1997, COBLISV1, COBLISV2, MACHADO2009, VIENOT1999, VISCHECK</td>
 </tr><tr>
     <td>VAL</td>
     <td>FLOAT</td>
@@ -55,7 +55,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

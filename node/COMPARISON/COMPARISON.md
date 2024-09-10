@@ -22,7 +22,7 @@ name | type | desc | default | meta
 🥵  |  *  | pass this data on a failure condition | 0 | 
 🕵🏽‍♀️  |  STRING  | Comparison function. Will pass the data in<br>😍 on successful comparison | EQUAL | EQUAL, NOT EQUAL, LESS THAN, LESS THAN<br>EQUAL, GREATER THAN, GREATER THAN EQUAL,<br>AND, NAND, OR, NOR, XOR, XNOR, IS, IS NOT,<br>IN, NOT IN
 🙃  |  BOOLEAN  | Flip Input A and Input B with each other | False | 
-🔳  |  BOOLEAN  | Color Inversion | False | 
+🔳  |  BOOLEAN  | reverse the successful and failure inputs | False | 
 
 ## OUTPUT
 

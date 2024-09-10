@@ -16,7 +16,7 @@ Define a range and apply it to an image for segmentation and feature extraction.
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 🧬  |  STRING  | X-Men | ADAPT_NONE | ADAPT NONE, ADAPT MEAN, ADAPT GAUSS
 ⚒️  |  STRING  | Function | BINARY | BINARY, TRUNC, TOZERO
 📉  |  FLOAT  | Threshold | 0.5 | 

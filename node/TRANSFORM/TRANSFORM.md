@@ -16,7 +16,7 @@ Apply various geometric transformations to images, including translation, rotati
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 🇽🇾  |  VEC2  | X and Y | [0, 0] | 
 📐  |  FLOAT  | Rotation Angle | 0 | 
 📏  |  VEC2  | Scalar by which to scale the input | [1.0, 1.0] | 

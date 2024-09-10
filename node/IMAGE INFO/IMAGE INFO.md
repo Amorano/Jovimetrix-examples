@@ -16,7 +16,7 @@ Exports and Displays immediate information about images.
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A  |  *  |  |  | 
+👾A  |  IMAGE, MASK  |  |  | 
 
 ## OUTPUT
 

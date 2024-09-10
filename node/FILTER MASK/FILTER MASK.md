@@ -16,7 +16,7 @@ Create masks based on specific color ranges within an image. Specify the color r
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾A  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 START  |  VEC3INT  | Start of the range | [128, 128, 128] | 
 🇴  |  BOOLEAN  | use an end point (start->end) when<br>calculating the filter range | False | 
 END  |  VEC3INT  | End of the range | [128, 128, 128] | 

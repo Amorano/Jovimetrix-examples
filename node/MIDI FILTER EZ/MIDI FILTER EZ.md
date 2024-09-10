@@ -22,7 +22,6 @@ CHAN  |  INT  | Channel | -1 |
 🎚️  |  INT  | Control | -1 | 
 🎶  |  INT  | Note | -1 | 
 VAL  |  INT  | Value | -1 | 
-0-1  |  FLOAT  | Normalize | -1 | 
 
 ## OUTPUT
 

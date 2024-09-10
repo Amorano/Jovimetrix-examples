@@ -16,8 +16,8 @@ Adjust the color scheme of one image to match another with the Color Match Node.
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
-👾B  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾A  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾B  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | REINHARD | REINHARD, LUT
 MAP  |  STRING  | Custom image that will be transformed into<br>a LUT or a built-in cv2 LUT | USER_MAP | USER MAP, PRESET MAP
 🇸🇨  |  STRING  | One of two dozen CV2 Built-in Colormap LUT<br>(Look Up Table) Presets | HSV | AUTUMN, BONE, JET, WINTER, RAINBOW, OCEAN,<br>SUMMER, SPRING, COOL, HSV, PINK, HOT,<br>PARULA, MAGMA, INFERNO, PLASMA, VIRIDIS,<br>CIVIDIS, TWILIGHT, TWILIGHT SHIFTED,<br>TURBO, DEEPGREEN

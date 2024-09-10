@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GLSL HSV ADJUST (JOV) 🧙🏽</title>
+    <title>GLSL TRANSFORM (JOV) 🧙🏽</title>
 </head>
 <body>
     <div class='jov-panel-doc'>
-        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20HSV%20ADJUST/GLSL%20HSV%20ADJUST.md" target="_blank" rel="noreferrer noopener">GLSL HSV ADJUST (JOV) 🧙🏽</a></h2>
-        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/COLOR</h3>
-        <p>Hue, Saturation and Value adjustment control. Maintains alpha/mask.</p>
-        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20HSV%20ADJUST/GLSL%20HSV%20ADJUST.png" alt="GLSL HSV ADJUST"></div>
+        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20TRANSFORM/GLSL%20TRANSFORM.md" target="_blank" rel="noreferrer noopener">GLSL TRANSFORM (JOV) 🧙🏽</a></h2>
+        <h3>JOVIMETRIX 🔺🟩🔵/GLSL/MODIFY</h3>
+        <p>Abuse UV space to create repetitions. Maximums are row: width/4; column: height/4</p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20TRANSFORM/GLSL%20TRANSFORM.png" alt="GLSL TRANSFORM"></div>
         <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
@@ -18,14 +18,26 @@
     <tr>
     <td>image</td>
     <td>IMAGE, MASK</td>
-    <td>RGB(A) image</td>
+    <td>RGB(A) input to repeat</td>
     <td></td>
     <td></td>
 </tr><tr>
-    <td>HSV</td>
-    <td>VEC3</td>
-    <td>Adjust the Hue, Saturation or Value</td>
-    <td>[0, 1.0, 1.0]</td>
+    <td>offset</td>
+    <td>VEC2</td>
+    <td>positional offset (-0.5..0.5)</td>
+    <td>[0, 0]</td>
+    <td></td>
+</tr><tr>
+    <td>rotate</td>
+    <td>FLOAT</td>
+    <td>rotation from 0..2pi</td>
+    <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>tile</td>
+    <td>VEC2</td>
+    <td>repetitions on X and Y</td>
+    <td>[1.0, 1.0]</td>
     <td></td>
 </tr><tr>
     <td>MODE</td>

@@ -16,8 +16,8 @@ Enhance and modify images with various effects such as blurring, sharpening, col
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
-😷  |  *  | Mask or Image to use as Mask to control<br>where adjustments are applied |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+😷  |  IMAGE, MASK  | Mask or Image to use as Mask to control<br>where adjustments are applied |  | 
 ⚒️  |  STRING  | Type of adjustment (e.g., blur, sharpen,<br>invert) | BLUR | BLUR, STACK BLUR, GAUSSIAN BLUR, MEDIAN<br>BLUR, SHARPEN, EMBOSS, INVERT, HSV,<br>LEVELS, EQUALIZE, PIXELATE, QUANTIZE,<br>POSTERIZE, FIND EDGES, OUTLINE, DILATE,<br>ERODE, OPEN, CLOSE
 🅡  |  INT  | Radius | 3 | 
 VAL  |  FLOAT  | Value | 1 | 

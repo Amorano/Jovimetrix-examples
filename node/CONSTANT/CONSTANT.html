@@ -8,17 +8,17 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/CONSTANT/CONSTANT.md" target="_blank" rel="noreferrer noopener">CONSTANT (JOV) 🟪</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/CREATE</h3>
-        <p><p>Generate a constant image or mask of a specified size and color. It can be used to create solid color backgrounds or matte images for compositing with other visual elements. The node allows you to define the desired width and height of the output and specify the RGBA color value for the constant output. Additionally, you can input an optional image to use as a matte with the selected color.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CONSTANT/CONSTANT.png" alt="CONSTANT">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Generate a constant image or mask of a specified size and color. It can be used to create solid color backgrounds or matte images for compositing with other visual elements. The node allows you to define the desired width and height of the output and specify the RGBA color value for the constant output. Additionally, you can input an optional image to use as a matte with the selected color.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CONSTANT/CONSTANT.png" alt="CONSTANT"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
-    <td>Optional Image to Matte with Selected<br>Color</td>
+    <td>IMAGE, MASK</td>
+    <td>Optional Image to Matte with Selected Color</td>
     <td></td>
     <td></td>
 </tr><tr>
@@ -30,21 +30,21 @@
 </tr><tr>
     <td>🇼🇭</td>
     <td>VEC2INT</td>
-    <td>Desired Width and Height of the Color<br>Output</td>
+    <td>Desired Width and Height of the Color Output</td>
     <td>[512, 512]</td>
     <td></td>
 </tr><tr>
     <td>MODE</td>
     <td>STRING</td>
-    <td>Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size</td>
+    <td>Decide whether the images should be resized to fit a specific dimension. Available modes include scaling to fit within given dimensions or keeping the original size</td>
     <td>MATTE</td>
     <td>MATTE, CROP, FIT, ASPECT, ASPECT SHORT</td>
 </tr><tr>
     <td>🎞️</td>
     <td>STRING</td>
-    <td>Select the method for resizing images.<br>Options range from nearest neighbor to<br>advanced methods like Lanczos, ensuring<br>the best quality for the specific use case</td>
+    <td>Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case</td>
     <td>LANCZOS4</td>
-    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4,<br>LINEAR EXACT, NEAREST EXACT</td>
+    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT</td>
 </tr>
 </table>
         <h2>OUTPUT</h2>
@@ -61,7 +61,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

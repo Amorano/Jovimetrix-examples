@@ -8,16 +8,16 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/FILTER%20MASK/FILTER%20MASK.md" target="_blank" rel="noreferrer noopener">FILTER MASK (JOV) 🤿</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><p>Create masks based on specific color ranges within an image. Specify the color range using start and end values and an optional fuzziness factor to adjust the range. This node allows for precise color-based mask creation, ideal for tasks like object isolation, background removal, or targeted color adjustments.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FILTER%20MASK/FILTER%20MASK.png" alt="FILTER MASK">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Create masks based on specific color ranges within an image. Specify the color range using start and end values and an optional fuzziness factor to adjust the range. This node allows for precise color-based mask creation, ideal for tasks like object isolation, background removal, or targeted color adjustments.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/FILTER%20MASK/FILTER%20MASK.png" alt="FILTER MASK"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾A</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
@@ -30,7 +30,7 @@
 </tr><tr>
     <td>🇴</td>
     <td>BOOLEAN</td>
-    <td>use an end point (start->end) when<br>calculating the filter range</td>
+    <td>use an end point (start->end) when calculating the filter range</td>
     <td>False</td>
     <td></td>
 </tr><tr>
@@ -42,13 +42,13 @@
 </tr><tr>
     <td>🛟</td>
     <td>VEC3</td>
-    <td>the fuzziness use to extend the start and<br>end range(s)</td>
+    <td>the fuzziness use to extend the start and end range(s)</td>
     <td>[0.5, 0.5, 0.5]</td>
     <td></td>
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
@@ -67,7 +67,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

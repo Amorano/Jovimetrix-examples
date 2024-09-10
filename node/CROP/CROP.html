@@ -8,16 +8,16 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/CROP/CROP.md" target="_blank" rel="noreferrer noopener">CROP (JOV) ✂️</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><p>Extract a portion of an input image or resize it. It supports various cropping modes, including center cropping, custom XY cropping, and free-form polygonal cropping. This node is useful for preparing image data for specific tasks or extracting regions of interest.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CROP/CROP.png" alt="CROP">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Extract a portion of an input image or resize it. It supports various cropping modes, including center cropping, custom XY cropping, and free-form polygonal cropping. This node is useful for preparing image data for specific tasks or extracting regions of interest.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/CROP/CROP.png" alt="CROP"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
@@ -54,7 +54,7 @@
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
@@ -73,7 +73,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

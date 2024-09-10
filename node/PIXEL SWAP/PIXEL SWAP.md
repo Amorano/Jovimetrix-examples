@@ -16,8 +16,8 @@ Swap pixel values between two input images based on specified channel swizzle op
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
-👾B  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾A  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾B  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 SWAP R  |  STRING  | Replace input Red channel with target<br>channel or constant | RED_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT
 🟥  |  INT  | Red | 0 | 
 SWAP G  |  STRING  | Replace input Green channel with target<br>channel or constant | GREEN_A | RED A, GREEN A, BLUE A, ALPHA A, RED B,<br>GREEN B, BLUE B, ALPHA B, CONSTANT

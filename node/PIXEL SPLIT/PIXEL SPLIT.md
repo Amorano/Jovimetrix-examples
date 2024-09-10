@@ -16,7 +16,7 @@ Takes an input image and splits it into its individual color channels (red, gree
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 
 ## OUTPUT
 

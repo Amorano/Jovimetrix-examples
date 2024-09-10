@@ -16,8 +16,8 @@ Remaps an input image using a gradient lookup table (LUT). The gradient image wi
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Image to remap with gradient input |  | 
-🇲🇺  |  *  | Look up table (LUT) to remap the input<br>image in `👾` |  | 
+👾  |  IMAGE, MASK  | Image to remap with gradient input |  | 
+🇲🇺  |  IMAGE, MASK  | Look up table (LUT) to remap the input<br>image in `👾` |  | 
 🙃  |  BOOLEAN  | Reverse the gradient from left-to-right | False | 
 MODE  |  STRING  | Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size | MATTE | MATTE, CROP, FIT, ASPECT, ASPECT SHORT
 🇼🇭  |  VEC2INT  | Width and Height as a Vector2 (x,y) | [512, 512] | 

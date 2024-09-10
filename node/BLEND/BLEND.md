@@ -16,9 +16,9 @@ Combine two input images using various blending modes, such as normal, screen, m
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾A  |  *  | Background Plate |  | 
-👾B  |  *  | Image to Overlay on Background Plate |  | 
-😷  |  *  | Optional Mask to use for Alpha Blend<br>Operation. If empty, will use the ALPHA of<br>B |  | 
+👾A  |  IMAGE, MASK  | Background Plate |  | 
+👾B  |  IMAGE, MASK  | Image to Overlay on Background Plate |  | 
+😷  |  IMAGE, MASK  | Optional Mask to use for Alpha Blend<br>Operation. If empty, will use the ALPHA of<br>B |  | 
 ⚒️  |  STRING  | Blending Operation | NORMAL | NORMAL, ADDITIVE, NEGATION, DIFFERENCE,<br>MULTIPLY, DIVIDE, LIGHTEN, DARKEN, SCREEN,<br>BURN, DODGE, OVERLAY, HUE, SATURATION,<br>LUMINOSITY, COLOR, SOFT, HARD, PIN, VIVID,<br>EXCLUSION, REFLECT, GLOW, XOR, EXTRACT
 ⬜  |  FLOAT  | Amount of Blending to Perform on the<br>Selected Operation | 1 | 
 🙃  |  BOOLEAN  | Flip Input A and Input B with each other | False | 

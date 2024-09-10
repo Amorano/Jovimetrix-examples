@@ -16,7 +16,7 @@ Simulate color blindness effects on images. You can select various types of colo
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 DEFICIENCY  |  STRING  | Type of color deficiency: Red<br>(Protanopia), Green (Deuteranopia), Blue<br>(Tritanopia) | PROTAN | PROTAN, DEUTAN, TRITAN
 SIMULATOR  |  STRING  | Solver to use when translating to new<br>color space | AUTOSELECT | AUTOSELECT, BRETTEL1997, COBLISV1,<br>COBLISV2, MACHADO2009, VIENOT1999,<br>VISCHECK
 VAL  |  FLOAT  | alpha blending | 1 | 

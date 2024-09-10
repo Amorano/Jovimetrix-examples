@@ -8,31 +8,31 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/ADJUST/ADJUST.md" target="_blank" rel="noreferrer noopener">ADJUST (JOV) 🕸️</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><p>Enhance and modify images with various effects such as blurring, sharpening, color tweaks, and edge detection. Customize parameters like radius, value, and contrast, and use masks for selective effects. Advanced options include pixelation, quantization, and morphological operations like dilation and erosion. Handle transparency effortlessly to ensure seamless blending of effects. This node is ideal for simple adjustments and complex image transformations.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ADJUST/ADJUST.png" alt="ADJUST">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Enhance and modify images with various effects such as blurring, sharpening, color tweaks, and edge detection. Customize parameters like radius, value, and contrast, and use masks for selective effects. Advanced options include pixelation, quantization, and morphological operations like dilation and erosion. Handle transparency effortlessly to ensure seamless blending of effects. This node is ideal for simple adjustments and complex image transformations.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/ADJUST/ADJUST.png" alt="ADJUST"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>😷</td>
-    <td>*</td>
-    <td>Mask or Image to use as Mask to control<br>where adjustments are applied</td>
+    <td>IMAGE, MASK</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>⚒️</td>
     <td>STRING</td>
-    <td>Type of adjustment (e.g., blur, sharpen,<br>invert)</td>
+    <td>Type of adjustment (e.g., blur, sharpen, invert)</td>
     <td>BLUR</td>
-    <td>BLUR, STACK BLUR, GAUSSIAN BLUR, MEDIAN<br>BLUR, SHARPEN, EMBOSS, INVERT, HSV,<br>LEVELS, EQUALIZE, PIXELATE, QUANTIZE,<br>POSTERIZE, FIND EDGES, OUTLINE, DILATE,<br>ERODE, OPEN, CLOSE</td>
+    <td>BLUR, STACK BLUR, GAUSSIAN BLUR, MEDIAN BLUR, SHARPEN, EMBOSS, INVERT, HSV, LEVELS, EQUALIZE, PIXELATE, QUANTIZE, POSTERIZE, FIND EDGES, OUTLINE, DILATE, ERODE, OPEN, CLOSE</td>
 </tr><tr>
     <td>🅡</td>
     <td>INT</td>
@@ -78,7 +78,7 @@
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr><tr>
@@ -103,7 +103,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

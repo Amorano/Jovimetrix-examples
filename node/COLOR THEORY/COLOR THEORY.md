@@ -16,7 +16,7 @@ Generate a color harmony based on the selected scheme. Supported schemes include
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Pixel Data (RGBA, RGB or Grayscale) |  | 
+👾  |  IMAGE, MASK  | Pixel Data (RGBA, RGB or Grayscale) |  | 
 SCHEME  |  STRING  | Scheme | COMPLIMENTARY | COMPLIMENTARY, MONOCHROMATIC, SPLIT<br>COMPLIMENTARY, ANALOGOUS, TRIADIC, SQUARE,<br>COMPOUND, CUSTOM TETRAD
 VAL  |  INT  | Custom angle of separation to use when<br>calculating colors | 45 | 
 🔳  |  BOOLEAN  | Color Inversion | False | 

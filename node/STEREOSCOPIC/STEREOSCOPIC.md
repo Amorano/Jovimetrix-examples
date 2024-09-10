@@ -16,7 +16,7 @@ Simulates depth perception in images by generating stereoscopic views. It accept
 
 name | type | desc | default | meta
 :---:|:---:|---|:---:|---
-👾  |  *  | Optional Image to Matte with Selected<br>Color |  | 
+👾  |  IMAGE, MASK  | Optional Image to Matte with Selected<br>Color |  | 
 🔟  |  FLOAT  | Baseline | 0.1 | 
 📽️  |  FLOAT  | Focal Length | 500 | 
 

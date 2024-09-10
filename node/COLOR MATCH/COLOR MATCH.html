@@ -8,47 +8,47 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COLOR%20MATCH/COLOR%20MATCH.md" target="_blank" rel="noreferrer noopener">COLOR MATCH (JOV) 💞</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/COMPOSE</h3>
-        <p><p>Adjust the color scheme of one image to match another with the Color Match Node. Choose from various color matching LUTs or Reinhard matching. You can specify a custom user color maps, the number of colors, and whether to flip or invert the images.</p></p>
-        <img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20MATCH/COLOR%20MATCH.png" alt="COLOR MATCH">
-        <p>OUTPUT NODE?: False</p>
+        <p><br>Adjust the color scheme of one image to match another with the Color Match Node. Choose from various color matching LUTs or Reinhard matching. You can specify a custom user color maps, the number of colors, and whether to flip or invert the images.<br></p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COLOR%20MATCH/COLOR%20MATCH.png" alt="COLOR MATCH"></div>
+        <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
         <h3>OPTIONAL</h3>
 <table>
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾A</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>👾B</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>MODE</td>
     <td>STRING</td>
-    <td>Decide whether the images should be<br>resized to fit a specific dimension.<br>Available modes include scaling to fit<br>within given dimensions or keeping the<br>original size</td>
+    <td>Decide whether the images should be resized to fit a specific dimension. Available modes include scaling to fit within given dimensions or keeping the original size</td>
     <td>REINHARD</td>
     <td>REINHARD, LUT</td>
 </tr><tr>
     <td>MAP</td>
     <td>STRING</td>
-    <td>Custom image that will be transformed into<br>a LUT or a built-in cv2 LUT</td>
+    <td>Custom image that will be transformed into a LUT or a built-in cv2 LUT</td>
     <td>USER_MAP</td>
     <td>USER MAP, PRESET MAP</td>
 </tr><tr>
     <td>🇸🇨</td>
     <td>STRING</td>
-    <td>One of two dozen CV2 Built-in Colormap LUT<br>(Look Up Table) Presets</td>
+    <td>One of two dozen CV2 Built-in Colormap LUT (Look Up Table) Presets</td>
     <td>HSV</td>
-    <td>AUTUMN, BONE, JET, WINTER, RAINBOW, OCEAN,<br>SUMMER, SPRING, COOL, HSV, PINK, HOT,<br>PARULA, MAGMA, INFERNO, PLASMA, VIRIDIS,<br>CIVIDIS, TWILIGHT, TWILIGHT SHIFTED,<br>TURBO, DEEPGREEN</td>
+    <td>AUTUMN, BONE, JET, WINTER, RAINBOW, OCEAN, SUMMER, SPRING, COOL, HSV, PINK, HOT, PARULA, MAGMA, INFERNO, PLASMA, VIRIDIS, CIVIDIS, TWILIGHT, TWILIGHT SHIFTED, TURBO, DEEPGREEN</td>
 </tr><tr>
     <td>VAL</td>
     <td>INT</td>
-    <td>The number of colors to use from the LUT<br>during the remap. Will quantize the LUT<br>range.</td>
+    <td>The number of colors to use from the LUT during the remap. Will quantize the LUT range.</td>
     <td>255</td>
     <td></td>
 </tr><tr>
@@ -66,7 +66,7 @@
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if<br>necessary. This is useful when images do<br>not fit perfectly into the designated area<br>and need a filler color</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
@@ -85,7 +85,7 @@
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are<br>applied</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
 </tr>
         </table>
         <footer>

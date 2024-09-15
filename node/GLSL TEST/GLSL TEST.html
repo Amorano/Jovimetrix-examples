@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GLSL TEST (JOV) 🧙🏽‍♀️</title>
+</head>
+<body>
+    <div class='jov-panel-doc'>
+        <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20TEST/GLSL%20TEST.md" target="_blank" rel="noreferrer noopener">GLSL TEST (JOV) 🧙🏽‍♀️</a></h2>
+        <h3>JOVIMETRIX 🔺🟩🔵/GLSL</h3>
+        <p>TEST</p>
+        <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20TEST/GLSL%20TEST.png" alt="GLSL TEST"></div>
+        <h3>OUTPUT NODE?: False</h3>
+        <h2>INPUT</h2>
+        <h3>OPTIONAL</h3>
+<table>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
+    <tr>
+    <td>image</td>
+    <td>*</td>
+    <td>Unknown Explanation!</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>MODE</td>
+    <td>STRING</td>
+    <td>Decide whether the images should be resized to fit a specific dimension. Available modes include scaling to fit within given dimensions or keeping the original size</td>
+    <td>MATTE</td>
+    <td>MATTE, CROP, FIT, ASPECT, ASPECT SHORT</td>
+</tr><tr>
+    <td>🇼🇭</td>
+    <td>VEC2INT</td>
+    <td>Width and Height as a Vector2 (x,y)</td>
+    <td>[512, 512]</td>
+    <td></td>
+</tr><tr>
+    <td>🎞️</td>
+    <td>STRING</td>
+    <td>Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case</td>
+    <td>LANCZOS4</td>
+    <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT</td>
+</tr><tr>
+    <td>MATTE</td>
+    <td>VEC4INT</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
+    <td>[0, 0, 0, 255]</td>
+    <td></td>
+</tr><tr>
+    <td>EDGE_X</td>
+    <td>STRING</td>
+    <td>Clip or Wrap the Canvas Edge</td>
+    <td>CLAMP</td>
+    <td>CLAMP, WRAP, MIRROR</td>
+</tr><tr>
+    <td>EDGE_Y</td>
+    <td>STRING</td>
+    <td>Clip or Wrap the Canvas Edge</td>
+    <td>CLAMP</td>
+    <td>CLAMP, WRAP, MIRROR</td>
+</tr><tr>
+    <td>FRAGMENT</td>
+    <td>JDATABUCKET</td>
+    <td>Select a fragment program to load</td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+        <h2>OUTPUT</h2>
+        <table>
+            <tr><th>Name</th><th>Type</th><th>Description</th></tr>
+            <tr>
+    <td>🖼️</td>
+    <td>IMAGE</td>
+    <td>Image</td>
+</tr><tr>
+    <td>🌈</td>
+    <td>IMAGE</td>
+    <td>RGB (no alpha) Color</td>
+</tr><tr>
+    <td>😷</td>
+    <td>MASK</td>
+    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
+</tr>
+        </table>
+        <footer>
+            <p>Original help system powered by <a href="https://github.com/melMass">MelMass</a> & the <a href="https://github.com/melMass/comfy_mtb">comfy_mtb</a> project</p>
+        </footer>
+    </div>
+</body>
+</html>

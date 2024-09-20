@@ -12,8 +12,8 @@ INPUT
 | --- | --- | --- | --- | --- |
 | 👾 | \* | Optional Image to Matte with Selected Color |  |  |
 | 🌈A | VEC4INT | Constant Color to Output | [0, 0, 0, 255] |  |
-| 🇼🇭 | VEC2INT | Desired Width and Height of the Color Output | [512, 512] |  |
 | MODE | STRING | Decide whether the images should be resized to fit a specific dimension. Available modes include scaling to fit within given dimensions or keeping the original size | MATTE | MATTE, CROP, FIT, ASPECT, ASPECT SHORT |
+| 🇼🇭 | VEC2INT | Desired Width and Height of the Color Output | [512, 512] |  |
 | 🎞️ | STRING | Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case | LANCZOS4 | NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT |
 OUTPUT
 ------

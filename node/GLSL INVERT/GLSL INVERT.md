@@ -1,6 +1,6 @@
-[GLSL INVERT (JOV) 🧙🏽‍♀️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20INVERT/GLSL%20INVERT.md)
--------------------------------------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/GLSL/UTILITY
+[GLSL INVERT (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20INVERT/GLSL%20INVERT.md)
+----------------------------------------------------------------------------------------------------------------------
+### JOVIMETRIX 🔺🟩🔵/GLSL/ADJUST
 Invert the channels of an image along a scalar [0..1] range.
 ![GLSL INVERT](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20INVERT/GLSL%20INVERT.png)
 ### OUTPUT NODE?: False

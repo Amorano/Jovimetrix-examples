@@ -1,6 +1,6 @@
 [GLSL DIRECTIONAL WARP (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20DIRECTIONAL%20WARP/GLSL%20DIRECTIONAL%20WARP.md)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/GLSL/FILTER
+### JOVIMETRIX 🔺🟩🔵/GLSL/MODIFY
 Domain warp an image with a direction and distortion map
 ![GLSL DIRECTIONAL WARP](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20DIRECTIONAL%20WARP/GLSL%20DIRECTIONAL%20WARP.png)
 ### OUTPUT NODE?: False

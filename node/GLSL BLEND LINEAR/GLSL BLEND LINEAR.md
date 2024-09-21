@@ -1,6 +1,6 @@
 [GLSL BLEND LINEAR (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.md)
 --------------------------------------------------------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/GLSL/UTILITY
+### JOVIMETRIX 🔺🟩🔵/GLSL/COMPOSE
 Simple linear blend between two images. Will stretch/shrink images to fit.
 ![GLSL BLEND LINEAR](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20BLEND%20LINEAR/GLSL%20BLEND%20LINEAR.png)
 ### OUTPUT NODE?: False

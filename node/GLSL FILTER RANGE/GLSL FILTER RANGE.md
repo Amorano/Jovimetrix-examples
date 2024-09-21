@@ -1,5 +1,5 @@
-[GLSL FILTER RANGE (JOV) 🧙🏽‍♀️](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.md)
------------------------------------------------------------------------------------------------------------------------------------------------
+[GLSL FILTER RANGE (JOV) 🧙🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.md)
+--------------------------------------------------------------------------------------------------------------------------------------------
 ### JOVIMETRIX 🔺🟩🔵/GLSL/FILTER
 Select pixels from start color through end color. Maintains alpha/mask.
 ![GLSL FILTER RANGE](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/GLSL%20FILTER%20RANGE/GLSL%20FILTER%20RANGE.png)

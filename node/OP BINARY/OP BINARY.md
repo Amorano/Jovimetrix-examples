@@ -12,7 +12,7 @@ INPUT
 | --- | --- | --- | --- | --- |
 | 🅰️ | \* | Passes a raw value directly, or supplies defaults for any value inputs without connections |  |  |
 | 🅱️ | \* | Passes a raw value directly, or supplies defaults for any value inputs without connections |  |  |
-| ⚒️ | STRING | Arithmetic operation to perform | ADD | ADD, SUBTRACT, MULTIPLY, DIVIDE, DIVIDE FLOOR, MODULUS, POWER, MAXIMUM, MINIMUM, DOT PRODUCT, CROSS PRODUCT, BIT AND, BIT NAND, BIT OR, BIT NOR, BIT XOR, BIT XNOR, BIT LSHIFT, BIT RSHIFT, UNION, INTERSECTION, DIFFERENCE |
+| ⚒️ | STRING | Arithmetic operation to perform | ADD | ADD, SUBTRACT, MULTIPLY, DIVIDE, DIVIDE FLOOR, MODULUS, POWER, MAXIMUM, MINIMUM, DOT PRODUCT, CROSS PRODUCT, BIT AND, BIT NAND, BIT OR, BIT NOR, BIT XOR, BIT XNOR, BIT LSHIFT, BIT RSHIFT, UNION, INTERSECTION, DIFFERENCE, BASE |
 | ❓ | STRING | Output type desired from resultant operation | INT | BOOLEAN, FLOAT, INT, VEC2, VEC2INT, VEC3, VEC3INT, VEC4, VEC4INT, COORD2D |
 | 🙃 | BOOLEAN | Flip Input A and Input B with each other | False |  |
 | 🅰️🅰️ | VEC4 | value vector | [0, 0, 0, 0] |  |

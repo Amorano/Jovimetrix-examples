@@ -17,13 +17,13 @@
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾A</td>
-    <td>IMAGE, MASK</td>
+    <td>*</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>👾B</td>
-    <td>IMAGE, MASK</td>
+    <td>*</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
@@ -34,23 +34,11 @@
     <td>RED_A</td>
     <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
 </tr><tr>
-    <td>🟥</td>
-    <td>INT</td>
-    <td>Red</td>
-    <td>0</td>
-    <td></td>
-</tr><tr>
     <td>SWAP G</td>
     <td>STRING</td>
     <td>Replace input Green channel with target channel or constant</td>
     <td>GREEN_A</td>
     <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
-</tr><tr>
-    <td>🟩</td>
-    <td>INT</td>
-    <td>Green</td>
-    <td>0</td>
-    <td></td>
 </tr><tr>
     <td>SWAP B</td>
     <td>STRING</td>
@@ -58,22 +46,16 @@
     <td>BLUE_A</td>
     <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
 </tr><tr>
-    <td>🟦</td>
-    <td>INT</td>
-    <td>Blue</td>
-    <td>0</td>
-    <td></td>
-</tr><tr>
     <td>SWAP A</td>
     <td>STRING</td>
     <td>Replace input Alpha channel with target channel or constant</td>
     <td>ALPHA_A</td>
     <td>RED A, GREEN A, BLUE A, ALPHA A, RED B, GREEN B, BLUE B, ALPHA B, CONSTANT</td>
 </tr><tr>
-    <td>⬜</td>
-    <td>INT</td>
-    <td>Alpha</td>
-    <td>0</td>
+    <td>MATTE</td>
+    <td>VEC4INT</td>
+    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
+    <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
 </table>

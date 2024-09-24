@@ -1,5 +1,5 @@
-[BIT SPLIT (JOV)](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/BIT%20SPLIT/BIT%20SPLIT.md)
--------------------------------------------------------------------------------------------------------------
+[BIT SPLIT (JOV) ⭄](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/BIT%20SPLIT/BIT%20SPLIT.md)
+---------------------------------------------------------------------------------------------------------------
 ### JOVIMETRIX 🔺🟩🔵/CALC
   
 Split an input into separate bits. `BOOL`, `INT` and `FLOAT` use their numbers,  
@@ -14,7 +14,7 @@ INPUT
 | Name | Type | Description | Default | Meta |
 | --- | --- | --- | --- | --- |
 | ❔ | \* | Unknown |  |  |
-| VAL | BOOLEAN | Number of output bits requested | 8 |  |
+| VAL | INT | Number of output bits requested. | 8 |  |
 OUTPUT
 ------
 | Name | Type | Description |

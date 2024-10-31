@@ -8,7 +8,7 @@
     <div class='jov-panel-doc'>
         <h2><a href="https://github.com/Amorano/Jovimetrix-examples/blob/master/node/DELAY/DELAY.md" target="_blank" rel="noreferrer noopener">DELAY (JOV) ✋🏽</a></h2>
         <h3>JOVIMETRIX 🔺🟩🔵/CALC</h3>
-        <p><br>Introduce pauses in the workflow that accept an optional input to pass through and a timer parameter to specify the duration of the delay. If no timer is provided, it defaults to a maximum delay. During the delay, it periodically checks for messages to interrupt the delay. Once the delay is completed, it returns the input passed to it.<br></p>
+        <p><br>Introduce pauses in the workflow that accept an optional input to pass through and a timer parameter to specify the duration of the delay. If no timer is provided, it defaults to a maximum delay. During the delay, it periodically checks for messages to interrupt the delay. Once the delay is completed, it returns the input passed to it. You can disable the screensaver with the `ENABLE` option<br></p>
         <div><img src="https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/DELAY/DELAY.png" alt="DELAY"></div>
         <h3>OUTPUT NODE?: False</h3>
         <h2>INPUT</h2>
@@ -26,6 +26,12 @@
     <td>INT</td>
     <td>Timer</td>
     <td>0</td>
+    <td></td>
+</tr><tr>
+    <td>ENABLE</td>
+    <td>BOOLEAN</td>
+    <td>Enable or disable the screensaver</td>
+    <td>True</td>
     <td></td>
 </tr>
 </table>

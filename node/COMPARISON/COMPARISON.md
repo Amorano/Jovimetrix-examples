@@ -1,6 +1,3 @@
-[COMPARISON (JOV) 🕵🏽](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/COMPARISON/COMPARISON.md)
----------------------------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/CALC
   
 Evaluates two inputs (A and B) with a specified comparison operators and optional values for successful and failed comparisons. The node performs the specified operation element-wise between corresponding elements of A and B. If the comparison is successful for all elements, it returns the success value; otherwise, it returns the failure value. The node supports various comparison operators such as EQUAL, GREATER\_THAN, LESS\_THAN, AND, OR, IS, IN, etc.  
 ![COMPARISON](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/COMPARISON/COMPARISON.png)
@@ -21,6 +18,6 @@ OUTPUT
 ------
 | Name | Type | Description |
 | --- | --- | --- |
-| ⚡ | \* | Trigger |
-| val | \* |  |
+| ⚡ | \* | Outputs the input at 🅰️ or 🅱️ depending on which evaluated TRUE |
+| val | \* | The comparison result value |
 Original help system powered by [MelMass](https://github.com/melMass) & the [comfy\_mtb](https://github.com/melMass/comfy_mtb) project

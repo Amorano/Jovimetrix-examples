@@ -83,19 +83,23 @@
             <tr>
     <td>val</td>
     <td>INT</td>
-    <td></td>
+    <td>Current value for the configured tick as ComfyUI List</td>
 </tr><tr>
     <td>🛟</td>
     <td>FLOAT</td>
-    <td>Linear</td>
+    <td>Normalized tick value (0..1) based on BPM and Loop</td>
 </tr><tr>
     <td>🏎️</td>
     <td>FLOAT</td>
-    <td>Frames per second</td>
+    <td>Current &#x27;frame&#x27; in the tick based on FPS setting</td>
 </tr><tr>
     <td>⚡</td>
     <td>*</td>
-    <td>Trigger</td>
+    <td>Based on the BPM settings, on beat hit, output the input at &#x27;⚡&#x27;</td>
+</tr><tr>
+    <td>batch</td>
+    <td>*</td>
+    <td>Current batch of values for the configured tick as standard list which works in other Jovimetrix nodes</td>
 </tr>
         </table>
         <footer>

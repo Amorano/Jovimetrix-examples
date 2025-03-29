@@ -29,31 +29,31 @@
             <tr>
     <td>🎛️</td>
     <td>JMIDIMSG</td>
-    <td>Midi</td>
+    <td>MIDI bus that contains the full MIDI message</td>
 </tr><tr>
     <td>🔛</td>
     <td>BOOLEAN</td>
-    <td>On</td>
+    <td>The state of the note -- either `ON` or `OFF`</td>
 </tr><tr>
     <td>chan</td>
     <td>INT</td>
-    <td></td>
+    <td>MIDI channel sent in the MIDI message</td>
 </tr><tr>
     <td>🎚️</td>
     <td>INT</td>
-    <td>Control</td>
+    <td>The control number sent in the MIDI message</td>
 </tr><tr>
     <td>🎶</td>
     <td>INT</td>
-    <td>Note</td>
+    <td>Note value (0-127) sent in the MIDI message</td>
 </tr><tr>
     <td>val</td>
     <td>FLOAT</td>
-    <td></td>
+    <td>If this was a control messge, the control value (0-127) sent in the MIDI message</td>
 </tr><tr>
     <td>0-1</td>
     <td>FLOAT</td>
-    <td>Normalize</td>
+    <td>If this was a control messge, the control value normalized to 0-1</td>
 </tr>
         </table>
         <footer>

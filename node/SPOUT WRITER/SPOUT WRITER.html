@@ -17,7 +17,7 @@
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
@@ -48,13 +48,13 @@
 </tr><tr>
     <td>🎞️</td>
     <td>STRING</td>
-    <td>Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case</td>
+    <td>Method for resizing images.</td>
     <td>LANCZOS4</td>
     <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT</td>
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
+    <td>Background color for padding</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>

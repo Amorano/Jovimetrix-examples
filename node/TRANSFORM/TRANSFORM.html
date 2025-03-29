@@ -17,21 +17,27 @@
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
+    <td></td>
+    <td></td>
+</tr><tr>
+    <td>😷</td>
+    <td>IMAGE, MASK</td>
+    <td>Override Image mask</td>
     <td></td>
     <td></td>
 </tr><tr>
     <td>🇽🇾</td>
     <td>VEC2</td>
     <td>X and Y</td>
-    <td>[0, 0]</td>
+    <td>[0.0, 0.0]</td>
     <td></td>
 </tr><tr>
     <td>📐</td>
     <td>FLOAT</td>
     <td>Rotation Angle</td>
-    <td>0</td>
+    <td>0.0</td>
     <td></td>
 </tr><tr>
     <td>📏</td>
@@ -73,13 +79,13 @@
     <td>TL-TR</td>
     <td>VEC4</td>
     <td>Top Left - Top Right</td>
-    <td>[0, 0, 1, 0]</td>
+    <td>[0.0, 0.0, 1.0, 0.0]</td>
     <td></td>
 </tr><tr>
     <td>BL-BR</td>
     <td>VEC4</td>
     <td>Bottom Left - Bottom Right</td>
-    <td>[0, 1, 1, 1]</td>
+    <td>[0.0, 1.0, 1.0, 1.0]</td>
     <td></td>
 </tr><tr>
     <td>💪🏽</td>
@@ -102,13 +108,13 @@
 </tr><tr>
     <td>🎞️</td>
     <td>STRING</td>
-    <td>Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case</td>
+    <td>Method for resizing images.</td>
     <td>LANCZOS4</td>
     <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT</td>
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
+    <td>Background color for padding</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
@@ -119,15 +125,15 @@
             <tr>
     <td>🖼️</td>
     <td>IMAGE</td>
-    <td>Image</td>
+    <td>Full channel [RGBA] image. If there is an alpha, the image will be masked out with it when using this output.</td>
 </tr><tr>
     <td>🌈</td>
     <td>IMAGE</td>
-    <td>RGB (no alpha) Color</td>
+    <td>Three channel [RGB] image. There will be no alpha.</td>
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
+    <td>Single channel mask output.</td>
 </tr>
         </table>
         <footer>

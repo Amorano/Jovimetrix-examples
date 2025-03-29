@@ -18,19 +18,19 @@
     <tr>
     <td>Q</td>
     <td>STRING</td>
-    <td>Queue</td>
+    <td>Current items to process during Queue iteration.</td>
     <td>./res/img/test-a.png</td>
     <td></td>
 </tr><tr>
     <td>RECURSE</td>
     <td>BOOLEAN</td>
-    <td>Search within sub-directories</td>
+    <td>Recurse through all subdirectories found</td>
     <td>False</td>
     <td></td>
 </tr><tr>
     <td>BATCH</td>
     <td>BOOLEAN</td>
-    <td>Load all items, if they are loadable items, i.e. batch load images from the Queue's list. This can consume a lot of memory depending on the list size and each item size.</td>
+    <td>Load all items, if they are loadable items, i.e. batch load images from the Queue's list.</td>
     <td>False</td>
     <td></td>
 </tr><tr>
@@ -54,7 +54,7 @@
 </tr><tr>
     <td>🔄</td>
     <td>BOOLEAN</td>
-    <td>If the queue should loop around the end when reached. If `False`, at the end of the Queue, if there are more iterations, it will just send the previous image.</td>
+    <td>If the queue should loop. If `False` and if there are more iterations, will send the previous image.</td>
     <td>True</td>
     <td></td>
 </tr><tr>
@@ -71,27 +71,27 @@
             <tr>
     <td>🦄</td>
     <td>*</td>
-    <td>Any Type</td>
+    <td>Current item selected from the Queue list</td>
 </tr><tr>
     <td>q</td>
     <td>*</td>
-    <td></td>
+    <td>The entire Queue list</td>
 </tr><tr>
     <td>current</td>
     <td>STRING</td>
-    <td></td>
+    <td>Current item selected from the Queue list as a string</td>
 </tr><tr>
     <td>index</td>
     <td>INT</td>
-    <td></td>
+    <td>Current index for the selected item in the Queue list</td>
 </tr><tr>
     <td>total</td>
     <td>INT</td>
-    <td></td>
+    <td>Total items in the current Queue List</td>
 </tr><tr>
     <td>⚡</td>
     <td>BOOLEAN</td>
-    <td>Trigger</td>
+    <td>Send a True signal when the queue end index is reached</td>
 </tr>
         </table>
         <footer>

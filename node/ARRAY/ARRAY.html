@@ -30,7 +30,7 @@
 </tr><tr>
     <td>RANGE</td>
     <td>VEC3INT</td>
-    <td>start index, ending index (0 means full length) and how many items to skip per step</td>
+    <td>The start, end and step for the range</td>
     <td>[0, 0, 1]</td>
     <td></td>
 </tr><tr>
@@ -42,7 +42,7 @@
 </tr><tr>
     <td>seed</td>
     <td>INT</td>
-    <td>Random generator's initial value</td>
+    <td>Random seed value</td>
     <td>0</td>
     <td></td>
 </tr><tr>
@@ -60,7 +60,7 @@
 </tr><tr>
     <td>CHUNK</td>
     <td>INT</td>
-    <td>How many items to put per output. Default (0) is all items</td>
+    <td>How many items to put inside each 'batched' output. 0 means put all items in a single batch.</td>
     <td>0</td>
     <td></td>
 </tr>
@@ -71,19 +71,19 @@
             <tr>
     <td>🦄</td>
     <td>*</td>
-    <td>Any Type</td>
+    <td>Output list from selected operation</td>
 </tr><tr>
     <td>length</td>
     <td>INT</td>
-    <td></td>
+    <td>Length of output list</td>
 </tr><tr>
     <td>🧾</td>
     <td>*</td>
-    <td>List</td>
+    <td>The elements as a COMFYUI list output</td>
 </tr><tr>
     <td>full size</td>
     <td>INT</td>
-    <td></td>
+    <td>Length of all input elements</td>
 </tr>
         </table>
         <footer>

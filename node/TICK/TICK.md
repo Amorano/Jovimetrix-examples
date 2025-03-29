@@ -1,6 +1,3 @@
-[TICK (JOV) ⏱](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TICK/TICK.md)
---------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/CALC
   
 A timer and frame counter, emitting pulses or signals based on time intervals. It allows precise synchronization and control over animation sequences, with options to adjust FPS, BPM, and loop points. This node is useful for generating time-based events or driving animations with rhythmic precision.  
 ![TICK](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TICK/TICK.png)
@@ -24,8 +21,9 @@ OUTPUT
 ------
 | Name | Type | Description |
 | --- | --- | --- |
-| val | INT |  |
-| 🛟 | FLOAT | Linear |
-| 🏎️ | FLOAT | Frames per second |
-| ⚡ | \* | Trigger |
+| val | INT | Current value for the configured tick as ComfyUI List |
+| 🛟 | FLOAT | Normalized tick value (0..1) based on BPM and Loop |
+| 🏎️ | FLOAT | Current 'frame' in the tick based on FPS setting |
+| ⚡ | \* | Based on the BPM settings, on beat hit, output the input at '⚡' |
+| batch | \* | Current batch of values for the configured tick as standard list which works in other Jovimetrix nodes |
 Original help system powered by [MelMass](https://github.com/melMass) & the [comfy\_mtb](https://github.com/melMass/comfy_mtb) project

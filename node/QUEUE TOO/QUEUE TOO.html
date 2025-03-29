@@ -18,7 +18,7 @@
     <tr>
     <td>Q</td>
     <td>STRING</td>
-    <td>Queue</td>
+    <td>Current items to process during Queue iteration.</td>
     <td>./res/img/test-a.png</td>
     <td></td>
 </tr><tr>
@@ -36,7 +36,7 @@
 </tr><tr>
     <td>VAL</td>
     <td>INT</td>
-    <td>The current index for the current queue item</td>
+    <td>Current index for the current queue item</td>
     <td>0</td>
     <td></td>
 </tr><tr>
@@ -54,7 +54,7 @@
 </tr><tr>
     <td>🔄</td>
     <td>BOOLEAN</td>
-    <td>If the queue should loop around the end when reached. If `False`, at the end of the Queue, if there are more iterations, it will just send the previous image.</td>
+    <td>If the queue should loop. If `False` and there are more iterations, will send the previous image.</td>
     <td>True</td>
     <td></td>
 </tr><tr>
@@ -66,25 +66,25 @@
 </tr><tr>
     <td>MODE</td>
     <td>STRING</td>
-    <td>Decide whether the images should be resized to fit a specific dimension. Available modes include scaling to fit within given dimensions or keeping the original size</td>
+    <td>Decide whether the images should be resized to fit</td>
     <td>MATTE</td>
     <td>MATTE, CROP, FIT, ASPECT, ASPECT SHORT, RESIZE MATTE</td>
 </tr><tr>
     <td>🇼🇭</td>
     <td>VEC2INT</td>
-    <td>Width and Height as a Vector2 (x,y)</td>
+    <td>Width and Height</td>
     <td>[512, 512]</td>
     <td></td>
 </tr><tr>
     <td>🎞️</td>
     <td>STRING</td>
-    <td>Select the method for resizing images. Options range from nearest neighbor to advanced methods like Lanczos, ensuring the best quality for the specific use case</td>
+    <td>Method for resizing images.</td>
     <td>LANCZOS4</td>
     <td>NEAREST, LINEAR, CUBIC, AREA, LANCZOS4, LINEAR EXACT, NEAREST EXACT</td>
 </tr><tr>
     <td>MATTE</td>
     <td>VEC4INT</td>
-    <td>Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color</td>
+    <td>Background color for padding</td>
     <td>[0, 0, 0, 255]</td>
     <td></td>
 </tr>
@@ -95,31 +95,31 @@
             <tr>
     <td>🖼️</td>
     <td>IMAGE</td>
-    <td>Image</td>
+    <td>Full channel [RGBA] image. If there is an alpha, the image will be masked out with it when using this output</td>
 </tr><tr>
     <td>🌈</td>
     <td>IMAGE</td>
-    <td>RGB (no alpha) Color</td>
+    <td>Three channel [RGB] image. There will be no alpha</td>
 </tr><tr>
     <td>😷</td>
     <td>MASK</td>
-    <td>Mask or Image to use as Mask to control where adjustments are applied</td>
+    <td>Single channel mask output</td>
 </tr><tr>
     <td>current</td>
     <td>STRING</td>
-    <td></td>
+    <td>Current item selected from the Queue list as a string</td>
 </tr><tr>
     <td>index</td>
     <td>INT</td>
-    <td></td>
+    <td>Current index for the selected item in the Queue list</td>
 </tr><tr>
     <td>total</td>
     <td>INT</td>
-    <td></td>
+    <td>Total items in the current Queue List</td>
 </tr><tr>
     <td>⚡</td>
     <td>BOOLEAN</td>
-    <td>Trigger</td>
+    <td>Send a True signal when the queue end index is reached</td>
 </tr>
         </table>
         <footer>

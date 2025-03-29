@@ -1,6 +1,3 @@
-[LERP (JOV) 🔰](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/LERP/LERP.md)
---------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/CALC
   
 Calculate linear interpolation between two values or vectors based on a blending factor (alpha).  
   
@@ -25,5 +22,5 @@ OUTPUT
 ------
 | Name | Type | Description |
 | --- | --- | --- |
-| 🦄 | \* | Any Type |
+| 🦄 | \* | O |
 Original help system powered by [MelMass](https://github.com/melMass) & the [comfy\_mtb](https://github.com/melMass/comfy_mtb) project

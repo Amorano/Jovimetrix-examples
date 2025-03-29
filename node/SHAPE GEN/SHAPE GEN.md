@@ -1,6 +1,3 @@
-[SHAPE GEN (JOV) ✨](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/SHAPE%20GEN/SHAPE%20GEN.md)
----------------------------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/CREATE
   
 Create n-sided polygons. These shapes can be customized by adjusting parameters such as size, color, position, rotation angle, and edge blur. The node provides options to specify the shape type, the number of sides for polygons, the RGBA color value for the main shape, and the RGBA color value for the background. Additionally, you can control the width and height of the output images, the position offset, and the amount of edge blur applied to the shapes.  
 ![SHAPE GEN](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/SHAPE%20GEN/SHAPE%20GEN.png)
@@ -24,7 +21,7 @@ OUTPUT
 ------
 | Name | Type | Description |
 | --- | --- | --- |
-| 🖼️ | IMAGE | Image |
-| 🌈 | IMAGE | RGB (no alpha) Color |
-| 😷 | MASK | Mask or Image to use as Mask to control where adjustments are applied |
+| 🖼️ | IMAGE | Full channel [RGBA] image. If there is an alpha, the image will be masked out with it when using this output. |
+| 🌈 | IMAGE | Three channel [RGB] image. There will be no alpha. |
+| 😷 | MASK | Single channel mask output. |
 Original help system powered by [MelMass](https://github.com/melMass) & the [comfy\_mtb](https://github.com/melMass/comfy_mtb) project

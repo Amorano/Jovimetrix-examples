@@ -1,6 +1,3 @@
-[TEXT GEN (JOV) 📝](https://github.com/Amorano/Jovimetrix-examples/blob/master/node/TEXT%20GEN/TEXT%20GEN.md)
-------------------------------------------------------------------------------------------------------------
-### JOVIMETRIX 🔺🟩🔵/CREATE
   
 Generates images containing text based on parameters such as font, size, alignment, color, and position. Users can input custom text messages, select fonts from a list of available options, adjust font size, and specify the alignment and justification of the text. Additionally, the node provides options for auto-sizing text to fit within specified dimensions, controlling letter-by-letter rendering, and applying edge effects such as clipping and inversion.  
 ![TEXT GEN](https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/master/node/TEXT%20GEN/TEXT%20GEN.png)
@@ -15,13 +12,13 @@ INPUT
 | LETTER | BOOLEAN | If each letter be generated and output in a batch | False |  |
 | AUTOSIZE | BOOLEAN | Scale based on Width & Height | False |  |
 | 🌈A | VEC4INT | Color of the letters | [255, 255, 255, 255] |  |
-| MATTE | VEC4INT | Define a background color for padding, if necessary. This is useful when images do not fit perfectly into the designated area and need a filler color | [0, 0, 0, 255] |  |
+| MATTE | VEC4INT | Background Color | [0, 0, 0, 255] |  |
 | COLS | INT | 0 = Auto-Fit, >0 = Fit into N columns | 0 |  |
 | SIZE | INT | Text Size | 16 |  |
 | ALIGN | STRING | Top, Center or Bottom alignment | CENTER | TOP, CENTER, BOTTOM |
 | JUSTIFY | STRING | How to align the text to the side margins of the canvas: Left, Right, or Centered | CENTER | LEFT, CENTER, RIGHT |
 | MARGIN | INT | Whitespace padding around canvas | 0 |  |
-| SPACING | INT | Line Spacing between Text Lines | 25 |  |
+| SPACING | INT | Line Spacing between Text Lines | 0 |  |
 | 🇼🇭 | VEC2INT | Width and Height as a Vector2 (x,y) | [256, 256] |  |
 | 🇽🇾 | VEC2 | Offset the position | [0, 0] |  |
 | 📐 | FLOAT | Rotation Angle | 0 |  |
@@ -31,7 +28,7 @@ OUTPUT
 ------
 | Name | Type | Description |
 | --- | --- | --- |
-| 🖼️ | IMAGE | Image |
-| 🌈 | IMAGE | RGB (no alpha) Color |
-| 😷 | MASK | Mask or Image to use as Mask to control where adjustments are applied |
+| 🖼️ | IMAGE | Full channel [RGBA] image. If there is an alpha, the image will be masked out with it when using this output. |
+| 🌈 | IMAGE | Three channel [RGB] image. There will be no alpha. |
+| 😷 | MASK | Single channel mask output. |
 Original help system powered by [MelMass](https://github.com/melMass) & the [comfy\_mtb](https://github.com/melMass/comfy_mtb) project

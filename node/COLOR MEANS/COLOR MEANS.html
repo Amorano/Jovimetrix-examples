@@ -17,7 +17,7 @@
     <tr><th>Name</th><th>Type</th><th>Description</th><th>Default</th><th>Meta</th></tr>
     <tr>
     <td>👾</td>
-    <td>*</td>
+    <td>IMAGE, MASK</td>
     <td>Pixel Data (RGBA, RGB or Grayscale)</td>
     <td></td>
     <td></td>
@@ -53,23 +53,23 @@
             <tr>
     <td>🖼️</td>
     <td>IMAGE</td>
-    <td>Image</td>
+    <td>Sequence of top-K colors. Count depends on value in `VAL`.</td>
 </tr><tr>
     <td>🎨</td>
     <td>IMAGE</td>
-    <td>Palette</td>
+    <td>Simple Tone palette based on result top-K colors. Width is taken from input.</td>
 </tr><tr>
     <td>🇲🇺</td>
     <td>IMAGE</td>
-    <td>Gradient</td>
+    <td>Gradient of top-K colors.</td>
 </tr><tr>
     <td>😎</td>
     <td>JLUT</td>
-    <td>Size of each output lut palette square</td>
+    <td>Full 3D LUT of the image mapped to the resultant top-K colors chosen.</td>
 </tr><tr>
     <td>🌈</td>
     <td>IMAGE</td>
-    <td>RGB (no alpha) Color</td>
+    <td>Visualization of full 3D .cube LUT in JLUT output</td>
 </tr>
         </table>
         <footer>
